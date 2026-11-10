@@ -1,0 +1,5 @@
+(define (problem repeated-object)
+  (:domain swap)
+  (:objects p q)
+  (:init (at p p) (adj p q))
+  (:goal (at p q)))

@@ -1,0 +1,5 @@
+(define (problem goal-false)
+  (:domain switches)
+  (:objects s1 s2)
+  (:init (off s1) (off s2))
+  (:goal (and (on s1) (on s2))))

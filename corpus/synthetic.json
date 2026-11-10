@@ -1,0 +1,510 @@
+{
+ "suite": "synthetic",
+ "root": "synthetic",
+ "timeout": 120,
+ "cases": [
+  {
+   "id": "unsolvable/goal-false",
+   "dir": "unsolvable",
+   "domain": "domain.pddl",
+   "problem": "goal-false.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff",
+    "mff-s1",
+    "mff-s2",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "unsolvable/exhaustive",
+   "dir": "unsolvable",
+   "domain": "exhaustive-domain.pddl",
+   "problem": "exhaustive.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff",
+    "mff-s1",
+    "mff-s2",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "unsolvable/exhaustive-wastar",
+   "dir": "unsolvable",
+   "domain": "exhaustive-domain.pddl",
+   "problem": "exhaustive.pddl",
+   "configs": [
+    "mff-s3"
+   ],
+   "timeout": 10,
+   "note": "Metric-FF -s 3 (weighted A*, no metric) does not terminate on this finite unsolvable task; RSS grows slowly. Upstream behaviour: expected outcome is timeout."
+  },
+  {
+   "id": "malformed/ok",
+   "dir": "malformed",
+   "domain": "domain.pddl",
+   "problem": "ok.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "malformed/syntax-error",
+   "dir": "malformed",
+   "domain": "domain.pddl",
+   "problem": "syntax-error.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "malformed/undefined-predicate",
+   "dir": "malformed",
+   "domain": "domain.pddl",
+   "problem": "undefined-predicate.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "malformed/wrong-arity",
+   "dir": "malformed",
+   "domain": "domain.pddl",
+   "problem": "wrong-arity.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "malformed/unknown-type",
+   "dir": "malformed",
+   "domain": "domain.pddl",
+   "problem": "unknown-type.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "malformed/unknown-constant",
+   "dir": "malformed",
+   "domain": "domain.pddl",
+   "problem": "unknown-constant.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "malformed/wrong-domain-name",
+   "dir": "malformed",
+   "domain": "domain.pddl",
+   "problem": "wrong-domain-name.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "malformed/syntax-error-domain",
+   "dir": "malformed",
+   "domain": "syntax-error-domain.pddl",
+   "problem": "ok.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "malformed/missing-problem-file",
+   "dir": "malformed",
+   "domain": "domain.pddl",
+   "problem": "does-not-exist.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "malformed/missing-domain-file",
+   "dir": "malformed",
+   "domain": "does-not-exist.pddl",
+   "problem": "ok.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "repeated-args/minimal",
+   "dir": "repeated-args",
+   "domain": "domain.pddl",
+   "problem": "problem.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "student-input/bom-domain",
+   "dir": "student-input",
+   "domain": "bom-domain.pddl",
+   "problem": "../malformed/ok.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "student-input/bom-problem",
+   "dir": "student-input",
+   "domain": "../malformed/domain.pddl",
+   "problem": "bom-problem.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "student-input/utf8-comments",
+   "dir": "student-input",
+   "domain": "utf8-comments-domain.pddl",
+   "problem": "utf8-comments-problem.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "student-input/mixed-case",
+   "dir": "student-input",
+   "domain": "mixed-case-domain.pddl",
+   "problem": "mixed-case-problem.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "student-input/crlf-domain",
+   "dir": "student-input",
+   "domain": "crlf-domain.pddl",
+   "problem": "../malformed/ok.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "student-input/crlf-problem",
+   "dir": "student-input",
+   "domain": "../malformed/domain.pddl",
+   "problem": "crlf-problem.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "student-input/no-extension",
+   "dir": "student-input",
+   "domain": "../malformed/domain.pddl",
+   "problem": "no-extension-problem",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "student-input/no-final-newline",
+   "dir": "student-input",
+   "domain": "../malformed/domain.pddl",
+   "problem": "no-final-newline.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "student-input/path-with-spaces-accents",
+   "dir": "student-input/carpeta con espacios ñ",
+   "domain": "dominio con espacio.pddl",
+   "problem": "problema-niño.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "student-input/cwd-with-spaces-accents",
+   "dir": "student-input",
+   "domain": "carpeta con espacios ñ/dominio con espacio.pddl",
+   "problem": "carpeta con espacios ñ/problema-niño.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "numeric/ties",
+   "dir": "numeric",
+   "domain": "domain.pddl",
+   "problem": "ties.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff",
+    "mff-s1",
+    "mff-s2",
+    "mff-s3",
+    "mff-s4",
+    {
+     "id": "mff-w1",
+     "planner": "metric-ff",
+     "args": [
+      "-w",
+      "1"
+     ]
+    },
+    {
+     "id": "mff-C",
+     "planner": "metric-ff",
+     "args": [
+      "-C"
+     ]
+    },
+    {
+     "id": "mff-b4",
+     "planner": "metric-ff",
+     "args": [
+      "-b",
+      "4"
+     ]
+    },
+    {
+     "id": "mff-b3",
+     "planner": "metric-ff",
+     "args": [
+      "-b",
+      "3"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "numeric/ties-tour",
+   "dir": "numeric",
+   "domain": "domain.pddl",
+   "problem": "ties-tour.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff",
+    "mff-s1",
+    "mff-s2",
+    "mff-s3",
+    "mff-s4",
+    {
+     "id": "mff-w1",
+     "planner": "metric-ff",
+     "args": [
+      "-w",
+      "1"
+     ]
+    },
+    {
+     "id": "mff-C",
+     "planner": "metric-ff",
+     "args": [
+      "-C"
+     ]
+    },
+    {
+     "id": "mff-s4-b8",
+     "planner": "metric-ff",
+     "args": [
+      "-s",
+      "4",
+      "-b",
+      "8"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "numeric/no-fuel",
+   "dir": "numeric",
+   "domain": "domain.pddl",
+   "problem": "no-fuel.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff",
+    "mff-s1",
+    "mff-s2",
+    "mff-s3",
+    "mff-s4",
+    {
+     "id": "mff-w1",
+     "planner": "metric-ff",
+     "args": [
+      "-w",
+      "1"
+     ]
+    },
+    {
+     "id": "mff-C",
+     "planner": "metric-ff",
+     "args": [
+      "-C"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cli/unknown-option-r",
+   "dir": "malformed",
+   "domain": "domain.pddl",
+   "problem": "ok.pddl",
+   "configs": [
+    {
+     "id": "mff-r1",
+     "planner": "metric-ff",
+     "args": [
+      "-r",
+      "1"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cli/bad-search-config",
+   "dir": "malformed",
+   "domain": "domain.pddl",
+   "problem": "ok.pddl",
+   "configs": [
+    {
+     "id": "mff-s9",
+     "planner": "metric-ff",
+     "args": [
+      "-s",
+      "9"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cli/negative-bound",
+   "dir": "numeric",
+   "domain": "domain.pddl",
+   "problem": "ties.pddl",
+   "configs": [
+    {
+     "id": "mff-bneg",
+     "planner": "metric-ff",
+     "args": [
+      "-b",
+      "-2"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cli/ff-s-option",
+   "dir": "malformed",
+   "domain": "domain.pddl",
+   "problem": "ok.pddl",
+   "configs": [
+    {
+     "id": "ff-s0",
+     "planner": "ff",
+     "args": [
+      "-s",
+      "0"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cli/info-level-0",
+   "dir": "malformed",
+   "domain": "domain.pddl",
+   "problem": "ok.pddl",
+   "configs": [
+    {
+     "id": "ff-i0",
+     "planner": "ff",
+     "args": [
+      "-i",
+      "0"
+     ]
+    },
+    {
+     "id": "mff-i0",
+     "planner": "metric-ff",
+     "args": [
+      "-s",
+      "0",
+      "-i",
+      "0"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cli/path-option",
+   "dir": "malformed",
+   "domain": "domain.pddl",
+   "problem": "ok.pddl",
+   "configs": [
+    {
+     "id": "ff-p",
+     "planner": "ff",
+     "args": [
+      "-p",
+      "../malformed/"
+     ]
+    },
+    {
+     "id": "mff-p",
+     "planner": "metric-ff",
+     "args": [
+      "-s",
+      "0",
+      "-p",
+      "../malformed/"
+     ]
+    }
+   ]
+  }
+ ]
+}

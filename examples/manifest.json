@@ -1,0 +1,250 @@
+{
+ "suite": "examples",
+ "root": ".",
+ "timeout": 600,
+ "default_configs": [
+  "ff",
+  "mff-s0",
+  "mff"
+ ],
+ "cases": [
+  {
+   "id": "hanoi/hanoi-3",
+   "dir": "hanoi",
+   "domain": "hanoi.pddl",
+   "problem": "hanoi-3.pddl",
+   "selftest": false
+  },
+  {
+   "id": "hanoi/hanoi-4",
+   "dir": "hanoi",
+   "domain": "hanoi.pddl",
+   "problem": "hanoi-4.pddl",
+   "selftest": false
+  },
+  {
+   "id": "hanoi/hanoi-5",
+   "dir": "hanoi",
+   "domain": "hanoi.pddl",
+   "problem": "hanoi-5.pddl",
+   "selftest": false
+  },
+  {
+   "id": "hanoi/hanoi-6",
+   "dir": "hanoi",
+   "domain": "hanoi.pddl",
+   "problem": "hanoi-6.pddl",
+   "selftest": false
+  },
+  {
+   "id": "hanoi/hanoi-7",
+   "dir": "hanoi",
+   "domain": "hanoi.pddl",
+   "problem": "hanoi-7.pddl",
+   "selftest": false
+  },
+  {
+   "id": "hanoi/hanoi-8",
+   "dir": "hanoi",
+   "domain": "hanoi.pddl",
+   "problem": "hanoi-8.pddl",
+   "selftest": false
+  },
+  {
+   "id": "ascensor/miconic01",
+   "dir": "ascensor",
+   "domain": "miconic.pddl",
+   "problem": "miconic01.pddl",
+   "selftest": false
+  },
+  {
+   "id": "ascensor/miconic02",
+   "dir": "ascensor",
+   "domain": "miconic.pddl",
+   "problem": "miconic02.pddl",
+   "selftest": false
+  },
+  {
+   "id": "ascensor/miconic03",
+   "dir": "ascensor",
+   "domain": "miconic.pddl",
+   "problem": "miconic03.pddl",
+   "selftest": false
+  },
+  {
+   "id": "ascensor/miconic04",
+   "dir": "ascensor",
+   "domain": "miconic.pddl",
+   "problem": "miconic04.pddl",
+   "selftest": false
+  },
+  {
+   "id": "ascensor/miconic05",
+   "dir": "ascensor",
+   "domain": "miconic.pddl",
+   "problem": "miconic05.pddl",
+   "selftest": false
+  },
+  {
+   "id": "logistics/log-3-2",
+   "dir": "logistics",
+   "domain": "logistics.pddl",
+   "problem": "log-3-2.pddl",
+   "selftest": false
+  },
+  {
+   "id": "n-puzzle/eight01",
+   "dir": "n-puzzle",
+   "domain": "slidetile.pddl",
+   "problem": "eight01.pddl",
+   "selftest": false
+  },
+  {
+   "id": "rovers/pfile01",
+   "dir": "rovers",
+   "domain": "domain.pddl",
+   "problem": "pfile01",
+   "selftest": false
+  },
+  {
+   "id": "rovers/pfile02",
+   "dir": "rovers",
+   "domain": "domain.pddl",
+   "problem": "pfile02",
+   "selftest": false
+  },
+  {
+   "id": "rovers/pfile03",
+   "dir": "rovers",
+   "domain": "domain.pddl",
+   "problem": "pfile03",
+   "selftest": false
+  },
+  {
+   "id": "rovers/pfile04",
+   "dir": "rovers",
+   "domain": "domain.pddl",
+   "problem": "pfile04",
+   "selftest": false
+  },
+  {
+   "id": "rovers/pfile05",
+   "dir": "rovers",
+   "domain": "domain.pddl",
+   "problem": "pfile05",
+   "selftest": false
+  },
+  {
+   "id": "rovers/pfile06",
+   "dir": "rovers",
+   "domain": "domain.pddl",
+   "problem": "pfile06",
+   "selftest": false
+  },
+  {
+   "id": "rovers/pfile07",
+   "dir": "rovers",
+   "domain": "domain.pddl",
+   "problem": "pfile07",
+   "selftest": false
+  },
+  {
+   "id": "rovers/pfile08",
+   "dir": "rovers",
+   "domain": "domain.pddl",
+   "problem": "pfile08",
+   "selftest": false
+  },
+  {
+   "id": "rovers/pfile09",
+   "dir": "rovers",
+   "domain": "domain.pddl",
+   "problem": "pfile09",
+   "selftest": false
+  },
+  {
+   "id": "rovers/pfile10",
+   "dir": "rovers",
+   "domain": "domain.pddl",
+   "problem": "pfile10",
+   "selftest": false
+  },
+  {
+   "id": "rovers/pfile11",
+   "dir": "rovers",
+   "domain": "domain.pddl",
+   "problem": "pfile11",
+   "selftest": false
+  },
+  {
+   "id": "rovers/pfile12",
+   "dir": "rovers",
+   "domain": "domain.pddl",
+   "problem": "pfile12",
+   "selftest": false
+  },
+  {
+   "id": "rovers/pfile13",
+   "dir": "rovers",
+   "domain": "domain.pddl",
+   "problem": "pfile13",
+   "selftest": false
+  },
+  {
+   "id": "rovers/pfile14",
+   "dir": "rovers",
+   "domain": "domain.pddl",
+   "problem": "pfile14",
+   "selftest": false
+  },
+  {
+   "id": "rovers/pfile15",
+   "dir": "rovers",
+   "domain": "domain.pddl",
+   "problem": "pfile15",
+   "selftest": false
+  },
+  {
+   "id": "rovers/pfile16",
+   "dir": "rovers",
+   "domain": "domain.pddl",
+   "problem": "pfile16",
+   "selftest": false
+  },
+  {
+   "id": "rovers/pfile17",
+   "dir": "rovers",
+   "domain": "domain.pddl",
+   "problem": "pfile17",
+   "selftest": false
+  },
+  {
+   "id": "rovers/pfile18",
+   "dir": "rovers",
+   "domain": "domain.pddl",
+   "problem": "pfile18",
+   "selftest": false
+  },
+  {
+   "id": "rovers/pfile19",
+   "dir": "rovers",
+   "domain": "domain.pddl",
+   "problem": "pfile19",
+   "selftest": false
+  },
+  {
+   "id": "rovers/pfile20",
+   "dir": "rovers",
+   "domain": "domain.pddl",
+   "problem": "pfile20",
+   "selftest": false
+  },
+  {
+   "id": "tsp/tsp-10",
+   "dir": "tsp",
+   "domain": "tsp.pddl",
+   "problem": "tsp-10.pddl",
+   "selftest": false
+  }
+ ]
+}

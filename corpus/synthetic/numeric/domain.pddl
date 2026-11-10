@@ -1,0 +1,11 @@
+(define (domain fuel-grid)
+  (:requirements :typing :fluents)
+  (:types cell)
+  (:predicates (at ?c - cell) (adj ?a ?b - cell) (visited ?c - cell))
+  (:functions (fuel) (cost ?a ?b - cell) (total-cost))
+  (:action move
+    :parameters (?a ?b - cell)
+    :precondition (and (at ?a) (adj ?a ?b) (>= (fuel) (cost ?a ?b)))
+    :effect (and (at ?b) (not (at ?a)) (visited ?b)
+                 (decrease (fuel) (cost ?a ?b))
+                 (increase (total-cost) (cost ?a ?b)))))

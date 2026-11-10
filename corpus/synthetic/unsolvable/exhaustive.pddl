@@ -1,0 +1,6 @@
+(define (problem one-token-two-places)
+  (:domain ring)
+  (:objects c0 c1 c2 c3)
+  (:init (at c0) (free) (token c0)
+         (link c0 c1) (link c1 c2) (link c2 c3) (link c3 c0))
+  (:goal (and (token c1) (token c2))))
