@@ -32,7 +32,8 @@ def main():
     ap.add_argument("--shim", required=True); ap.add_argument("--ff", required=True)
     ap.add_argument("--metric-ff", required=True)
     ap.add_argument("--seeds", default="0-999"); ap.add_argument("--alt-seeds", default="0,2,3,42,12345")
-    ap.add_argument("-k", "--filter", action="append"); ap.add_argument("-j", type=int, default=os.cpu_count())
+    ap.add_argument("-k", "--filter", action="append"); ap.add_argument("-j", type=int, default=min(4, os.cpu_count() or 1))
+    ap.add_argument("--ids", help="file with exact run ids to include (one per line)")
     ap.add_argument("--json")
     a = ap.parse_args()
     bins = {"ff": os.path.abspath(a.ff), "metric-ff": os.path.abspath(a.metric_ff)}
@@ -40,6 +41,9 @@ def main():
     runs = [r for m in a.manifests for r in load_manifest(m)]
     if a.filter:
         runs = [r for r in runs if any(f in r.run_id for f in a.filter)]
+    if a.ids:
+        want = {l.split()[0] for l in open(a.ids) if l.strip()}
+        runs = [r for r in runs if r.run_id in want]
     jobs = []
     for r in runs:
         if r.planner == "ff":
@@ -49,17 +53,23 @@ def main():
                        + [("rand15", {"RAND15": "1"})]
         for name, env in variants:
             jobs.append((r, name, dict(env, LD_PRELOAD=shim)))
-    res = {}
+    res, detail = {}, {}
     with cf.ThreadPoolExecutor(a.j) as ex:
         futs = {ex.submit(run, r.argv(bins), r.cwd, r.timeout, env): (r, n) for r, n, env in jobs}
         for f in cf.as_completed(futs):
             r, n = futs[f]; out = f.result()
             key = json.dumps([out[k] for k in KEYS])
             res.setdefault(r.run_id, {}).setdefault(key, []).append(n)
+            detail.setdefault(r.run_id, {})[n] = {
+                "outcome": out["outcome"], "timed_out": out["timed_out"],
+                "plan_len": None if out["plan"] is None else len(out["plan"]),
+                "wall_s": round(out["wall_s"], 2), "group": key}
     summary = {}
     for rid in sorted(res):
         groups = res[rid]
-        summary[rid] = [sorted(v) for v in groups.values()]
+        gid = {k: i for i, k in enumerate(groups)}
+        summary[rid] = {"groups": [sorted(v) for v in groups.values()],
+                        "variants": {n: dict(d, group=gid[d["group"]]) for n, d in sorted(detail[rid].items())}}
         print("%-4s %-60s %d distinct output(s) over %d variants" %
               ("OK" if len(groups) == 1 else "VARY", rid, len(groups), sum(map(len, groups.values()))))
     if a.json:

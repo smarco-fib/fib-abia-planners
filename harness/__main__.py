@@ -166,7 +166,7 @@ def main(argv=None):
         if name != "list":
             sp.add_argument("--ff", required=True)
             sp.add_argument("--metric-ff", required=True)
-            sp.add_argument("-j", "--jobs", type=int, default=os.cpu_count() or 2)
+            sp.add_argument("-j", "--jobs", type=int, default=min(4, os.cpu_count() or 1))
             sp.add_argument("--timeout", type=float, help="override per-case timeout")
             sp.add_argument("--golden", default=os.path.join(REPO, "golden"))
             sp.add_argument("--timings", help="write wall time / peak RSS here (JSON)")
