@@ -1,0 +1,5 @@
+# Course material and fixtures must be stored byte-for-byte (rule 11).
+examples/** -text
+corpus/** -text
+golden/** -text
+upstream/** -text

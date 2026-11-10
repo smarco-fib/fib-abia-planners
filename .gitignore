@@ -1,0 +1,9 @@
+build/
+_build/
+*.o
+__pycache__/
+*.egg-info/
+dist/
+wheelhouse/
+# Graded course material: never public (rule 11)
+corpus/private/
