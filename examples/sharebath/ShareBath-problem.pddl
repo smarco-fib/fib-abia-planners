@@ -1,4 +1,4 @@
-(define (problem 7pers1ducha1sanitario2lavamanos1secador)
+(define (problem sharebath-7pers1ducha1sanitario2lavamanos1secador)
    (:domain sharebath)
    (:objects Juan Montse Pablo Miguel Jesus Martina Oscar - persona
              afeitarse ducharse peinarse secarPelo maquillarse usarWC - accion

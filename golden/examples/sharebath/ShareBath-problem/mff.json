@@ -2,9 +2,9 @@
  "command": "metric-ff -o ShareBath-domain.pddl -f ShareBath-problem.pddl",
  "cwd": "examples/sharebath",
  "exit_code": 1,
- "outcome": "parse-error",
+ "outcome": "usage-error",
  "plan": null,
- "stdout": "\nff: parsing domain file\ndomain 'SHAREBATH' defined\n ... done.\nff: parsing problem file",
- "stderr": "\nShareBath-problem.pddl: syntax error in line 1, '7':\n'define' expected\n",
- "reason": "syntax error in line 1"
+ "stdout": "\nff: parsing domain file\ndomain 'SHAREBATH' defined\n ... done.\nff: parsing problem file\nproblem 'SHAREBATH-7PERS1DUCHA1SANITARIO2LAVAMANOS1SECADOR' defined\n ... done.\n\n\ntranslating negated cond for predicate QUIERE\ntranslating negated cond for predicate NECESITASECADOR\ntranslating negated cond for predicate NECESITALAVAMANOS\ntranslating negated cond for predicate NECESITAWC\ntranslating negated cond for predicate NECESITADUCHA\nno metric specified.\n\nff: search configuration is Enforced Hill-Climbing, then A*epsilon with weight 5.\nError! Optimization criterion not established.\nA*epsilon not defined.\n\n",
+ "stderr": "",
+ "reason": "Optimization criterion not established"
 }
