@@ -72,6 +72,10 @@ void add_to_weighted_Astar_space( State *S, int op, BfsNode *father );
 
 
 
+/* abia-planners (PATCHES.md, P-DECL-1): main.c calls do_Astar_epsilon(),
+ * which was not declared (the line below names a function that does not exist).
+ */
+void do_Astar_epsilon( void );
 void do_Astar_epsilon_repairing( void );
 BfsNode *Astar_epsilon_select_first( void );
 void add_to_Astar_epsilon_space( State *S, int op, BfsNode *father );
