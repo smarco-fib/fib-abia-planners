@@ -1823,10 +1823,15 @@ int state_sum( State *S )
 
 {
 
-  int i, sum = 0;
+  int i;
+  unsigned int sum = 0;
 
+  /* abia-planners (PATCHES.md, UB-4): the sum is a hash key that is meant to wrap
+   * around; signed int overflow is undefined behaviour, so add in unsigned
+   * arithmetic (modulo 2^32) and convert back, which yields the same value.
+   */
   for ( i = 0; i < S->num_F; i++ ) {
-    sum += gft_conn[S->F[i]].rand;
+    sum += (unsigned int) gft_conn[S->F[i]].rand;
   }
 
   for ( i = 0; i < gnum_real_fl_conn; i++ ) {
@@ -1836,10 +1841,10 @@ int state_sum( State *S )
     if ( !S->f_D[i] ) {
       continue;
     }
-    sum += gfl_conn[i].rand * ( int ) S->f_V[i];
+    sum += (unsigned int) gfl_conn[i].rand * (unsigned int) ( int ) S->f_V[i];
   }
 
-  return sum;
+  return (int) sum;
 
 }
 
@@ -1849,13 +1854,15 @@ int logical_state_sum( State *S )
 
 {
 
-  int i, sum = 0;
+  int i;
+  unsigned int sum = 0;
 
+  /* abia-planners (PATCHES.md, UB-4): see state_sum() */
   for ( i = 0; i < S->num_F; i++ ) {
-    sum += gft_conn[S->F[i]].rand;
+    sum += (unsigned int) gft_conn[S->F[i]].rand;
   }
 
-  return sum;
+  return (int) sum;
 
 }
 

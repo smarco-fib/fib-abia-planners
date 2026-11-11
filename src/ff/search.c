@@ -560,13 +560,18 @@ int state_sum( State *S )
 
 {
 
-  int i, sum = 0;
+  int i;
+  unsigned int sum = 0;
 
+  /* abia-planners (PATCHES.md, UB-4): the sum is a hash key that is meant to wrap
+   * around; signed int overflow is undefined behaviour, so add in unsigned
+   * arithmetic (modulo 2^32) and convert back, which yields the same value.
+   */
   for ( i = 0; i < S->num_F; i++ ) {
-    sum += gft_conn[S->F[i]].rand;
+    sum += (unsigned int) gft_conn[S->F[i]].rand;
   }
 
-  return sum;
+  return (int) sum;
 
 }
 
