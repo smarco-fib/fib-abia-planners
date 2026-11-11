@@ -1,0 +1,5496 @@
+{
+ "ipc/ipc-2002/depots-numeric-automatic/01/mff-s4": {
+  "groups": [
+   [
+    "rand15",
+    "seed=0",
+    "unseeded"
+   ],
+   [
+    "seed=42"
+   ],
+   [
+    "seed=2"
+   ],
+   [
+    "seed=12345"
+   ],
+   [
+    "seed=3"
+   ]
+  ],
+  "variants": {
+   "rand15": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 18,
+    "wall_s": 0.01,
+    "group": 0
+   },
+   "seed=0": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 18,
+    "wall_s": 0.01,
+    "group": 0
+   },
+   "seed=12345": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 10,
+    "wall_s": 0.01,
+    "group": 3
+   },
+   "seed=2": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 17,
+    "wall_s": 0.01,
+    "group": 2
+   },
+   "seed=3": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 10,
+    "wall_s": 0.02,
+    "group": 4
+   },
+   "seed=42": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 11,
+    "wall_s": 0.01,
+    "group": 1
+   },
+   "unseeded": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 18,
+    "wall_s": 0.01,
+    "group": 0
+   }
+  }
+ },
+ "ipc/ipc-2002/depots-numeric-automatic/03/mff-s4": {
+  "groups": [
+   [
+    "rand15",
+    "seed=0",
+    "unseeded"
+   ],
+   [
+    "seed=3"
+   ],
+   [
+    "seed=2"
+   ],
+   [
+    "seed=12345"
+   ],
+   [
+    "seed=42"
+   ]
+  ],
+  "variants": {
+   "rand15": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 71,
+    "wall_s": 0.04,
+    "group": 0
+   },
+   "seed=0": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 71,
+    "wall_s": 0.03,
+    "group": 0
+   },
+   "seed=12345": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 67,
+    "wall_s": 0.03,
+    "group": 3
+   },
+   "seed=2": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 57,
+    "wall_s": 0.04,
+    "group": 2
+   },
+   "seed=3": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 65,
+    "wall_s": 0.03,
+    "group": 1
+   },
+   "seed=42": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 123,
+    "wall_s": 0.13,
+    "group": 4
+   },
+   "unseeded": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 71,
+    "wall_s": 0.05,
+    "group": 0
+   }
+  }
+ },
+ "ipc/ipc-2002/depots-numeric-automatic/10/mff-s4": {
+  "groups": [
+   [
+    "rand15",
+    "seed=0",
+    "unseeded"
+   ],
+   [
+    "seed=2"
+   ],
+   [
+    "seed=3"
+   ],
+   [
+    "seed=12345",
+    "seed=42"
+   ]
+  ],
+  "variants": {
+   "rand15": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 39,
+    "wall_s": 0.16,
+    "group": 0
+   },
+   "seed=0": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 39,
+    "wall_s": 0.16,
+    "group": 0
+   },
+   "seed=12345": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 3
+   },
+   "seed=2": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 60,
+    "wall_s": 37.06,
+    "group": 1
+   },
+   "seed=3": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 2
+   },
+   "seed=42": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 3
+   },
+   "unseeded": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 39,
+    "wall_s": 0.21,
+    "group": 0
+   }
+  }
+ },
+ "ipc/ipc-2002/depots-numeric-automatic/13/mff-s4": {
+  "groups": [
+   [
+    "rand15",
+    "seed=0",
+    "unseeded"
+   ],
+   [
+    "seed=2"
+   ],
+   [
+    "seed=3"
+   ],
+   [
+    "seed=42"
+   ],
+   [
+    "seed=12345"
+   ]
+  ],
+  "variants": {
+   "rand15": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 31,
+    "wall_s": 0.06,
+    "group": 0
+   },
+   "seed=0": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 31,
+    "wall_s": 0.06,
+    "group": 0
+   },
+   "seed=12345": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 27,
+    "wall_s": 0.05,
+    "group": 4
+   },
+   "seed=2": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 29,
+    "wall_s": 0.06,
+    "group": 1
+   },
+   "seed=3": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 37,
+    "wall_s": 0.06,
+    "group": 2
+   },
+   "seed=42": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 32,
+    "wall_s": 0.06,
+    "group": 3
+   },
+   "unseeded": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 31,
+    "wall_s": 0.06,
+    "group": 0
+   }
+  }
+ },
+ "ipc/ipc-2002/depots-numeric-automatic/18/mff-s4": {
+  "groups": [
+   [
+    "rand15",
+    "seed=0",
+    "unseeded"
+   ],
+   [
+    "seed=2"
+   ],
+   [
+    "seed=3"
+   ],
+   [
+    "seed=42"
+   ],
+   [
+    "seed=12345"
+   ]
+  ],
+  "variants": {
+   "rand15": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 82,
+    "wall_s": 2.09,
+    "group": 0
+   },
+   "seed=0": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 82,
+    "wall_s": 1.89,
+    "group": 0
+   },
+   "seed=12345": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 4
+   },
+   "seed=2": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 1
+   },
+   "seed=3": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 2
+   },
+   "seed=42": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 3
+   },
+   "unseeded": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 82,
+    "wall_s": 1.92,
+    "group": 0
+   }
+  }
+ },
+ "ipc/ipc-2002/driverlog-numeric-automatic/01/mff-s4": {
+  "groups": [
+   [
+    "rand15",
+    "seed=0",
+    "seed=2",
+    "unseeded"
+   ],
+   [
+    "seed=3"
+   ],
+   [
+    "seed=42"
+   ],
+   [
+    "seed=12345"
+   ]
+  ],
+  "variants": {
+   "rand15": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 8,
+    "wall_s": 0.0,
+    "group": 0
+   },
+   "seed=0": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 8,
+    "wall_s": 0.01,
+    "group": 0
+   },
+   "seed=12345": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 8,
+    "wall_s": 0.01,
+    "group": 3
+   },
+   "seed=2": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 8,
+    "wall_s": 0.0,
+    "group": 0
+   },
+   "seed=3": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 8,
+    "wall_s": 0.01,
+    "group": 1
+   },
+   "seed=42": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 8,
+    "wall_s": 0.0,
+    "group": 2
+   },
+   "unseeded": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 8,
+    "wall_s": 0.01,
+    "group": 0
+   }
+  }
+ },
+ "ipc/ipc-2002/driverlog-numeric-automatic/02/mff-s4": {
+  "groups": [
+   [
+    "rand15",
+    "seed=0",
+    "unseeded"
+   ],
+   [
+    "seed=2"
+   ],
+   [
+    "seed=3"
+   ],
+   [
+    "seed=42"
+   ],
+   [
+    "seed=12345"
+   ]
+  ],
+  "variants": {
+   "rand15": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 29,
+    "wall_s": 0.01,
+    "group": 0
+   },
+   "seed=0": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 29,
+    "wall_s": 0.01,
+    "group": 0
+   },
+   "seed=12345": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 27,
+    "wall_s": 0.01,
+    "group": 4
+   },
+   "seed=2": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 31,
+    "wall_s": 0.01,
+    "group": 1
+   },
+   "seed=3": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 25,
+    "wall_s": 0.01,
+    "group": 2
+   },
+   "seed=42": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 29,
+    "wall_s": 0.01,
+    "group": 3
+   },
+   "unseeded": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 29,
+    "wall_s": 0.01,
+    "group": 0
+   }
+  }
+ },
+ "ipc/ipc-2002/driverlog-numeric-automatic/03/mff-s4": {
+  "groups": [
+   [
+    "rand15",
+    "seed=0",
+    "unseeded"
+   ],
+   [
+    "seed=2"
+   ],
+   [
+    "seed=3"
+   ],
+   [
+    "seed=42"
+   ],
+   [
+    "seed=12345"
+   ]
+  ],
+  "variants": {
+   "rand15": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 13,
+    "wall_s": 0.01,
+    "group": 0
+   },
+   "seed=0": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 13,
+    "wall_s": 0.01,
+    "group": 0
+   },
+   "seed=12345": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 12,
+    "wall_s": 0.01,
+    "group": 4
+   },
+   "seed=2": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 13,
+    "wall_s": 0.01,
+    "group": 1
+   },
+   "seed=3": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 13,
+    "wall_s": 0.01,
+    "group": 2
+   },
+   "seed=42": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 14,
+    "wall_s": 0.01,
+    "group": 3
+   },
+   "unseeded": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 13,
+    "wall_s": 0.01,
+    "group": 0
+   }
+  }
+ },
+ "ipc/ipc-2002/driverlog-numeric-automatic/04/mff-s4": {
+  "groups": [
+   [
+    "rand15",
+    "seed=0",
+    "unseeded"
+   ],
+   [
+    "seed=2"
+   ],
+   [
+    "seed=3"
+   ],
+   [
+    "seed=42"
+   ],
+   [
+    "seed=12345"
+   ]
+  ],
+  "variants": {
+   "rand15": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 29,
+    "wall_s": 0.04,
+    "group": 0
+   },
+   "seed=0": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 29,
+    "wall_s": 0.04,
+    "group": 0
+   },
+   "seed=12345": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 24,
+    "wall_s": 0.01,
+    "group": 4
+   },
+   "seed=2": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 21,
+    "wall_s": 0.01,
+    "group": 1
+   },
+   "seed=3": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 24,
+    "wall_s": 0.01,
+    "group": 2
+   },
+   "seed=42": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 24,
+    "wall_s": 0.01,
+    "group": 3
+   },
+   "unseeded": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 29,
+    "wall_s": 0.04,
+    "group": 0
+   }
+  }
+ },
+ "ipc/ipc-2002/driverlog-numeric-automatic/05/mff-s4": {
+  "groups": [
+   [
+    "rand15",
+    "seed=0",
+    "unseeded"
+   ],
+   [
+    "seed=2"
+   ],
+   [
+    "seed=3"
+   ],
+   [
+    "seed=42"
+   ],
+   [
+    "seed=12345"
+   ]
+  ],
+  "variants": {
+   "rand15": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 24,
+    "wall_s": 0.01,
+    "group": 0
+   },
+   "seed=0": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 24,
+    "wall_s": 0.01,
+    "group": 0
+   },
+   "seed=12345": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 23,
+    "wall_s": 0.01,
+    "group": 4
+   },
+   "seed=2": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 22,
+    "wall_s": 0.01,
+    "group": 1
+   },
+   "seed=3": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 21,
+    "wall_s": 0.01,
+    "group": 2
+   },
+   "seed=42": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 23,
+    "wall_s": 0.01,
+    "group": 3
+   },
+   "unseeded": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 24,
+    "wall_s": 0.01,
+    "group": 0
+   }
+  }
+ },
+ "ipc/ipc-2002/driverlog-numeric-automatic/06/mff-s4": {
+  "groups": [
+   [
+    "rand15",
+    "seed=0",
+    "seed=42",
+    "unseeded"
+   ],
+   [
+    "seed=2"
+   ],
+   [
+    "seed=3"
+   ],
+   [
+    "seed=12345"
+   ]
+  ],
+  "variants": {
+   "rand15": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 13,
+    "wall_s": 0.01,
+    "group": 0
+   },
+   "seed=0": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 13,
+    "wall_s": 0.01,
+    "group": 0
+   },
+   "seed=12345": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 15,
+    "wall_s": 0.01,
+    "group": 3
+   },
+   "seed=2": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 13,
+    "wall_s": 0.01,
+    "group": 1
+   },
+   "seed=3": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 13,
+    "wall_s": 0.01,
+    "group": 2
+   },
+   "seed=42": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 13,
+    "wall_s": 0.01,
+    "group": 0
+   },
+   "unseeded": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 13,
+    "wall_s": 0.01,
+    "group": 0
+   }
+  }
+ },
+ "ipc/ipc-2002/driverlog-numeric-automatic/07/mff-s4": {
+  "groups": [
+   [
+    "rand15",
+    "seed=0",
+    "unseeded"
+   ],
+   [
+    "seed=2"
+   ],
+   [
+    "seed=3"
+   ],
+   [
+    "seed=42"
+   ],
+   [
+    "seed=12345"
+   ]
+  ],
+  "variants": {
+   "rand15": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 13,
+    "wall_s": 0.01,
+    "group": 0
+   },
+   "seed=0": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 13,
+    "wall_s": 0.01,
+    "group": 0
+   },
+   "seed=12345": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 18,
+    "wall_s": 0.01,
+    "group": 4
+   },
+   "seed=2": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 14,
+    "wall_s": 0.01,
+    "group": 1
+   },
+   "seed=3": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 21,
+    "wall_s": 0.01,
+    "group": 2
+   },
+   "seed=42": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 13,
+    "wall_s": 0.01,
+    "group": 3
+   },
+   "unseeded": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 13,
+    "wall_s": 0.01,
+    "group": 0
+   }
+  }
+ },
+ "ipc/ipc-2002/driverlog-numeric-automatic/09/mff-s4": {
+  "groups": [
+   [
+    "rand15",
+    "seed=0",
+    "unseeded"
+   ],
+   [
+    "seed=2"
+   ],
+   [
+    "seed=3"
+   ],
+   [
+    "seed=42"
+   ],
+   [
+    "seed=12345"
+   ]
+  ],
+  "variants": {
+   "rand15": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 38,
+    "wall_s": 0.26,
+    "group": 0
+   },
+   "seed=0": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 38,
+    "wall_s": 0.26,
+    "group": 0
+   },
+   "seed=12345": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 35,
+    "wall_s": 2.01,
+    "group": 4
+   },
+   "seed=2": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 37,
+    "wall_s": 1.99,
+    "group": 1
+   },
+   "seed=3": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 33,
+    "wall_s": 2.06,
+    "group": 2
+   },
+   "seed=42": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 51,
+    "wall_s": 0.29,
+    "group": 3
+   },
+   "unseeded": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 38,
+    "wall_s": 0.26,
+    "group": 0
+   }
+  }
+ },
+ "ipc/ipc-2002/driverlog-numeric-automatic/11/mff-s4": {
+  "groups": [
+   [
+    "rand15",
+    "seed=0",
+    "unseeded"
+   ],
+   [
+    "seed=2"
+   ],
+   [
+    "seed=3"
+   ],
+   [
+    "seed=42"
+   ],
+   [
+    "seed=12345"
+   ]
+  ],
+  "variants": {
+   "rand15": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 39,
+    "wall_s": 0.08,
+    "group": 0
+   },
+   "seed=0": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 39,
+    "wall_s": 0.08,
+    "group": 0
+   },
+   "seed=12345": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 33,
+    "wall_s": 0.04,
+    "group": 4
+   },
+   "seed=2": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 49,
+    "wall_s": 0.57,
+    "group": 1
+   },
+   "seed=3": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 27,
+    "wall_s": 0.04,
+    "group": 2
+   },
+   "seed=42": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 26,
+    "wall_s": 0.05,
+    "group": 3
+   },
+   "unseeded": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 39,
+    "wall_s": 0.08,
+    "group": 0
+   }
+  }
+ },
+ "ipc/ipc-2002/driverlog-numeric-automatic/12/mff-s4": {
+  "groups": [
+   [
+    "rand15",
+    "seed=0",
+    "seed=12345",
+    "unseeded"
+   ],
+   [
+    "seed=2",
+    "seed=3",
+    "seed=42"
+   ]
+  ],
+  "variants": {
+   "rand15": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "seed=0": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "seed=12345": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "seed=2": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 1
+   },
+   "seed=3": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 1
+   },
+   "seed=42": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 1
+   },
+   "unseeded": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   }
+  }
+ },
+ "ipc/ipc-2002/driverlog-numeric-automatic/13/mff-s4": {
+  "groups": [
+   [
+    "rand15",
+    "seed=0",
+    "unseeded"
+   ],
+   [
+    "seed=2"
+   ],
+   [
+    "seed=3"
+   ],
+   [
+    "seed=42"
+   ],
+   [
+    "seed=12345"
+   ]
+  ],
+  "variants": {
+   "rand15": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 78,
+    "wall_s": 2.95,
+    "group": 0
+   },
+   "seed=0": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 78,
+    "wall_s": 3.06,
+    "group": 0
+   },
+   "seed=12345": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 65,
+    "wall_s": 1.13,
+    "group": 4
+   },
+   "seed=2": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 65,
+    "wall_s": 4.53,
+    "group": 1
+   },
+   "seed=3": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 63,
+    "wall_s": 1.1,
+    "group": 2
+   },
+   "seed=42": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 68,
+    "wall_s": 0.19,
+    "group": 3
+   },
+   "unseeded": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 78,
+    "wall_s": 3.02,
+    "group": 0
+   }
+  }
+ },
+ "ipc/ipc-2002/driverlog-numeric-automatic/14/mff-s4": {
+  "groups": [
+   [
+    "rand15",
+    "seed=0",
+    "seed=3",
+    "seed=42",
+    "unseeded"
+   ],
+   [
+    "seed=2"
+   ],
+   [
+    "seed=12345"
+   ]
+  ],
+  "variants": {
+   "rand15": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "seed=0": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "seed=12345": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.06,
+    "group": 2
+   },
+   "seed=2": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 1
+   },
+   "seed=3": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "seed=42": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "unseeded": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   }
+  }
+ },
+ "ipc/ipc-2002/driverlog-numeric-automatic/15/mff-s4": {
+  "groups": [
+   [
+    "rand15",
+    "seed=0",
+    "seed=12345",
+    "seed=3",
+    "unseeded"
+   ],
+   [
+    "seed=2"
+   ],
+   [
+    "seed=42"
+   ]
+  ],
+  "variants": {
+   "rand15": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "seed=0": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "seed=12345": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "seed=2": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 1
+   },
+   "seed=3": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "seed=42": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 2
+   },
+   "unseeded": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   }
+  }
+ },
+ "ipc/ipc-2002/driverlog-numeric-automatic/16/mff-s4": {
+  "groups": [
+   [
+    "rand15",
+    "seed=0",
+    "unseeded"
+   ],
+   [
+    "seed=2"
+   ],
+   [
+    "seed=3"
+   ],
+   [
+    "seed=42"
+   ],
+   [
+    "seed=12345"
+   ]
+  ],
+  "variants": {
+   "rand15": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "seed=0": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "seed=12345": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 4
+   },
+   "seed=2": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 1
+   },
+   "seed=3": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 2
+   },
+   "seed=42": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 3
+   },
+   "unseeded": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   }
+  }
+ },
+ "ipc/ipc-2002/driverlog-numeric-automatic/17/mff-s4": {
+  "groups": [
+   [
+    "rand15",
+    "seed=0",
+    "seed=2",
+    "seed=3",
+    "seed=42",
+    "unseeded"
+   ],
+   [
+    "seed=12345"
+   ]
+  ],
+  "variants": {
+   "rand15": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "seed=0": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "seed=12345": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 1
+   },
+   "seed=2": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "seed=3": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "seed=42": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "unseeded": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   }
+  }
+ },
+ "ipc/ipc-2002/driverlog-numeric-automatic/18/mff-s4": {
+  "groups": [
+   [
+    "rand15",
+    "seed=0",
+    "seed=42",
+    "unseeded"
+   ],
+   [
+    "seed=2"
+   ],
+   [
+    "seed=3"
+   ],
+   [
+    "seed=12345"
+   ]
+  ],
+  "variants": {
+   "rand15": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "seed=0": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "seed=12345": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 3
+   },
+   "seed=2": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 1
+   },
+   "seed=3": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 2
+   },
+   "seed=42": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "unseeded": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   }
+  }
+ },
+ "ipc/ipc-2002/driverlog-numeric-automatic/19/mff-s4": {
+  "groups": [
+   [
+    "rand15",
+    "seed=0",
+    "unseeded"
+   ],
+   [
+    "seed=2"
+   ],
+   [
+    "seed=3"
+   ],
+   [
+    "seed=42"
+   ],
+   [
+    "seed=12345"
+   ]
+  ],
+  "variants": {
+   "rand15": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "seed=0": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "seed=12345": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.03,
+    "group": 4
+   },
+   "seed=2": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 1
+   },
+   "seed=3": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 2
+   },
+   "seed=42": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 3
+   },
+   "unseeded": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   }
+  }
+ },
+ "ipc/ipc-2002/driverlog-numeric-automatic/20/mff-s4": {
+  "groups": [
+   [
+    "seed=0"
+   ],
+   [
+    "unseeded"
+   ],
+   [
+    "seed=2"
+   ],
+   [
+    "seed=3"
+   ],
+   [
+    "seed=42"
+   ],
+   [
+    "seed=12345"
+   ],
+   [
+    "rand15"
+   ]
+  ],
+  "variants": {
+   "rand15": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.02,
+    "group": 6
+   },
+   "seed=0": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.02,
+    "group": 0
+   },
+   "seed=12345": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 5
+   },
+   "seed=2": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.12,
+    "group": 2
+   },
+   "seed=3": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.12,
+    "group": 3
+   },
+   "seed=42": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 4
+   },
+   "unseeded": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.12,
+    "group": 1
+   }
+  }
+ },
+ "ipc/ipc-2002/driverlog-numeric-hard-automatic/16/mff-s0": {
+  "groups": [
+   [
+    "rand15",
+    "seed=0",
+    "seed=12345",
+    "seed=2",
+    "seed=3",
+    "seed=42",
+    "unseeded"
+   ]
+  ],
+  "variants": {
+   "rand15": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.3,
+    "group": 0
+   },
+   "seed=0": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.25,
+    "group": 0
+   },
+   "seed=12345": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.26,
+    "group": 0
+   },
+   "seed=2": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.25,
+    "group": 0
+   },
+   "seed=3": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.26,
+    "group": 0
+   },
+   "seed=42": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.26,
+    "group": 0
+   },
+   "unseeded": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.24,
+    "group": 0
+   }
+  }
+ },
+ "ipc/ipc-2002/driverlog-numeric-hard-automatic/17/mff-s3": {
+  "groups": [
+   [
+    "rand15",
+    "seed=0",
+    "seed=12345",
+    "seed=2",
+    "seed=3",
+    "seed=42",
+    "unseeded"
+   ]
+  ],
+  "variants": {
+   "rand15": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.12,
+    "group": 0
+   },
+   "seed=0": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.12,
+    "group": 0
+   },
+   "seed=12345": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.13,
+    "group": 0
+   },
+   "seed=2": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.12,
+    "group": 0
+   },
+   "seed=3": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.12,
+    "group": 0
+   },
+   "seed=42": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.12,
+    "group": 0
+   },
+   "unseeded": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.12,
+    "group": 0
+   }
+  }
+ },
+ "ipc/ipc-2002/driverlog-numeric-hard-automatic/19/mff-s0": {
+  "groups": [
+   [
+    "rand15",
+    "seed=0",
+    "seed=12345",
+    "seed=2",
+    "seed=3",
+    "seed=42",
+    "unseeded"
+   ]
+  ],
+  "variants": {
+   "rand15": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.27,
+    "group": 0
+   },
+   "seed=0": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.24,
+    "group": 0
+   },
+   "seed=12345": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.29,
+    "group": 0
+   },
+   "seed=2": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.25,
+    "group": 0
+   },
+   "seed=3": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.24,
+    "group": 0
+   },
+   "seed=42": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.3,
+    "group": 0
+   },
+   "unseeded": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.25,
+    "group": 0
+   }
+  }
+ },
+ "ipc/ipc-2002/driverlog-numeric-hard-automatic/19/mff-s3": {
+  "groups": [
+   [
+    "rand15",
+    "seed=0",
+    "seed=12345",
+    "seed=2",
+    "seed=3",
+    "seed=42",
+    "unseeded"
+   ]
+  ],
+  "variants": {
+   "rand15": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.12,
+    "group": 0
+   },
+   "seed=0": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "seed=12345": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.12,
+    "group": 0
+   },
+   "seed=2": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.12,
+    "group": 0
+   },
+   "seed=3": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.12,
+    "group": 0
+   },
+   "seed=42": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.12,
+    "group": 0
+   },
+   "unseeded": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.12,
+    "group": 0
+   }
+  }
+ },
+ "ipc/ipc-2002/driverlog-numeric-hard-automatic/20/mff-s0": {
+  "groups": [
+   [
+    "seed=0",
+    "seed=12345",
+    "seed=2",
+    "seed=3",
+    "seed=42",
+    "unseeded"
+   ],
+   [
+    "rand15"
+   ]
+  ],
+  "variants": {
+   "rand15": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.48,
+    "group": 1
+   },
+   "seed=0": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.28,
+    "group": 0
+   },
+   "seed=12345": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.28,
+    "group": 0
+   },
+   "seed=2": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.32,
+    "group": 0
+   },
+   "seed=3": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.29,
+    "group": 0
+   },
+   "seed=42": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.3,
+    "group": 0
+   },
+   "unseeded": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.28,
+    "group": 0
+   }
+  }
+ },
+ "ipc/ipc-2002/rovers-numeric-automatic/01/mff-s4": {
+  "groups": [
+   [
+    "rand15",
+    "seed=0",
+    "unseeded"
+   ],
+   [
+    "seed=2"
+   ],
+   [
+    "seed=3"
+   ],
+   [
+    "seed=42"
+   ],
+   [
+    "seed=12345"
+   ]
+  ],
+  "variants": {
+   "rand15": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 11,
+    "wall_s": 0.01,
+    "group": 0
+   },
+   "seed=0": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 11,
+    "wall_s": 0.01,
+    "group": 0
+   },
+   "seed=12345": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.12,
+    "group": 4
+   },
+   "seed=2": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 10,
+    "wall_s": 0.01,
+    "group": 1
+   },
+   "seed=3": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 10,
+    "wall_s": 0.01,
+    "group": 2
+   },
+   "seed=42": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.12,
+    "group": 3
+   },
+   "unseeded": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 11,
+    "wall_s": 0.01,
+    "group": 0
+   }
+  }
+ },
+ "ipc/ipc-2002/rovers-numeric-automatic/02/mff-s4": {
+  "groups": [
+   [
+    "rand15",
+    "seed=0",
+    "seed=42",
+    "unseeded"
+   ],
+   [
+    "seed=2"
+   ],
+   [
+    "seed=3"
+   ],
+   [
+    "seed=12345"
+   ]
+  ],
+  "variants": {
+   "rand15": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 8,
+    "wall_s": 0.0,
+    "group": 0
+   },
+   "seed=0": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 8,
+    "wall_s": 0.0,
+    "group": 0
+   },
+   "seed=12345": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 11,
+    "wall_s": 0.01,
+    "group": 3
+   },
+   "seed=2": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 10,
+    "wall_s": 0.01,
+    "group": 1
+   },
+   "seed=3": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 8,
+    "wall_s": 0.01,
+    "group": 2
+   },
+   "seed=42": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 8,
+    "wall_s": 0.01,
+    "group": 0
+   },
+   "unseeded": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 8,
+    "wall_s": 0.01,
+    "group": 0
+   }
+  }
+ },
+ "ipc/ipc-2002/rovers-numeric-automatic/04/mff-s4": {
+  "groups": [
+   [
+    "rand15",
+    "seed=0",
+    "unseeded"
+   ],
+   [
+    "seed=2"
+   ],
+   [
+    "seed=3"
+   ],
+   [
+    "seed=42"
+   ],
+   [
+    "seed=12345"
+   ]
+  ],
+  "variants": {
+   "rand15": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 8,
+    "wall_s": 0.01,
+    "group": 0
+   },
+   "seed=0": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 8,
+    "wall_s": 0.01,
+    "group": 0
+   },
+   "seed=12345": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 8,
+    "wall_s": 0.01,
+    "group": 4
+   },
+   "seed=2": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 8,
+    "wall_s": 0.01,
+    "group": 1
+   },
+   "seed=3": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 8,
+    "wall_s": 0.01,
+    "group": 2
+   },
+   "seed=42": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 8,
+    "wall_s": 0.01,
+    "group": 3
+   },
+   "unseeded": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 8,
+    "wall_s": 0.01,
+    "group": 0
+   }
+  }
+ },
+ "ipc/ipc-2002/rovers-numeric-automatic/07/mff-s4": {
+  "groups": [
+   [
+    "rand15",
+    "seed=0",
+    "unseeded"
+   ],
+   [
+    "seed=2"
+   ],
+   [
+    "seed=3"
+   ],
+   [
+    "seed=42"
+   ],
+   [
+    "seed=12345"
+   ]
+  ],
+  "variants": {
+   "rand15": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 26,
+    "wall_s": 0.01,
+    "group": 0
+   },
+   "seed=0": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 26,
+    "wall_s": 0.01,
+    "group": 0
+   },
+   "seed=12345": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 28,
+    "wall_s": 0.01,
+    "group": 4
+   },
+   "seed=2": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 28,
+    "wall_s": 0.01,
+    "group": 1
+   },
+   "seed=3": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 23,
+    "wall_s": 0.01,
+    "group": 2
+   },
+   "seed=42": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 22,
+    "wall_s": 0.01,
+    "group": 3
+   },
+   "unseeded": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 26,
+    "wall_s": 0.01,
+    "group": 0
+   }
+  }
+ },
+ "ipc/ipc-2002/rovers-numeric-automatic/13/mff-s4": {
+  "groups": [
+   [
+    "rand15",
+    "seed=0",
+    "unseeded"
+   ],
+   [
+    "seed=2"
+   ],
+   [
+    "seed=12345",
+    "seed=3"
+   ],
+   [
+    "seed=42"
+   ]
+  ],
+  "variants": {
+   "rand15": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "seed=0": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "seed=12345": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 2
+   },
+   "seed=2": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 1
+   },
+   "seed=3": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 2
+   },
+   "seed=42": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 3
+   },
+   "unseeded": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   }
+  }
+ },
+ "ipc/ipc-2002/rovers-numeric-automatic/14/mff-s4": {
+  "groups": [
+   [
+    "rand15",
+    "seed=0",
+    "unseeded"
+   ],
+   [
+    "seed=2"
+   ],
+   [
+    "seed=3"
+   ],
+   [
+    "seed=42"
+   ],
+   [
+    "seed=12345"
+   ]
+  ],
+  "variants": {
+   "rand15": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "seed=0": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "seed=12345": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 4
+   },
+   "seed=2": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.12,
+    "group": 1
+   },
+   "seed=3": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 2
+   },
+   "seed=42": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.12,
+    "group": 3
+   },
+   "unseeded": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   }
+  }
+ },
+ "ipc/ipc-2002/rovers-numeric-automatic/15/mff-s4": {
+  "groups": [
+   [
+    "rand15",
+    "seed=0",
+    "unseeded"
+   ],
+   [
+    "seed=2",
+    "seed=42"
+   ],
+   [
+    "seed=3"
+   ],
+   [
+    "seed=12345"
+   ]
+  ],
+  "variants": {
+   "rand15": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "seed=0": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "seed=12345": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 3
+   },
+   "seed=2": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 1
+   },
+   "seed=3": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 2
+   },
+   "seed=42": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 1
+   },
+   "unseeded": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   }
+  }
+ },
+ "ipc/ipc-2002/rovers-numeric-automatic/16/mff-s0": {
+  "groups": [
+   [
+    "rand15",
+    "seed=0",
+    "seed=12345",
+    "seed=2",
+    "seed=3",
+    "seed=42",
+    "unseeded"
+   ]
+  ],
+  "variants": {
+   "rand15": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.14,
+    "group": 0
+   },
+   "seed=0": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.17,
+    "group": 0
+   },
+   "seed=12345": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.22,
+    "group": 0
+   },
+   "seed=2": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.17,
+    "group": 0
+   },
+   "seed=3": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.18,
+    "group": 0
+   },
+   "seed=42": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.17,
+    "group": 0
+   },
+   "unseeded": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.17,
+    "group": 0
+   }
+  }
+ },
+ "ipc/ipc-2002/rovers-numeric-automatic/16/mff-s4": {
+  "groups": [
+   [
+    "rand15",
+    "seed=0",
+    "unseeded"
+   ],
+   [
+    "seed=2",
+    "seed=3"
+   ],
+   [
+    "seed=42"
+   ],
+   [
+    "seed=12345"
+   ]
+  ],
+  "variants": {
+   "rand15": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "seed=0": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "seed=12345": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 3
+   },
+   "seed=2": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.12,
+    "group": 1
+   },
+   "seed=3": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 1
+   },
+   "seed=42": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 2
+   },
+   "unseeded": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   }
+  }
+ },
+ "ipc/ipc-2002/rovers-numeric-automatic/17/mff-s0": {
+  "groups": [
+   [
+    "unseeded"
+   ],
+   [
+    "rand15",
+    "seed=0",
+    "seed=12345",
+    "seed=3",
+    "seed=42"
+   ],
+   [
+    "seed=2"
+   ]
+  ],
+  "variants": {
+   "rand15": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.21,
+    "group": 1
+   },
+   "seed=0": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.17,
+    "group": 1
+   },
+   "seed=12345": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.21,
+    "group": 1
+   },
+   "seed=2": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.09,
+    "group": 2
+   },
+   "seed=3": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.17,
+    "group": 1
+   },
+   "seed=42": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.18,
+    "group": 1
+   },
+   "unseeded": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.08,
+    "group": 0
+   }
+  }
+ },
+ "ipc/ipc-2002/rovers-numeric-automatic/17/mff-s4": {
+  "groups": [
+   [
+    "rand15",
+    "seed=0",
+    "unseeded"
+   ],
+   [
+    "seed=2",
+    "seed=3",
+    "seed=42"
+   ],
+   [
+    "seed=12345"
+   ]
+  ],
+  "variants": {
+   "rand15": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "seed=0": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "seed=12345": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.05,
+    "group": 2
+   },
+   "seed=2": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 1
+   },
+   "seed=3": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 1
+   },
+   "seed=42": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 1
+   },
+   "unseeded": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   }
+  }
+ },
+ "ipc/ipc-2002/rovers-numeric-automatic/18/mff-s4": {
+  "groups": [
+   [
+    "rand15",
+    "seed=0",
+    "seed=3",
+    "unseeded"
+   ],
+   [
+    "seed=12345",
+    "seed=2"
+   ],
+   [
+    "seed=42"
+   ]
+  ],
+  "variants": {
+   "rand15": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "seed=0": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "seed=12345": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 1
+   },
+   "seed=2": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 1
+   },
+   "seed=3": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "seed=42": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 2
+   },
+   "unseeded": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   }
+  }
+ },
+ "ipc/ipc-2002/rovers-numeric-automatic/19/mff-s4": {
+  "groups": [
+   [
+    "rand15",
+    "seed=0",
+    "seed=12345",
+    "unseeded"
+   ],
+   [
+    "seed=2"
+   ],
+   [
+    "seed=3"
+   ],
+   [
+    "seed=42"
+   ]
+  ],
+  "variants": {
+   "rand15": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "seed=0": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "seed=12345": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "seed=2": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 1
+   },
+   "seed=3": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 2
+   },
+   "seed=42": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 3
+   },
+   "unseeded": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   }
+  }
+ },
+ "ipc/ipc-2002/rovers-numeric-automatic/20/mff": {
+  "groups": [
+   [
+    "seed=0",
+    "seed=42",
+    "unseeded"
+   ],
+   [
+    "seed=2"
+   ],
+   [
+    "rand15",
+    "seed=3"
+   ],
+   [
+    "seed=12345"
+   ]
+  ],
+  "variants": {
+   "rand15": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.03,
+    "group": 2
+   },
+   "seed=0": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.03,
+    "group": 0
+   },
+   "seed=12345": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.03,
+    "group": 3
+   },
+   "seed=2": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.03,
+    "group": 1
+   },
+   "seed=3": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.03,
+    "group": 2
+   },
+   "seed=42": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.03,
+    "group": 0
+   },
+   "unseeded": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.03,
+    "group": 0
+   }
+  }
+ },
+ "ipc/ipc-2002/rovers-numeric-automatic/20/mff-s4": {
+  "groups": [
+   [
+    "rand15",
+    "seed=0",
+    "unseeded"
+   ],
+   [
+    "seed=2"
+   ],
+   [
+    "seed=3"
+   ],
+   [
+    "seed=42"
+   ],
+   [
+    "seed=12345"
+   ]
+  ],
+  "variants": {
+   "rand15": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "seed=0": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "seed=12345": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 4
+   },
+   "seed=2": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 1
+   },
+   "seed=3": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 2
+   },
+   "seed=42": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 3
+   },
+   "unseeded": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   }
+  }
+ },
+ "ipc/ipc-2002/satellite-numeric-automatic/03/mff-s4": {
+  "groups": [
+   [
+    "rand15",
+    "seed=0",
+    "seed=12345",
+    "unseeded"
+   ],
+   [
+    "seed=2"
+   ],
+   [
+    "seed=3"
+   ],
+   [
+    "seed=42"
+   ]
+  ],
+  "variants": {
+   "rand15": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 11,
+    "wall_s": 0.01,
+    "group": 0
+   },
+   "seed=0": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 11,
+    "wall_s": 0.01,
+    "group": 0
+   },
+   "seed=12345": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 11,
+    "wall_s": 0.01,
+    "group": 0
+   },
+   "seed=2": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 11,
+    "wall_s": 0.01,
+    "group": 1
+   },
+   "seed=3": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 11,
+    "wall_s": 0.01,
+    "group": 2
+   },
+   "seed=42": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 11,
+    "wall_s": 0.01,
+    "group": 3
+   },
+   "unseeded": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 11,
+    "wall_s": 0.01,
+    "group": 0
+   }
+  }
+ },
+ "ipc/ipc-2002/satellite-numeric-automatic/07/mff-s4": {
+  "groups": [
+   [
+    "rand15",
+    "seed=0",
+    "seed=2",
+    "unseeded"
+   ],
+   [
+    "seed=12345",
+    "seed=3",
+    "seed=42"
+   ]
+  ],
+  "variants": {
+   "rand15": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "seed=0": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "seed=12345": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 1
+   },
+   "seed=2": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "seed=3": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 1
+   },
+   "seed=42": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 1
+   },
+   "unseeded": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   }
+  }
+ },
+ "ipc/ipc-2002/satellite-numeric-automatic/09/mff-s4": {
+  "groups": [
+   [
+    "rand15",
+    "seed=0",
+    "unseeded"
+   ],
+   [
+    "seed=2"
+   ],
+   [
+    "seed=12345",
+    "seed=3"
+   ],
+   [
+    "seed=42"
+   ]
+  ],
+  "variants": {
+   "rand15": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "seed=0": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "seed=12345": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 2
+   },
+   "seed=2": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 1
+   },
+   "seed=3": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 2
+   },
+   "seed=42": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 3
+   },
+   "unseeded": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   }
+  }
+ },
+ "ipc/ipc-2002/satellite-numeric-automatic/10/mff-s4": {
+  "groups": [
+   [
+    "rand15",
+    "seed=0",
+    "seed=2",
+    "unseeded"
+   ],
+   [
+    "seed=3"
+   ],
+   [
+    "seed=42"
+   ],
+   [
+    "seed=12345"
+   ]
+  ],
+  "variants": {
+   "rand15": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "seed=0": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "seed=12345": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 3
+   },
+   "seed=2": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "seed=3": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 1
+   },
+   "seed=42": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 2
+   },
+   "unseeded": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   }
+  }
+ },
+ "ipc/ipc-2002/satellite-numeric-automatic/11/mff": {
+  "groups": [
+   [
+    "rand15",
+    "seed=0",
+    "seed=2",
+    "seed=3",
+    "seed=42",
+    "unseeded"
+   ],
+   [
+    "seed=12345"
+   ]
+  ],
+  "variants": {
+   "rand15": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 44,
+    "wall_s": 0.95,
+    "group": 0
+   },
+   "seed=0": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 44,
+    "wall_s": 0.9,
+    "group": 0
+   },
+   "seed=12345": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 44,
+    "wall_s": 0.92,
+    "group": 1
+   },
+   "seed=2": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 44,
+    "wall_s": 0.81,
+    "group": 0
+   },
+   "seed=3": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 44,
+    "wall_s": 0.86,
+    "group": 0
+   },
+   "seed=42": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 44,
+    "wall_s": 0.8,
+    "group": 0
+   },
+   "unseeded": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 44,
+    "wall_s": 0.92,
+    "group": 0
+   }
+  }
+ },
+ "ipc/ipc-2002/satellite-numeric-automatic/11/mff-s0": {
+  "groups": [
+   [
+    "rand15",
+    "seed=0",
+    "seed=2",
+    "seed=3",
+    "seed=42",
+    "unseeded"
+   ],
+   [
+    "seed=12345"
+   ]
+  ],
+  "variants": {
+   "rand15": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 44,
+    "wall_s": 0.9,
+    "group": 0
+   },
+   "seed=0": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 44,
+    "wall_s": 0.94,
+    "group": 0
+   },
+   "seed=12345": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 44,
+    "wall_s": 0.92,
+    "group": 1
+   },
+   "seed=2": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 44,
+    "wall_s": 0.95,
+    "group": 0
+   },
+   "seed=3": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 44,
+    "wall_s": 0.94,
+    "group": 0
+   },
+   "seed=42": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 44,
+    "wall_s": 0.94,
+    "group": 0
+   },
+   "unseeded": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 44,
+    "wall_s": 0.94,
+    "group": 0
+   }
+  }
+ },
+ "ipc/ipc-2002/satellite-numeric-automatic/11/mff-s4": {
+  "groups": [
+   [
+    "rand15",
+    "seed=0",
+    "seed=3",
+    "unseeded"
+   ],
+   [
+    "seed=2"
+   ],
+   [
+    "seed=42"
+   ],
+   [
+    "seed=12345"
+   ]
+  ],
+  "variants": {
+   "rand15": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "seed=0": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "seed=12345": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 3
+   },
+   "seed=2": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 1
+   },
+   "seed=3": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "seed=42": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 2
+   },
+   "unseeded": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   }
+  }
+ },
+ "ipc/ipc-2002/satellite-numeric-automatic/12/mff-s4": {
+  "groups": [
+   [
+    "rand15",
+    "seed=0",
+    "unseeded"
+   ],
+   [
+    "seed=2",
+    "seed=42"
+   ],
+   [
+    "seed=3"
+   ],
+   [
+    "seed=12345"
+   ]
+  ],
+  "variants": {
+   "rand15": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "seed=0": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "seed=12345": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 3
+   },
+   "seed=2": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 1
+   },
+   "seed=3": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 2
+   },
+   "seed=42": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 1
+   },
+   "unseeded": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   }
+  }
+ },
+ "ipc/ipc-2002/satellite-numeric-automatic/13/mff": {
+  "groups": [
+   [
+    "rand15",
+    "seed=0",
+    "seed=12345",
+    "seed=2",
+    "seed=3",
+    "seed=42",
+    "unseeded"
+   ]
+  ],
+  "variants": {
+   "rand15": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.17,
+    "group": 0
+   },
+   "seed=0": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.17,
+    "group": 0
+   },
+   "seed=12345": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.17,
+    "group": 0
+   },
+   "seed=2": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.17,
+    "group": 0
+   },
+   "seed=3": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.17,
+    "group": 0
+   },
+   "seed=42": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.18,
+    "group": 0
+   },
+   "unseeded": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.17,
+    "group": 0
+   }
+  }
+ },
+ "ipc/ipc-2002/satellite-numeric-automatic/13/mff-s0": {
+  "groups": [
+   [
+    "rand15",
+    "seed=0",
+    "seed=12345",
+    "seed=2",
+    "seed=3",
+    "seed=42",
+    "unseeded"
+   ]
+  ],
+  "variants": {
+   "rand15": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.17,
+    "group": 0
+   },
+   "seed=0": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.15,
+    "group": 0
+   },
+   "seed=12345": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.16,
+    "group": 0
+   },
+   "seed=2": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.16,
+    "group": 0
+   },
+   "seed=3": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.16,
+    "group": 0
+   },
+   "seed=42": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.16,
+    "group": 0
+   },
+   "unseeded": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.16,
+    "group": 0
+   }
+  }
+ },
+ "ipc/ipc-2002/satellite-numeric-automatic/13/mff-s4": {
+  "groups": [
+   [
+    "rand15",
+    "seed=0",
+    "seed=12345",
+    "seed=42",
+    "unseeded"
+   ],
+   [
+    "seed=2"
+   ],
+   [
+    "seed=3"
+   ]
+  ],
+  "variants": {
+   "rand15": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "seed=0": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "seed=12345": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "seed=2": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 1
+   },
+   "seed=3": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 2
+   },
+   "seed=42": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "unseeded": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   }
+  }
+ },
+ "ipc/ipc-2002/satellite-numeric-automatic/14/mff-s4": {
+  "groups": [
+   [
+    "rand15",
+    "seed=0",
+    "unseeded"
+   ],
+   [
+    "seed=2",
+    "seed=42"
+   ],
+   [
+    "seed=12345",
+    "seed=3"
+   ]
+  ],
+  "variants": {
+   "rand15": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "seed=0": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "seed=12345": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 2
+   },
+   "seed=2": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 1
+   },
+   "seed=3": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 2
+   },
+   "seed=42": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 1
+   },
+   "unseeded": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   }
+  }
+ },
+ "ipc/ipc-2002/satellite-numeric-automatic/15/mff-s0": {
+  "groups": [
+   [
+    "rand15",
+    "seed=0",
+    "seed=12345",
+    "seed=2",
+    "seed=3",
+    "seed=42",
+    "unseeded"
+   ]
+  ],
+  "variants": {
+   "rand15": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.19,
+    "group": 0
+   },
+   "seed=0": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.17,
+    "group": 0
+   },
+   "seed=12345": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.17,
+    "group": 0
+   },
+   "seed=2": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.17,
+    "group": 0
+   },
+   "seed=3": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.17,
+    "group": 0
+   },
+   "seed=42": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.17,
+    "group": 0
+   },
+   "unseeded": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.16,
+    "group": 0
+   }
+  }
+ },
+ "ipc/ipc-2002/satellite-numeric-automatic/15/mff-s4": {
+  "groups": [
+   [
+    "rand15",
+    "seed=0",
+    "unseeded"
+   ],
+   [
+    "seed=2"
+   ],
+   [
+    "seed=3"
+   ],
+   [
+    "seed=42"
+   ],
+   [
+    "seed=12345"
+   ]
+  ],
+  "variants": {
+   "rand15": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "seed=0": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "seed=12345": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 4
+   },
+   "seed=2": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.12,
+    "group": 1
+   },
+   "seed=3": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.12,
+    "group": 2
+   },
+   "seed=42": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 3
+   },
+   "unseeded": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   }
+  }
+ },
+ "ipc/ipc-2002/satellite-numeric-automatic/17/mff": {
+  "groups": [
+   [
+    "rand15",
+    "seed=0",
+    "seed=12345",
+    "seed=2",
+    "seed=3",
+    "seed=42",
+    "unseeded"
+   ]
+  ],
+  "variants": {
+   "rand15": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 51,
+    "wall_s": 2.32,
+    "group": 0
+   },
+   "seed=0": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 51,
+    "wall_s": 2.19,
+    "group": 0
+   },
+   "seed=12345": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 51,
+    "wall_s": 2.23,
+    "group": 0
+   },
+   "seed=2": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 51,
+    "wall_s": 2.22,
+    "group": 0
+   },
+   "seed=3": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 51,
+    "wall_s": 2.27,
+    "group": 0
+   },
+   "seed=42": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 51,
+    "wall_s": 2.27,
+    "group": 0
+   },
+   "unseeded": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 51,
+    "wall_s": 2.19,
+    "group": 0
+   }
+  }
+ },
+ "ipc/ipc-2002/satellite-numeric-automatic/17/mff-s0": {
+  "groups": [
+   [
+    "rand15",
+    "seed=0",
+    "seed=12345",
+    "seed=2",
+    "seed=3",
+    "seed=42",
+    "unseeded"
+   ]
+  ],
+  "variants": {
+   "rand15": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 51,
+    "wall_s": 2.19,
+    "group": 0
+   },
+   "seed=0": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 51,
+    "wall_s": 2.83,
+    "group": 0
+   },
+   "seed=12345": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 51,
+    "wall_s": 2.29,
+    "group": 0
+   },
+   "seed=2": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 51,
+    "wall_s": 2.71,
+    "group": 0
+   },
+   "seed=3": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 51,
+    "wall_s": 2.52,
+    "group": 0
+   },
+   "seed=42": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 51,
+    "wall_s": 2.18,
+    "group": 0
+   },
+   "unseeded": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 51,
+    "wall_s": 2.88,
+    "group": 0
+   }
+  }
+ },
+ "ipc/ipc-2002/satellite-numeric-automatic/17/mff-s3": {
+  "groups": [
+   [
+    "rand15",
+    "seed=0",
+    "seed=12345",
+    "seed=2",
+    "seed=3",
+    "seed=42",
+    "unseeded"
+   ]
+  ],
+  "variants": {
+   "rand15": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.12,
+    "group": 0
+   },
+   "seed=0": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.12,
+    "group": 0
+   },
+   "seed=12345": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.12,
+    "group": 0
+   },
+   "seed=2": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.12,
+    "group": 0
+   },
+   "seed=3": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.12,
+    "group": 0
+   },
+   "seed=42": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.12,
+    "group": 0
+   },
+   "unseeded": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.12,
+    "group": 0
+   }
+  }
+ },
+ "ipc/ipc-2002/satellite-numeric-automatic/17/mff-s4": {
+  "groups": [
+   [
+    "rand15",
+    "seed=0",
+    "seed=12345",
+    "unseeded"
+   ],
+   [
+    "seed=2"
+   ],
+   [
+    "seed=3",
+    "seed=42"
+   ]
+  ],
+  "variants": {
+   "rand15": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.12,
+    "group": 0
+   },
+   "seed=0": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "seed=12345": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.12,
+    "group": 0
+   },
+   "seed=2": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.12,
+    "group": 1
+   },
+   "seed=3": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 2
+   },
+   "seed=42": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.12,
+    "group": 2
+   },
+   "unseeded": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.12,
+    "group": 0
+   }
+  }
+ },
+ "ipc/ipc-2002/satellite-numeric-automatic/18/mff": {
+  "groups": [
+   [
+    "rand15",
+    "seed=0",
+    "seed=12345",
+    "seed=2",
+    "seed=3",
+    "seed=42",
+    "unseeded"
+   ]
+  ],
+  "variants": {
+   "rand15": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.19,
+    "group": 0
+   },
+   "seed=0": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.18,
+    "group": 0
+   },
+   "seed=12345": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.17,
+    "group": 0
+   },
+   "seed=2": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.17,
+    "group": 0
+   },
+   "seed=3": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.17,
+    "group": 0
+   },
+   "seed=42": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.17,
+    "group": 0
+   },
+   "unseeded": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.17,
+    "group": 0
+   }
+  }
+ },
+ "ipc/ipc-2002/satellite-numeric-automatic/18/mff-s0": {
+  "groups": [
+   [
+    "rand15",
+    "seed=0",
+    "seed=12345",
+    "seed=2",
+    "seed=3",
+    "seed=42",
+    "unseeded"
+   ]
+  ],
+  "variants": {
+   "rand15": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.17,
+    "group": 0
+   },
+   "seed=0": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.18,
+    "group": 0
+   },
+   "seed=12345": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.17,
+    "group": 0
+   },
+   "seed=2": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.17,
+    "group": 0
+   },
+   "seed=3": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.17,
+    "group": 0
+   },
+   "seed=42": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.17,
+    "group": 0
+   },
+   "unseeded": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.18,
+    "group": 0
+   }
+  }
+ },
+ "ipc/ipc-2002/satellite-numeric-automatic/18/mff-s3": {
+  "groups": [
+   [
+    "rand15",
+    "seed=0",
+    "seed=12345",
+    "seed=2",
+    "seed=3",
+    "seed=42",
+    "unseeded"
+   ]
+  ],
+  "variants": {
+   "rand15": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "seed=0": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "seed=12345": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.12,
+    "group": 0
+   },
+   "seed=2": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "seed=3": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "seed=42": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.12,
+    "group": 0
+   },
+   "unseeded": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   }
+  }
+ },
+ "ipc/ipc-2002/satellite-numeric-automatic/18/mff-s4": {
+  "groups": [
+   [
+    "rand15",
+    "seed=0",
+    "seed=42",
+    "unseeded"
+   ],
+   [
+    "seed=2",
+    "seed=3"
+   ],
+   [
+    "seed=12345"
+   ]
+  ],
+  "variants": {
+   "rand15": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "seed=0": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "seed=12345": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 2
+   },
+   "seed=2": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 1
+   },
+   "seed=3": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 1
+   },
+   "seed=42": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "unseeded": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   }
+  }
+ },
+ "ipc/ipc-2002/satellite-numeric-automatic/19/mff": {
+  "groups": [
+   [
+    "rand15",
+    "seed=0",
+    "seed=12345",
+    "seed=2",
+    "seed=3",
+    "seed=42",
+    "unseeded"
+   ]
+  ],
+  "variants": {
+   "rand15": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.2,
+    "group": 0
+   },
+   "seed=0": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.19,
+    "group": 0
+   },
+   "seed=12345": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.19,
+    "group": 0
+   },
+   "seed=2": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.19,
+    "group": 0
+   },
+   "seed=3": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.19,
+    "group": 0
+   },
+   "seed=42": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.19,
+    "group": 0
+   },
+   "unseeded": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.19,
+    "group": 0
+   }
+  }
+ },
+ "ipc/ipc-2002/satellite-numeric-automatic/19/mff-s0": {
+  "groups": [
+   [
+    "rand15",
+    "seed=0",
+    "seed=12345",
+    "seed=2",
+    "seed=3",
+    "seed=42",
+    "unseeded"
+   ]
+  ],
+  "variants": {
+   "rand15": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.19,
+    "group": 0
+   },
+   "seed=0": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.19,
+    "group": 0
+   },
+   "seed=12345": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.18,
+    "group": 0
+   },
+   "seed=2": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.18,
+    "group": 0
+   },
+   "seed=3": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.18,
+    "group": 0
+   },
+   "seed=42": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.19,
+    "group": 0
+   },
+   "unseeded": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.19,
+    "group": 0
+   }
+  }
+ },
+ "ipc/ipc-2002/satellite-numeric-automatic/19/mff-s3": {
+  "groups": [
+   [
+    "rand15",
+    "seed=0",
+    "seed=12345",
+    "seed=2",
+    "seed=3",
+    "seed=42",
+    "unseeded"
+   ]
+  ],
+  "variants": {
+   "rand15": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "seed=0": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "seed=12345": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.12,
+    "group": 0
+   },
+   "seed=2": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "seed=3": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "seed=42": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "unseeded": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.12,
+    "group": 0
+   }
+  }
+ },
+ "ipc/ipc-2002/satellite-numeric-automatic/19/mff-s4": {
+  "groups": [
+   [
+    "rand15",
+    "seed=0",
+    "seed=12345",
+    "seed=42",
+    "unseeded"
+   ],
+   [
+    "seed=2"
+   ],
+   [
+    "seed=3"
+   ]
+  ],
+  "variants": {
+   "rand15": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "seed=0": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "seed=12345": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "seed=2": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 1
+   },
+   "seed=3": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 2
+   },
+   "seed=42": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "unseeded": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   }
+  }
+ },
+ "ipc/ipc-2002/satellite-numeric-automatic/20/mff-s4": {
+  "groups": [
+   [
+    "rand15",
+    "seed=0",
+    "unseeded"
+   ],
+   [
+    "seed=12345",
+    "seed=2"
+   ],
+   [
+    "seed=3"
+   ],
+   [
+    "seed=42"
+   ]
+  ],
+  "variants": {
+   "rand15": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "seed=0": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   },
+   "seed=12345": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 1
+   },
+   "seed=2": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 1
+   },
+   "seed=3": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 2
+   },
+   "seed=42": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 3
+   },
+   "unseeded": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 0
+   }
+  }
+ },
+ "ipc/ipc-2002/settlers-numeric-automatic/20/mff-s0": {
+  "groups": [
+   [
+    "rand15",
+    "seed=0",
+    "seed=12345",
+    "seed=2",
+    "seed=3",
+    "seed=42",
+    "unseeded"
+   ]
+  ],
+  "variants": {
+   "rand15": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.12,
+    "group": 0
+   },
+   "seed=0": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.07,
+    "group": 0
+   },
+   "seed=12345": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.09,
+    "group": 0
+   },
+   "seed=2": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.07,
+    "group": 0
+   },
+   "seed=3": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.06,
+    "group": 0
+   },
+   "seed=42": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.07,
+    "group": 0
+   },
+   "unseeded": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.1,
+    "group": 0
+   }
+  }
+ },
+ "ipc/ipc-2002/zenotravel-numeric-automatic/05/mff-s4": {
+  "groups": [
+   [
+    "rand15",
+    "seed=0",
+    "unseeded"
+   ],
+   [
+    "seed=2",
+    "seed=3",
+    "seed=42"
+   ],
+   [
+    "seed=12345"
+   ]
+  ],
+  "variants": {
+   "rand15": {
+    "outcome": "search-failed",
+    "timed_out": false,
+    "plan_len": null,
+    "wall_s": 0.01,
+    "group": 0
+   },
+   "seed=0": {
+    "outcome": "search-failed",
+    "timed_out": false,
+    "plan_len": null,
+    "wall_s": 0.01,
+    "group": 0
+   },
+   "seed=12345": {
+    "outcome": "search-failed",
+    "timed_out": false,
+    "plan_len": null,
+    "wall_s": 0.01,
+    "group": 2
+   },
+   "seed=2": {
+    "outcome": "search-failed",
+    "timed_out": false,
+    "plan_len": null,
+    "wall_s": 0.01,
+    "group": 1
+   },
+   "seed=3": {
+    "outcome": "search-failed",
+    "timed_out": false,
+    "plan_len": null,
+    "wall_s": 0.01,
+    "group": 1
+   },
+   "seed=42": {
+    "outcome": "search-failed",
+    "timed_out": false,
+    "plan_len": null,
+    "wall_s": 0.01,
+    "group": 1
+   },
+   "unseeded": {
+    "outcome": "search-failed",
+    "timed_out": false,
+    "plan_len": null,
+    "wall_s": 0.01,
+    "group": 0
+   }
+  }
+ },
+ "ipc/ipc-2002/zenotravel-numeric-automatic/10/mff-s4": {
+  "groups": [
+   [
+    "rand15",
+    "seed=0",
+    "unseeded"
+   ],
+   [
+    "seed=2"
+   ],
+   [
+    "seed=3"
+   ],
+   [
+    "seed=12345",
+    "seed=42"
+   ]
+  ],
+  "variants": {
+   "rand15": {
+    "outcome": "search-failed",
+    "timed_out": false,
+    "plan_len": null,
+    "wall_s": 0.02,
+    "group": 0
+   },
+   "seed=0": {
+    "outcome": "search-failed",
+    "timed_out": false,
+    "plan_len": null,
+    "wall_s": 0.02,
+    "group": 0
+   },
+   "seed=12345": {
+    "outcome": "search-failed",
+    "timed_out": false,
+    "plan_len": null,
+    "wall_s": 0.02,
+    "group": 3
+   },
+   "seed=2": {
+    "outcome": "search-failed",
+    "timed_out": false,
+    "plan_len": null,
+    "wall_s": 0.02,
+    "group": 1
+   },
+   "seed=3": {
+    "outcome": "search-failed",
+    "timed_out": false,
+    "plan_len": null,
+    "wall_s": 0.02,
+    "group": 2
+   },
+   "seed=42": {
+    "outcome": "search-failed",
+    "timed_out": false,
+    "plan_len": null,
+    "wall_s": 0.02,
+    "group": 3
+   },
+   "unseeded": {
+    "outcome": "search-failed",
+    "timed_out": false,
+    "plan_len": null,
+    "wall_s": 0.02,
+    "group": 0
+   }
+  }
+ },
+ "ipc/ipc-2002/zenotravel-numeric-automatic/12/mff-s4": {
+  "groups": [
+   [
+    "rand15",
+    "seed=0",
+    "unseeded"
+   ],
+   [
+    "seed=2"
+   ],
+   [
+    "seed=3"
+   ],
+   [
+    "seed=42"
+   ],
+   [
+    "seed=12345"
+   ]
+  ],
+  "variants": {
+   "rand15": {
+    "outcome": "search-failed",
+    "timed_out": false,
+    "plan_len": null,
+    "wall_s": 3.51,
+    "group": 0
+   },
+   "seed=0": {
+    "outcome": "search-failed",
+    "timed_out": false,
+    "plan_len": null,
+    "wall_s": 3.16,
+    "group": 0
+   },
+   "seed=12345": {
+    "outcome": "search-failed",
+    "timed_out": false,
+    "plan_len": null,
+    "wall_s": 3.47,
+    "group": 4
+   },
+   "seed=2": {
+    "outcome": "search-failed",
+    "timed_out": false,
+    "plan_len": null,
+    "wall_s": 2.94,
+    "group": 1
+   },
+   "seed=3": {
+    "outcome": "search-failed",
+    "timed_out": false,
+    "plan_len": null,
+    "wall_s": 2.82,
+    "group": 2
+   },
+   "seed=42": {
+    "outcome": "search-failed",
+    "timed_out": false,
+    "plan_len": null,
+    "wall_s": 3.12,
+    "group": 3
+   },
+   "unseeded": {
+    "outcome": "search-failed",
+    "timed_out": false,
+    "plan_len": null,
+    "wall_s": 3.29,
+    "group": 0
+   }
+  }
+ },
+ "ipc/ipc-2002/zenotravel-numeric-automatic/13/mff-s4": {
+  "groups": [
+   [
+    "rand15",
+    "seed=0",
+    "unseeded"
+   ],
+   [
+    "seed=2"
+   ],
+   [
+    "seed=3"
+   ],
+   [
+    "seed=42"
+   ],
+   [
+    "seed=12345"
+   ]
+  ],
+  "variants": {
+   "rand15": {
+    "outcome": "search-failed",
+    "timed_out": false,
+    "plan_len": null,
+    "wall_s": 0.1,
+    "group": 0
+   },
+   "seed=0": {
+    "outcome": "search-failed",
+    "timed_out": false,
+    "plan_len": null,
+    "wall_s": 0.1,
+    "group": 0
+   },
+   "seed=12345": {
+    "outcome": "search-failed",
+    "timed_out": false,
+    "plan_len": null,
+    "wall_s": 0.1,
+    "group": 4
+   },
+   "seed=2": {
+    "outcome": "search-failed",
+    "timed_out": false,
+    "plan_len": null,
+    "wall_s": 0.08,
+    "group": 1
+   },
+   "seed=3": {
+    "outcome": "search-failed",
+    "timed_out": false,
+    "plan_len": null,
+    "wall_s": 0.1,
+    "group": 2
+   },
+   "seed=42": {
+    "outcome": "search-failed",
+    "timed_out": false,
+    "plan_len": null,
+    "wall_s": 0.1,
+    "group": 3
+   },
+   "unseeded": {
+    "outcome": "search-failed",
+    "timed_out": false,
+    "plan_len": null,
+    "wall_s": 0.1,
+    "group": 0
+   }
+  }
+ },
+ "ipc/ipc-2002/zenotravel-numeric-automatic/18/mff-s4": {
+  "groups": [
+   [
+    "rand15",
+    "seed=0",
+    "seed=12345",
+    "seed=2",
+    "unseeded"
+   ],
+   [
+    "seed=3",
+    "seed=42"
+   ]
+  ],
+  "variants": {
+   "rand15": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.12,
+    "group": 0
+   },
+   "seed=0": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.12,
+    "group": 0
+   },
+   "seed=12345": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.12,
+    "group": 0
+   },
+   "seed=2": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.12,
+    "group": 0
+   },
+   "seed=3": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.12,
+    "group": 1
+   },
+   "seed=42": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.12,
+    "group": 1
+   },
+   "unseeded": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.12,
+    "group": 0
+   }
+  }
+ },
+ "ipc/ipc-2002/zenotravel-numeric-automatic/19/mff-s4": {
+  "groups": [
+   [
+    "rand15",
+    "seed=0",
+    "unseeded"
+   ],
+   [
+    "seed=2"
+   ],
+   [
+    "seed=12345",
+    "seed=3",
+    "seed=42"
+   ]
+  ],
+  "variants": {
+   "rand15": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.12,
+    "group": 0
+   },
+   "seed=0": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.12,
+    "group": 0
+   },
+   "seed=12345": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.12,
+    "group": 2
+   },
+   "seed=2": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 1
+   },
+   "seed=3": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.11,
+    "group": 2
+   },
+   "seed=42": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.12,
+    "group": 2
+   },
+   "unseeded": {
+    "outcome": "timeout",
+    "timed_out": true,
+    "plan_len": null,
+    "wall_s": 120.12,
+    "group": 0
+   }
+  }
+ },
+ "synthetic/numeric/ties-tour/mff-s4": {
+  "groups": [
+   [
+    "rand15",
+    "seed=0",
+    "unseeded"
+   ],
+   [
+    "seed=42"
+   ],
+   [
+    "seed=12345"
+   ],
+   [
+    "seed=2"
+   ],
+   [
+    "seed=3"
+   ]
+  ],
+  "variants": {
+   "rand15": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 14,
+    "wall_s": 0.01,
+    "group": 0
+   },
+   "seed=0": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 14,
+    "wall_s": 0.0,
+    "group": 0
+   },
+   "seed=12345": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 16,
+    "wall_s": 0.02,
+    "group": 2
+   },
+   "seed=2": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 18,
+    "wall_s": 0.02,
+    "group": 3
+   },
+   "seed=3": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 14,
+    "wall_s": 0.02,
+    "group": 4
+   },
+   "seed=42": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 20,
+    "wall_s": 0.01,
+    "group": 1
+   },
+   "unseeded": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 14,
+    "wall_s": 0.01,
+    "group": 0
+   }
+  }
+ },
+ "synthetic/numeric/ties-tour/mff-s4-b8": {
+  "groups": [
+   [
+    "rand15",
+    "seed=0",
+    "unseeded"
+   ],
+   [
+    "seed=2"
+   ],
+   [
+    "seed=42"
+   ],
+   [
+    "seed=3"
+   ],
+   [
+    "seed=12345"
+   ]
+  ],
+  "variants": {
+   "rand15": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 14,
+    "wall_s": 0.01,
+    "group": 0
+   },
+   "seed=0": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 14,
+    "wall_s": 0.01,
+    "group": 0
+   },
+   "seed=12345": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 16,
+    "wall_s": 0.01,
+    "group": 4
+   },
+   "seed=2": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 18,
+    "wall_s": 0.01,
+    "group": 1
+   },
+   "seed=3": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 14,
+    "wall_s": 0.01,
+    "group": 3
+   },
+   "seed=42": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 20,
+    "wall_s": 0.01,
+    "group": 2
+   },
+   "unseeded": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 14,
+    "wall_s": 0.01,
+    "group": 0
+   }
+  }
+ },
+ "synthetic/numeric/ties/mff-s4": {
+  "groups": [
+   [
+    "rand15",
+    "seed=0",
+    "seed=42",
+    "unseeded"
+   ],
+   [
+    "seed=3"
+   ],
+   [
+    "seed=2"
+   ],
+   [
+    "seed=12345"
+   ]
+  ],
+  "variants": {
+   "rand15": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 4,
+    "wall_s": 0.01,
+    "group": 0
+   },
+   "seed=0": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 4,
+    "wall_s": 0.01,
+    "group": 0
+   },
+   "seed=12345": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 4,
+    "wall_s": 0.01,
+    "group": 3
+   },
+   "seed=2": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 4,
+    "wall_s": 0.01,
+    "group": 2
+   },
+   "seed=3": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 4,
+    "wall_s": 0.01,
+    "group": 1
+   },
+   "seed=42": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 4,
+    "wall_s": 0.02,
+    "group": 0
+   },
+   "unseeded": {
+    "outcome": "plan-found",
+    "timed_out": false,
+    "plan_len": 4,
+    "wall_s": 0.01,
+    "group": 0
+   }
+  }
+ }
+}

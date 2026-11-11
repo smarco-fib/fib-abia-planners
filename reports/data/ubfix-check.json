@@ -1,0 +1,7437 @@
+{
+ "host": {
+  "platform": "Linux-6.8.0-86-generic-x86_64-with-glibc2.35",
+  "machine": "x86_64",
+  "python": "3.10.12"
+ },
+ "results": [
+  {
+   "run": "examples/hanoi/hanoi-3/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/hanoi/hanoi-3/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/hanoi/hanoi-3/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/hanoi/hanoi-4/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/hanoi/hanoi-4/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/hanoi/hanoi-4/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/hanoi/hanoi-5/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/hanoi/hanoi-5/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/hanoi/hanoi-5/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/hanoi/hanoi-6/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/hanoi/hanoi-6/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/hanoi/hanoi-6/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/hanoi/hanoi-7/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/hanoi/hanoi-7/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/hanoi/hanoi-8/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/ascensor/miconic01/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/ascensor/miconic01/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/ascensor/miconic01/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/ascensor/miconic02/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/ascensor/miconic02/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/hanoi/hanoi-7/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/ascensor/miconic02/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/ascensor/miconic03/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/ascensor/miconic03/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/ascensor/miconic03/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/ascensor/miconic04/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/ascensor/miconic04/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/ascensor/miconic04/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/ascensor/miconic05/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/hanoi/hanoi-8/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/logistics/log-3-2/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/logistics/log-3-2/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/ascensor/miconic05/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/logistics/log-3-2/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/n-puzzle/eight01/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/ascensor/miconic05/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/n-puzzle/eight01/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/rovers/pfile01/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/rovers/pfile01/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/rovers/pfile01/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/rovers/pfile02/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/rovers/pfile02/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/rovers/pfile02/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/rovers/pfile03/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/rovers/pfile03/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/rovers/pfile03/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/rovers/pfile04/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/rovers/pfile04/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/rovers/pfile04/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/n-puzzle/eight01/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/rovers/pfile05/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/rovers/pfile05/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/rovers/pfile05/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/rovers/pfile06/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/rovers/pfile06/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/hanoi/hanoi-8/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/rovers/pfile07/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/rovers/pfile07/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/rovers/pfile06/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/rovers/pfile07/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/rovers/pfile08/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/rovers/pfile08/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/rovers/pfile09/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/rovers/pfile08/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/rovers/pfile09/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/rovers/pfile10/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/rovers/pfile09/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/rovers/pfile10/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/rovers/pfile11/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/rovers/pfile11/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/rovers/pfile12/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/rovers/pfile10/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/rovers/pfile12/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/rovers/pfile11/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/rovers/pfile12/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/rovers/pfile13/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/rovers/pfile14/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/rovers/pfile13/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/rovers/pfile14/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/rovers/pfile14/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/rovers/pfile15/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/rovers/pfile15/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/rovers/pfile15/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/rovers/pfile16/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/rovers/pfile16/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/rovers/pfile13/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/rovers/pfile17/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/rovers/pfile16/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/rovers/pfile17/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/rovers/pfile18/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/rovers/pfile18/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/rovers/pfile17/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/rovers/pfile19/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/rovers/pfile18/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/rovers/pfile19/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/rovers/pfile20/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/tsp/tsp-10/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/tsp/tsp-10/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/tsp/tsp-10/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/unsolvable/goal-false/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/unsolvable/goal-false/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/unsolvable/goal-false/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/unsolvable/goal-false/mff-s1",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/unsolvable/goal-false/mff-s2",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/unsolvable/goal-false/mff-s3",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/unsolvable/goal-false/mff-s4",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/unsolvable/exhaustive/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/unsolvable/exhaustive/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/unsolvable/exhaustive/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/unsolvable/exhaustive/mff-s1",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/unsolvable/exhaustive/mff-s2",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/unsolvable/exhaustive/mff-s4",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/rovers/pfile20/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/malformed/ok/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/malformed/ok/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/malformed/ok/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/malformed/syntax-error/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/malformed/syntax-error/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/malformed/syntax-error/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/malformed/undefined-predicate/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/malformed/undefined-predicate/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/malformed/undefined-predicate/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/malformed/wrong-arity/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/malformed/wrong-arity/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/malformed/wrong-arity/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/malformed/unknown-type/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/malformed/unknown-type/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/malformed/unknown-type/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/malformed/unknown-constant/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/malformed/unknown-constant/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/malformed/unknown-constant/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/malformed/wrong-domain-name/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/malformed/wrong-domain-name/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/malformed/wrong-domain-name/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/malformed/syntax-error-domain/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/malformed/syntax-error-domain/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/malformed/syntax-error-domain/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/malformed/missing-problem-file/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/malformed/missing-problem-file/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/malformed/missing-problem-file/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/malformed/missing-domain-file/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/malformed/missing-domain-file/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/malformed/missing-domain-file/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/repeated-args/minimal/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/repeated-args/minimal/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/repeated-args/minimal/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/student-input/bom-domain/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/student-input/bom-domain/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/student-input/bom-domain/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/student-input/bom-problem/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/student-input/bom-problem/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/student-input/bom-problem/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/student-input/utf8-comments/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/student-input/utf8-comments/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/student-input/utf8-comments/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/student-input/mixed-case/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/student-input/mixed-case/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/student-input/mixed-case/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/student-input/crlf-domain/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/student-input/crlf-domain/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/student-input/crlf-domain/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/student-input/crlf-problem/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/student-input/crlf-problem/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/student-input/crlf-problem/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/student-input/no-extension/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/student-input/no-extension/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/student-input/no-extension/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/student-input/no-final-newline/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/student-input/no-final-newline/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/student-input/no-final-newline/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/student-input/path-with-spaces-accents/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/student-input/path-with-spaces-accents/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/student-input/path-with-spaces-accents/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/student-input/cwd-with-spaces-accents/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/student-input/cwd-with-spaces-accents/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/student-input/cwd-with-spaces-accents/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/numeric/ties/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/numeric/ties/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/numeric/ties/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/numeric/ties/mff-s1",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/numeric/ties/mff-s2",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/numeric/ties/mff-s3",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/numeric/ties/mff-s4",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/numeric/ties/mff-w1",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/numeric/ties/mff-C",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/numeric/ties/mff-b4",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/numeric/ties/mff-b3",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/numeric/ties-tour/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/numeric/ties-tour/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/numeric/ties-tour/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/numeric/ties-tour/mff-s1",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/numeric/ties-tour/mff-s2",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/numeric/ties-tour/mff-s3",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/numeric/ties-tour/mff-s4",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/numeric/ties-tour/mff-w1",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/numeric/ties-tour/mff-C",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/numeric/ties-tour/mff-s4-b8",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/numeric/no-fuel/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/numeric/no-fuel/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/numeric/no-fuel/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/numeric/no-fuel/mff-s1",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/numeric/no-fuel/mff-s2",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/numeric/no-fuel/mff-s3",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/numeric/no-fuel/mff-s4",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/numeric/no-fuel/mff-w1",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/numeric/no-fuel/mff-C",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/cli/unknown-option-r/mff-r1",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/cli/bad-search-config/mff-s9",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/cli/negative-bound/mff-bneg",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/cli/ff-s-option/ff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/cli/info-level-0/ff-i0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/cli/info-level-0/mff-i0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/cli/path-option/ff-p",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/cli/path-option/mff-p",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/gripper-round-1-strips/01/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/gripper-round-1-strips/01/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/gripper-round-1-strips/01/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/gripper-round-1-strips/02/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/gripper-round-1-strips/02/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/gripper-round-1-strips/02/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/gripper-round-1-strips/03/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/gripper-round-1-strips/03/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/gripper-round-1-strips/03/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/gripper-round-1-strips/04/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/gripper-round-1-strips/04/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/gripper-round-1-strips/04/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/gripper-round-1-strips/05/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/gripper-round-1-strips/05/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/gripper-round-1-strips/05/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/gripper-round-1-strips/06/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/gripper-round-1-strips/06/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/gripper-round-1-strips/06/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/gripper-round-1-strips/07/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/gripper-round-1-strips/07/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/gripper-round-1-strips/07/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/gripper-round-1-strips/08/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/gripper-round-1-strips/08/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/gripper-round-1-strips/08/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/gripper-round-1-strips/09/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/gripper-round-1-strips/09/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/gripper-round-1-strips/09/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/gripper-round-1-strips/10/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/gripper-round-1-strips/10/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/rovers/pfile19/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/gripper-round-1-strips/10/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/gripper-round-1-strips/11/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/gripper-round-1-strips/11/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/gripper-round-1-strips/11/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/gripper-round-1-strips/12/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/gripper-round-1-strips/12/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/gripper-round-1-adl/01/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/gripper-round-1-adl/01/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/gripper-round-1-strips/12/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/gripper-round-1-adl/01/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/gripper-round-1-adl/02/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/gripper-round-1-adl/02/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/gripper-round-1-adl/02/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/gripper-round-1-adl/03/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/gripper-round-1-adl/03/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/gripper-round-1-adl/03/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/gripper-round-1-adl/04/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/gripper-round-1-adl/04/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/gripper-round-1-adl/04/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/gripper-round-1-adl/05/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/gripper-round-1-adl/05/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/gripper-round-1-adl/06/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/gripper-round-1-adl/05/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/gripper-round-1-adl/06/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/gripper-round-1-adl/06/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/gripper-round-1-adl/07/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/gripper-round-1-adl/07/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/gripper-round-1-adl/07/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/gripper-round-1-adl/08/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/gripper-round-1-adl/08/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/gripper-round-1-adl/08/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/gripper-round-1-adl/09/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/gripper-round-1-adl/09/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/gripper-round-1-adl/09/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/gripper-round-1-adl/10/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/gripper-round-1-adl/10/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/gripper-round-1-adl/10/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/gripper-round-1-adl/11/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/gripper-round-1-adl/11/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/gripper-round-1-adl/12/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/gripper-round-1-adl/11/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/gripper-round-1-adl/12/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/gripper-round-1-adl/12/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/assembly-round-1-adl/01/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/assembly-round-1-adl/01/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/assembly-round-1-adl/01/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/assembly-round-1-adl/02/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/assembly-round-1-adl/02/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/assembly-round-1-adl/02/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/assembly-round-1-adl/03/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/assembly-round-1-adl/03/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/assembly-round-1-adl/03/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/assembly-round-1-adl/04/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/assembly-round-1-adl/04/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/assembly-round-1-adl/04/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/assembly-round-1-adl/05/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/assembly-round-1-adl/05/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/assembly-round-1-adl/05/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/assembly-round-1-adl/06/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/assembly-round-1-adl/06/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/assembly-round-1-adl/06/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/assembly-round-1-adl/07/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/assembly-round-1-adl/07/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/assembly-round-1-adl/07/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/assembly-round-1-adl/08/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/assembly-round-1-adl/08/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/assembly-round-1-adl/08/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "examples/rovers/pfile20/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/assembly-round-1-adl/09/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/assembly-round-1-adl/09/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/assembly-round-1-adl/09/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/assembly-round-1-adl/10/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/assembly-round-1-adl/10/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/assembly-round-1-adl/10/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/assembly-round-1-adl/11/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/assembly-round-1-adl/11/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/assembly-round-1-adl/11/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/assembly-round-1-adl/12/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/assembly-round-1-adl/12/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/movie-round-1-adl/01/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/movie-round-1-adl/01/mff-s0",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-1998/movie-round-1-adl/01/mff",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-1998/movie-round-1-adl/02/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/movie-round-1-adl/02/mff-s0",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-1998/movie-round-1-adl/02/mff",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-1998/movie-round-1-adl/03/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/assembly-round-1-adl/12/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/movie-round-1-adl/03/mff-s0",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-1998/movie-round-1-adl/03/mff",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-1998/movie-round-1-adl/04/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/movie-round-1-adl/04/mff-s0",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-1998/movie-round-1-adl/04/mff",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-1998/movie-round-1-adl/05/mff-s0",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-1998/movie-round-1-adl/05/mff",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-1998/movie-round-1-adl/05/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/movie-round-1-adl/06/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/movie-round-1-adl/06/mff",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-1998/movie-round-1-adl/06/mff-s0",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-1998/movie-round-1-adl/07/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/movie-round-1-adl/07/mff",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-1998/movie-round-1-adl/07/mff-s0",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-1998/movie-round-1-adl/08/mff-s0",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-1998/movie-round-1-adl/08/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/movie-round-1-adl/08/mff",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-1998/movie-round-1-adl/09/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/movie-round-1-adl/10/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/movie-round-1-adl/09/mff",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-1998/movie-round-1-adl/09/mff-s0",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-1998/movie-round-1-adl/10/mff-s0",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-1998/movie-round-1-adl/10/mff",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-1998/movie-round-1-adl/11/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/movie-round-1-adl/11/mff",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-1998/movie-round-1-adl/11/mff-s0",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-1998/movie-round-1-adl/12/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/movie-round-1-adl/12/mff",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-1998/mystery-round-1-adl/01/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/movie-round-1-adl/12/mff-s0",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-1998/mystery-round-1-adl/01/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/mystery-round-1-adl/02/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/mystery-round-1-adl/01/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/mystery-round-1-adl/02/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/mystery-round-1-adl/02/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/mystery-round-1-adl/03/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/mystery-round-1-adl/03/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/mystery-round-1-adl/03/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/mystery-round-1-adl/04/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/mystery-round-1-adl/04/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/mystery-round-1-adl/04/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/mystery-round-1-adl/05/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/mystery-round-1-adl/05/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/mystery-round-1-adl/05/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/mystery-round-1-adl/06/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/mystery-round-1-adl/07/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/mystery-round-1-adl/06/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/mystery-round-1-adl/06/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/mystery-round-1-adl/07/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/mystery-round-1-adl/08/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/mystery-round-1-adl/07/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/mystery-round-1-adl/08/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/mystery-round-1-adl/08/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/mystery-round-1-adl/09/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/mystery-round-1-adl/09/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/mystery-round-1-adl/09/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/mystery-round-1-adl/10/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/mystery-round-1-adl/10/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/mystery-round-1-adl/10/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/mystery-round-1-adl/11/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/mystery-round-1-adl/11/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/mystery-round-1-adl/12/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/mystery-round-1-adl/11/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/mystery-round-1-adl/12/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-1998/mystery-round-1-adl/12/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/blocks-strips-typed/01/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/blocks-strips-typed/01/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/blocks-strips-typed/01/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/blocks-strips-typed/02/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/blocks-strips-typed/02/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/blocks-strips-typed/02/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/blocks-strips-typed/03/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/blocks-strips-typed/03/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/blocks-strips-typed/03/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/blocks-strips-typed/04/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/blocks-strips-typed/04/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/blocks-strips-typed/04/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/blocks-strips-typed/05/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/blocks-strips-typed/05/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/blocks-strips-typed/05/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/blocks-strips-typed/06/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/blocks-strips-typed/06/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/blocks-strips-typed/06/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/blocks-strips-typed/07/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/blocks-strips-typed/07/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/blocks-strips-typed/07/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/blocks-strips-typed/08/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/blocks-strips-typed/08/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/blocks-strips-typed/08/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/blocks-strips-typed/09/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/blocks-strips-typed/09/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/blocks-strips-typed/10/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/blocks-strips-typed/10/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/blocks-strips-typed/11/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/blocks-strips-typed/11/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/blocks-strips-typed/11/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/blocks-strips-typed/09/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/blocks-strips-typed/12/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/blocks-strips-typed/12/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/elevator-adl-full-typed/01/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/elevator-adl-full-typed/01/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/elevator-adl-full-typed/01/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/elevator-adl-full-typed/02/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/elevator-adl-full-typed/02/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/blocks-strips-typed/12/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/elevator-adl-full-typed/03/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/elevator-adl-full-typed/02/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/elevator-adl-full-typed/03/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/elevator-adl-full-typed/03/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/elevator-adl-full-typed/04/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/elevator-adl-full-typed/04/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/elevator-adl-full-typed/04/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/elevator-adl-full-typed/05/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/elevator-adl-full-typed/05/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/elevator-adl-full-typed/05/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/elevator-adl-full-typed/06/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/elevator-adl-full-typed/06/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/elevator-adl-full-typed/07/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/elevator-adl-full-typed/06/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/elevator-adl-full-typed/07/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/elevator-adl-full-typed/07/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/elevator-adl-full-typed/08/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/elevator-adl-full-typed/08/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/elevator-adl-full-typed/08/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/elevator-adl-full-typed/09/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/elevator-adl-full-typed/09/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/elevator-adl-full-typed/09/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/elevator-adl-full-typed/10/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/elevator-adl-full-typed/10/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/elevator-adl-full-typed/10/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/elevator-adl-full-typed/11/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/elevator-adl-full-typed/11/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/elevator-adl-full-typed/12/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/elevator-adl-full-typed/11/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/elevator-adl-full-typed/12/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/elevator-adl-full-typed/12/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/elevator-adl-simple-typed/01/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/elevator-adl-simple-typed/01/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/elevator-adl-simple-typed/01/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/elevator-adl-simple-typed/02/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/elevator-adl-simple-typed/02/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/elevator-adl-simple-typed/02/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/elevator-adl-simple-typed/03/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/elevator-adl-simple-typed/03/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/elevator-adl-simple-typed/03/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/blocks-strips-typed/10/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/elevator-adl-simple-typed/04/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/elevator-adl-simple-typed/04/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/elevator-adl-simple-typed/04/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/elevator-adl-simple-typed/05/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/elevator-adl-simple-typed/05/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/elevator-adl-simple-typed/05/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/elevator-adl-simple-typed/06/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/elevator-adl-simple-typed/06/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/elevator-adl-simple-typed/06/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/elevator-adl-simple-typed/07/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/elevator-adl-simple-typed/07/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/elevator-adl-simple-typed/07/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/elevator-adl-simple-typed/08/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/elevator-adl-simple-typed/08/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/elevator-adl-simple-typed/09/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/elevator-adl-simple-typed/08/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/elevator-adl-simple-typed/09/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/elevator-adl-simple-typed/09/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/elevator-adl-simple-typed/10/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/elevator-adl-simple-typed/11/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/elevator-adl-simple-typed/10/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/elevator-adl-simple-typed/10/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/elevator-adl-simple-typed/11/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/elevator-adl-simple-typed/11/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/elevator-adl-simple-typed/12/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/elevator-adl-simple-typed/12/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/elevator-adl-simple-typed/12/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/schedule-adl-typed/01/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/schedule-adl-typed/01/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/schedule-adl-typed/01/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/schedule-adl-typed/02/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/schedule-adl-typed/02/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/schedule-adl-typed/02/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/schedule-adl-typed/03/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/schedule-adl-typed/03/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/schedule-adl-typed/03/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/schedule-adl-typed/04/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/schedule-adl-typed/04/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/schedule-adl-typed/04/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/schedule-adl-typed/05/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/schedule-adl-typed/05/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/schedule-adl-typed/05/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/schedule-adl-typed/06/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/schedule-adl-typed/06/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/schedule-adl-typed/07/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/schedule-adl-typed/06/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/schedule-adl-typed/08/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/schedule-adl-typed/07/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/schedule-adl-typed/07/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/schedule-adl-typed/09/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/schedule-adl-typed/08/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/schedule-adl-typed/08/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/schedule-adl-typed/09/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/schedule-adl-typed/09/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/schedule-adl-typed/10/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/schedule-adl-typed/11/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/schedule-adl-typed/10/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/schedule-adl-typed/10/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/schedule-adl-typed/12/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/schedule-adl-typed/11/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/schedule-adl-typed/11/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/logistics-strips-typed/01/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/logistics-strips-typed/01/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/schedule-adl-typed/12/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/schedule-adl-typed/12/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/logistics-strips-typed/02/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/logistics-strips-typed/01/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/logistics-strips-typed/02/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/logistics-strips-typed/02/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/logistics-strips-typed/03/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/logistics-strips-typed/03/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/logistics-strips-typed/03/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/logistics-strips-typed/04/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/logistics-strips-typed/04/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/logistics-strips-typed/05/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/logistics-strips-typed/04/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/logistics-strips-typed/05/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/logistics-strips-typed/06/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/logistics-strips-typed/06/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/logistics-strips-typed/05/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/logistics-strips-typed/06/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/logistics-strips-typed/07/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/logistics-strips-typed/07/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/logistics-strips-typed/07/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/logistics-strips-typed/08/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/logistics-strips-typed/08/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/logistics-strips-typed/08/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/logistics-strips-typed/09/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/logistics-strips-typed/09/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/logistics-strips-typed/09/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/logistics-strips-typed/10/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/logistics-strips-typed/10/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/logistics-strips-typed/10/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/logistics-strips-typed/11/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/logistics-strips-typed/11/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/logistics-strips-typed/11/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/logistics-strips-typed/12/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/logistics-strips-typed/12/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/logistics-strips-typed/12/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/freecell-strips-typed/01/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/freecell-strips-typed/02/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/freecell-strips-typed/01/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/freecell-strips-typed/01/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/freecell-strips-typed/03/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/freecell-strips-typed/02/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/freecell-strips-typed/02/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/freecell-strips-typed/04/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/freecell-strips-typed/03/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/freecell-strips-typed/03/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/freecell-strips-typed/05/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/freecell-strips-typed/04/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/freecell-strips-typed/04/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/freecell-strips-typed/06/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/freecell-strips-typed/05/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/freecell-strips-typed/05/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/freecell-strips-typed/07/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/freecell-strips-typed/06/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/freecell-strips-typed/06/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/freecell-strips-typed/08/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/freecell-strips-typed/07/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/freecell-strips-typed/07/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/freecell-strips-typed/09/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/freecell-strips-typed/08/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/freecell-strips-typed/08/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/freecell-strips-typed/09/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/freecell-strips-typed/09/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/freecell-strips-typed/10/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/freecell-strips-typed/10/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/freecell-strips-typed/11/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/freecell-strips-typed/10/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/freecell-strips-typed/11/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/freecell-strips-typed/12/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/freecell-strips-typed/12/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/depots-strips-automatic/01/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/depots-strips-automatic/01/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/depots-strips-automatic/01/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/depots-strips-automatic/02/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/depots-strips-automatic/02/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/depots-strips-automatic/02/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/freecell-strips-typed/12/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/depots-strips-automatic/03/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/depots-strips-automatic/03/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/depots-strips-automatic/03/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/depots-strips-automatic/04/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2000/freecell-strips-typed/11/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/depots-strips-automatic/04/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/depots-strips-automatic/05/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/depots-strips-automatic/06/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/depots-strips-automatic/07/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/depots-strips-automatic/07/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/depots-strips-automatic/07/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/depots-strips-automatic/08/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/depots-strips-automatic/08/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/depots-strips-automatic/09/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/depots-strips-automatic/09/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/depots-strips-automatic/09/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "synthetic/unsolvable/exhaustive-wastar/mff-s3",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/depots-strips-automatic/10/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/depots-strips-automatic/10/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/depots-strips-automatic/11/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/depots-strips-automatic/11/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/depots-strips-automatic/11/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/depots-strips-automatic/12/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/depots-strips-automatic/10/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/depots-strips-automatic/12/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-strips-automatic/01/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-strips-automatic/01/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-strips-automatic/01/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-strips-automatic/02/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-strips-automatic/02/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-strips-automatic/02/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-strips-automatic/03/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-strips-automatic/03/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-strips-automatic/03/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-strips-automatic/04/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-strips-automatic/04/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-strips-automatic/04/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-strips-automatic/05/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-strips-automatic/05/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-strips-automatic/05/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-strips-automatic/06/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-strips-automatic/06/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/depots-strips-automatic/05/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-strips-automatic/06/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-strips-automatic/07/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-strips-automatic/07/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-strips-automatic/07/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-strips-automatic/08/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-strips-automatic/08/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-strips-automatic/09/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-strips-automatic/09/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-strips-automatic/09/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-strips-automatic/10/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-strips-automatic/08/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-strips-automatic/10/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-strips-automatic/10/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-strips-automatic/11/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-strips-automatic/11/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-strips-automatic/11/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-strips-automatic/12/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-strips-automatic/12/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-strips-automatic/01/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-strips-automatic/01/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-strips-automatic/01/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-strips-automatic/02/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-strips-automatic/02/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-strips-automatic/02/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-strips-automatic/03/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-strips-automatic/03/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-strips-automatic/03/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-strips-automatic/04/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-strips-automatic/04/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-strips-automatic/04/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-strips-automatic/05/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-strips-automatic/05/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-strips-automatic/05/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-strips-automatic/06/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-strips-automatic/06/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-strips-automatic/06/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-strips-automatic/07/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-strips-automatic/07/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-strips-automatic/07/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-strips-automatic/08/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-strips-automatic/08/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-strips-automatic/08/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-strips-automatic/09/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-strips-automatic/09/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-strips-automatic/09/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-strips-automatic/10/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-strips-automatic/10/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-strips-automatic/10/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-strips-automatic/12/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-strips-automatic/11/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-strips-automatic/11/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-strips-automatic/11/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-strips-automatic/12/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-strips-automatic/12/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-strips-automatic/01/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-strips-automatic/01/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-strips-automatic/01/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-strips-automatic/02/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-strips-automatic/02/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-strips-automatic/02/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-strips-automatic/03/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-strips-automatic/03/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-strips-automatic/03/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-strips-automatic/04/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-strips-automatic/04/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-strips-automatic/04/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-strips-automatic/05/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-strips-automatic/12/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-strips-automatic/05/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-strips-automatic/05/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-strips-automatic/06/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-strips-automatic/06/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-strips-automatic/06/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-strips-automatic/07/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-strips-automatic/07/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-strips-automatic/07/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-strips-automatic/08/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-strips-automatic/08/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-strips-automatic/08/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-strips-automatic/09/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-strips-automatic/09/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-strips-automatic/09/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-strips-automatic/10/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-strips-automatic/10/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-strips-automatic/10/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-strips-automatic/11/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-strips-automatic/11/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-strips-automatic/11/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-strips-automatic/12/ff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-strips-automatic/12/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-strips-automatic/12/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/depots-numeric-automatic/01/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/depots-numeric-automatic/01/mff-s4",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/depots-numeric-automatic/01/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/depots-numeric-automatic/02/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/depots-numeric-automatic/02/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/depots-numeric-automatic/03/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/depots-numeric-automatic/03/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/depots-numeric-automatic/03/mff-s4",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/depots-numeric-automatic/03/mff-s3",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/depots-strips-automatic/05/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/depots-numeric-automatic/04/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/depots-numeric-automatic/04/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/depots-numeric-automatic/07/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/depots-numeric-automatic/07/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/depots-numeric-automatic/08/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/depots-numeric-automatic/08/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/depots-numeric-automatic/10/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/depots-numeric-automatic/10/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/depots-numeric-automatic/10/mff-s4",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/depots-numeric-automatic/11/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/depots-numeric-automatic/11/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/depots-strips-automatic/12/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/depots-numeric-automatic/12/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/depots-numeric-automatic/13/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/depots-numeric-automatic/13/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/depots-numeric-automatic/13/mff-s3",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/depots-numeric-automatic/13/mff-s4",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/depots-numeric-automatic/14/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/depots-numeric-automatic/14/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/depots-numeric-automatic/16/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/depots-numeric-automatic/16/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/depots-numeric-automatic/17/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/depots-numeric-automatic/17/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/depots-numeric-automatic/12/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/depots-numeric-automatic/18/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/depots-numeric-automatic/18/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/depots-numeric-automatic/18/mff-s4",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/depots-numeric-automatic/19/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-automatic/01/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-automatic/01/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-automatic/01/mff-s3",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-automatic/01/mff-s4",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-automatic/02/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-automatic/02/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-automatic/02/mff-s4",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-automatic/03/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-automatic/03/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-automatic/03/mff-s4",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-automatic/04/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-automatic/04/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-automatic/04/mff-s4",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-automatic/05/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-automatic/05/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-automatic/05/mff-s4",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-automatic/06/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-automatic/06/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-automatic/06/mff-s4",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-automatic/07/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-automatic/07/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-automatic/07/mff-s4",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-automatic/08/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-automatic/08/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-automatic/09/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-automatic/09/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-automatic/09/mff-s4",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-automatic/10/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-automatic/10/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-automatic/11/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-automatic/11/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-automatic/11/mff-s4",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-automatic/12/mff-s0",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/depots-numeric-automatic/19/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-automatic/12/mff",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/depots-numeric-automatic/05/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-automatic/13/mff-s0",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-automatic/13/mff",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/depots-numeric-automatic/05/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-automatic/13/mff-s4",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-automatic/14/mff-s0",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-automatic/14/mff",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-automatic/12/mff-s3",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-automatic/12/mff-s4",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-automatic/15/mff-s0",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-automatic/15/mff",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-automatic/13/mff-s3",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-automatic/14/mff-s3",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-automatic/14/mff-s4",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-automatic/15/mff-s3",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-automatic/15/mff-s4",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-automatic/16/mff-s0",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-automatic/17/mff-s0",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-automatic/17/mff",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-automatic/16/mff",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-automatic/16/mff-s3",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-automatic/16/mff-s4",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-automatic/18/mff-s0",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-automatic/18/mff",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-automatic/17/mff-s3",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-automatic/17/mff-s4",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-automatic/18/mff-s3",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-automatic/18/mff-s4",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-automatic/19/mff-s0",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-automatic/19/mff",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-automatic/19/mff-s3",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-automatic/19/mff-s4",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-automatic/20/mff-s0",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/rovers-numeric-automatic/01/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/rovers-numeric-automatic/01/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/rovers-numeric-automatic/01/mff-s4",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/rovers-numeric-automatic/02/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/rovers-numeric-automatic/02/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/rovers-numeric-automatic/02/mff-s4",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/rovers-numeric-automatic/03/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/rovers-numeric-automatic/03/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/rovers-numeric-automatic/04/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/rovers-numeric-automatic/04/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/rovers-numeric-automatic/04/mff-s4",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/rovers-numeric-automatic/05/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/rovers-numeric-automatic/05/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/rovers-numeric-automatic/07/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/rovers-numeric-automatic/07/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/rovers-numeric-automatic/07/mff-s4",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/rovers-numeric-automatic/08/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/rovers-numeric-automatic/08/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/rovers-numeric-automatic/10/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/rovers-numeric-automatic/10/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/rovers-numeric-automatic/11/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/rovers-numeric-automatic/11/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/rovers-numeric-automatic/12/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/rovers-numeric-automatic/12/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-automatic/20/mff",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-automatic/20/mff-s3",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-automatic/20/mff-s4",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/rovers-numeric-automatic/13/mff-s0",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/rovers-numeric-automatic/13/mff",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/rovers-numeric-automatic/13/mff-s3",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/rovers-numeric-automatic/13/mff-s4",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/rovers-numeric-automatic/14/mff-s0",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/rovers-numeric-automatic/15/mff-s0",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/rovers-numeric-automatic/15/mff",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/rovers-numeric-automatic/14/mff",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/rovers-numeric-automatic/14/mff-s3",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/rovers-numeric-automatic/14/mff-s4",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/rovers-numeric-automatic/15/mff-s3",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/rovers-numeric-automatic/15/mff-s4",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/rovers-numeric-automatic/16/mff-s0",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/rovers-numeric-automatic/16/mff",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/rovers-numeric-automatic/16/mff-s3",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/rovers-numeric-automatic/16/mff-s4",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/rovers-numeric-automatic/17/mff-s0",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/rovers-numeric-automatic/17/mff",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/rovers-numeric-automatic/17/mff-s3",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/rovers-numeric-automatic/17/mff-s4",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/rovers-numeric-automatic/18/mff-s0",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/rovers-numeric-automatic/18/mff",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/rovers-numeric-automatic/19/mff-s0",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/rovers-numeric-automatic/19/mff",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/rovers-numeric-automatic/18/mff-s3",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/rovers-numeric-automatic/18/mff-s4",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/rovers-numeric-automatic/19/mff-s3",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/rovers-numeric-automatic/19/mff-s4",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/rovers-numeric-automatic/20/mff-s0",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-automatic/03/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-automatic/03/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-automatic/03/mff-s4",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-automatic/04/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-automatic/04/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-automatic/05/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-automatic/05/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-automatic/06/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-automatic/06/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-automatic/07/mff-s0",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-automatic/07/mff",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/rovers-numeric-automatic/20/mff",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/rovers-numeric-automatic/20/mff-s3",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-automatic/08/mff-s0",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-automatic/08/mff",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/rovers-numeric-automatic/20/mff-s4",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-automatic/07/mff-s3",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-automatic/09/mff-s0",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-automatic/09/mff",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-automatic/07/mff-s4",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-automatic/08/mff-s3",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-automatic/08/mff-s4",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-automatic/09/mff-s3",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-automatic/09/mff-s4",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-automatic/10/mff-s0",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-automatic/11/mff-s0",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-automatic/11/mff",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-automatic/10/mff",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-automatic/10/mff-s3",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-automatic/10/mff-s4",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-automatic/11/mff-s3",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-automatic/11/mff-s4",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-automatic/12/mff-s0",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-automatic/12/mff",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-automatic/12/mff-s3",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-automatic/12/mff-s4",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-automatic/13/mff-s0",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-automatic/14/mff-s0",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-automatic/14/mff",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-automatic/13/mff",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-automatic/13/mff-s3",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-automatic/13/mff-s4",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-automatic/14/mff-s3",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-automatic/14/mff-s4",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-automatic/15/mff-s0",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-automatic/15/mff",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-automatic/16/mff",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-automatic/16/mff-s0",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-automatic/15/mff-s3",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-automatic/17/mff-s0",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-automatic/17/mff",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-automatic/15/mff-s4",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-automatic/16/mff-s3",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-automatic/16/mff-s4",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-automatic/17/mff-s3",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-automatic/17/mff-s4",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-automatic/18/mff-s0",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-automatic/18/mff",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-automatic/18/mff-s3",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-automatic/18/mff-s4",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-automatic/19/mff-s0",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-automatic/19/mff",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-automatic/19/mff-s3",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-automatic/19/mff-s4",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-automatic/20/mff-s0",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-numeric-automatic/01/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-numeric-automatic/01/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-numeric-automatic/01/mff-s3",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-numeric-automatic/01/mff-s4",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-numeric-automatic/02/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-numeric-automatic/02/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-numeric-automatic/02/mff-s3",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-numeric-automatic/02/mff-s4",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-numeric-automatic/03/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-numeric-automatic/03/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-automatic/20/mff",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-numeric-automatic/04/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-numeric-automatic/04/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-numeric-automatic/04/mff-s3",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-numeric-automatic/04/mff-s4",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-numeric-automatic/05/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-numeric-automatic/05/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-numeric-automatic/05/mff-s3",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-numeric-automatic/05/mff-s4",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-numeric-automatic/06/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-numeric-automatic/06/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-numeric-automatic/06/mff-s3",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-numeric-automatic/06/mff-s4",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-numeric-automatic/07/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-numeric-automatic/07/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-numeric-automatic/08/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-numeric-automatic/08/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-numeric-automatic/03/mff-s3",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-numeric-automatic/09/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-numeric-automatic/09/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-numeric-automatic/09/mff-s3",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-numeric-automatic/09/mff-s4",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-numeric-automatic/10/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-numeric-automatic/10/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-numeric-automatic/10/mff-s3",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-numeric-automatic/10/mff-s4",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-numeric-automatic/11/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-numeric-automatic/11/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-numeric-automatic/11/mff-s3",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-numeric-automatic/11/mff-s4",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-numeric-automatic/12/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-numeric-automatic/12/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-numeric-automatic/12/mff-s3",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-numeric-automatic/12/mff-s4",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-numeric-automatic/13/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-numeric-automatic/13/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-numeric-automatic/13/mff-s3",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-numeric-automatic/13/mff-s4",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-numeric-automatic/14/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-numeric-automatic/14/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-numeric-automatic/15/mff-s0",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-numeric-automatic/15/mff",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-numeric-automatic/08/mff-s3",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-automatic/20/mff-s3",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-numeric-automatic/16/mff-s0",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-numeric-automatic/16/mff",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-automatic/20/mff-s4",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-numeric-automatic/15/mff-s3",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-numeric-automatic/17/mff-s0",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-numeric-automatic/17/mff",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-numeric-automatic/15/mff-s4",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-numeric-automatic/16/mff-s3",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-numeric-automatic/18/mff-s0",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-numeric-automatic/18/mff",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-numeric-automatic/16/mff-s4",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-numeric-automatic/17/mff-s3",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-numeric-automatic/17/mff-s4",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-numeric-automatic/19/mff-s0",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-numeric-automatic/19/mff",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-numeric-automatic/18/mff-s3",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-numeric-automatic/20/mff-s0",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-numeric-automatic/20/mff",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-numeric-automatic/18/mff-s4",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-numeric-automatic/19/mff-s3",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-numeric-automatic/19/mff-s4",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/settlers-numeric-automatic/01/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/settlers-numeric-automatic/01/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/settlers-numeric-automatic/01/mff-s3",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/settlers-numeric-automatic/02/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/settlers-numeric-automatic/02/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/settlers-numeric-automatic/01/mff-s4",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-numeric-automatic/20/mff-s3",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/settlers-numeric-automatic/05/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/settlers-numeric-automatic/05/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/settlers-numeric-automatic/06/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/settlers-numeric-automatic/03/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/settlers-numeric-automatic/08/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/settlers-numeric-automatic/08/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/settlers-numeric-automatic/08/mff-s3",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/settlers-numeric-automatic/08/mff-s4",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/settlers-numeric-automatic/03/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/settlers-numeric-automatic/09/mff-s3",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/settlers-numeric-automatic/09/mff-s4",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/settlers-numeric-automatic/06/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/zenotravel-numeric-automatic/20/mff-s4",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/settlers-numeric-automatic/17/mff-s0",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/settlers-numeric-automatic/17/mff",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/settlers-numeric-automatic/17/mff-s3",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/settlers-numeric-automatic/17/mff-s4",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/settlers-numeric-automatic/18/mff-s0",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/settlers-numeric-automatic/18/mff",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/settlers-numeric-automatic/18/mff-s3",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/settlers-numeric-automatic/18/mff-s4",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/settlers-numeric-automatic/19/mff-s0",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/settlers-numeric-automatic/19/mff",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/settlers-numeric-automatic/20/mff",
+   "status": "FAIL",
+   "mismatch": [
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/settlers-numeric-automatic/19/mff-s3",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/settlers-numeric-automatic/20/mff-s4",
+   "status": "FAIL",
+   "mismatch": [
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-hard-automatic/01/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-hard-automatic/01/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-hard-automatic/01/mff-s3",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-hard-automatic/01/mff-s4",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-hard-automatic/02/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-hard-automatic/02/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-hard-automatic/02/mff-s3",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-hard-automatic/02/mff-s4",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-hard-automatic/03/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-hard-automatic/03/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-hard-automatic/03/mff-s3",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-hard-automatic/03/mff-s4",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-hard-automatic/04/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-hard-automatic/04/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-hard-automatic/04/mff-s3",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-hard-automatic/04/mff-s4",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-hard-automatic/05/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-hard-automatic/05/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-hard-automatic/05/mff-s3",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-hard-automatic/05/mff-s4",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-hard-automatic/06/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-hard-automatic/06/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-hard-automatic/06/mff-s3",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-hard-automatic/06/mff-s4",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-hard-automatic/07/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-hard-automatic/07/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-hard-automatic/07/mff-s3",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-hard-automatic/07/mff-s4",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-hard-automatic/08/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-hard-automatic/08/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-hard-automatic/08/mff-s3",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-hard-automatic/08/mff-s4",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-hard-automatic/09/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-hard-automatic/09/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-hard-automatic/09/mff-s3",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-hard-automatic/09/mff-s4",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-hard-automatic/10/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-hard-automatic/10/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-hard-automatic/10/mff-s3",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-hard-automatic/10/mff-s4",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-hard-automatic/11/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-hard-automatic/11/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-hard-automatic/11/mff-s3",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-hard-automatic/11/mff-s4",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-hard-automatic/12/mff-s0",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-hard-automatic/12/mff",
+   "status": "FAIL",
+   "mismatch": [
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-hard-automatic/12/mff-s3",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-hard-automatic/12/mff-s4",
+   "status": "FAIL",
+   "mismatch": [
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-hard-automatic/13/mff-s0",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-hard-automatic/13/mff",
+   "status": "FAIL",
+   "mismatch": [
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-hard-automatic/13/mff-s3",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-hard-automatic/13/mff-s4",
+   "status": "FAIL",
+   "mismatch": [
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-hard-automatic/14/mff-s0",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-hard-automatic/14/mff",
+   "status": "FAIL",
+   "mismatch": [
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-hard-automatic/14/mff-s3",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-hard-automatic/14/mff-s4",
+   "status": "FAIL",
+   "mismatch": [
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-hard-automatic/15/mff-s0",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-hard-automatic/15/mff",
+   "status": "FAIL",
+   "mismatch": [
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/settlers-numeric-automatic/19/mff-s4",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-hard-automatic/15/mff-s4",
+   "status": "FAIL",
+   "mismatch": [
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/settlers-numeric-automatic/20/mff-s0",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-hard-automatic/16/mff",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/settlers-numeric-automatic/20/mff-s3",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-hard-automatic/16/mff-s4",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-hard-automatic/17/mff-s0",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-hard-automatic/17/mff",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-hard-automatic/15/mff-s3",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-hard-automatic/17/mff-s4",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-hard-automatic/18/mff-s0",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-hard-automatic/18/mff",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-hard-automatic/16/mff-s0",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-hard-automatic/18/mff-s4",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-hard-automatic/16/mff-s3",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-hard-automatic/19/mff",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-hard-automatic/17/mff-s3",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-hard-automatic/19/mff-s4",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-hard-automatic/18/mff-s3",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-hard-automatic/20/mff",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-hard-automatic/19/mff-s0",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-hard-automatic/20/mff-s4",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-hard-automatic/01/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-hard-automatic/01/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-hard-automatic/01/mff-s3",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-hard-automatic/01/mff-s4",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-hard-automatic/02/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-hard-automatic/02/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-hard-automatic/02/mff-s3",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-hard-automatic/02/mff-s4",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-hard-automatic/03/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-hard-automatic/03/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-hard-automatic/03/mff-s3",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-hard-automatic/03/mff-s4",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-hard-automatic/04/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-hard-automatic/04/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-hard-automatic/04/mff-s3",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-hard-automatic/04/mff-s4",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-hard-automatic/05/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-hard-automatic/05/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-hard-automatic/05/mff-s4",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-hard-automatic/06/mff-s0",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-hard-automatic/06/mff",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-hard-automatic/06/mff-s3",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-hard-automatic/06/mff-s4",
+   "status": "OK",
+   "mismatch": []
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-hard-automatic/07/mff-s0",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-hard-automatic/07/mff",
+   "status": "FAIL",
+   "mismatch": [
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-hard-automatic/19/mff-s3",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-hard-automatic/07/mff-s4",
+   "status": "FAIL",
+   "mismatch": [
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-hard-automatic/08/mff-s0",
+   "status": "FAIL",
+   "mismatch": [
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-hard-automatic/08/mff",
+   "status": "FAIL",
+   "mismatch": [
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-hard-automatic/08/mff-s3",
+   "status": "FAIL",
+   "mismatch": [
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-hard-automatic/08/mff-s4",
+   "status": "FAIL",
+   "mismatch": [
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-hard-automatic/09/mff-s0",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-hard-automatic/09/mff",
+   "status": "FAIL",
+   "mismatch": [
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-hard-automatic/20/mff-s0",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-hard-automatic/09/mff-s4",
+   "status": "FAIL",
+   "mismatch": [
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-hard-automatic/10/mff-s0",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-hard-automatic/10/mff",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-hard-automatic/10/mff-s3",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-hard-automatic/10/mff-s4",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-hard-automatic/11/mff-s0",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-hard-automatic/11/mff",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/driverlog-numeric-hard-automatic/20/mff-s3",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-hard-automatic/11/mff-s4",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-hard-automatic/12/mff-s0",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-hard-automatic/12/mff",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-hard-automatic/12/mff-s3",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-hard-automatic/12/mff-s4",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-hard-automatic/13/mff-s0",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-hard-automatic/13/mff",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-hard-automatic/07/mff-s3",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-hard-automatic/13/mff-s4",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-hard-automatic/14/mff-s0",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-hard-automatic/14/mff",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-hard-automatic/09/mff-s3",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-hard-automatic/14/mff-s4",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-hard-automatic/15/mff-s0",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-hard-automatic/15/mff",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-hard-automatic/11/mff-s3",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-hard-automatic/15/mff-s4",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-hard-automatic/16/mff-s0",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-hard-automatic/16/mff",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-hard-automatic/13/mff-s3",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-hard-automatic/16/mff-s4",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-hard-automatic/17/mff-s0",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-hard-automatic/17/mff",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-hard-automatic/14/mff-s3",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-hard-automatic/17/mff-s4",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-hard-automatic/18/mff-s0",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-hard-automatic/18/mff",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-hard-automatic/15/mff-s3",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-hard-automatic/18/mff-s4",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-hard-automatic/19/mff-s0",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-hard-automatic/19/mff",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-hard-automatic/19/mff-s3",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-hard-automatic/19/mff-s4",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-hard-automatic/20/mff-s0",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "plan",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-hard-automatic/20/mff",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-hard-automatic/16/mff-s3",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-hard-automatic/20/mff-s4",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-hard-automatic/17/mff-s3",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-hard-automatic/18/mff-s3",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  },
+  {
+   "run": "ipc/ipc-2002/satellite-numeric-hard-automatic/20/mff-s3",
+   "status": "FAIL",
+   "mismatch": [
+    "exit_code",
+    "outcome",
+    "stdout"
+   ]
+  }
+ ]
+}

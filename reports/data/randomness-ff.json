@@ -1,0 +1,1202 @@
+{
+"examples/ascensor/miconic01/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"examples/ascensor/miconic02/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"examples/ascensor/miconic03/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"examples/ascensor/miconic04/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"examples/ascensor/miconic05/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"examples/hanoi/hanoi-3/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"examples/hanoi/hanoi-4/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"examples/hanoi/hanoi-5/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"examples/hanoi/hanoi-6/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"examples/hanoi/hanoi-7/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"examples/hanoi/hanoi-8/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"examples/logistics/log-3-2/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"examples/n-puzzle/eight01/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"examples/rovers/pfile01/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"examples/rovers/pfile02/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"examples/rovers/pfile03/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"examples/rovers/pfile04/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"examples/rovers/pfile05/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"examples/rovers/pfile06/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"examples/rovers/pfile07/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"examples/rovers/pfile08/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"examples/rovers/pfile09/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"examples/rovers/pfile10/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"examples/rovers/pfile11/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"examples/rovers/pfile12/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"examples/rovers/pfile13/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"examples/rovers/pfile14/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"examples/rovers/pfile15/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"examples/rovers/pfile16/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"examples/rovers/pfile17/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"examples/rovers/pfile18/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"examples/rovers/pfile19/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"examples/rovers/pfile20/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"examples/tsp/tsp-10/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-1998/assembly-round-1-adl/01/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-1998/assembly-round-1-adl/02/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-1998/assembly-round-1-adl/03/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-1998/assembly-round-1-adl/04/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-1998/assembly-round-1-adl/05/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-1998/assembly-round-1-adl/06/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-1998/assembly-round-1-adl/07/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-1998/assembly-round-1-adl/08/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-1998/assembly-round-1-adl/09/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-1998/assembly-round-1-adl/10/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-1998/assembly-round-1-adl/11/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-1998/assembly-round-1-adl/12/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-1998/gripper-round-1-adl/01/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-1998/gripper-round-1-adl/02/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-1998/gripper-round-1-adl/03/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-1998/gripper-round-1-adl/04/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-1998/gripper-round-1-adl/05/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-1998/gripper-round-1-adl/06/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-1998/gripper-round-1-adl/07/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-1998/gripper-round-1-adl/08/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-1998/gripper-round-1-adl/09/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-1998/gripper-round-1-adl/10/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-1998/gripper-round-1-adl/11/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-1998/gripper-round-1-adl/12/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-1998/gripper-round-1-strips/01/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-1998/gripper-round-1-strips/02/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-1998/gripper-round-1-strips/03/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-1998/gripper-round-1-strips/04/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-1998/gripper-round-1-strips/05/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-1998/gripper-round-1-strips/06/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-1998/gripper-round-1-strips/07/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-1998/gripper-round-1-strips/08/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-1998/gripper-round-1-strips/09/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-1998/gripper-round-1-strips/10/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-1998/gripper-round-1-strips/11/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-1998/gripper-round-1-strips/12/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-1998/movie-round-1-adl/01/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-1998/movie-round-1-adl/02/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-1998/movie-round-1-adl/03/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-1998/movie-round-1-adl/04/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-1998/movie-round-1-adl/05/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-1998/movie-round-1-adl/06/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-1998/movie-round-1-adl/07/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-1998/movie-round-1-adl/08/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-1998/movie-round-1-adl/09/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-1998/movie-round-1-adl/10/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-1998/movie-round-1-adl/11/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-1998/movie-round-1-adl/12/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-1998/mystery-round-1-adl/01/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "parse-error"
+},
+"ipc/ipc-1998/mystery-round-1-adl/02/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "parse-error"
+},
+"ipc/ipc-1998/mystery-round-1-adl/03/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "parse-error"
+},
+"ipc/ipc-1998/mystery-round-1-adl/04/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "parse-error"
+},
+"ipc/ipc-1998/mystery-round-1-adl/05/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "parse-error"
+},
+"ipc/ipc-1998/mystery-round-1-adl/06/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "parse-error"
+},
+"ipc/ipc-1998/mystery-round-1-adl/07/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "parse-error"
+},
+"ipc/ipc-1998/mystery-round-1-adl/08/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "parse-error"
+},
+"ipc/ipc-1998/mystery-round-1-adl/09/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "parse-error"
+},
+"ipc/ipc-1998/mystery-round-1-adl/10/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "parse-error"
+},
+"ipc/ipc-1998/mystery-round-1-adl/11/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "parse-error"
+},
+"ipc/ipc-1998/mystery-round-1-adl/12/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "parse-error"
+},
+"ipc/ipc-2000/blocks-strips-typed/01/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2000/blocks-strips-typed/02/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2000/blocks-strips-typed/03/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2000/blocks-strips-typed/04/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2000/blocks-strips-typed/05/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2000/blocks-strips-typed/06/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2000/blocks-strips-typed/07/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2000/blocks-strips-typed/08/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2000/blocks-strips-typed/09/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2000/blocks-strips-typed/10/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2000/blocks-strips-typed/11/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2000/blocks-strips-typed/12/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2000/elevator-adl-full-typed/01/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2000/elevator-adl-full-typed/02/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2000/elevator-adl-full-typed/03/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2000/elevator-adl-full-typed/04/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2000/elevator-adl-full-typed/05/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2000/elevator-adl-full-typed/06/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2000/elevator-adl-full-typed/07/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2000/elevator-adl-full-typed/08/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2000/elevator-adl-full-typed/09/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2000/elevator-adl-full-typed/10/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2000/elevator-adl-full-typed/11/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2000/elevator-adl-full-typed/12/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2000/elevator-adl-simple-typed/01/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2000/elevator-adl-simple-typed/02/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2000/elevator-adl-simple-typed/03/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2000/elevator-adl-simple-typed/04/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2000/elevator-adl-simple-typed/05/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2000/elevator-adl-simple-typed/06/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2000/elevator-adl-simple-typed/07/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2000/elevator-adl-simple-typed/08/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2000/elevator-adl-simple-typed/09/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2000/elevator-adl-simple-typed/10/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2000/elevator-adl-simple-typed/11/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2000/elevator-adl-simple-typed/12/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2000/freecell-strips-typed/01/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2000/freecell-strips-typed/02/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2000/freecell-strips-typed/03/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2000/freecell-strips-typed/04/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2000/freecell-strips-typed/05/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2000/freecell-strips-typed/06/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2000/freecell-strips-typed/07/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2000/freecell-strips-typed/08/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2000/freecell-strips-typed/09/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2000/freecell-strips-typed/10/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2000/freecell-strips-typed/11/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2000/freecell-strips-typed/12/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2000/logistics-strips-typed/01/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2000/logistics-strips-typed/02/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2000/logistics-strips-typed/03/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2000/logistics-strips-typed/04/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2000/logistics-strips-typed/05/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2000/logistics-strips-typed/06/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2000/logistics-strips-typed/07/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2000/logistics-strips-typed/08/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2000/logistics-strips-typed/09/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2000/logistics-strips-typed/10/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2000/logistics-strips-typed/11/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2000/logistics-strips-typed/12/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2000/schedule-adl-typed/01/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2000/schedule-adl-typed/02/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2000/schedule-adl-typed/03/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2000/schedule-adl-typed/04/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2000/schedule-adl-typed/05/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2000/schedule-adl-typed/06/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2000/schedule-adl-typed/07/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2000/schedule-adl-typed/08/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2000/schedule-adl-typed/09/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2000/schedule-adl-typed/10/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2000/schedule-adl-typed/11/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2000/schedule-adl-typed/12/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2002/depots-strips-automatic/01/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2002/depots-strips-automatic/02/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2002/depots-strips-automatic/03/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2002/depots-strips-automatic/05/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2002/depots-strips-automatic/07/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2002/depots-strips-automatic/09/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2002/depots-strips-automatic/10/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2002/depots-strips-automatic/11/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2002/depots-strips-automatic/12/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2002/driverlog-strips-automatic/01/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2002/driverlog-strips-automatic/02/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2002/driverlog-strips-automatic/03/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2002/driverlog-strips-automatic/04/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2002/driverlog-strips-automatic/05/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2002/driverlog-strips-automatic/06/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2002/driverlog-strips-automatic/07/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2002/driverlog-strips-automatic/08/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2002/driverlog-strips-automatic/09/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2002/driverlog-strips-automatic/10/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2002/driverlog-strips-automatic/11/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2002/driverlog-strips-automatic/12/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2002/satellite-strips-automatic/01/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2002/satellite-strips-automatic/02/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2002/satellite-strips-automatic/03/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2002/satellite-strips-automatic/04/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2002/satellite-strips-automatic/05/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2002/satellite-strips-automatic/06/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2002/satellite-strips-automatic/07/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2002/satellite-strips-automatic/08/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2002/satellite-strips-automatic/09/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2002/satellite-strips-automatic/10/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2002/satellite-strips-automatic/11/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2002/satellite-strips-automatic/12/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2002/zenotravel-strips-automatic/01/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2002/zenotravel-strips-automatic/02/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2002/zenotravel-strips-automatic/03/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2002/zenotravel-strips-automatic/04/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2002/zenotravel-strips-automatic/05/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2002/zenotravel-strips-automatic/06/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2002/zenotravel-strips-automatic/07/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2002/zenotravel-strips-automatic/08/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2002/zenotravel-strips-automatic/09/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2002/zenotravel-strips-automatic/10/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2002/zenotravel-strips-automatic/11/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"ipc/ipc-2002/zenotravel-strips-automatic/12/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"synthetic/cli/ff-s-option/ff-s0": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "usage-error"
+},
+"synthetic/cli/info-level-0/ff-i0": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"synthetic/cli/path-option/ff-p": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"synthetic/malformed/missing-domain-file/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "parse-error"
+},
+"synthetic/malformed/missing-problem-file/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "parse-error"
+},
+"synthetic/malformed/ok/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"synthetic/malformed/syntax-error-domain/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "parse-error"
+},
+"synthetic/malformed/syntax-error/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "parse-error"
+},
+"synthetic/malformed/undefined-predicate/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "parse-error"
+},
+"synthetic/malformed/unknown-constant/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "parse-error"
+},
+"synthetic/malformed/unknown-type/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "parse-error"
+},
+"synthetic/malformed/wrong-arity/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "parse-error"
+},
+"synthetic/malformed/wrong-domain-name/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "parse-error"
+},
+"synthetic/numeric/no-fuel/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "parse-error"
+},
+"synthetic/numeric/ties-tour/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "parse-error"
+},
+"synthetic/numeric/ties/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "parse-error"
+},
+"synthetic/repeated-args/minimal/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"synthetic/student-input/bom-domain/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"synthetic/student-input/bom-problem/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"synthetic/student-input/crlf-domain/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"synthetic/student-input/crlf-problem/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"synthetic/student-input/cwd-with-spaces-accents/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"synthetic/student-input/mixed-case/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"synthetic/student-input/no-extension/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"synthetic/student-input/no-final-newline/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"synthetic/student-input/path-with-spaces-accents/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"synthetic/student-input/utf8-comments/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "plan-found"
+},
+"synthetic/unsolvable/exhaustive/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "proven-unsolvable"
+},
+"synthetic/unsolvable/goal-false/ff": {
+"distinct_outputs": 1,
+"variants": 1000,
+"outcome": "proven-unsolvable"
+}
+}
