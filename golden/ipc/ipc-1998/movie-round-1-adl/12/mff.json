@@ -1,0 +1,10 @@
+{
+ "command": "metric-ff -o domain.pddl -f instances/instance-12.pddl",
+ "cwd": "corpus/ipc/ipc-1998/movie-round-1-adl",
+ "exit_code": -11,
+ "outcome": "crash",
+ "plan": null,
+ "stdout": "",
+ "stderr": "",
+ "reason": "signal 11"
+}

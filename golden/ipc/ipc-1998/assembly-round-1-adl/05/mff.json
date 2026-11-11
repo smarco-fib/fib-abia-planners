@@ -1,0 +1,10 @@
+{
+ "command": "metric-ff -o domain.pddl -f instances/instance-5.pddl",
+ "cwd": "corpus/ipc/ipc-1998/assembly-round-1-adl",
+ "exit_code": 1,
+ "outcome": "usage-error",
+ "plan": null,
+ "stdout": "\nff: parsing domain file\ndomain 'ASSEMBLY' defined\n ... done.\nff: parsing problem file\nproblem 'ASSEM-X-5' defined\n ... done.\n\n\ntranslating negated cond for predicate ASSEMBLE-ORDER\ntranslating negated cond for predicate INCORPORATED\ntranslating negated cond for predicate REMOVE-ORDER\ntranslating negated cond for predicate REQUIRES\ntranslating negated cond for predicate TRANSIENT-PART\ntranslating negated cond for predicate PART-OF\nno metric specified.\n\ntask contains conditional effects. turning off state domination.\n\n\n\nff: search configuration is Enforced Hill-Climbing, then A*epsilon with weight 5.\nError! Optimization criterion not established.\nA*epsilon not defined.\n\n",
+ "stderr": "",
+ "reason": "Optimization criterion not established"
+}

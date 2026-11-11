@@ -1,0 +1,24 @@
+{
+ "command": "metric-ff -s 0 -o domain.pddl -f instances/instance-2.pddl",
+ "cwd": "corpus/ipc/ipc-2002/satellite-strips-automatic",
+ "exit_code": 0,
+ "outcome": "plan-found",
+ "plan": [
+  "SWITCH_ON INSTRUMENT1 SATELLITE0",
+  "TURN_TO SATELLITE0 GROUNDSTATION2 PLANET4",
+  "CALIBRATE SATELLITE0 INSTRUMENT1 GROUNDSTATION2",
+  "TURN_TO SATELLITE0 PLANET3 GROUNDSTATION2",
+  "TAKE_IMAGE SATELLITE0 PLANET3 INSTRUMENT1 INFRARED0",
+  "TURN_TO SATELLITE0 PLANET4 PLANET3",
+  "TAKE_IMAGE SATELLITE0 PLANET4 INSTRUMENT1 INFRARED0",
+  "TURN_TO SATELLITE0 PHENOMENON5 PLANET4",
+  "TAKE_IMAGE SATELLITE0 PHENOMENON5 INSTRUMENT1 IMAGE2",
+  "TURN_TO SATELLITE0 PHENOMENON6 PHENOMENON5",
+  "TAKE_IMAGE SATELLITE0 PHENOMENON6 INSTRUMENT1 INFRARED0",
+  "TURN_TO SATELLITE0 STAR7 PHENOMENON6",
+  "TAKE_IMAGE SATELLITE0 STAR7 INSTRUMENT1 INFRARED0"
+ ],
+ "stdout": "\nff: parsing domain file\ndomain 'SATELLITE' defined\n ... done.\nff: parsing problem file\nproblem 'STRIPS-SAT-X-1' defined\n ... done.\n\n\ntranslating negated cond for predicate =\nno metric specified.\n\nff: search configuration is Enforced Hill-Climbing, if that fails then best-first search.\nMetric is plan length.\nNO COST MINIMIZATION (and no cost-minimizing relaxed plans).\n\nCueing down from goal distance:   12 into depth [1]\n                                  11            [1][2]\n                                  10            [1]\n                                   9            [1]\n                                   8            [1]\n                                   7            [1]\n                                   6            [1]\n                                   5            [1]\n                                   4            [1]\n                                   3            [1]\n                                   2            [1]\n                                   1            [1]\n                                   0            \n\nff: found legal plan as follows\nstep    0: SWITCH_ON INSTRUMENT1 SATELLITE0\n        1: TURN_TO SATELLITE0 GROUNDSTATION2 PLANET4\n        2: CALIBRATE SATELLITE0 INSTRUMENT1 GROUNDSTATION2\n        3: TURN_TO SATELLITE0 PLANET3 GROUNDSTATION2\n        4: TAKE_IMAGE SATELLITE0 PLANET3 INSTRUMENT1 INFRARED0\n        5: TURN_TO SATELLITE0 PLANET4 PLANET3\n        6: TAKE_IMAGE SATELLITE0 PLANET4 INSTRUMENT1 INFRARED0\n        7: TURN_TO SATELLITE0 PHENOMENON5 PLANET4\n        8: TAKE_IMAGE SATELLITE0 PHENOMENON5 INSTRUMENT1 IMAGE2\n        9: TURN_TO SATELLITE0 PHENOMENON6 PHENOMENON5\n       10: TAKE_IMAGE SATELLITE0 PHENOMENON6 INSTRUMENT1 INFRARED0\n       11: TURN_TO SATELLITE0 STAR7 PHENOMENON6\n       12: TAKE_IMAGE SATELLITE0 STAR7 INSTRUMENT1 INFRARED0\n\ntime spent:    T.TT seconds instantiating 102 easy, 0 hard action templates\n               T.TT seconds reachability analysis, yielding 37 facts and 102 actions\n               T.TT seconds creating final representation with 37 relevant facts, 0 relevant fluents\n               T.TT seconds computing LNF\n               T.TT seconds building connectivity graph\n               T.TT seconds searching, evaluating 33 states, to a max depth of 2\n               T.TT seconds total time\n\n",
+ "stderr": "",
+ "reason": "ff: found legal plan as follows"
+}

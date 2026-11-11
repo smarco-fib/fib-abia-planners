@@ -1,0 +1,19 @@
+{
+ "command": "ff -o domain.pddl -f pfile02",
+ "cwd": "examples/rovers",
+ "exit_code": 0,
+ "outcome": "plan-found",
+ "plan": [
+  "CALIBRATE ROVER0 CAMERA0 OBJECTIVE0 WAYPOINT0",
+  "TAKE_IMAGE ROVER0 WAYPOINT0 OBJECTIVE1 CAMERA0 LOW_RES",
+  "COMMUNICATE_IMAGE_DATA ROVER0 GENERAL OBJECTIVE1 LOW_RES WAYPOINT0 WAYPOINT1",
+  "SAMPLE_SOIL ROVER0 ROVER0STORE WAYPOINT0",
+  "COMMUNICATE_SOIL_DATA ROVER0 GENERAL WAYPOINT0 WAYPOINT0 WAYPOINT1",
+  "DROP ROVER0 ROVER0STORE",
+  "SAMPLE_ROCK ROVER0 ROVER0STORE WAYPOINT0",
+  "COMMUNICATE_ROCK_DATA ROVER0 GENERAL WAYPOINT0 WAYPOINT0 WAYPOINT1"
+ ],
+ "stdout": "\nff: parsing domain file\ndomain 'ROVER' defined\n ... done.\nff: parsing problem file\nproblem 'ROVERPROB4213' defined\n ... done.\n\n\n\nCueing down from goal distance:    7 into depth [1]\n                                   6            [1]\n                                   5            [1]\n                                   4            [1][2]\n                                   3            [1]\n                                   2            [1]\n                                   1            [1]\n                                   0            \n\nff: found legal plan as follows\n\nstep    0: CALIBRATE ROVER0 CAMERA0 OBJECTIVE0 WAYPOINT0\n        1: TAKE_IMAGE ROVER0 WAYPOINT0 OBJECTIVE1 CAMERA0 LOW_RES\n        2: COMMUNICATE_IMAGE_DATA ROVER0 GENERAL OBJECTIVE1 LOW_RES WAYPOINT0 WAYPOINT1\n        3: SAMPLE_SOIL ROVER0 ROVER0STORE WAYPOINT0\n        4: COMMUNICATE_SOIL_DATA ROVER0 GENERAL WAYPOINT0 WAYPOINT0 WAYPOINT1\n        5: DROP ROVER0 ROVER0STORE\n        6: SAMPLE_ROCK ROVER0 ROVER0STORE WAYPOINT0\n        7: COMMUNICATE_ROCK_DATA ROVER0 GENERAL WAYPOINT0 WAYPOINT0 WAYPOINT1\n     \n\ntime spent:    T.TT seconds instantiating 77 easy, 0 hard action templates\n               T.TT seconds reachability analysis, yielding 28 facts and 53 actions\n               T.TT seconds creating final representation with 28 relevant facts\n               T.TT seconds building connectivity graph\n               T.TT seconds searching, evaluating 10 states, to a max depth of 2\n               T.TT seconds total time\n\n",
+ "stderr": "",
+ "reason": "ff: found legal plan as follows"
+}

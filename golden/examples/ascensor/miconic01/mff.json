@@ -1,0 +1,10 @@
+{
+ "command": "metric-ff -o miconic.pddl -f miconic01.pddl",
+ "cwd": "examples/ascensor",
+ "exit_code": 1,
+ "outcome": "usage-error",
+ "plan": null,
+ "stdout": "\nff: parsing domain file\ndomain 'MICONIC' defined\n ... done.\nff: parsing problem file\nproblem 'MIXED-F5-P5-U0-V5-D0-A0-N0-A0-B0-N0-F0' defined\n ... done.\n\n\ntranslating negated cond for predicate SERVED\nno metric specified.\n\ntask contains conditional effects. turning off state domination.\n\n\n\nff: search configuration is Enforced Hill-Climbing, then A*epsilon with weight 5.\nError! Optimization criterion not established.\nA*epsilon not defined.\n\n",
+ "stderr": "",
+ "reason": "Optimization criterion not established"
+}

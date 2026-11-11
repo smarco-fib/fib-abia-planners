@@ -1,0 +1,21 @@
+{
+ "command": "ff -o domain.pddl -f instances/instance-2.pddl",
+ "cwd": "corpus/ipc/ipc-2000/blocks-strips-typed",
+ "exit_code": 0,
+ "outcome": "plan-found",
+ "plan": [
+  "UNSTACK B C",
+  "PUT-DOWN B",
+  "UNSTACK C A",
+  "PUT-DOWN C",
+  "UNSTACK A D",
+  "STACK A B",
+  "PICK-UP C",
+  "STACK C A",
+  "PICK-UP D",
+  "STACK D C"
+ ],
+ "stdout": "\nff: parsing domain file\ndomain 'BLOCKS' defined\n ... done.\nff: parsing problem file\nproblem 'BLOCKS-4-1' defined\n ... done.\n\n\n\nCueing down from goal distance:    4 into depth [1][2]\n                                   3            [1][2]\n                                   2            [1]\n                                   1            [1]\n                                   0            \n\nCueing down from goal distance:    2 into depth [1]\n                                   1            [1]\n                                   0            \n\nCueing down from goal distance:    2 into depth [1]\n                                   1            [1]\n                                   0            \n\nff: found legal plan as follows\n\nstep    0: UNSTACK B C\n        1: PUT-DOWN B\n        2: UNSTACK C A\n        3: PUT-DOWN C\n        4: UNSTACK A D\n        5: STACK A B\n        6: PICK-UP C\n        7: STACK C A\n        8: PICK-UP D\n        9: STACK D C\n     \n\ntime spent:    T.TT seconds instantiating 40 easy, 0 hard action templates\n               T.TT seconds reachability analysis, yielding 29 facts and 40 actions\n               T.TT seconds creating final representation with 29 relevant facts\n               T.TT seconds building connectivity graph\n               T.TT seconds searching, evaluating 13 states, to a max depth of 2\n               T.TT seconds total time\n\n",
+ "stderr": "",
+ "reason": "ff: found legal plan as follows"
+}

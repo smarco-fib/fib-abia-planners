@@ -1,0 +1,10 @@
+{
+ "command": "metric-ff -o domain.pddl -f unknown-constant.pddl",
+ "cwd": "corpus/synthetic/malformed",
+ "exit_code": 1,
+ "outcome": "parse-error",
+ "plan": null,
+ "stdout": "\nff: parsing domain file\ndomain 'TINY' defined\n ... done.\nff: parsing problem file\nproblem 'UNKNOWN-CONSTANT' defined\n ... done.\n\n\nunknown constant Z in literal HELD. check input files\n\n",
+ "stderr": "",
+ "reason": "check input files"
+}

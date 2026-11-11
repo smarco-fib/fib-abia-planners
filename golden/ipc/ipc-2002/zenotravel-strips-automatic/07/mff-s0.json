@@ -1,0 +1,27 @@
+{
+ "command": "metric-ff -s 0 -o domain.pddl -f instances/instance-7.pddl",
+ "cwd": "corpus/ipc/ipc-2002/zenotravel-strips-automatic",
+ "exit_code": 0,
+ "outcome": "plan-found",
+ "plan": [
+  "BOARD PERSON4 PLANE2 CITY1",
+  "FLY PLANE1 CITY2 CITY3 FL1 FL0",
+  "REFUEL PLANE1 CITY3 FL0 FL1",
+  "BOARD PERSON1 PLANE1 CITY3",
+  "BOARD PERSON5 PLANE1 CITY3",
+  "FLY PLANE1 CITY3 CITY0 FL1 FL0",
+  "REFUEL PLANE1 CITY0 FL0 FL1",
+  "BOARD PERSON6 PLANE1 CITY0",
+  "FLY PLANE1 CITY0 CITY2 FL1 FL0",
+  "DEBARK PERSON1 PLANE1 CITY2",
+  "DEBARK PERSON5 PLANE1 CITY2",
+  "DEBARK PERSON6 PLANE1 CITY2",
+  "FLY PLANE2 CITY1 CITY3 FL1 FL0",
+  "REFUEL PLANE2 CITY3 FL0 FL1",
+  "DEBARK PERSON4 PLANE2 CITY3",
+  "FLY PLANE2 CITY3 CITY1 FL1 FL0"
+ ],
+ "stdout": "\nff: parsing domain file\ndomain 'ZENO-TRAVEL' defined\n ... done.\nff: parsing problem file\nproblem 'ZTRAVEL-2-6' defined\n ... done.\n\n\nno metric specified.\n\nff: search configuration is Enforced Hill-Climbing, if that fails then best-first search.\nMetric is plan length.\nNO COST MINIMIZATION (and no cost-minimizing relaxed plans).\n\nCueing down from goal distance:   11 into depth [1]\n                                  10            [1][2][3]\n                                   9            [1]\n                                   8            [1][2]\n                                   7            [1]\n                                   6            [1]\n                                   5            [1]\n                                   4            [1]\n                                   3            [1]\n                                   2            [1][2][3]\n                                   1            [1]\n                                   0            \n\nff: found legal plan as follows\nstep    0: BOARD PERSON4 PLANE2 CITY1\n        1: FLY PLANE1 CITY2 CITY3 FL1 FL0\n        2: REFUEL PLANE1 CITY3 FL0 FL1\n        3: BOARD PERSON1 PLANE1 CITY3\n        4: BOARD PERSON5 PLANE1 CITY3\n        5: FLY PLANE1 CITY3 CITY0 FL1 FL0\n        6: REFUEL PLANE1 CITY0 FL0 FL1\n        7: BOARD PERSON6 PLANE1 CITY0\n        8: FLY PLANE1 CITY0 CITY2 FL1 FL0\n        9: DEBARK PERSON1 PLANE1 CITY2\n       10: DEBARK PERSON5 PLANE1 CITY2\n       11: DEBARK PERSON6 PLANE1 CITY2\n       12: FLY PLANE2 CITY1 CITY3 FL1 FL0\n       13: REFUEL PLANE2 CITY3 FL0 FL1\n       14: DEBARK PERSON4 PLANE2 CITY3\n       15: FLY PLANE2 CITY3 CITY1 FL1 FL0\n\ntime spent:    T.TT seconds instantiating 496 easy, 0 hard action templates\n               T.TT seconds reachability analysis, yielding 58 facts and 496 actions\n               T.TT seconds creating final representation with 58 relevant facts, 0 relevant fluents\n               T.TT seconds computing LNF\n               T.TT seconds building connectivity graph\n               T.TT seconds searching, evaluating 43 states, to a max depth of 3\n               T.TT seconds total time\n\n",
+ "stderr": "",
+ "reason": "ff: found legal plan as follows"
+}

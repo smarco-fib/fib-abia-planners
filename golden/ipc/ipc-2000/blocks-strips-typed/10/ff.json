@@ -1,0 +1,31 @@
+{
+ "command": "ff -o domain.pddl -f instances/instance-10.pddl",
+ "cwd": "corpus/ipc/ipc-2000/blocks-strips-typed",
+ "exit_code": 0,
+ "outcome": "plan-found",
+ "plan": [
+  "UNSTACK E G",
+  "PUT-DOWN E",
+  "UNSTACK G B",
+  "PUT-DOWN G",
+  "UNSTACK B A",
+  "PUT-DOWN B",
+  "UNSTACK A F",
+  "PUT-DOWN A",
+  "UNSTACK F C",
+  "STACK F E",
+  "UNSTACK C D",
+  "STACK C F",
+  "PICK-UP B",
+  "STACK B C",
+  "PICK-UP D",
+  "STACK D B",
+  "PICK-UP G",
+  "STACK G D",
+  "PICK-UP A",
+  "STACK A G"
+ ],
+ "stdout": "\nff: parsing domain file\ndomain 'BLOCKS' defined\n ... done.\nff: parsing problem file\nproblem 'BLOCKS-7-0' defined\n ... done.\n\n\n\nCueing down from goal distance:    6 into depth [1][2]\n                                   5            [1][2]\n                                   4            [1][2]\n                                   3            [1][2]\n                                   2            [1]\n                                   1            [1]\n                                   0            \n\nCueing down from goal distance:    2 into depth [1]\n                                   1            [1]\n                                   0            \n\nCueing down from goal distance:    2 into depth [1]\n                                   1            [1]\n                                   0            \n\nCueing down from goal distance:    2 into depth [1]\n                                   1            [1]\n                                   0            \n\nCueing down from goal distance:    2 into depth [1]\n                                   1            [1]\n                                   0            \n\nCueing down from goal distance:    2 into depth [1]\n                                   1            [1]\n                                   0            \n\nff: found legal plan as follows\n\nstep    0: UNSTACK E G\n        1: PUT-DOWN E\n        2: UNSTACK G B\n        3: PUT-DOWN G\n        4: UNSTACK B A\n        5: PUT-DOWN B\n        6: UNSTACK A F\n        7: PUT-DOWN A\n        8: UNSTACK F C\n        9: STACK F E\n       10: UNSTACK C D\n       11: STACK C F\n       12: PICK-UP B\n       13: STACK B C\n       14: PICK-UP D\n       15: STACK D B\n       16: PICK-UP G\n       17: STACK G D\n       18: PICK-UP A\n       19: STACK A G\n     \n\ntime spent:    T.TT seconds instantiating 112 easy, 0 hard action templates\n               T.TT seconds reachability analysis, yielding 71 facts and 112 actions\n               T.TT seconds creating final representation with 71 relevant facts\n               T.TT seconds building connectivity graph\n               T.TT seconds searching, evaluating 26 states, to a max depth of 2\n               T.TT seconds total time\n\n",
+ "stderr": "",
+ "reason": "ff: found legal plan as follows"
+}

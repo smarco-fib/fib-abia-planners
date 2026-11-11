@@ -1,0 +1,10 @@
+{
+ "command": "metric-ff -s 1 -o domain.pddl -f goal-false.pddl",
+ "cwd": "corpus/synthetic/unsolvable",
+ "exit_code": 1,
+ "outcome": "proven-unsolvable",
+ "plan": null,
+ "stdout": "\nff: parsing domain file\ndomain 'SWITCHES' defined\n ... done.\nff: parsing problem file\nproblem 'GOAL-FALSE' defined\n ... done.\n\n\nff: goal can be simplified to FALSE. No plan will solve it\n\n",
+ "stderr": "",
+ "reason": "ff: goal can be simplified to FALSE. No plan will solve it"
+}

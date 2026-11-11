@@ -1,0 +1,10 @@
+{
+ "command": "metric-ff -s 0 -o syntax-error-domain.pddl -f ok.pddl",
+ "cwd": "corpus/synthetic/malformed",
+ "exit_code": 1,
+ "outcome": "parse-error",
+ "plan": null,
+ "stdout": "\nff: parsing domain file",
+ "stderr": "\nsyntax-error-domain.pddl: syntax error in line 8, ':effect':\ndomain definition expected\n",
+ "reason": "syntax error in line 8"
+}

@@ -1,0 +1,27 @@
+{
+ "command": "ff -o domain.pddl -f instances/instance-4.pddl",
+ "cwd": "corpus/ipc/ipc-2002/driverlog-strips-automatic",
+ "exit_code": 0,
+ "outcome": "plan-found",
+ "plan": [
+  "BOARD-TRUCK DRIVER3 TRUCK2 S0",
+  "LOAD-TRUCK PACKAGE3 TRUCK2 S0",
+  "WALK DRIVER2 S1 P0-1",
+  "WALK DRIVER2 P0-1 S0",
+  "DRIVE-TRUCK TRUCK2 S0 S2 DRIVER3",
+  "UNLOAD-TRUCK PACKAGE3 TRUCK2 S2",
+  "LOAD-TRUCK PACKAGE1 TRUCK2 S2",
+  "DRIVE-TRUCK TRUCK2 S2 S1 DRIVER3",
+  "UNLOAD-TRUCK PACKAGE1 TRUCK2 S1",
+  "LOAD-TRUCK PACKAGE4 TRUCK2 S1",
+  "DRIVE-TRUCK TRUCK2 S1 S0 DRIVER3",
+  "UNLOAD-TRUCK PACKAGE4 TRUCK2 S0",
+  "DRIVE-TRUCK TRUCK2 S0 S2 DRIVER3",
+  "DISEMBARK-TRUCK DRIVER3 TRUCK2 S2",
+  "WALK DRIVER3 S2 P1-2",
+  "WALK DRIVER3 P1-2 S1"
+ ],
+ "stdout": "\nff: parsing domain file\ndomain 'DRIVERLOG' defined\n ... done.\nff: parsing problem file\nproblem 'DLOG-3-2-4' defined\n ... done.\n\n\n\nCueing down from goal distance:   15 into depth [1]\n                                  14            [1]\n                                  13            [1]\n                                  12            [1]\n                                  11            [1][2][3][4][5]\n                                  10            [1]\n                                   9            [1]\n                                   8            [1]\n                                   7            [1]\n                                   6            [1]\n                                   5            [1]\n                                   4            [1]\n                                   3            [1]\n\nEnforced Hill-climbing failed !\nswitching to Best-first Search now.\n\nadvancing to distance :   15\n                          11\n                          10\n                           9\n                           8\n                           7\n                           6\n                           5\n                           4\n                           3\n                           2\n                           1\n                           0\n\nff: found legal plan as follows\n\nstep    0: BOARD-TRUCK DRIVER3 TRUCK2 S0\n        1: LOAD-TRUCK PACKAGE3 TRUCK2 S0\n        2: WALK DRIVER2 S1 P0-1\n        3: WALK DRIVER2 P0-1 S0\n        4: DRIVE-TRUCK TRUCK2 S0 S2 DRIVER3\n        5: UNLOAD-TRUCK PACKAGE3 TRUCK2 S2\n        6: LOAD-TRUCK PACKAGE1 TRUCK2 S2\n        7: DRIVE-TRUCK TRUCK2 S2 S1 DRIVER3\n        8: UNLOAD-TRUCK PACKAGE1 TRUCK2 S1\n        9: LOAD-TRUCK PACKAGE4 TRUCK2 S1\n       10: DRIVE-TRUCK TRUCK2 S1 S0 DRIVER3\n       11: UNLOAD-TRUCK PACKAGE4 TRUCK2 S0\n       12: DRIVE-TRUCK TRUCK2 S0 S2 DRIVER3\n       13: DISEMBARK-TRUCK DRIVER3 TRUCK2 S2\n       14: WALK DRIVER3 S2 P1-2\n       15: WALK DRIVER3 P1-2 S1\n     \n\ntime spent:    T.TT seconds instantiating 256 easy, 0 hard action templates\n               T.TT seconds reachability analysis, yielding 49 facts and 144 actions\n               T.TT seconds creating final representation with 49 relevant facts\n               T.TT seconds building connectivity graph\n               T.TT seconds searching, evaluating 230 states, to a max depth of 5\n               T.TT seconds total time\n\n",
+ "stderr": "",
+ "reason": "ff: found legal plan as follows"
+}

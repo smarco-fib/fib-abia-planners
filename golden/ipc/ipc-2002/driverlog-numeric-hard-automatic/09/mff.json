@@ -1,0 +1,10 @@
+{
+ "command": "metric-ff -o domain.pddl -f instances/instance-9.pddl",
+ "cwd": "corpus/ipc/ipc-2002/driverlog-numeric-hard-automatic",
+ "exit_code": 1,
+ "outcome": "usage-error",
+ "plan": null,
+ "stdout": "\nff: parsing domain file\ndomain 'DRIVERLOG' defined\n ... done.\nff: parsing problem file\nproblem 'DLOG-2-3-6' defined\n ... done.\n\n\nwarning: non-constant effect on metric. no optimization done.\n\nff: search configuration is Enforced Hill-Climbing, then A*epsilon with weight 5.\nError! Optimization criterion not established.\nA*epsilon not defined.\n\n",
+ "stderr": "",
+ "reason": "Optimization criterion not established"
+}

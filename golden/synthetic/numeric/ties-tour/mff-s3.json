@@ -1,0 +1,23 @@
+{
+ "command": "metric-ff -s 3 -o domain.pddl -f ties-tour.pddl",
+ "cwd": "corpus/synthetic/numeric",
+ "exit_code": 0,
+ "outcome": "plan-found",
+ "plan": [
+  "MOVE C00 C10",
+  "MOVE C10 C20",
+  "MOVE C20 C10",
+  "MOVE C10 C00",
+  "MOVE C00 C01",
+  "MOVE C01 C02",
+  "MOVE C02 C12",
+  "MOVE C12 C22",
+  "MOVE C22 C12",
+  "MOVE C12 C02",
+  "MOVE C02 C01",
+  "MOVE C01 C00"
+ ],
+ "stdout": "\nff: parsing domain file\ndomain 'FUEL-GRID' defined\n ... done.\nff: parsing problem file\nproblem 'TIES-TOUR' defined\n ... done.\n\n\nwarning: numeric precondition. turning cost-minimizing relaxed plans OFF.\n\nff: search configuration is weighted A* with weight 5.\nMetric is ((1.00*[RF0](TOTAL-COST)) - () + 0.00)\nCOST MINIMIZATION DONE (WITHOUT cost-minimizing relaxed plans).\n\nadvancing to goal distance:    6\n                               5\n                               4\n                               3\n                               2\n                               1\n                               0\n\nff: found legal plan as follows\nstep    0: MOVE C00 C10\n        1: MOVE C10 C20\n        2: MOVE C20 C10\n        3: MOVE C10 C00\n        4: MOVE C00 C01\n        5: MOVE C01 C02\n        6: MOVE C02 C12\n        7: MOVE C12 C22\n        8: MOVE C22 C12\n        9: MOVE C12 C02\n       10: MOVE C02 C01\n       11: MOVE C01 C00\nplan cost: 12.000000\n\ntime spent:    T.TT seconds instantiating 24 easy, 0 hard action templates\n               T.TT seconds reachability analysis, yielding 18 facts and 24 actions\n               T.TT seconds creating final representation with 18 relevant facts, 2 relevant fluents\n               T.TT seconds computing LNF\n               T.TT seconds building connectivity graph\n               T.TT seconds searching, evaluating 39 states, to a max depth of 0\n               T.TT seconds total time\n\n",
+ "stderr": "",
+ "reason": "ff: found legal plan as follows"
+}

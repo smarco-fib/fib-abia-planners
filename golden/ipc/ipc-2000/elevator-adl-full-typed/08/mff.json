@@ -1,0 +1,10 @@
+{
+ "command": "metric-ff -o domain.pddl -f instances/instance-8.pddl",
+ "cwd": "corpus/ipc/ipc-2000/elevator-adl-full-typed",
+ "exit_code": 1,
+ "outcome": "usage-error",
+ "plan": null,
+ "stdout": "\nff: parsing domain file\ndomain 'MICONIC' defined\n ... done.\nff: parsing problem file\nproblem 'MIXED-F4-P2-U20-V5-G5-A60-N10-A20-B80-N50-F5-R2' defined\n ... done.\n\n\nwarning: quantified var ?P has unknown or empty type GOING_UP. simplifying.\n\n\nwarning: quantified var ?P has unknown or empty type GOING_DOWN. simplifying.\n\n\nwarning: quantified var ?P has unknown or empty type CONFLICT_A. simplifying.\n\n\nwarning: quantified var ?Q has unknown or empty type CONFLICT_B. simplifying.\n\n\nwarning: quantified var ?P has unknown or empty type CONFLICT_B. simplifying.\n\n\nwarning: quantified var ?Q has unknown or empty type CONFLICT_A. simplifying.\n\n\nwarning: quantified var ?P has unknown or empty type NEVER_ALONE. simplifying.\n\n\nwarning: quantified var ?Q has unknown or empty type ATTENDANT. simplifying.\n\n\nwarning: quantified var ?P has unknown or empty type GOING_NONSTOP. simplifying.\n\n\nwarning: quantified var ?P has unknown or empty type VIP. simplifying.\n\n\nwarning: quantified var ?P has unknown or empty type VIP. simplifying.\n\n\ntranslating negated cond for predicate SERVED\nno metric specified.\n\ntask contains conditional effects. turning off state domination.\n\n\n\nff: search configuration is Enforced Hill-Climbing, then A*epsilon with weight 5.\nError! Optimization criterion not established.\nA*epsilon not defined.\n\n",
+ "stderr": "",
+ "reason": "Optimization criterion not established"
+}

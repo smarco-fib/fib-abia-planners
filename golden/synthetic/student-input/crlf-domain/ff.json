@@ -1,0 +1,12 @@
+{
+ "command": "ff -o crlf-domain.pddl -f ../malformed/ok.pddl",
+ "cwd": "corpus/synthetic/student-input",
+ "exit_code": 0,
+ "outcome": "plan-found",
+ "plan": [
+  "PICK A"
+ ],
+ "stdout": "\nff: parsing domain file\ndomain 'TINY' defined\n ... done.\nff: parsing problem file\nproblem 'OK' defined\n ... done.\n\n\n\nCueing down from goal distance:    1 into depth [1]\n                                   0            \n\nff: found legal plan as follows\n\nstep    0: PICK A\n     \n\ntime spent:    T.TT seconds instantiating 1 easy, 0 hard action templates\n               T.TT seconds reachability analysis, yielding 3 facts and 1 actions\n               T.TT seconds creating final representation with 3 relevant facts\n               T.TT seconds building connectivity graph\n               T.TT seconds searching, evaluating 2 states, to a max depth of 1\n               T.TT seconds total time\n\n",
+ "stderr": "",
+ "reason": "ff: found legal plan as follows"
+}

@@ -1,0 +1,10 @@
+{
+ "command": "metric-ff -o domain.pddl -f wrong-domain-name.pddl",
+ "cwd": "corpus/synthetic/malformed",
+ "exit_code": 1,
+ "outcome": "parse-error",
+ "plan": null,
+ "stdout": "\nff: parsing domain file\ndomain 'TINY' defined\n ... done.\nff: parsing problem file",
+ "stderr": "\nwrong-domain-name.pddl: syntax error in line 1, ')':\n'define' expected\n",
+ "reason": "syntax error in line 1"
+}

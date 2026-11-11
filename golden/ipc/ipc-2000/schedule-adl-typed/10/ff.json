@@ -1,0 +1,16 @@
+{
+ "command": "ff -o domain.pddl -f instances/instance-10.pddl",
+ "cwd": "corpus/ipc/ipc-2000/schedule-adl-typed",
+ "exit_code": 0,
+ "outcome": "plan-found",
+ "plan": [
+  "DO-POLISH B0",
+  "DO-SPRAY-PAINT A0 BLUE",
+  "DO-LATHE D0",
+  "DO-TIME-STEP",
+  "DO-IMMERSION-PAINT D0 YELLOW"
+ ],
+ "stdout": "\nff: parsing domain file\ndomain 'SCHEDULE' defined\n ... done.\nff: parsing problem file\nproblem 'SCHEDULE-5-0' defined\n ... done.\n\n\n\nCueing down from goal distance:    1 into depth [1]\n                                   0            \n\nCueing down from goal distance:    3 into depth [1]\n                                   2            [1][2]\n                                   1            [1]\n                                   0            \n\nff: found legal plan as follows\n\nstep    0: DO-POLISH B0\n        1: DO-SPRAY-PAINT A0 BLUE\n        2: DO-LATHE D0\n        3: DO-TIME-STEP\n        4: DO-IMMERSION-PAINT D0 YELLOW\n     \n\ntime spent:    T.TT seconds instantiating 121 easy, 0 hard action templates\n               T.TT seconds reachability analysis, yielding 140 facts and 121 actions\n               T.TT seconds creating final representation with 140 relevant facts\n               T.TT seconds building connectivity graph\n               T.TT seconds searching, evaluating 28 states, to a max depth of 2\n               T.TT seconds total time\n\n",
+ "stderr": "",
+ "reason": "ff: found legal plan as follows"
+}

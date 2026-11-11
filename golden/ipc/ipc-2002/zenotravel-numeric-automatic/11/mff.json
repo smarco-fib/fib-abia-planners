@@ -1,0 +1,28 @@
+{
+ "command": "metric-ff -o domain.pddl -f instances/instance-11.pddl",
+ "cwd": "corpus/ipc/ipc-2002/zenotravel-numeric-automatic",
+ "exit_code": 0,
+ "outcome": "plan-found",
+ "plan": [
+  "FLY PLANE3 CITY1 CITY5",
+  "BOARD PERSON7 PLANE3 CITY5",
+  "REFUEL PLANE3 CITY5",
+  "FLY PLANE3 CITY5 CITY0",
+  "BOARD PERSON4 PLANE3 CITY0",
+  "DEBARK PERSON7 PLANE3 CITY0",
+  "FLY PLANE3 CITY0 CITY4",
+  "REFUEL PLANE1 CITY4",
+  "FLY PLANE3 CITY4 CITY2",
+  "DEBARK PERSON4 PLANE3 CITY2",
+  "ZOOM PLANE1 CITY4 CITY2",
+  "BOARD PERSON2 PLANE1 CITY2",
+  "BOARD PERSON6 PLANE1 CITY2",
+  "FLY PLANE1 CITY2 CITY4",
+  "DEBARK PERSON6 PLANE1 CITY4",
+  "FLY PLANE1 CITY4 CITY1",
+  "DEBARK PERSON2 PLANE1 CITY1"
+ ],
+ "stdout": "\nff: parsing domain file\ndomain 'ZENO-TRAVEL' defined\n ... done.\nff: parsing problem file\nproblem 'ZTRAVEL-3-7' defined\n ... done.\n\n\nwarning: numeric precondition. turning cost-minimizing relaxed plans OFF.\n\nff: search configuration is Enforced Hill-Climbing, then A*epsilon with weight 5.\nMetric is ((4.00*[TOTAL-TIME]3.00*[RF0](TOTAL-FUEL-USED)) - () + 0.00)\nCOST MINIMIZATION DONE (WITHOUT cost-minimizing relaxed plans).\n\nCueing down from goal distance:   15 into depth [1]\n                                  14            [1]\n                                  13            [1][2]\n                                  12            [1]\n                                  11            [1]\n                                  10            [1]\n                                   9            [1]\n                                   8            [1]\n                                   7            [1]\n                                   6            [1][2]\n                                   5            [1]\n                                   4            [1]\n                                   3            [1]\n                                   2            [1]\n                                   1            [1]\n                                   0            \n\nff: found legal plan as follows\nstep    0: FLY PLANE3 CITY1 CITY5\n        1: BOARD PERSON7 PLANE3 CITY5\n        2: REFUEL PLANE3 CITY5\n        3: FLY PLANE3 CITY5 CITY0\n        4: BOARD PERSON4 PLANE3 CITY0\n        5: DEBARK PERSON7 PLANE3 CITY0\n        6: FLY PLANE3 CITY0 CITY4\n        7: REFUEL PLANE1 CITY4\n        8: FLY PLANE3 CITY4 CITY2\n        9: DEBARK PERSON4 PLANE3 CITY2\n       10: ZOOM PLANE1 CITY4 CITY2\n       11: BOARD PERSON2 PLANE1 CITY2\n       12: BOARD PERSON6 PLANE1 CITY2\n       13: FLY PLANE1 CITY2 CITY4\n       14: DEBARK PERSON6 PLANE1 CITY4\n       15: FLY PLANE1 CITY4 CITY1\n       16: DEBARK PERSON2 PLANE1 CITY1\nplan cost: 48980.000000\n\ntime spent:    T.TT seconds instantiating 486 easy, 0 hard action templates\n               T.TT seconds reachability analysis, yielding 81 facts and 486 actions\n               T.TT seconds creating final representation with 81 relevant facts, 13 relevant fluents\n               T.TT seconds computing LNF\n               T.TT seconds building connectivity graph\n               T.TT seconds searching, evaluating 37 states, to a max depth of 2\n               T.TT seconds total time\n\n",
+ "stderr": "",
+ "reason": "ff: found legal plan as follows"
+}

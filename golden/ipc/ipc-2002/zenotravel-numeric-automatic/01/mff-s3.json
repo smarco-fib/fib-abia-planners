@@ -1,0 +1,12 @@
+{
+ "command": "metric-ff -s 3 -o domain.pddl -f instances/instance-1.pddl",
+ "cwd": "corpus/ipc/ipc-2002/zenotravel-numeric-automatic",
+ "exit_code": 0,
+ "outcome": "plan-found",
+ "plan": [
+  "FLY PLANE1 CITY0 CITY1"
+ ],
+ "stdout": "\nff: parsing domain file\ndomain 'ZENO-TRAVEL' defined\n ... done.\nff: parsing problem file\nproblem 'ZTRAVEL-1-2' defined\n ... done.\n\n\nwarning: numeric precondition. turning cost-minimizing relaxed plans OFF.\n\nff: search configuration is weighted A* with weight 5.\nMetric is ((4.00*[TOTAL-TIME]5.00*[RF0](TOTAL-FUEL-USED)) - () + 0.00)\nCOST MINIMIZATION DONE (WITHOUT cost-minimizing relaxed plans).\n\nadvancing to goal distance:    1\n                               0\n\nff: found legal plan as follows\nstep    0: FLY PLANE1 CITY0 CITY1\nplan cost: 13564.000000\n\ntime spent:    T.TT seconds instantiating 33 easy, 0 hard action templates\n               T.TT seconds reachability analysis, yielding 11 facts and 33 actions\n               T.TT seconds creating final representation with 11 relevant facts, 5 relevant fluents\n               T.TT seconds computing LNF\n               T.TT seconds building connectivity graph\n               T.TT seconds searching, evaluating 4 states, to a max depth of 0\n               T.TT seconds total time\n\n",
+ "stderr": "",
+ "reason": "ff: found legal plan as follows"
+}

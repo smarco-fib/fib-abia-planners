@@ -1,0 +1,19 @@
+{
+ "command": "metric-ff -s 3 -o domain.pddl -f instances/instance-1.pddl",
+ "cwd": "corpus/ipc/ipc-2002/driverlog-numeric-hard-automatic",
+ "exit_code": 0,
+ "outcome": "plan-found",
+ "plan": [
+  "WALK DRIVER1 S2 P1-2",
+  "WALK DRIVER1 P1-2 S1",
+  "WALK DRIVER2 S2 P1-2",
+  "WALK DRIVER2 P1-2 S1",
+  "WALK DRIVER2 S1 P1-0",
+  "WALK DRIVER2 P1-0 S0",
+  "BOARD-TRUCK DRIVER2 TRUCK1 S0",
+  "DRIVE-TRUCK TRUCK1 S0 S1 DRIVER2"
+ ],
+ "stdout": "\nff: parsing domain file\ndomain 'DRIVERLOG' defined\n ... done.\nff: parsing problem file\nproblem 'DLOG-2-2-2' defined\n ... done.\n\n\nwarning: non-constant effect on metric. no optimization done.\n\nff: search configuration is weighted A* with weight 5. plan length\nCOST MINIMIZATION DONE (WITH cost-minimizing relaxed plans).\n\nadvancing to goal distance:    8\n                               5\n                               4\n                               3\n                               2\n                               1\n                               0\n\nff: found legal plan as follows\nstep    0: WALK DRIVER1 S2 P1-2\n        1: WALK DRIVER1 P1-2 S1\n        2: WALK DRIVER2 S2 P1-2\n        3: WALK DRIVER2 P1-2 S1\n        4: WALK DRIVER2 S1 P1-0\n        5: WALK DRIVER2 P1-0 S0\n        6: BOARD-TRUCK DRIVER2 TRUCK1 S0\n        7: DRIVE-TRUCK TRUCK1 S0 S1 DRIVER2\n\ntime spent:    T.TT seconds instantiating 120 easy, 0 hard action templates\n               T.TT seconds reachability analysis, yielding 32 facts and 88 actions\n               T.TT seconds creating final representation with 32 relevant facts, 13 relevant fluents\n               T.TT seconds computing LNF\n               T.TT seconds building connectivity graph\n               T.TT seconds searching, evaluating 61 states, to a max depth of 0\n               T.TT seconds total time\n\n",
+ "stderr": "",
+ "reason": "ff: found legal plan as follows"
+}

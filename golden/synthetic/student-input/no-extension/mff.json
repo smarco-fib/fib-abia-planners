@@ -1,0 +1,10 @@
+{
+ "command": "metric-ff -o ../malformed/domain.pddl -f no-extension-problem",
+ "cwd": "corpus/synthetic/student-input",
+ "exit_code": 1,
+ "outcome": "usage-error",
+ "plan": null,
+ "stdout": "\nff: parsing domain file\ndomain 'TINY' defined\n ... done.\nff: parsing problem file\nproblem 'OK' defined\n ... done.\n\n\nno metric specified.\n\nff: search configuration is Enforced Hill-Climbing, then A*epsilon with weight 5.\nError! Optimization criterion not established.\nA*epsilon not defined.\n\n",
+ "stderr": "",
+ "reason": "Optimization criterion not established"
+}

@@ -1,0 +1,33 @@
+{
+ "command": "metric-ff -o domain.pddl -f instances/instance-5.pddl",
+ "cwd": "corpus/ipc/ipc-2002/satellite-numeric-automatic",
+ "exit_code": 0,
+ "outcome": "plan-found",
+ "plan": [
+  "SWITCH_ON INSTRUMENT8 SATELLITE2",
+  "TURN_TO SATELLITE0 PHENOMENON5 PHENOMENON8",
+  "TURN_TO SATELLITE2 GROUNDSTATION0 PHENOMENON5",
+  "CALIBRATE SATELLITE2 INSTRUMENT8 GROUNDSTATION0",
+  "TURN_TO SATELLITE2 STAR3 GROUNDSTATION0",
+  "TAKE_IMAGE SATELLITE2 STAR3 INSTRUMENT8 THERMOGRAPH0",
+  "TURN_TO SATELLITE2 PHENOMENON6 STAR3",
+  "TAKE_IMAGE SATELLITE2 PHENOMENON6 INSTRUMENT8 IMAGE2",
+  "TURN_TO SATELLITE2 STAR7 PHENOMENON6",
+  "TURN_TO SATELLITE2 PLANET9 STAR7",
+  "TAKE_IMAGE SATELLITE2 PLANET9 INSTRUMENT8 SPECTROGRAPH1",
+  "TURN_TO SATELLITE2 PHENOMENON5 PLANET9",
+  "TAKE_IMAGE SATELLITE2 PHENOMENON5 INSTRUMENT8 IMAGE2",
+  "TURN_TO SATELLITE2 GROUNDSTATION0 PHENOMENON5",
+  "TURN_TO SATELLITE2 STAR7 GROUNDSTATION0",
+  "SWITCH_ON INSTRUMENT5 SATELLITE1",
+  "TAKE_IMAGE SATELLITE2 STAR7 INSTRUMENT8 THERMOGRAPH0",
+  "TURN_TO SATELLITE1 GROUNDSTATION1 GROUNDSTATION2",
+  "CALIBRATE SATELLITE1 INSTRUMENT5 GROUNDSTATION1",
+  "TURN_TO SATELLITE1 PHENOMENON8 GROUNDSTATION1",
+  "TAKE_IMAGE SATELLITE1 PHENOMENON8 INSTRUMENT5 IMAGE2",
+  "TURN_TO SATELLITE1 GROUNDSTATION2 PHENOMENON8"
+ ],
+ "stdout": "\nff: parsing domain file\ndomain 'SATELLITE' defined\n ... done.\nff: parsing problem file\nproblem 'STRIPS-SAT-X-1' defined\n ... done.\n\n\ntranslating negated cond for predicate =\nwarning: numeric precondition. turning cost-minimizing relaxed plans OFF.\n\nff: search configuration is Enforced Hill-Climbing, then A*epsilon with weight 5.\nMetric is ((1.00*[RF0](FUEL-USED)) - () + 0.00)\nCOST MINIMIZATION DONE (WITHOUT cost-minimizing relaxed plans).\n\nCueing down from goal distance:   15 into depth [1]\n                                  14            [1]\n                                  13            [1][2]\n                                  12            [1]\n                                  11            [1]\n                                  10            [1]\n                                   9            [1]\n                                   8            [1]\n                                   7            [1][2]\n                                   6            [1][2][3][4][5]\n                                   5            [1]\n                                   4            [1][2]\n                                   3            [1]\n                                   2            [1]\n                                   1            [1]\n                                   0            \n\nff: found legal plan as follows\nstep    0: SWITCH_ON INSTRUMENT8 SATELLITE2\n        1: TURN_TO SATELLITE0 PHENOMENON5 PHENOMENON8\n        2: TURN_TO SATELLITE2 GROUNDSTATION0 PHENOMENON5\n        3: CALIBRATE SATELLITE2 INSTRUMENT8 GROUNDSTATION0\n        4: TURN_TO SATELLITE2 STAR3 GROUNDSTATION0\n        5: TAKE_IMAGE SATELLITE2 STAR3 INSTRUMENT8 THERMOGRAPH0\n        6: TURN_TO SATELLITE2 PHENOMENON6 STAR3\n        7: TAKE_IMAGE SATELLITE2 PHENOMENON6 INSTRUMENT8 IMAGE2\n        8: TURN_TO SATELLITE2 STAR7 PHENOMENON6\n        9: TURN_TO SATELLITE2 PLANET9 STAR7\n       10: TAKE_IMAGE SATELLITE2 PLANET9 INSTRUMENT8 SPECTROGRAPH1\n       11: TURN_TO SATELLITE2 PHENOMENON5 PLANET9\n       12: TAKE_IMAGE SATELLITE2 PHENOMENON5 INSTRUMENT8 IMAGE2\n       13: TURN_TO SATELLITE2 GROUNDSTATION0 PHENOMENON5\n       14: TURN_TO SATELLITE2 STAR7 GROUNDSTATION0\n       15: SWITCH_ON INSTRUMENT5 SATELLITE1\n       16: TAKE_IMAGE SATELLITE2 STAR7 INSTRUMENT8 THERMOGRAPH0\n       17: TURN_TO SATELLITE1 GROUNDSTATION1 GROUNDSTATION2\n       18: CALIBRATE SATELLITE1 INSTRUMENT5 GROUNDSTATION1\n       19: TURN_TO SATELLITE1 PHENOMENON8 GROUNDSTATION1\n       20: TAKE_IMAGE SATELLITE1 PHENOMENON8 INSTRUMENT5 IMAGE2\n       21: TURN_TO SATELLITE1 GROUNDSTATION2 PHENOMENON8\nplan cost: 299.265991\n\ntime spent:    T.TT seconds instantiating 497 easy, 0 hard action templates\n               T.TT seconds reachability analysis, yielding 81 facts and 437 actions\n               T.TT seconds creating final representation with 81 relevant facts, 8 relevant fluents\n               T.TT seconds computing LNF\n               T.TT seconds building connectivity graph\n               T.TT seconds searching, evaluating 385 states, to a max depth of 5\n               T.TT seconds total time\n\n",
+ "stderr": "",
+ "reason": "ff: found legal plan as follows"
+}

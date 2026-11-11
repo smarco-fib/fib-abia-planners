@@ -1,0 +1,32 @@
+{
+ "command": "metric-ff -s 0 -o domain.pddl -f instances/instance-4.pddl",
+ "cwd": "corpus/ipc/ipc-2002/satellite-numeric-automatic",
+ "exit_code": 0,
+ "outcome": "plan-found",
+ "plan": [
+  "TURN_TO SATELLITE1 STAR2 STAR0",
+  "SWITCH_ON INSTRUMENT1 SATELLITE1",
+  "CALIBRATE SATELLITE1 INSTRUMENT1 STAR2",
+  "TURN_TO SATELLITE1 PLANET3 STAR2",
+  "TAKE_IMAGE SATELLITE1 PLANET3 INSTRUMENT1 INFRARED1",
+  "TURN_TO SATELLITE1 STAR6 PLANET3",
+  "TAKE_IMAGE SATELLITE1 STAR6 INSTRUMENT1 INFRARED1",
+  "TURN_TO SATELLITE1 STAR4 STAR6",
+  "TAKE_IMAGE SATELLITE1 STAR4 INSTRUMENT1 INFRARED1",
+  "TURN_TO SATELLITE1 PHENOMENON8 STAR4",
+  "TAKE_IMAGE SATELLITE1 PHENOMENON8 INSTRUMENT1 THERMOGRAPH2",
+  "TURN_TO SATELLITE1 PLANET5 PHENOMENON8",
+  "TAKE_IMAGE SATELLITE1 PLANET5 INSTRUMENT1 THERMOGRAPH2",
+  "TURN_TO SATELLITE1 STAR7 PLANET5",
+  "TAKE_IMAGE SATELLITE1 STAR7 INSTRUMENT1 INFRARED0",
+  "TURN_TO SATELLITE0 STAR0 STAR6",
+  "SWITCH_ON INSTRUMENT0 SATELLITE0",
+  "CALIBRATE SATELLITE0 INSTRUMENT0 STAR0",
+  "TURN_TO SATELLITE0 PHENOMENON9 STAR0",
+  "TURN_TO SATELLITE1 PLANET5 STAR7",
+  "TAKE_IMAGE SATELLITE0 PHENOMENON9 INSTRUMENT0 INFRARED0"
+ ],
+ "stdout": "\nff: parsing domain file\ndomain 'SATELLITE' defined\n ... done.\nff: parsing problem file\nproblem 'STRIPS-SAT-X-1' defined\n ... done.\n\n\ntranslating negated cond for predicate =\n\nff: search configuration is Enforced Hill-Climbing, if that fails then best-first search.\nMetric is plan length.\nNO COST MINIMIZATION (and no cost-minimizing relaxed plans).\n\nCueing down from goal distance:   19 into depth [1]\n                                  18            [1]\n                                  15            [1]\n                                  14            [1]\n                                  13            [1]\n                                  12            [1]\n                                  11            [1]\n                                  10            [1]\n                                   9            [1]\n                                   8            [1]\n                                   7            [1]\n                                   6            [1]\n                                   5            [1]\n                                   4            [1][2][3][4][5]\n                                   3            [1]\n                                   2            [1]\n                                   1            [1]\n                                   0            \n\nff: found legal plan as follows\nstep    0: TURN_TO SATELLITE1 STAR2 STAR0\n        1: SWITCH_ON INSTRUMENT1 SATELLITE1\n        2: CALIBRATE SATELLITE1 INSTRUMENT1 STAR2\n        3: TURN_TO SATELLITE1 PLANET3 STAR2\n        4: TAKE_IMAGE SATELLITE1 PLANET3 INSTRUMENT1 INFRARED1\n        5: TURN_TO SATELLITE1 STAR6 PLANET3\n        6: TAKE_IMAGE SATELLITE1 STAR6 INSTRUMENT1 INFRARED1\n        7: TURN_TO SATELLITE1 STAR4 STAR6\n        8: TAKE_IMAGE SATELLITE1 STAR4 INSTRUMENT1 INFRARED1\n        9: TURN_TO SATELLITE1 PHENOMENON8 STAR4\n       10: TAKE_IMAGE SATELLITE1 PHENOMENON8 INSTRUMENT1 THERMOGRAPH2\n       11: TURN_TO SATELLITE1 PLANET5 PHENOMENON8\n       12: TAKE_IMAGE SATELLITE1 PLANET5 INSTRUMENT1 THERMOGRAPH2\n       13: TURN_TO SATELLITE1 STAR7 PLANET5\n       14: TAKE_IMAGE SATELLITE1 STAR7 INSTRUMENT1 INFRARED0\n       15: TURN_TO SATELLITE0 STAR0 STAR6\n       16: SWITCH_ON INSTRUMENT0 SATELLITE0\n       17: CALIBRATE SATELLITE0 INSTRUMENT0 STAR0\n       18: TURN_TO SATELLITE0 PHENOMENON9 STAR0\n       19: TURN_TO SATELLITE1 PLANET5 STAR7\n       20: TAKE_IMAGE SATELLITE0 PHENOMENON9 INSTRUMENT0 INFRARED0\nplan cost: 161.625000\n\ntime spent:    T.TT seconds instantiating 259 easy, 0 hard action templates\n               T.TT seconds reachability analysis, yielding 58 facts and 238 actions\n               T.TT seconds creating final representation with 58 relevant facts, 6 relevant fluents\n               T.TT seconds computing LNF\n               T.TT seconds building connectivity graph\n               T.TT seconds searching, evaluating 133 states, to a max depth of 5\n               T.TT seconds total time\n\n",
+ "stderr": "",
+ "reason": "ff: found legal plan as follows"
+}

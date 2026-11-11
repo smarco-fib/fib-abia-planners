@@ -1,0 +1,21 @@
+{
+ "command": "metric-ff -s 0 -o domain.pddl -f instances/instance-1.pddl",
+ "cwd": "corpus/ipc/ipc-2002/depots-numeric-automatic",
+ "exit_code": 0,
+ "outcome": "plan-found",
+ "plan": [
+  "LIFT HOIST0 CRATE1 PALLET0 DEPOT0",
+  "LOAD HOIST0 CRATE1 TRUCK1 DEPOT0",
+  "DRIVE TRUCK1 DEPOT0 DISTRIBUTOR0",
+  "LIFT HOIST1 CRATE0 PALLET1 DISTRIBUTOR0",
+  "LOAD HOIST1 CRATE0 TRUCK1 DISTRIBUTOR0",
+  "UNLOAD HOIST1 CRATE1 TRUCK1 DISTRIBUTOR0",
+  "DRIVE TRUCK1 DISTRIBUTOR0 DISTRIBUTOR1",
+  "UNLOAD HOIST2 CRATE0 TRUCK1 DISTRIBUTOR1",
+  "DROP HOIST2 CRATE0 PALLET2 DISTRIBUTOR1",
+  "DROP HOIST1 CRATE1 PALLET1 DISTRIBUTOR0"
+ ],
+ "stdout": "\nff: parsing domain file\ndomain 'DEPOT' defined\n ... done.\nff: parsing problem file\nproblem 'DEPOTPROB1818' defined\n ... done.\n\n\n\nff: search configuration is Enforced Hill-Climbing, if that fails then best-first search.\nMetric is plan length.\nNO COST MINIMIZATION (and no cost-minimizing relaxed plans).\n\nCueing down from goal distance:   10 into depth [1]\n                                   9            [1]\n                                   8            [1]\n                                   7            [1][2]\n                                   5            [1]\n                                   4            [1]\n                                   3            [1]\n                                   2            [1]\n                                   1            [1]\n                                   0            \n\nff: found legal plan as follows\nstep    0: LIFT HOIST0 CRATE1 PALLET0 DEPOT0\n        1: LOAD HOIST0 CRATE1 TRUCK1 DEPOT0\n        2: DRIVE TRUCK1 DEPOT0 DISTRIBUTOR0\n        3: LIFT HOIST1 CRATE0 PALLET1 DISTRIBUTOR0\n        4: LOAD HOIST1 CRATE0 TRUCK1 DISTRIBUTOR0\n        5: UNLOAD HOIST1 CRATE1 TRUCK1 DISTRIBUTOR0\n        6: DRIVE TRUCK1 DISTRIBUTOR0 DISTRIBUTOR1\n        7: UNLOAD HOIST2 CRATE0 TRUCK1 DISTRIBUTOR1\n        8: DROP HOIST2 CRATE0 PALLET2 DISTRIBUTOR1\n        9: DROP HOIST1 CRATE1 PALLET1 DISTRIBUTOR0\nplan cost: 22.000000\n\ntime spent:    T.TT seconds instantiating 270 easy, 0 hard action templates\n               T.TT seconds reachability analysis, yielding 46 facts and 90 actions\n               T.TT seconds creating final representation with 40 relevant facts, 5 relevant fluents\n               T.TT seconds computing LNF\n               T.TT seconds building connectivity graph\n               T.TT seconds searching, evaluating 24 states, to a max depth of 2\n               T.TT seconds total time\n\n",
+ "stderr": "",
+ "reason": "ff: found legal plan as follows"
+}

@@ -1,0 +1,32 @@
+{
+ "command": "ff -o domain.pddl -f instances/instance-12.pddl",
+ "cwd": "corpus/ipc/ipc-2000/freecell-strips-typed",
+ "exit_code": 0,
+ "outcome": "plan-found",
+ "plan": [
+  "SENDTONEWCOL H4 S4 N1 N0",
+  "SENDTOFREE S3 C4 N4 N3",
+  "SENDTOHOME SA H3 S N1 S0 N0",
+  "SENDTOHOME CA D2 C N1 C0 N0",
+  "SENDTOFREE H3 HA N3 N2",
+  "SENDTOHOME HA D4 H N1 H0 N0",
+  "MOVE D3 S2 S4",
+  "SENDTOHOME S2 C3 S N2 SA N1",
+  "SENDTOFREE D3 S4 N2 N1",
+  "HOMEFROMFREECELL S3 S N3 S2 N2 N1 N2",
+  "SENDTOHOME S4 C2 S N4 S3 N3",
+  "SENDTOHOME-B DA D N1 D0 N0 N0 N1",
+  "SENDTOHOME-B C2 C N2 CA N1 N1 N2",
+  "SENDTOHOME-B D2 D N2 DA N1 N2 N3",
+  "HOMEFROMFREECELL D3 D N3 D2 N2 N2 N3",
+  "SENDTOHOME-B H2 H N2 HA N1 N3 N4",
+  "HOMEFROMFREECELL H3 H N3 H2 N2 N3 N4",
+  "SENDTOHOME-B C3 C N3 C2 N2 N4 N5",
+  "SENDTOHOME-B C4 C N4 C3 N3 N5 N6",
+  "SENDTOHOME-B D4 D N4 D3 N3 N6 N7",
+  "SENDTOHOME-B H4 H N4 H3 N3 N7 N8"
+ ],
+ "stdout": "\nff: parsing domain file\ndomain 'FREECELL' defined\n ... done.\nff: parsing problem file\nproblem 'FREECELL-4-2' defined\n ... done.\n\n\n\nCueing down from goal distance:   22 into depth [1]\n                                  20            [1]\n                                  19            [1]\n                                  18            [1]\n                                  17            [1]\n                                  16            [1]\n                                  15            [1]\n                                  14            [1]\n                                  13            [1]\n                                  12            [1]\n                                  11            [1]\n                                  10            [1]\n                                   9            [1]\n                                   8            [1]\n                                   7            [1]\n                                   6            [1]\n                                   5            [1]\n                                   4            [1]\n                                   3            [1]\n                                   2            [1]\n                                   1            [1]\n                                   0            \n\nff: found legal plan as follows\n\nstep    0: SENDTONEWCOL H4 S4 N1 N0\n        1: SENDTOFREE S3 C4 N4 N3\n        2: SENDTOHOME SA H3 S N1 S0 N0\n        3: SENDTOHOME CA D2 C N1 C0 N0\n        4: SENDTOFREE H3 HA N3 N2\n        5: SENDTOHOME HA D4 H N1 H0 N0\n        6: MOVE D3 S2 S4\n        7: SENDTOHOME S2 C3 S N2 SA N1\n        8: SENDTOFREE D3 S4 N2 N1\n        9: HOMEFROMFREECELL S3 S N3 S2 N2 N1 N2\n       10: SENDTOHOME S4 C2 S N4 S3 N3\n       11: SENDTOHOME-B DA D N1 D0 N0 N0 N1\n       12: SENDTOHOME-B C2 C N2 CA N1 N1 N2\n       13: SENDTOHOME-B D2 D N2 DA N1 N2 N3\n       14: HOMEFROMFREECELL D3 D N3 D2 N2 N2 N3\n       15: SENDTOHOME-B H2 H N2 HA N1 N3 N4\n       16: HOMEFROMFREECELL H3 H N3 H2 N2 N3 N4\n       17: SENDTOHOME-B C3 C N3 C2 N2 N4 N5\n       18: SENDTOHOME-B C4 C N4 C3 N3 N5 N6\n       19: SENDTOHOME-B D4 D N4 D3 N3 N6 N7\n       20: SENDTOHOME-B H4 H N4 H3 N3 N7 N8\n     \n\ntime spent:    T.TT seconds instantiating 19000 easy, 0 hard action templates\n               T.TT seconds reachability analysis, yielding 128 facts and 7372 actions\n               T.TT seconds creating final representation with 128 relevant facts\n               T.TT seconds building connectivity graph\n               T.TT seconds searching, evaluating 67 states, to a max depth of 1\n               T.TT seconds total time\n\n",
+ "stderr": "",
+ "reason": "ff: found legal plan as follows"
+}

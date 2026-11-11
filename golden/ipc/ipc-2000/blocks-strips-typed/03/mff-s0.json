@@ -1,0 +1,17 @@
+{
+ "command": "metric-ff -s 0 -o domain.pddl -f instances/instance-3.pddl",
+ "cwd": "corpus/ipc/ipc-2000/blocks-strips-typed",
+ "exit_code": 0,
+ "outcome": "plan-found",
+ "plan": [
+  "UNSTACK C B",
+  "STACK C D",
+  "PICK-UP B",
+  "STACK B C",
+  "PICK-UP A",
+  "STACK A B"
+ ],
+ "stdout": "\nff: parsing domain file\ndomain 'BLOCKS' defined\n ... done.\nff: parsing problem file\nproblem 'BLOCKS-4-2' defined\n ... done.\n\n\nno metric specified.\n\nff: search configuration is Enforced Hill-Climbing, if that fails then best-first search.\nMetric is plan length.\nNO COST MINIMIZATION (and no cost-minimizing relaxed plans).\n\nCueing down from goal distance:    6 into depth [1]\n                                   5            [1]\n                                   4            [1]\n                                   3            [1][2][3]\n                                   2            [1]\n                                   1            [1]\n                                   0            \n\nff: found legal plan as follows\nstep    0: UNSTACK C B\n        1: STACK C D\n        2: PICK-UP B\n        3: STACK B C\n        4: PICK-UP A\n        5: STACK A B\n\ntime spent:    T.TT seconds instantiating 40 easy, 0 hard action templates\n               T.TT seconds reachability analysis, yielding 29 facts and 40 actions\n               T.TT seconds creating final representation with 29 relevant facts, 0 relevant fluents\n               T.TT seconds computing LNF\n               T.TT seconds building connectivity graph\n               T.TT seconds searching, evaluating 16 states, to a max depth of 3\n               T.TT seconds total time\n\n",
+ "stderr": "",
+ "reason": "ff: found legal plan as follows"
+}

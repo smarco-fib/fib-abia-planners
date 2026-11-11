@@ -1,0 +1,10 @@
+{
+ "command": "ff -o domain.pddl -f no-fuel.pddl",
+ "cwd": "corpus/synthetic/numeric",
+ "exit_code": 1,
+ "outcome": "parse-error",
+ "plan": null,
+ "stdout": "\nff: parsing domain file",
+ "stderr": "\ndomain.pddl: syntax error in line 2, ':FLUENTS':\ndomain definition expected\n",
+ "reason": "syntax error in line 2"
+}

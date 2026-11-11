@@ -1,0 +1,10 @@
+{
+ "command": "ff -o domain.pddl -f does-not-exist.pddl",
+ "cwd": "corpus/synthetic/malformed",
+ "exit_code": 1,
+ "outcome": "parse-error",
+ "plan": null,
+ "stdout": "\nff: parsing domain file\ndomain 'TINY' defined\n ... done.\nff: parsing problem file",
+ "stderr": "\nff: can't find fact file: does-not-exist.pddl\n\n: No such file or directory\n",
+ "reason": "can't find fact file"
+}

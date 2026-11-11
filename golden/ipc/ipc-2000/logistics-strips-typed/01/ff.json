@@ -1,0 +1,31 @@
+{
+ "command": "ff -o domain.pddl -f instances/instance-1.pddl",
+ "cwd": "corpus/ipc/ipc-2000/logistics-strips-typed",
+ "exit_code": 0,
+ "outcome": "plan-found",
+ "plan": [
+  "LOAD-TRUCK OBJ23 TRU2 POS2",
+  "LOAD-TRUCK OBJ21 TRU2 POS2",
+  "DRIVE-TRUCK TRU2 POS2 APT2 CIT2",
+  "UNLOAD-TRUCK OBJ23 TRU2 APT2",
+  "UNLOAD-TRUCK OBJ21 TRU2 APT2",
+  "LOAD-AIRPLANE OBJ23 APN1 APT2",
+  "LOAD-AIRPLANE OBJ21 APN1 APT2",
+  "FLY-AIRPLANE APN1 APT2 APT1",
+  "UNLOAD-AIRPLANE OBJ23 APN1 APT1",
+  "UNLOAD-AIRPLANE OBJ21 APN1 APT1",
+  "LOAD-TRUCK OBJ11 TRU1 POS1",
+  "LOAD-TRUCK OBJ13 TRU1 POS1",
+  "DRIVE-TRUCK TRU1 POS1 APT1 CIT1",
+  "LOAD-TRUCK OBJ23 TRU1 APT1",
+  "LOAD-TRUCK OBJ21 TRU1 APT1",
+  "UNLOAD-TRUCK OBJ11 TRU1 APT1",
+  "UNLOAD-TRUCK OBJ13 TRU1 APT1",
+  "DRIVE-TRUCK TRU1 APT1 POS1 CIT1",
+  "UNLOAD-TRUCK OBJ23 TRU1 POS1",
+  "UNLOAD-TRUCK OBJ21 TRU1 POS1"
+ ],
+ "stdout": "\nff: parsing domain file\ndomain 'LOGISTICS' defined\n ... done.\nff: parsing problem file\nproblem 'LOGISTICS-4-0' defined\n ... done.\n\n\n\nCueing down from goal distance:   19 into depth [1]\n                                  18            [1]\n                                  17            [1]\n                                  16            [1]\n                                  15            [1]\n                                  14            [1]\n                                  13            [1]\n                                  12            [1]\n                                  11            [1]\n                                  10            [1]\n                                   9            [1]\n                                   8            [1]\n                                   7            [1][2]\n                                   6            [1]\n                                   5            [1]\n                                   4            [1]\n                                   3            [1]\n                                   2            [1]\n                                   1            [1]\n                                   0            \n\nff: found legal plan as follows\n\nstep    0: LOAD-TRUCK OBJ23 TRU2 POS2\n        1: LOAD-TRUCK OBJ21 TRU2 POS2\n        2: DRIVE-TRUCK TRU2 POS2 APT2 CIT2\n        3: UNLOAD-TRUCK OBJ23 TRU2 APT2\n        4: UNLOAD-TRUCK OBJ21 TRU2 APT2\n        5: LOAD-AIRPLANE OBJ23 APN1 APT2\n        6: LOAD-AIRPLANE OBJ21 APN1 APT2\n        7: FLY-AIRPLANE APN1 APT2 APT1\n        8: UNLOAD-AIRPLANE OBJ23 APN1 APT1\n        9: UNLOAD-AIRPLANE OBJ21 APN1 APT1\n       10: LOAD-TRUCK OBJ11 TRU1 POS1\n       11: LOAD-TRUCK OBJ13 TRU1 POS1\n       12: DRIVE-TRUCK TRU1 POS1 APT1 CIT1\n       13: LOAD-TRUCK OBJ23 TRU1 APT1\n       14: LOAD-TRUCK OBJ21 TRU1 APT1\n       15: UNLOAD-TRUCK OBJ11 TRU1 APT1\n       16: UNLOAD-TRUCK OBJ13 TRU1 APT1\n       17: DRIVE-TRUCK TRU1 APT1 POS1 CIT1\n       18: UNLOAD-TRUCK OBJ23 TRU1 POS1\n       19: UNLOAD-TRUCK OBJ21 TRU1 POS1\n     \n\ntime spent:    T.TT seconds instantiating 164 easy, 0 hard action templates\n               T.TT seconds reachability analysis, yielding 48 facts and 84 actions\n               T.TT seconds creating final representation with 48 relevant facts\n               T.TT seconds building connectivity graph\n               T.TT seconds searching, evaluating 26 states, to a max depth of 2\n               T.TT seconds total time\n\n",
+ "stderr": "",
+ "reason": "ff: found legal plan as follows"
+}

@@ -1,0 +1,28 @@
+{
+ "command": "ff -o domain.pddl -f instances/instance-2.pddl",
+ "cwd": "corpus/ipc/ipc-1998/gripper-round-1-strips",
+ "exit_code": 0,
+ "outcome": "plan-found",
+ "plan": [
+  "PICK BALL6 ROOMA LEFT",
+  "PICK BALL5 ROOMA RIGHT",
+  "MOVE ROOMA ROOMB",
+  "DROP BALL6 ROOMB LEFT",
+  "DROP BALL5 ROOMB RIGHT",
+  "MOVE ROOMB ROOMA",
+  "PICK BALL4 ROOMA LEFT",
+  "PICK BALL3 ROOMA RIGHT",
+  "MOVE ROOMA ROOMB",
+  "DROP BALL4 ROOMB LEFT",
+  "DROP BALL3 ROOMB RIGHT",
+  "MOVE ROOMB ROOMA",
+  "PICK BALL2 ROOMA LEFT",
+  "PICK BALL1 ROOMA RIGHT",
+  "MOVE ROOMA ROOMB",
+  "DROP BALL2 ROOMB LEFT",
+  "DROP BALL1 ROOMB RIGHT"
+ ],
+ "stdout": "\nff: parsing domain file\ndomain 'GRIPPER-STRIPS' defined\n ... done.\nff: parsing problem file\nproblem 'STRIPS-GRIPPER-X-2' defined\n ... done.\n\n\n\nCueing down from goal distance:   13 into depth [1]\n                                  12            [1]\n                                  11            [1][2]\n                                  10            [1]\n                                   9            [1][2]\n                                   8            [1]\n                                   7            [1][2]\n                                   6            [1]\n                                   5            [1][2]\n                                   4            [1]\n                                   3            [1]\n                                   2            [1]\n                                   1            [1]\n                                   0            \n\nff: found legal plan as follows\n\nstep    0: PICK BALL6 ROOMA LEFT\n        1: PICK BALL5 ROOMA RIGHT\n        2: MOVE ROOMA ROOMB\n        3: DROP BALL6 ROOMB LEFT\n        4: DROP BALL5 ROOMB RIGHT\n        5: MOVE ROOMB ROOMA\n        6: PICK BALL4 ROOMA LEFT\n        7: PICK BALL3 ROOMA RIGHT\n        8: MOVE ROOMA ROOMB\n        9: DROP BALL4 ROOMB LEFT\n       10: DROP BALL3 ROOMB RIGHT\n       11: MOVE ROOMB ROOMA\n       12: PICK BALL2 ROOMA LEFT\n       13: PICK BALL1 ROOMA RIGHT\n       14: MOVE ROOMA ROOMB\n       15: DROP BALL2 ROOMB LEFT\n       16: DROP BALL1 ROOMB RIGHT\n     \n\ntime spent:    T.TT seconds instantiating 52 easy, 0 hard action templates\n               T.TT seconds reachability analysis, yielding 28 facts and 52 actions\n               T.TT seconds creating final representation with 28 relevant facts\n               T.TT seconds building connectivity graph\n               T.TT seconds searching, evaluating 24 states, to a max depth of 2\n               T.TT seconds total time\n\n",
+ "stderr": "",
+ "reason": "ff: found legal plan as follows"
+}

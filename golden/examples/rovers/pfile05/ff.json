@@ -1,0 +1,33 @@
+{
+ "command": "ff -o domain.pddl -f pfile05",
+ "cwd": "examples/rovers",
+ "exit_code": 0,
+ "outcome": "plan-found",
+ "plan": [
+  "CALIBRATE ROVER1 CAMERA0 OBJECTIVE1 WAYPOINT0",
+  "CALIBRATE ROVER1 CAMERA1 OBJECTIVE1 WAYPOINT0",
+  "NAVIGATE ROVER1 WAYPOINT0 WAYPOINT1",
+  "TAKE_IMAGE ROVER1 WAYPOINT1 OBJECTIVE0 CAMERA0 HIGH_RES",
+  "COMMUNICATE_IMAGE_DATA ROVER1 GENERAL OBJECTIVE0 HIGH_RES WAYPOINT1 WAYPOINT3",
+  "TAKE_IMAGE ROVER1 WAYPOINT1 OBJECTIVE2 CAMERA1 HIGH_RES",
+  "CALIBRATE ROVER1 CAMERA1 OBJECTIVE1 WAYPOINT1",
+  "COMMUNICATE_IMAGE_DATA ROVER1 GENERAL OBJECTIVE2 HIGH_RES WAYPOINT1 WAYPOINT3",
+  "TAKE_IMAGE ROVER1 WAYPOINT1 OBJECTIVE0 CAMERA1 COLOUR",
+  "COMMUNICATE_IMAGE_DATA ROVER1 GENERAL OBJECTIVE0 COLOUR WAYPOINT1 WAYPOINT3",
+  "SAMPLE_SOIL ROVER1 ROVER1STORE WAYPOINT1",
+  "COMMUNICATE_SOIL_DATA ROVER1 GENERAL WAYPOINT1 WAYPOINT1 WAYPOINT3",
+  "NAVIGATE ROVER1 WAYPOINT1 WAYPOINT2",
+  "DROP ROVER1 ROVER1STORE",
+  "SAMPLE_SOIL ROVER1 ROVER1STORE WAYPOINT2",
+  "COMMUNICATE_SOIL_DATA ROVER1 GENERAL WAYPOINT2 WAYPOINT2 WAYPOINT3",
+  "SAMPLE_ROCK ROVER0 ROVER0STORE WAYPOINT0",
+  "COMMUNICATE_ROCK_DATA ROVER0 GENERAL WAYPOINT0 WAYPOINT0 WAYPOINT3",
+  "NAVIGATE ROVER0 WAYPOINT0 WAYPOINT1",
+  "DROP ROVER0 ROVER0STORE",
+  "SAMPLE_ROCK ROVER0 ROVER0STORE WAYPOINT1",
+  "COMMUNICATE_ROCK_DATA ROVER0 GENERAL WAYPOINT1 WAYPOINT1 WAYPOINT3"
+ ],
+ "stdout": "\nff: parsing domain file\ndomain 'ROVER' defined\n ... done.\nff: parsing problem file\nproblem 'ROVERPROB2435' defined\n ... done.\n\n\n\nCueing down from goal distance:   19 into depth [1]\n                                  18            [1]\n                                  17            [1]\n                                  16            [1]\n                                  15            [1]\n                                  14            [1][2]\n                                  13            [1]\n                                  12            [1]\n                                  11            [1]\n                                  10            [1][2]\n                                   9            [1]\n                                   8            [1]\n                                   7            [1]\n                                   6            [1]\n                                   5            [1][2]\n                                   4            [1]\n                                   3            [1]\n                                   2            [1]\n                                   1            [1]\n                                   0            \n\nff: found legal plan as follows\n\nstep    0: CALIBRATE ROVER1 CAMERA0 OBJECTIVE1 WAYPOINT0\n        1: CALIBRATE ROVER1 CAMERA1 OBJECTIVE1 WAYPOINT0\n        2: NAVIGATE ROVER1 WAYPOINT0 WAYPOINT1\n        3: TAKE_IMAGE ROVER1 WAYPOINT1 OBJECTIVE0 CAMERA0 HIGH_RES\n        4: COMMUNICATE_IMAGE_DATA ROVER1 GENERAL OBJECTIVE0 HIGH_RES WAYPOINT1 WAYPOINT3\n        5: TAKE_IMAGE ROVER1 WAYPOINT1 OBJECTIVE2 CAMERA1 HIGH_RES\n        6: CALIBRATE ROVER1 CAMERA1 OBJECTIVE1 WAYPOINT1\n        7: COMMUNICATE_IMAGE_DATA ROVER1 GENERAL OBJECTIVE2 HIGH_RES WAYPOINT1 WAYPOINT3\n        8: TAKE_IMAGE ROVER1 WAYPOINT1 OBJECTIVE0 CAMERA1 COLOUR\n        9: COMMUNICATE_IMAGE_DATA ROVER1 GENERAL OBJECTIVE0 COLOUR WAYPOINT1 WAYPOINT3\n       10: SAMPLE_SOIL ROVER1 ROVER1STORE WAYPOINT1\n       11: COMMUNICATE_SOIL_DATA ROVER1 GENERAL WAYPOINT1 WAYPOINT1 WAYPOINT3\n       12: NAVIGATE ROVER1 WAYPOINT1 WAYPOINT2\n       13: DROP ROVER1 ROVER1STORE\n       14: SAMPLE_SOIL ROVER1 ROVER1STORE WAYPOINT2\n       15: COMMUNICATE_SOIL_DATA ROVER1 GENERAL WAYPOINT2 WAYPOINT2 WAYPOINT3\n       16: SAMPLE_ROCK ROVER0 ROVER0STORE WAYPOINT0\n       17: COMMUNICATE_ROCK_DATA ROVER0 GENERAL WAYPOINT0 WAYPOINT0 WAYPOINT3\n       18: NAVIGATE ROVER0 WAYPOINT0 WAYPOINT1\n       19: DROP ROVER0 ROVER0STORE\n       20: SAMPLE_ROCK ROVER0 ROVER0STORE WAYPOINT1\n       21: COMMUNICATE_ROCK_DATA ROVER0 GENERAL WAYPOINT1 WAYPOINT1 WAYPOINT3\n     \n\ntime spent:    T.TT seconds instantiating 201 easy, 0 hard action templates\n               T.TT seconds reachability analysis, yielding 59 facts and 144 actions\n               T.TT seconds creating final representation with 59 relevant facts\n               T.TT seconds building connectivity graph\n               T.TT seconds searching, evaluating 53 states, to a max depth of 2\n               T.TT seconds total time\n\n",
+ "stderr": "",
+ "reason": "ff: found legal plan as follows"
+}

@@ -1,0 +1,10 @@
+{
+ "command": "metric-ff -s 0 -o domain.pddl -f instances/instance-13.pddl",
+ "cwd": "corpus/ipc/ipc-2002/driverlog-numeric-hard-automatic",
+ "exit_code": 1,
+ "outcome": "parse-error",
+ "plan": null,
+ "stdout": "\nff: parsing domain file\ndomain 'DRIVERLOG' defined\n ... done.\nff: parsing problem file\nproblem 'DLOG-2-3-6' defined\n ... done.\n\n\n\nunknown optimization method . check input files\n\n",
+ "stderr": "",
+ "reason": "check input files"
+}

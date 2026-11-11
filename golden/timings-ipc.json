@@ -1,0 +1,6195 @@
+{
+ "host": {
+  "platform": "Linux-6.8.0-86-generic-x86_64-with-glibc2.35",
+  "machine": "x86_64",
+  "python": "3.10.12"
+ },
+ "runs": {
+  "ipc/ipc-1998/assembly-round-1-adl/01/ff": {
+   "wall_s": 0.007,
+   "maxrss_kib": 17664,
+   "outcome": "plan-found",
+   "plan_length": 28
+  },
+  "ipc/ipc-1998/assembly-round-1-adl/01/mff": {
+   "wall_s": 0.01,
+   "maxrss_kib": 17664,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/assembly-round-1-adl/01/mff-s0": {
+   "wall_s": 0.008,
+   "maxrss_kib": 17664,
+   "outcome": "plan-found",
+   "plan_length": 28
+  },
+  "ipc/ipc-1998/assembly-round-1-adl/02/ff": {
+   "wall_s": 0.009,
+   "maxrss_kib": 17664,
+   "outcome": "plan-found",
+   "plan_length": 27
+  },
+  "ipc/ipc-1998/assembly-round-1-adl/02/mff": {
+   "wall_s": 0.007,
+   "maxrss_kib": 17664,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/assembly-round-1-adl/02/mff-s0": {
+   "wall_s": 0.008,
+   "maxrss_kib": 17664,
+   "outcome": "plan-found",
+   "plan_length": 27
+  },
+  "ipc/ipc-1998/assembly-round-1-adl/03/ff": {
+   "wall_s": 0.01,
+   "maxrss_kib": 17664,
+   "outcome": "plan-found",
+   "plan_length": 32
+  },
+  "ipc/ipc-1998/assembly-round-1-adl/03/mff": {
+   "wall_s": 0.008,
+   "maxrss_kib": 17664,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/assembly-round-1-adl/03/mff-s0": {
+   "wall_s": 0.01,
+   "maxrss_kib": 17664,
+   "outcome": "plan-found",
+   "plan_length": 32
+  },
+  "ipc/ipc-1998/assembly-round-1-adl/04/ff": {
+   "wall_s": 0.012,
+   "maxrss_kib": 17664,
+   "outcome": "plan-found",
+   "plan_length": 33
+  },
+  "ipc/ipc-1998/assembly-round-1-adl/04/mff": {
+   "wall_s": 0.01,
+   "maxrss_kib": 17664,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/assembly-round-1-adl/04/mff-s0": {
+   "wall_s": 0.014,
+   "maxrss_kib": 17664,
+   "outcome": "plan-found",
+   "plan_length": 33
+  },
+  "ipc/ipc-1998/assembly-round-1-adl/05/ff": {
+   "wall_s": 0.011,
+   "maxrss_kib": 17664,
+   "outcome": "plan-found",
+   "plan_length": 42
+  },
+  "ipc/ipc-1998/assembly-round-1-adl/05/mff": {
+   "wall_s": 0.009,
+   "maxrss_kib": 17792,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/assembly-round-1-adl/05/mff-s0": {
+   "wall_s": 0.014,
+   "maxrss_kib": 17792,
+   "outcome": "plan-found",
+   "plan_length": 40
+  },
+  "ipc/ipc-1998/assembly-round-1-adl/06/ff": {
+   "wall_s": 0.012,
+   "maxrss_kib": 17792,
+   "outcome": "plan-found",
+   "plan_length": 36
+  },
+  "ipc/ipc-1998/assembly-round-1-adl/06/mff": {
+   "wall_s": 0.012,
+   "maxrss_kib": 17792,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/assembly-round-1-adl/06/mff-s0": {
+   "wall_s": 0.013,
+   "maxrss_kib": 17792,
+   "outcome": "plan-found",
+   "plan_length": 36
+  },
+  "ipc/ipc-1998/assembly-round-1-adl/07/ff": {
+   "wall_s": 0.036,
+   "maxrss_kib": 17792,
+   "outcome": "plan-found",
+   "plan_length": 47
+  },
+  "ipc/ipc-1998/assembly-round-1-adl/07/mff": {
+   "wall_s": 0.014,
+   "maxrss_kib": 17792,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/assembly-round-1-adl/07/mff-s0": {
+   "wall_s": 0.024,
+   "maxrss_kib": 17792,
+   "outcome": "plan-found",
+   "plan_length": 47
+  },
+  "ipc/ipc-1998/assembly-round-1-adl/08/ff": {
+   "wall_s": 0.016,
+   "maxrss_kib": 17792,
+   "outcome": "plan-found",
+   "plan_length": 51
+  },
+  "ipc/ipc-1998/assembly-round-1-adl/08/mff": {
+   "wall_s": 0.013,
+   "maxrss_kib": 17792,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/assembly-round-1-adl/08/mff-s0": {
+   "wall_s": 0.018,
+   "maxrss_kib": 17792,
+   "outcome": "plan-found",
+   "plan_length": 50
+  },
+  "ipc/ipc-1998/assembly-round-1-adl/09/ff": {
+   "wall_s": 0.021,
+   "maxrss_kib": 17792,
+   "outcome": "plan-found",
+   "plan_length": 50
+  },
+  "ipc/ipc-1998/assembly-round-1-adl/09/mff": {
+   "wall_s": 0.016,
+   "maxrss_kib": 17920,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/assembly-round-1-adl/09/mff-s0": {
+   "wall_s": 0.021,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 48
+  },
+  "ipc/ipc-1998/assembly-round-1-adl/10/ff": {
+   "wall_s": 0.02,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 47
+  },
+  "ipc/ipc-1998/assembly-round-1-adl/10/mff": {
+   "wall_s": 0.019,
+   "maxrss_kib": 17920,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/assembly-round-1-adl/10/mff-s0": {
+   "wall_s": 0.026,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 47
+  },
+  "ipc/ipc-1998/assembly-round-1-adl/11/ff": {
+   "wall_s": 0.031,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 57
+  },
+  "ipc/ipc-1998/assembly-round-1-adl/11/mff": {
+   "wall_s": 0.027,
+   "maxrss_kib": 17920,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/assembly-round-1-adl/11/mff-s0": {
+   "wall_s": 0.035,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 57
+  },
+  "ipc/ipc-1998/assembly-round-1-adl/12/ff": {
+   "wall_s": 0.027,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 58
+  },
+  "ipc/ipc-1998/assembly-round-1-adl/12/mff": {
+   "wall_s": 0.02,
+   "maxrss_kib": 17920,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/assembly-round-1-adl/12/mff-s0": {
+   "wall_s": 0.027,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 58
+  },
+  "ipc/ipc-1998/gripper-round-1-adl/01/ff": {
+   "wall_s": 0.002,
+   "maxrss_kib": 17408,
+   "outcome": "plan-found",
+   "plan_length": 11
+  },
+  "ipc/ipc-1998/gripper-round-1-adl/01/mff": {
+   "wall_s": 0.004,
+   "maxrss_kib": 17536,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/gripper-round-1-adl/01/mff-s0": {
+   "wall_s": 0.003,
+   "maxrss_kib": 17536,
+   "outcome": "plan-found",
+   "plan_length": 11
+  },
+  "ipc/ipc-1998/gripper-round-1-adl/02/ff": {
+   "wall_s": 0.003,
+   "maxrss_kib": 17536,
+   "outcome": "plan-found",
+   "plan_length": 17
+  },
+  "ipc/ipc-1998/gripper-round-1-adl/02/mff": {
+   "wall_s": 0.006,
+   "maxrss_kib": 17536,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/gripper-round-1-adl/02/mff-s0": {
+   "wall_s": 0.007,
+   "maxrss_kib": 17536,
+   "outcome": "plan-found",
+   "plan_length": 17
+  },
+  "ipc/ipc-1998/gripper-round-1-adl/03/ff": {
+   "wall_s": 0.004,
+   "maxrss_kib": 17536,
+   "outcome": "plan-found",
+   "plan_length": 23
+  },
+  "ipc/ipc-1998/gripper-round-1-adl/03/mff": {
+   "wall_s": 0.004,
+   "maxrss_kib": 17536,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/gripper-round-1-adl/03/mff-s0": {
+   "wall_s": 0.004,
+   "maxrss_kib": 17536,
+   "outcome": "plan-found",
+   "plan_length": 23
+  },
+  "ipc/ipc-1998/gripper-round-1-adl/04/ff": {
+   "wall_s": 0.004,
+   "maxrss_kib": 17536,
+   "outcome": "plan-found",
+   "plan_length": 29
+  },
+  "ipc/ipc-1998/gripper-round-1-adl/04/mff": {
+   "wall_s": 0.004,
+   "maxrss_kib": 17536,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/gripper-round-1-adl/04/mff-s0": {
+   "wall_s": 0.007,
+   "maxrss_kib": 17536,
+   "outcome": "plan-found",
+   "plan_length": 29
+  },
+  "ipc/ipc-1998/gripper-round-1-adl/05/ff": {
+   "wall_s": 0.005,
+   "maxrss_kib": 17536,
+   "outcome": "plan-found",
+   "plan_length": 35
+  },
+  "ipc/ipc-1998/gripper-round-1-adl/05/mff": {
+   "wall_s": 0.005,
+   "maxrss_kib": 17536,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/gripper-round-1-adl/05/mff-s0": {
+   "wall_s": 0.007,
+   "maxrss_kib": 17536,
+   "outcome": "plan-found",
+   "plan_length": 35
+  },
+  "ipc/ipc-1998/gripper-round-1-adl/06/ff": {
+   "wall_s": 0.004,
+   "maxrss_kib": 17536,
+   "outcome": "plan-found",
+   "plan_length": 41
+  },
+  "ipc/ipc-1998/gripper-round-1-adl/06/mff": {
+   "wall_s": 0.003,
+   "maxrss_kib": 17536,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/gripper-round-1-adl/06/mff-s0": {
+   "wall_s": 0.005,
+   "maxrss_kib": 17536,
+   "outcome": "plan-found",
+   "plan_length": 41
+  },
+  "ipc/ipc-1998/gripper-round-1-adl/07/ff": {
+   "wall_s": 0.006,
+   "maxrss_kib": 17536,
+   "outcome": "plan-found",
+   "plan_length": 47
+  },
+  "ipc/ipc-1998/gripper-round-1-adl/07/mff": {
+   "wall_s": 0.004,
+   "maxrss_kib": 17536,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/gripper-round-1-adl/07/mff-s0": {
+   "wall_s": 0.008,
+   "maxrss_kib": 17536,
+   "outcome": "plan-found",
+   "plan_length": 47
+  },
+  "ipc/ipc-1998/gripper-round-1-adl/08/ff": {
+   "wall_s": 0.004,
+   "maxrss_kib": 17536,
+   "outcome": "plan-found",
+   "plan_length": 53
+  },
+  "ipc/ipc-1998/gripper-round-1-adl/08/mff": {
+   "wall_s": 0.004,
+   "maxrss_kib": 17536,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/gripper-round-1-adl/08/mff-s0": {
+   "wall_s": 0.006,
+   "maxrss_kib": 17536,
+   "outcome": "plan-found",
+   "plan_length": 53
+  },
+  "ipc/ipc-1998/gripper-round-1-adl/09/ff": {
+   "wall_s": 0.006,
+   "maxrss_kib": 17536,
+   "outcome": "plan-found",
+   "plan_length": 59
+  },
+  "ipc/ipc-1998/gripper-round-1-adl/09/mff": {
+   "wall_s": 0.004,
+   "maxrss_kib": 17664,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/gripper-round-1-adl/09/mff-s0": {
+   "wall_s": 0.009,
+   "maxrss_kib": 17536,
+   "outcome": "plan-found",
+   "plan_length": 59
+  },
+  "ipc/ipc-1998/gripper-round-1-adl/10/ff": {
+   "wall_s": 0.004,
+   "maxrss_kib": 17664,
+   "outcome": "plan-found",
+   "plan_length": 65
+  },
+  "ipc/ipc-1998/gripper-round-1-adl/10/mff": {
+   "wall_s": 0.005,
+   "maxrss_kib": 17664,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/gripper-round-1-adl/10/mff-s0": {
+   "wall_s": 0.011,
+   "maxrss_kib": 17664,
+   "outcome": "plan-found",
+   "plan_length": 65
+  },
+  "ipc/ipc-1998/gripper-round-1-adl/11/ff": {
+   "wall_s": 0.008,
+   "maxrss_kib": 17664,
+   "outcome": "plan-found",
+   "plan_length": 71
+  },
+  "ipc/ipc-1998/gripper-round-1-adl/11/mff": {
+   "wall_s": 0.007,
+   "maxrss_kib": 17664,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/gripper-round-1-adl/11/mff-s0": {
+   "wall_s": 0.009,
+   "maxrss_kib": 17664,
+   "outcome": "plan-found",
+   "plan_length": 71
+  },
+  "ipc/ipc-1998/gripper-round-1-adl/12/ff": {
+   "wall_s": 0.005,
+   "maxrss_kib": 17664,
+   "outcome": "plan-found",
+   "plan_length": 77
+  },
+  "ipc/ipc-1998/gripper-round-1-adl/12/mff": {
+   "wall_s": 0.005,
+   "maxrss_kib": 17664,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/gripper-round-1-adl/12/mff-s0": {
+   "wall_s": 0.013,
+   "maxrss_kib": 17664,
+   "outcome": "plan-found",
+   "plan_length": 77
+  },
+  "ipc/ipc-1998/gripper-round-1-strips/01/ff": {
+   "wall_s": 0.011,
+   "maxrss_kib": 14592,
+   "outcome": "plan-found",
+   "plan_length": 11
+  },
+  "ipc/ipc-1998/gripper-round-1-strips/01/mff": {
+   "wall_s": 0.011,
+   "maxrss_kib": 14592,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/gripper-round-1-strips/01/mff-s0": {
+   "wall_s": 0.011,
+   "maxrss_kib": 14592,
+   "outcome": "plan-found",
+   "plan_length": 11
+  },
+  "ipc/ipc-1998/gripper-round-1-strips/02/ff": {
+   "wall_s": 0.013,
+   "maxrss_kib": 17152,
+   "outcome": "plan-found",
+   "plan_length": 17
+  },
+  "ipc/ipc-1998/gripper-round-1-strips/02/mff": {
+   "wall_s": 0.007,
+   "maxrss_kib": 17152,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/gripper-round-1-strips/02/mff-s0": {
+   "wall_s": 0.004,
+   "maxrss_kib": 17152,
+   "outcome": "plan-found",
+   "plan_length": 17
+  },
+  "ipc/ipc-1998/gripper-round-1-strips/03/ff": {
+   "wall_s": 0.003,
+   "maxrss_kib": 17152,
+   "outcome": "plan-found",
+   "plan_length": 23
+  },
+  "ipc/ipc-1998/gripper-round-1-strips/03/mff": {
+   "wall_s": 0.004,
+   "maxrss_kib": 17152,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/gripper-round-1-strips/03/mff-s0": {
+   "wall_s": 0.005,
+   "maxrss_kib": 17152,
+   "outcome": "plan-found",
+   "plan_length": 23
+  },
+  "ipc/ipc-1998/gripper-round-1-strips/04/ff": {
+   "wall_s": 0.004,
+   "maxrss_kib": 17152,
+   "outcome": "plan-found",
+   "plan_length": 29
+  },
+  "ipc/ipc-1998/gripper-round-1-strips/04/mff": {
+   "wall_s": 0.003,
+   "maxrss_kib": 17280,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/gripper-round-1-strips/04/mff-s0": {
+   "wall_s": 0.004,
+   "maxrss_kib": 17280,
+   "outcome": "plan-found",
+   "plan_length": 29
+  },
+  "ipc/ipc-1998/gripper-round-1-strips/05/ff": {
+   "wall_s": 0.004,
+   "maxrss_kib": 17280,
+   "outcome": "plan-found",
+   "plan_length": 35
+  },
+  "ipc/ipc-1998/gripper-round-1-strips/05/mff": {
+   "wall_s": 0.003,
+   "maxrss_kib": 17280,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/gripper-round-1-strips/05/mff-s0": {
+   "wall_s": 0.004,
+   "maxrss_kib": 17280,
+   "outcome": "plan-found",
+   "plan_length": 35
+  },
+  "ipc/ipc-1998/gripper-round-1-strips/06/ff": {
+   "wall_s": 0.003,
+   "maxrss_kib": 17280,
+   "outcome": "plan-found",
+   "plan_length": 41
+  },
+  "ipc/ipc-1998/gripper-round-1-strips/06/mff": {
+   "wall_s": 0.004,
+   "maxrss_kib": 17280,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/gripper-round-1-strips/06/mff-s0": {
+   "wall_s": 0.005,
+   "maxrss_kib": 17280,
+   "outcome": "plan-found",
+   "plan_length": 41
+  },
+  "ipc/ipc-1998/gripper-round-1-strips/07/ff": {
+   "wall_s": 0.006,
+   "maxrss_kib": 17280,
+   "outcome": "plan-found",
+   "plan_length": 47
+  },
+  "ipc/ipc-1998/gripper-round-1-strips/07/mff": {
+   "wall_s": 0.006,
+   "maxrss_kib": 17280,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/gripper-round-1-strips/07/mff-s0": {
+   "wall_s": 0.005,
+   "maxrss_kib": 17280,
+   "outcome": "plan-found",
+   "plan_length": 47
+  },
+  "ipc/ipc-1998/gripper-round-1-strips/08/ff": {
+   "wall_s": 0.004,
+   "maxrss_kib": 17280,
+   "outcome": "plan-found",
+   "plan_length": 53
+  },
+  "ipc/ipc-1998/gripper-round-1-strips/08/mff": {
+   "wall_s": 0.006,
+   "maxrss_kib": 17280,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/gripper-round-1-strips/08/mff-s0": {
+   "wall_s": 0.007,
+   "maxrss_kib": 17280,
+   "outcome": "plan-found",
+   "plan_length": 53
+  },
+  "ipc/ipc-1998/gripper-round-1-strips/09/ff": {
+   "wall_s": 0.007,
+   "maxrss_kib": 17280,
+   "outcome": "plan-found",
+   "plan_length": 59
+  },
+  "ipc/ipc-1998/gripper-round-1-strips/09/mff": {
+   "wall_s": 0.005,
+   "maxrss_kib": 17280,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/gripper-round-1-strips/09/mff-s0": {
+   "wall_s": 0.007,
+   "maxrss_kib": 17280,
+   "outcome": "plan-found",
+   "plan_length": 59
+  },
+  "ipc/ipc-1998/gripper-round-1-strips/10/ff": {
+   "wall_s": 0.004,
+   "maxrss_kib": 17408,
+   "outcome": "plan-found",
+   "plan_length": 65
+  },
+  "ipc/ipc-1998/gripper-round-1-strips/10/mff": {
+   "wall_s": 0.006,
+   "maxrss_kib": 17408,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/gripper-round-1-strips/10/mff-s0": {
+   "wall_s": 0.009,
+   "maxrss_kib": 17408,
+   "outcome": "plan-found",
+   "plan_length": 65
+  },
+  "ipc/ipc-1998/gripper-round-1-strips/11/ff": {
+   "wall_s": 0.006,
+   "maxrss_kib": 17408,
+   "outcome": "plan-found",
+   "plan_length": 71
+  },
+  "ipc/ipc-1998/gripper-round-1-strips/11/mff": {
+   "wall_s": 0.004,
+   "maxrss_kib": 17408,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/gripper-round-1-strips/11/mff-s0": {
+   "wall_s": 0.01,
+   "maxrss_kib": 17408,
+   "outcome": "plan-found",
+   "plan_length": 71
+  },
+  "ipc/ipc-1998/gripper-round-1-strips/12/ff": {
+   "wall_s": 0.005,
+   "maxrss_kib": 17408,
+   "outcome": "plan-found",
+   "plan_length": 77
+  },
+  "ipc/ipc-1998/gripper-round-1-strips/12/mff": {
+   "wall_s": 0.004,
+   "maxrss_kib": 17408,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/gripper-round-1-strips/12/mff-s0": {
+   "wall_s": 0.01,
+   "maxrss_kib": 17408,
+   "outcome": "plan-found",
+   "plan_length": 77
+  },
+  "ipc/ipc-1998/movie-round-1-adl/01/ff": {
+   "wall_s": 0.002,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 7
+  },
+  "ipc/ipc-1998/movie-round-1-adl/01/mff": {
+   "wall_s": 0.124,
+   "maxrss_kib": 17920,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/movie-round-1-adl/01/mff-s0": {
+   "wall_s": 0.109,
+   "maxrss_kib": 17920,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/movie-round-1-adl/02/ff": {
+   "wall_s": 0.002,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 7
+  },
+  "ipc/ipc-1998/movie-round-1-adl/02/mff": {
+   "wall_s": 0.159,
+   "maxrss_kib": 17920,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/movie-round-1-adl/02/mff-s0": {
+   "wall_s": 0.143,
+   "maxrss_kib": 17920,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/movie-round-1-adl/03/ff": {
+   "wall_s": 0.002,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 7
+  },
+  "ipc/ipc-1998/movie-round-1-adl/03/mff": {
+   "wall_s": 0.102,
+   "maxrss_kib": 17920,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/movie-round-1-adl/03/mff-s0": {
+   "wall_s": 0.131,
+   "maxrss_kib": 17920,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/movie-round-1-adl/04/ff": {
+   "wall_s": 0.002,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 7
+  },
+  "ipc/ipc-1998/movie-round-1-adl/04/mff": {
+   "wall_s": 0.124,
+   "maxrss_kib": 17920,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/movie-round-1-adl/04/mff-s0": {
+   "wall_s": 0.117,
+   "maxrss_kib": 17920,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/movie-round-1-adl/05/ff": {
+   "wall_s": 0.002,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 7
+  },
+  "ipc/ipc-1998/movie-round-1-adl/05/mff": {
+   "wall_s": 0.1,
+   "maxrss_kib": 17920,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/movie-round-1-adl/05/mff-s0": {
+   "wall_s": 0.131,
+   "maxrss_kib": 17920,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/movie-round-1-adl/06/ff": {
+   "wall_s": 0.002,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 7
+  },
+  "ipc/ipc-1998/movie-round-1-adl/06/mff": {
+   "wall_s": 0.128,
+   "maxrss_kib": 17920,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/movie-round-1-adl/06/mff-s0": {
+   "wall_s": 0.102,
+   "maxrss_kib": 17920,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/movie-round-1-adl/07/ff": {
+   "wall_s": 0.002,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 7
+  },
+  "ipc/ipc-1998/movie-round-1-adl/07/mff": {
+   "wall_s": 0.101,
+   "maxrss_kib": 17920,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/movie-round-1-adl/07/mff-s0": {
+   "wall_s": 0.133,
+   "maxrss_kib": 17920,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/movie-round-1-adl/08/ff": {
+   "wall_s": 0.003,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 7
+  },
+  "ipc/ipc-1998/movie-round-1-adl/08/mff": {
+   "wall_s": 0.107,
+   "maxrss_kib": 17920,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/movie-round-1-adl/08/mff-s0": {
+   "wall_s": 0.11,
+   "maxrss_kib": 17920,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/movie-round-1-adl/09/ff": {
+   "wall_s": 0.002,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 7
+  },
+  "ipc/ipc-1998/movie-round-1-adl/09/mff": {
+   "wall_s": 0.11,
+   "maxrss_kib": 17920,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/movie-round-1-adl/09/mff-s0": {
+   "wall_s": 0.109,
+   "maxrss_kib": 17920,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/movie-round-1-adl/10/ff": {
+   "wall_s": 0.002,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 7
+  },
+  "ipc/ipc-1998/movie-round-1-adl/10/mff": {
+   "wall_s": 0.119,
+   "maxrss_kib": 17920,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/movie-round-1-adl/10/mff-s0": {
+   "wall_s": 0.11,
+   "maxrss_kib": 17920,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/movie-round-1-adl/11/ff": {
+   "wall_s": 0.002,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 7
+  },
+  "ipc/ipc-1998/movie-round-1-adl/11/mff": {
+   "wall_s": 0.108,
+   "maxrss_kib": 17920,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/movie-round-1-adl/11/mff-s0": {
+   "wall_s": 0.102,
+   "maxrss_kib": 17920,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/movie-round-1-adl/12/ff": {
+   "wall_s": 0.002,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 7
+  },
+  "ipc/ipc-1998/movie-round-1-adl/12/mff": {
+   "wall_s": 0.118,
+   "maxrss_kib": 17920,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/movie-round-1-adl/12/mff-s0": {
+   "wall_s": 0.129,
+   "maxrss_kib": 17920,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/mystery-round-1-adl/01/ff": {
+   "wall_s": 0.001,
+   "maxrss_kib": 17920,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/mystery-round-1-adl/01/mff": {
+   "wall_s": 0.001,
+   "maxrss_kib": 17920,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/mystery-round-1-adl/01/mff-s0": {
+   "wall_s": 0.001,
+   "maxrss_kib": 17920,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/mystery-round-1-adl/02/ff": {
+   "wall_s": 0.001,
+   "maxrss_kib": 17920,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/mystery-round-1-adl/02/mff": {
+   "wall_s": 0.001,
+   "maxrss_kib": 17920,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/mystery-round-1-adl/02/mff-s0": {
+   "wall_s": 0.001,
+   "maxrss_kib": 17920,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/mystery-round-1-adl/03/ff": {
+   "wall_s": 0.001,
+   "maxrss_kib": 17920,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/mystery-round-1-adl/03/mff": {
+   "wall_s": 0.001,
+   "maxrss_kib": 17920,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/mystery-round-1-adl/03/mff-s0": {
+   "wall_s": 0.001,
+   "maxrss_kib": 17920,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/mystery-round-1-adl/04/ff": {
+   "wall_s": 0.001,
+   "maxrss_kib": 17920,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/mystery-round-1-adl/04/mff": {
+   "wall_s": 0.001,
+   "maxrss_kib": 17920,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/mystery-round-1-adl/04/mff-s0": {
+   "wall_s": 0.001,
+   "maxrss_kib": 17920,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/mystery-round-1-adl/05/ff": {
+   "wall_s": 0.001,
+   "maxrss_kib": 17920,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/mystery-round-1-adl/05/mff": {
+   "wall_s": 0.001,
+   "maxrss_kib": 17920,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/mystery-round-1-adl/05/mff-s0": {
+   "wall_s": 0.002,
+   "maxrss_kib": 17920,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/mystery-round-1-adl/06/ff": {
+   "wall_s": 0.001,
+   "maxrss_kib": 17920,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/mystery-round-1-adl/06/mff": {
+   "wall_s": 0.002,
+   "maxrss_kib": 17920,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/mystery-round-1-adl/06/mff-s0": {
+   "wall_s": 0.001,
+   "maxrss_kib": 17920,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/mystery-round-1-adl/07/ff": {
+   "wall_s": 0.001,
+   "maxrss_kib": 17920,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/mystery-round-1-adl/07/mff": {
+   "wall_s": 0.002,
+   "maxrss_kib": 17920,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/mystery-round-1-adl/07/mff-s0": {
+   "wall_s": 0.002,
+   "maxrss_kib": 17920,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/mystery-round-1-adl/08/ff": {
+   "wall_s": 0.001,
+   "maxrss_kib": 17920,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/mystery-round-1-adl/08/mff": {
+   "wall_s": 0.002,
+   "maxrss_kib": 17920,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/mystery-round-1-adl/08/mff-s0": {
+   "wall_s": 0.002,
+   "maxrss_kib": 17920,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/mystery-round-1-adl/09/ff": {
+   "wall_s": 0.001,
+   "maxrss_kib": 17920,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/mystery-round-1-adl/09/mff": {
+   "wall_s": 0.001,
+   "maxrss_kib": 17920,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/mystery-round-1-adl/09/mff-s0": {
+   "wall_s": 0.002,
+   "maxrss_kib": 17920,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/mystery-round-1-adl/10/ff": {
+   "wall_s": 0.002,
+   "maxrss_kib": 17920,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/mystery-round-1-adl/10/mff": {
+   "wall_s": 0.001,
+   "maxrss_kib": 17920,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/mystery-round-1-adl/10/mff-s0": {
+   "wall_s": 0.002,
+   "maxrss_kib": 17920,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/mystery-round-1-adl/11/ff": {
+   "wall_s": 0.003,
+   "maxrss_kib": 17920,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/mystery-round-1-adl/11/mff": {
+   "wall_s": 0.001,
+   "maxrss_kib": 17920,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/mystery-round-1-adl/11/mff-s0": {
+   "wall_s": 0.001,
+   "maxrss_kib": 17920,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/mystery-round-1-adl/12/ff": {
+   "wall_s": 0.001,
+   "maxrss_kib": 17920,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/mystery-round-1-adl/12/mff": {
+   "wall_s": 0.001,
+   "maxrss_kib": 17920,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-1998/mystery-round-1-adl/12/mff-s0": {
+   "wall_s": 0.002,
+   "maxrss_kib": 17920,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2000/blocks-strips-typed/01/ff": {
+   "wall_s": 0.002,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 6
+  },
+  "ipc/ipc-2000/blocks-strips-typed/01/mff": {
+   "wall_s": 0.002,
+   "maxrss_kib": 17920,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2000/blocks-strips-typed/01/mff-s0": {
+   "wall_s": 0.002,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 10
+  },
+  "ipc/ipc-2000/blocks-strips-typed/02/ff": {
+   "wall_s": 0.002,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 10
+  },
+  "ipc/ipc-2000/blocks-strips-typed/02/mff": {
+   "wall_s": 0.002,
+   "maxrss_kib": 17920,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2000/blocks-strips-typed/02/mff-s0": {
+   "wall_s": 0.002,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 10
+  },
+  "ipc/ipc-2000/blocks-strips-typed/03/ff": {
+   "wall_s": 0.002,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 6
+  },
+  "ipc/ipc-2000/blocks-strips-typed/03/mff": {
+   "wall_s": 0.002,
+   "maxrss_kib": 17920,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2000/blocks-strips-typed/03/mff-s0": {
+   "wall_s": 0.003,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 6
+  },
+  "ipc/ipc-2000/blocks-strips-typed/04/ff": {
+   "wall_s": 0.002,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 12
+  },
+  "ipc/ipc-2000/blocks-strips-typed/04/mff": {
+   "wall_s": 0.002,
+   "maxrss_kib": 17920,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2000/blocks-strips-typed/04/mff-s0": {
+   "wall_s": 0.003,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 12
+  },
+  "ipc/ipc-2000/blocks-strips-typed/05/ff": {
+   "wall_s": 0.002,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 10
+  },
+  "ipc/ipc-2000/blocks-strips-typed/05/mff": {
+   "wall_s": 0.002,
+   "maxrss_kib": 17920,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2000/blocks-strips-typed/05/mff-s0": {
+   "wall_s": 0.003,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 10
+  },
+  "ipc/ipc-2000/blocks-strips-typed/06/ff": {
+   "wall_s": 0.002,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 16
+  },
+  "ipc/ipc-2000/blocks-strips-typed/06/mff": {
+   "wall_s": 0.002,
+   "maxrss_kib": 17920,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2000/blocks-strips-typed/06/mff-s0": {
+   "wall_s": 0.003,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 26
+  },
+  "ipc/ipc-2000/blocks-strips-typed/07/ff": {
+   "wall_s": 0.003,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 20
+  },
+  "ipc/ipc-2000/blocks-strips-typed/07/mff": {
+   "wall_s": 0.002,
+   "maxrss_kib": 17920,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2000/blocks-strips-typed/07/mff-s0": {
+   "wall_s": 0.004,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 12
+  },
+  "ipc/ipc-2000/blocks-strips-typed/08/ff": {
+   "wall_s": 0.003,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 10
+  },
+  "ipc/ipc-2000/blocks-strips-typed/08/mff": {
+   "wall_s": 0.002,
+   "maxrss_kib": 17920,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2000/blocks-strips-typed/08/mff-s0": {
+   "wall_s": 0.004,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 16
+  },
+  "ipc/ipc-2000/blocks-strips-typed/09/ff": {
+   "wall_s": 0.003,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 20
+  },
+  "ipc/ipc-2000/blocks-strips-typed/09/mff": {
+   "wall_s": 0.002,
+   "maxrss_kib": 17920,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2000/blocks-strips-typed/09/mff-s0": {
+   "wall_s": 0.031,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 32
+  },
+  "ipc/ipc-2000/blocks-strips-typed/10/ff": {
+   "wall_s": 0.004,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 20
+  },
+  "ipc/ipc-2000/blocks-strips-typed/10/mff": {
+   "wall_s": 0.002,
+   "maxrss_kib": 17920,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2000/blocks-strips-typed/10/mff-s0": {
+   "wall_s": 0.107,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 36
+  },
+  "ipc/ipc-2000/blocks-strips-typed/11/ff": {
+   "wall_s": 0.003,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 22
+  },
+  "ipc/ipc-2000/blocks-strips-typed/11/mff": {
+   "wall_s": 0.002,
+   "maxrss_kib": 17920,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2000/blocks-strips-typed/11/mff-s0": {
+   "wall_s": 0.004,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 26
+  },
+  "ipc/ipc-2000/blocks-strips-typed/12/ff": {
+   "wall_s": 0.006,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 22
+  },
+  "ipc/ipc-2000/blocks-strips-typed/12/mff": {
+   "wall_s": 0.002,
+   "maxrss_kib": 17920,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2000/blocks-strips-typed/12/mff-s0": {
+   "wall_s": 0.017,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 28
+  },
+  "ipc/ipc-2000/elevator-adl-full-typed/01/ff": {
+   "wall_s": 0.002,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 4
+  },
+  "ipc/ipc-2000/elevator-adl-full-typed/01/mff": {
+   "wall_s": 0.003,
+   "maxrss_kib": 17920,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2000/elevator-adl-full-typed/01/mff-s0": {
+   "wall_s": 0.002,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 4
+  },
+  "ipc/ipc-2000/elevator-adl-full-typed/02/ff": {
+   "wall_s": 0.005,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 3
+  },
+  "ipc/ipc-2000/elevator-adl-full-typed/02/mff": {
+   "wall_s": 0.003,
+   "maxrss_kib": 17920,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2000/elevator-adl-full-typed/02/mff-s0": {
+   "wall_s": 0.002,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 3
+  },
+  "ipc/ipc-2000/elevator-adl-full-typed/03/ff": {
+   "wall_s": 0.003,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 4
+  },
+  "ipc/ipc-2000/elevator-adl-full-typed/03/mff": {
+   "wall_s": 0.003,
+   "maxrss_kib": 17920,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2000/elevator-adl-full-typed/03/mff-s0": {
+   "wall_s": 0.002,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 4
+  },
+  "ipc/ipc-2000/elevator-adl-full-typed/04/ff": {
+   "wall_s": 0.002,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 4
+  },
+  "ipc/ipc-2000/elevator-adl-full-typed/04/mff": {
+   "wall_s": 0.003,
+   "maxrss_kib": 17920,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2000/elevator-adl-full-typed/04/mff-s0": {
+   "wall_s": 0.002,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 4
+  },
+  "ipc/ipc-2000/elevator-adl-full-typed/05/ff": {
+   "wall_s": 0.003,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 4
+  },
+  "ipc/ipc-2000/elevator-adl-full-typed/05/mff": {
+   "wall_s": 0.003,
+   "maxrss_kib": 17920,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2000/elevator-adl-full-typed/05/mff-s0": {
+   "wall_s": 0.002,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 4
+  },
+  "ipc/ipc-2000/elevator-adl-full-typed/06/ff": {
+   "wall_s": 0.003,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 6
+  },
+  "ipc/ipc-2000/elevator-adl-full-typed/06/mff": {
+   "wall_s": 0.004,
+   "maxrss_kib": 17920,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2000/elevator-adl-full-typed/06/mff-s0": {
+   "wall_s": 0.005,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 6
+  },
+  "ipc/ipc-2000/elevator-adl-full-typed/07/ff": {
+   "wall_s": 0.003,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 7
+  },
+  "ipc/ipc-2000/elevator-adl-full-typed/07/mff": {
+   "wall_s": 0.003,
+   "maxrss_kib": 17920,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2000/elevator-adl-full-typed/07/mff-s0": {
+   "wall_s": 0.003,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 6
+  },
+  "ipc/ipc-2000/elevator-adl-full-typed/08/ff": {
+   "wall_s": 0.003,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 7
+  },
+  "ipc/ipc-2000/elevator-adl-full-typed/08/mff": {
+   "wall_s": 0.005,
+   "maxrss_kib": 17920,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2000/elevator-adl-full-typed/08/mff-s0": {
+   "wall_s": 0.003,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 6
+  },
+  "ipc/ipc-2000/elevator-adl-full-typed/09/ff": {
+   "wall_s": 0.003,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 7
+  },
+  "ipc/ipc-2000/elevator-adl-full-typed/09/mff": {
+   "wall_s": 0.002,
+   "maxrss_kib": 17920,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2000/elevator-adl-full-typed/09/mff-s0": {
+   "wall_s": 0.003,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 7
+  },
+  "ipc/ipc-2000/elevator-adl-full-typed/10/ff": {
+   "wall_s": 0.006,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 6
+  },
+  "ipc/ipc-2000/elevator-adl-full-typed/10/mff": {
+   "wall_s": 0.003,
+   "maxrss_kib": 17920,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2000/elevator-adl-full-typed/10/mff-s0": {
+   "wall_s": 0.003,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 6
+  },
+  "ipc/ipc-2000/elevator-adl-full-typed/11/ff": {
+   "wall_s": 0.003,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 8
+  },
+  "ipc/ipc-2000/elevator-adl-full-typed/11/mff": {
+   "wall_s": 0.004,
+   "maxrss_kib": 17920,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2000/elevator-adl-full-typed/11/mff-s0": {
+   "wall_s": 0.003,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 8
+  },
+  "ipc/ipc-2000/elevator-adl-full-typed/12/ff": {
+   "wall_s": 0.003,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 11
+  },
+  "ipc/ipc-2000/elevator-adl-full-typed/12/mff": {
+   "wall_s": 0.002,
+   "maxrss_kib": 17920,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2000/elevator-adl-full-typed/12/mff-s0": {
+   "wall_s": 0.005,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 11
+  },
+  "ipc/ipc-2000/elevator-adl-simple-typed/01/ff": {
+   "wall_s": 0.003,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 4
+  },
+  "ipc/ipc-2000/elevator-adl-simple-typed/01/mff": {
+   "wall_s": 0.002,
+   "maxrss_kib": 17920,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2000/elevator-adl-simple-typed/01/mff-s0": {
+   "wall_s": 0.002,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 4
+  },
+  "ipc/ipc-2000/elevator-adl-simple-typed/02/ff": {
+   "wall_s": 0.004,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 3
+  },
+  "ipc/ipc-2000/elevator-adl-simple-typed/02/mff": {
+   "wall_s": 0.002,
+   "maxrss_kib": 17920,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2000/elevator-adl-simple-typed/02/mff-s0": {
+   "wall_s": 0.003,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 3
+  },
+  "ipc/ipc-2000/elevator-adl-simple-typed/03/ff": {
+   "wall_s": 0.003,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 4
+  },
+  "ipc/ipc-2000/elevator-adl-simple-typed/03/mff": {
+   "wall_s": 0.004,
+   "maxrss_kib": 17920,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2000/elevator-adl-simple-typed/03/mff-s0": {
+   "wall_s": 0.004,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 4
+  },
+  "ipc/ipc-2000/elevator-adl-simple-typed/04/ff": {
+   "wall_s": 0.003,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 4
+  },
+  "ipc/ipc-2000/elevator-adl-simple-typed/04/mff": {
+   "wall_s": 0.005,
+   "maxrss_kib": 17920,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2000/elevator-adl-simple-typed/04/mff-s0": {
+   "wall_s": 0.004,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 4
+  },
+  "ipc/ipc-2000/elevator-adl-simple-typed/05/ff": {
+   "wall_s": 0.003,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 4
+  },
+  "ipc/ipc-2000/elevator-adl-simple-typed/05/mff": {
+   "wall_s": 0.004,
+   "maxrss_kib": 17920,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2000/elevator-adl-simple-typed/05/mff-s0": {
+   "wall_s": 0.003,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 4
+  },
+  "ipc/ipc-2000/elevator-adl-simple-typed/06/ff": {
+   "wall_s": 0.002,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 6
+  },
+  "ipc/ipc-2000/elevator-adl-simple-typed/06/mff": {
+   "wall_s": 0.003,
+   "maxrss_kib": 17920,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2000/elevator-adl-simple-typed/06/mff-s0": {
+   "wall_s": 0.002,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 6
+  },
+  "ipc/ipc-2000/elevator-adl-simple-typed/07/ff": {
+   "wall_s": 0.004,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 7
+  },
+  "ipc/ipc-2000/elevator-adl-simple-typed/07/mff": {
+   "wall_s": 0.004,
+   "maxrss_kib": 17920,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2000/elevator-adl-simple-typed/07/mff-s0": {
+   "wall_s": 0.003,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 6
+  },
+  "ipc/ipc-2000/elevator-adl-simple-typed/08/ff": {
+   "wall_s": 0.003,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 7
+  },
+  "ipc/ipc-2000/elevator-adl-simple-typed/08/mff": {
+   "wall_s": 0.006,
+   "maxrss_kib": 17920,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2000/elevator-adl-simple-typed/08/mff-s0": {
+   "wall_s": 0.004,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 6
+  },
+  "ipc/ipc-2000/elevator-adl-simple-typed/09/ff": {
+   "wall_s": 0.002,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 7
+  },
+  "ipc/ipc-2000/elevator-adl-simple-typed/09/mff": {
+   "wall_s": 0.002,
+   "maxrss_kib": 17920,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2000/elevator-adl-simple-typed/09/mff-s0": {
+   "wall_s": 0.003,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 7
+  },
+  "ipc/ipc-2000/elevator-adl-simple-typed/10/ff": {
+   "wall_s": 0.004,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 6
+  },
+  "ipc/ipc-2000/elevator-adl-simple-typed/10/mff": {
+   "wall_s": 0.003,
+   "maxrss_kib": 17920,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2000/elevator-adl-simple-typed/10/mff-s0": {
+   "wall_s": 0.004,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 6
+  },
+  "ipc/ipc-2000/elevator-adl-simple-typed/11/ff": {
+   "wall_s": 0.004,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 8
+  },
+  "ipc/ipc-2000/elevator-adl-simple-typed/11/mff": {
+   "wall_s": 0.003,
+   "maxrss_kib": 17920,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2000/elevator-adl-simple-typed/11/mff-s0": {
+   "wall_s": 0.004,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 8
+  },
+  "ipc/ipc-2000/elevator-adl-simple-typed/12/ff": {
+   "wall_s": 0.003,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 11
+  },
+  "ipc/ipc-2000/elevator-adl-simple-typed/12/mff": {
+   "wall_s": 0.004,
+   "maxrss_kib": 17920,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2000/elevator-adl-simple-typed/12/mff-s0": {
+   "wall_s": 0.004,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 11
+  },
+  "ipc/ipc-2000/freecell-strips-typed/01/ff": {
+   "wall_s": 0.011,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 9
+  },
+  "ipc/ipc-2000/freecell-strips-typed/01/mff": {
+   "wall_s": 0.022,
+   "maxrss_kib": 21376,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2000/freecell-strips-typed/01/mff-s0": {
+   "wall_s": 0.029,
+   "maxrss_kib": 21760,
+   "outcome": "plan-found",
+   "plan_length": 9
+  },
+  "ipc/ipc-2000/freecell-strips-typed/02/ff": {
+   "wall_s": 0.014,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 8
+  },
+  "ipc/ipc-2000/freecell-strips-typed/02/mff": {
+   "wall_s": 0.022,
+   "maxrss_kib": 21248,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2000/freecell-strips-typed/02/mff-s0": {
+   "wall_s": 0.024,
+   "maxrss_kib": 21504,
+   "outcome": "plan-found",
+   "plan_length": 8
+  },
+  "ipc/ipc-2000/freecell-strips-typed/03/ff": {
+   "wall_s": 0.012,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 9
+  },
+  "ipc/ipc-2000/freecell-strips-typed/03/mff": {
+   "wall_s": 0.021,
+   "maxrss_kib": 21376,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2000/freecell-strips-typed/03/mff-s0": {
+   "wall_s": 0.027,
+   "maxrss_kib": 21760,
+   "outcome": "plan-found",
+   "plan_length": 9
+  },
+  "ipc/ipc-2000/freecell-strips-typed/04/ff": {
+   "wall_s": 0.011,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 9
+  },
+  "ipc/ipc-2000/freecell-strips-typed/04/mff": {
+   "wall_s": 0.023,
+   "maxrss_kib": 21248,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2000/freecell-strips-typed/04/mff-s0": {
+   "wall_s": 0.026,
+   "maxrss_kib": 21760,
+   "outcome": "plan-found",
+   "plan_length": 9
+  },
+  "ipc/ipc-2000/freecell-strips-typed/05/ff": {
+   "wall_s": 0.011,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 9
+  },
+  "ipc/ipc-2000/freecell-strips-typed/05/mff": {
+   "wall_s": 0.023,
+   "maxrss_kib": 21376,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2000/freecell-strips-typed/05/mff-s0": {
+   "wall_s": 0.026,
+   "maxrss_kib": 21632,
+   "outcome": "plan-found",
+   "plan_length": 9
+  },
+  "ipc/ipc-2000/freecell-strips-typed/06/ff": {
+   "wall_s": 0.017,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 16
+  },
+  "ipc/ipc-2000/freecell-strips-typed/06/mff": {
+   "wall_s": 0.034,
+   "maxrss_kib": 32256,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2000/freecell-strips-typed/06/mff-s0": {
+   "wall_s": 0.043,
+   "maxrss_kib": 32640,
+   "outcome": "plan-found",
+   "plan_length": 15
+  },
+  "ipc/ipc-2000/freecell-strips-typed/07/ff": {
+   "wall_s": 0.018,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 14
+  },
+  "ipc/ipc-2000/freecell-strips-typed/07/mff": {
+   "wall_s": 0.034,
+   "maxrss_kib": 32000,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2000/freecell-strips-typed/07/mff-s0": {
+   "wall_s": 0.047,
+   "maxrss_kib": 32512,
+   "outcome": "plan-found",
+   "plan_length": 13
+  },
+  "ipc/ipc-2000/freecell-strips-typed/08/ff": {
+   "wall_s": 0.02,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 15
+  },
+  "ipc/ipc-2000/freecell-strips-typed/08/mff": {
+   "wall_s": 0.033,
+   "maxrss_kib": 32000,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2000/freecell-strips-typed/08/mff-s0": {
+   "wall_s": 0.064,
+   "maxrss_kib": 32512,
+   "outcome": "plan-found",
+   "plan_length": 14
+  },
+  "ipc/ipc-2000/freecell-strips-typed/09/ff": {
+   "wall_s": 0.016,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 15
+  },
+  "ipc/ipc-2000/freecell-strips-typed/09/mff": {
+   "wall_s": 0.034,
+   "maxrss_kib": 32256,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2000/freecell-strips-typed/09/mff-s0": {
+   "wall_s": 0.045,
+   "maxrss_kib": 32640,
+   "outcome": "plan-found",
+   "plan_length": 14
+  },
+  "ipc/ipc-2000/freecell-strips-typed/10/ff": {
+   "wall_s": 0.019,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 15
+  },
+  "ipc/ipc-2000/freecell-strips-typed/10/mff": {
+   "wall_s": 0.034,
+   "maxrss_kib": 32000,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2000/freecell-strips-typed/10/mff-s0": {
+   "wall_s": 0.054,
+   "maxrss_kib": 32512,
+   "outcome": "plan-found",
+   "plan_length": 15
+  },
+  "ipc/ipc-2000/freecell-strips-typed/11/ff": {
+   "wall_s": 0.027,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 24
+  },
+  "ipc/ipc-2000/freecell-strips-typed/11/mff": {
+   "wall_s": 0.047,
+   "maxrss_kib": 43264,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2000/freecell-strips-typed/11/mff-s0": {
+   "wall_s": 0.24,
+   "maxrss_kib": 44032,
+   "outcome": "plan-found",
+   "plan_length": 25
+  },
+  "ipc/ipc-2000/freecell-strips-typed/12/ff": {
+   "wall_s": 0.03,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 21
+  },
+  "ipc/ipc-2000/freecell-strips-typed/12/mff": {
+   "wall_s": 0.045,
+   "maxrss_kib": 43136,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2000/freecell-strips-typed/12/mff-s0": {
+   "wall_s": 0.085,
+   "maxrss_kib": 43776,
+   "outcome": "plan-found",
+   "plan_length": 21
+  },
+  "ipc/ipc-2000/logistics-strips-typed/01/ff": {
+   "wall_s": 0.006,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 20
+  },
+  "ipc/ipc-2000/logistics-strips-typed/01/mff": {
+   "wall_s": 0.006,
+   "maxrss_kib": 17920,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2000/logistics-strips-typed/01/mff-s0": {
+   "wall_s": 0.003,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 20
+  },
+  "ipc/ipc-2000/logistics-strips-typed/02/ff": {
+   "wall_s": 0.007,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 19
+  },
+  "ipc/ipc-2000/logistics-strips-typed/02/mff": {
+   "wall_s": 0.004,
+   "maxrss_kib": 17920,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2000/logistics-strips-typed/02/mff-s0": {
+   "wall_s": 0.007,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 19
+  },
+  "ipc/ipc-2000/logistics-strips-typed/03/ff": {
+   "wall_s": 0.005,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 15
+  },
+  "ipc/ipc-2000/logistics-strips-typed/03/mff": {
+   "wall_s": 0.003,
+   "maxrss_kib": 17920,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2000/logistics-strips-typed/03/mff-s0": {
+   "wall_s": 0.003,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 15
+  },
+  "ipc/ipc-2000/logistics-strips-typed/04/ff": {
+   "wall_s": 0.004,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 27
+  },
+  "ipc/ipc-2000/logistics-strips-typed/04/mff": {
+   "wall_s": 0.006,
+   "maxrss_kib": 17920,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2000/logistics-strips-typed/04/mff-s0": {
+   "wall_s": 0.006,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 27
+  },
+  "ipc/ipc-2000/logistics-strips-typed/05/ff": {
+   "wall_s": 0.003,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 17
+  },
+  "ipc/ipc-2000/logistics-strips-typed/05/mff": {
+   "wall_s": 0.004,
+   "maxrss_kib": 17920,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2000/logistics-strips-typed/05/mff-s0": {
+   "wall_s": 0.003,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 17
+  },
+  "ipc/ipc-2000/logistics-strips-typed/06/ff": {
+   "wall_s": 0.005,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 8
+  },
+  "ipc/ipc-2000/logistics-strips-typed/06/mff": {
+   "wall_s": 0.005,
+   "maxrss_kib": 17920,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2000/logistics-strips-typed/06/mff-s0": {
+   "wall_s": 0.003,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 8
+  },
+  "ipc/ipc-2000/logistics-strips-typed/07/ff": {
+   "wall_s": 0.004,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 25
+  },
+  "ipc/ipc-2000/logistics-strips-typed/07/mff": {
+   "wall_s": 0.003,
+   "maxrss_kib": 17920,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2000/logistics-strips-typed/07/mff-s0": {
+   "wall_s": 0.004,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 25
+  },
+  "ipc/ipc-2000/logistics-strips-typed/08/ff": {
+   "wall_s": 0.003,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 14
+  },
+  "ipc/ipc-2000/logistics-strips-typed/08/mff": {
+   "wall_s": 0.004,
+   "maxrss_kib": 17920,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2000/logistics-strips-typed/08/mff-s0": {
+   "wall_s": 0.006,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 14
+  },
+  "ipc/ipc-2000/logistics-strips-typed/09/ff": {
+   "wall_s": 0.004,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 25
+  },
+  "ipc/ipc-2000/logistics-strips-typed/09/mff": {
+   "wall_s": 0.003,
+   "maxrss_kib": 17920,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2000/logistics-strips-typed/09/mff-s0": {
+   "wall_s": 0.004,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 25
+  },
+  "ipc/ipc-2000/logistics-strips-typed/10/ff": {
+   "wall_s": 0.004,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 24
+  },
+  "ipc/ipc-2000/logistics-strips-typed/10/mff": {
+   "wall_s": 0.004,
+   "maxrss_kib": 17920,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2000/logistics-strips-typed/10/mff-s0": {
+   "wall_s": 0.004,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 24
+  },
+  "ipc/ipc-2000/logistics-strips-typed/11/ff": {
+   "wall_s": 0.004,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 36
+  },
+  "ipc/ipc-2000/logistics-strips-typed/11/mff": {
+   "wall_s": 0.007,
+   "maxrss_kib": 17920,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2000/logistics-strips-typed/11/mff-s0": {
+   "wall_s": 0.007,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 36
+  },
+  "ipc/ipc-2000/logistics-strips-typed/12/ff": {
+   "wall_s": 0.008,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 44
+  },
+  "ipc/ipc-2000/logistics-strips-typed/12/mff": {
+   "wall_s": 0.003,
+   "maxrss_kib": 17920,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2000/logistics-strips-typed/12/mff-s0": {
+   "wall_s": 0.006,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 44
+  },
+  "ipc/ipc-2000/schedule-adl-typed/01/ff": {
+   "wall_s": 0.004,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 2
+  },
+  "ipc/ipc-2000/schedule-adl-typed/01/mff": {
+   "wall_s": 0.004,
+   "maxrss_kib": 17920,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2000/schedule-adl-typed/01/mff-s0": {
+   "wall_s": 0.004,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 2
+  },
+  "ipc/ipc-2000/schedule-adl-typed/02/ff": {
+   "wall_s": 0.004,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 2
+  },
+  "ipc/ipc-2000/schedule-adl-typed/02/mff": {
+   "wall_s": 0.006,
+   "maxrss_kib": 17920,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2000/schedule-adl-typed/02/mff-s0": {
+   "wall_s": 0.004,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 2
+  },
+  "ipc/ipc-2000/schedule-adl-typed/03/ff": {
+   "wall_s": 0.008,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 2
+  },
+  "ipc/ipc-2000/schedule-adl-typed/03/mff": {
+   "wall_s": 0.004,
+   "maxrss_kib": 17920,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2000/schedule-adl-typed/03/mff-s0": {
+   "wall_s": 0.006,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 2
+  },
+  "ipc/ipc-2000/schedule-adl-typed/04/ff": {
+   "wall_s": 0.004,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 4
+  },
+  "ipc/ipc-2000/schedule-adl-typed/04/mff": {
+   "wall_s": 0.009,
+   "maxrss_kib": 17920,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2000/schedule-adl-typed/04/mff-s0": {
+   "wall_s": 0.007,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 4
+  },
+  "ipc/ipc-2000/schedule-adl-typed/05/ff": {
+   "wall_s": 0.005,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 2
+  },
+  "ipc/ipc-2000/schedule-adl-typed/05/mff": {
+   "wall_s": 0.005,
+   "maxrss_kib": 17920,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2000/schedule-adl-typed/05/mff-s0": {
+   "wall_s": 0.005,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 2
+  },
+  "ipc/ipc-2000/schedule-adl-typed/06/ff": {
+   "wall_s": 0.004,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 4
+  },
+  "ipc/ipc-2000/schedule-adl-typed/06/mff": {
+   "wall_s": 0.004,
+   "maxrss_kib": 17920,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2000/schedule-adl-typed/06/mff-s0": {
+   "wall_s": 0.007,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 4
+  },
+  "ipc/ipc-2000/schedule-adl-typed/07/ff": {
+   "wall_s": 0.004,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 5
+  },
+  "ipc/ipc-2000/schedule-adl-typed/07/mff": {
+   "wall_s": 0.005,
+   "maxrss_kib": 17920,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2000/schedule-adl-typed/07/mff-s0": {
+   "wall_s": 0.007,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 5
+  },
+  "ipc/ipc-2000/schedule-adl-typed/08/ff": {
+   "wall_s": 0.005,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 6
+  },
+  "ipc/ipc-2000/schedule-adl-typed/08/mff": {
+   "wall_s": 0.006,
+   "maxrss_kib": 17920,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2000/schedule-adl-typed/08/mff-s0": {
+   "wall_s": 0.007,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 6
+  },
+  "ipc/ipc-2000/schedule-adl-typed/09/ff": {
+   "wall_s": 0.004,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 7
+  },
+  "ipc/ipc-2000/schedule-adl-typed/09/mff": {
+   "wall_s": 0.006,
+   "maxrss_kib": 17920,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2000/schedule-adl-typed/09/mff-s0": {
+   "wall_s": 0.007,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 7
+  },
+  "ipc/ipc-2000/schedule-adl-typed/10/ff": {
+   "wall_s": 0.005,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 5
+  },
+  "ipc/ipc-2000/schedule-adl-typed/10/mff": {
+   "wall_s": 0.005,
+   "maxrss_kib": 17920,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2000/schedule-adl-typed/10/mff-s0": {
+   "wall_s": 0.007,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 5
+  },
+  "ipc/ipc-2000/schedule-adl-typed/11/ff": {
+   "wall_s": 0.006,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 6
+  },
+  "ipc/ipc-2000/schedule-adl-typed/11/mff": {
+   "wall_s": 0.005,
+   "maxrss_kib": 17920,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2000/schedule-adl-typed/11/mff-s0": {
+   "wall_s": 0.006,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 6
+  },
+  "ipc/ipc-2000/schedule-adl-typed/12/ff": {
+   "wall_s": 0.005,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 7
+  },
+  "ipc/ipc-2000/schedule-adl-typed/12/mff": {
+   "wall_s": 0.006,
+   "maxrss_kib": 17920,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2000/schedule-adl-typed/12/mff-s0": {
+   "wall_s": 0.011,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 11
+  },
+  "ipc/ipc-2002/depots-numeric-automatic/01/mff": {
+   "wall_s": 0.009,
+   "maxrss_kib": 18176,
+   "outcome": "plan-found",
+   "plan_length": 10
+  },
+  "ipc/ipc-2002/depots-numeric-automatic/01/mff-s0": {
+   "wall_s": 0.004,
+   "maxrss_kib": 18176,
+   "outcome": "plan-found",
+   "plan_length": 10
+  },
+  "ipc/ipc-2002/depots-numeric-automatic/01/mff-s4": {
+   "wall_s": 0.006,
+   "maxrss_kib": 18176,
+   "outcome": "plan-found",
+   "plan_length": 18
+  },
+  "ipc/ipc-2002/depots-numeric-automatic/02/mff": {
+   "wall_s": 0.015,
+   "maxrss_kib": 18176,
+   "outcome": "plan-found",
+   "plan_length": 19
+  },
+  "ipc/ipc-2002/depots-numeric-automatic/02/mff-s0": {
+   "wall_s": 0.016,
+   "maxrss_kib": 18176,
+   "outcome": "plan-found",
+   "plan_length": 19
+  },
+  "ipc/ipc-2002/depots-numeric-automatic/03/mff": {
+   "wall_s": 0.047,
+   "maxrss_kib": 18176,
+   "outcome": "plan-found",
+   "plan_length": 37
+  },
+  "ipc/ipc-2002/depots-numeric-automatic/03/mff-s0": {
+   "wall_s": 0.029,
+   "maxrss_kib": 18176,
+   "outcome": "plan-found",
+   "plan_length": 37
+  },
+  "ipc/ipc-2002/depots-numeric-automatic/03/mff-s3": {
+   "wall_s": 0.308,
+   "maxrss_kib": 18176,
+   "outcome": "plan-found",
+   "plan_length": 38
+  },
+  "ipc/ipc-2002/depots-numeric-automatic/03/mff-s4": {
+   "wall_s": 0.043,
+   "maxrss_kib": 18176,
+   "outcome": "plan-found",
+   "plan_length": 71
+  },
+  "ipc/ipc-2002/depots-numeric-automatic/04/mff": {
+   "wall_s": 0.632,
+   "maxrss_kib": 18176,
+   "outcome": "plan-found",
+   "plan_length": 36
+  },
+  "ipc/ipc-2002/depots-numeric-automatic/04/mff-s0": {
+   "wall_s": 0.618,
+   "maxrss_kib": 18176,
+   "outcome": "plan-found",
+   "plan_length": 36
+  },
+  "ipc/ipc-2002/depots-numeric-automatic/05/mff": {
+   "wall_s": 14.529,
+   "maxrss_kib": 206592,
+   "outcome": "plan-found",
+   "plan_length": 80
+  },
+  "ipc/ipc-2002/depots-numeric-automatic/05/mff-s0": {
+   "wall_s": 14.766,
+   "maxrss_kib": 206720,
+   "outcome": "plan-found",
+   "plan_length": 80
+  },
+  "ipc/ipc-2002/depots-numeric-automatic/07/mff": {
+   "wall_s": 0.035,
+   "maxrss_kib": 18176,
+   "outcome": "plan-found",
+   "plan_length": 27
+  },
+  "ipc/ipc-2002/depots-numeric-automatic/07/mff-s0": {
+   "wall_s": 0.033,
+   "maxrss_kib": 18176,
+   "outcome": "plan-found",
+   "plan_length": 27
+  },
+  "ipc/ipc-2002/depots-numeric-automatic/08/mff": {
+   "wall_s": 0.144,
+   "maxrss_kib": 18176,
+   "outcome": "plan-found",
+   "plan_length": 42
+  },
+  "ipc/ipc-2002/depots-numeric-automatic/08/mff-s0": {
+   "wall_s": 0.144,
+   "maxrss_kib": 18176,
+   "outcome": "plan-found",
+   "plan_length": 42
+  },
+  "ipc/ipc-2002/depots-numeric-automatic/10/mff": {
+   "wall_s": 0.081,
+   "maxrss_kib": 18176,
+   "outcome": "plan-found",
+   "plan_length": 28
+  },
+  "ipc/ipc-2002/depots-numeric-automatic/10/mff-s0": {
+   "wall_s": 0.068,
+   "maxrss_kib": 18176,
+   "outcome": "plan-found",
+   "plan_length": 28
+  },
+  "ipc/ipc-2002/depots-numeric-automatic/10/mff-s4": {
+   "wall_s": 0.151,
+   "maxrss_kib": 18176,
+   "outcome": "plan-found",
+   "plan_length": 39
+  },
+  "ipc/ipc-2002/depots-numeric-automatic/11/mff": {
+   "wall_s": 0.494,
+   "maxrss_kib": 18560,
+   "outcome": "plan-found",
+   "plan_length": 75
+  },
+  "ipc/ipc-2002/depots-numeric-automatic/11/mff-s0": {
+   "wall_s": 0.512,
+   "maxrss_kib": 18432,
+   "outcome": "plan-found",
+   "plan_length": 75
+  },
+  "ipc/ipc-2002/depots-numeric-automatic/12/mff": {
+   "wall_s": 6.83,
+   "maxrss_kib": 48640,
+   "outcome": "plan-found",
+   "plan_length": 96
+  },
+  "ipc/ipc-2002/depots-numeric-automatic/12/mff-s0": {
+   "wall_s": 6.799,
+   "maxrss_kib": 48640,
+   "outcome": "plan-found",
+   "plan_length": 96
+  },
+  "ipc/ipc-2002/depots-numeric-automatic/13/mff": {
+   "wall_s": 0.027,
+   "maxrss_kib": 18176,
+   "outcome": "plan-found",
+   "plan_length": 26
+  },
+  "ipc/ipc-2002/depots-numeric-automatic/13/mff-s0": {
+   "wall_s": 0.028,
+   "maxrss_kib": 18176,
+   "outcome": "plan-found",
+   "plan_length": 26
+  },
+  "ipc/ipc-2002/depots-numeric-automatic/13/mff-s3": {
+   "wall_s": 0.072,
+   "maxrss_kib": 18176,
+   "outcome": "plan-found",
+   "plan_length": 26
+  },
+  "ipc/ipc-2002/depots-numeric-automatic/13/mff-s4": {
+   "wall_s": 0.052,
+   "maxrss_kib": 18176,
+   "outcome": "plan-found",
+   "plan_length": 31
+  },
+  "ipc/ipc-2002/depots-numeric-automatic/14/mff": {
+   "wall_s": 0.193,
+   "maxrss_kib": 18688,
+   "outcome": "plan-found",
+   "plan_length": 39
+  },
+  "ipc/ipc-2002/depots-numeric-automatic/14/mff-s0": {
+   "wall_s": 0.196,
+   "maxrss_kib": 18688,
+   "outcome": "plan-found",
+   "plan_length": 39
+  },
+  "ipc/ipc-2002/depots-numeric-automatic/16/mff": {
+   "wall_s": 0.077,
+   "maxrss_kib": 18176,
+   "outcome": "plan-found",
+   "plan_length": 30
+  },
+  "ipc/ipc-2002/depots-numeric-automatic/16/mff-s0": {
+   "wall_s": 0.079,
+   "maxrss_kib": 18176,
+   "outcome": "plan-found",
+   "plan_length": 30
+  },
+  "ipc/ipc-2002/depots-numeric-automatic/17/mff": {
+   "wall_s": 0.158,
+   "maxrss_kib": 23040,
+   "outcome": "plan-found",
+   "plan_length": 26
+  },
+  "ipc/ipc-2002/depots-numeric-automatic/17/mff-s0": {
+   "wall_s": 0.16,
+   "maxrss_kib": 23040,
+   "outcome": "plan-found",
+   "plan_length": 26
+  },
+  "ipc/ipc-2002/depots-numeric-automatic/18/mff": {
+   "wall_s": 0.93,
+   "maxrss_kib": 41216,
+   "outcome": "plan-found",
+   "plan_length": 67
+  },
+  "ipc/ipc-2002/depots-numeric-automatic/18/mff-s0": {
+   "wall_s": 0.935,
+   "maxrss_kib": 41216,
+   "outcome": "plan-found",
+   "plan_length": 67
+  },
+  "ipc/ipc-2002/depots-numeric-automatic/18/mff-s4": {
+   "wall_s": 1.558,
+   "maxrss_kib": 41600,
+   "outcome": "plan-found",
+   "plan_length": 82
+  },
+  "ipc/ipc-2002/depots-numeric-automatic/19/mff": {
+   "wall_s": 1.449,
+   "maxrss_kib": 30976,
+   "outcome": "plan-found",
+   "plan_length": 48
+  },
+  "ipc/ipc-2002/depots-numeric-automatic/19/mff-s0": {
+   "wall_s": 1.46,
+   "maxrss_kib": 30976,
+   "outcome": "plan-found",
+   "plan_length": 48
+  },
+  "ipc/ipc-2002/depots-strips-automatic/01/ff": {
+   "wall_s": 0.003,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 10
+  },
+  "ipc/ipc-2002/depots-strips-automatic/01/mff": {
+   "wall_s": 0.004,
+   "maxrss_kib": 17920,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/depots-strips-automatic/01/mff-s0": {
+   "wall_s": 0.003,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 10
+  },
+  "ipc/ipc-2002/depots-strips-automatic/02/ff": {
+   "wall_s": 0.005,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 15
+  },
+  "ipc/ipc-2002/depots-strips-automatic/02/mff": {
+   "wall_s": 0.004,
+   "maxrss_kib": 17920,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/depots-strips-automatic/02/mff-s0": {
+   "wall_s": 0.008,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 19
+  },
+  "ipc/ipc-2002/depots-strips-automatic/03/ff": {
+   "wall_s": 0.013,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 37
+  },
+  "ipc/ipc-2002/depots-strips-automatic/03/mff": {
+   "wall_s": 0.006,
+   "maxrss_kib": 17920,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/depots-strips-automatic/03/mff-s0": {
+   "wall_s": 0.022,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 37
+  },
+  "ipc/ipc-2002/depots-strips-automatic/04/mff": {
+   "wall_s": 0.007,
+   "maxrss_kib": 17920,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/depots-strips-automatic/04/mff-s0": {
+   "wall_s": 0.447,
+   "maxrss_kib": 17920,
+   "outcome": "plan-found",
+   "plan_length": 36
+  },
+  "ipc/ipc-2002/depots-strips-automatic/05/ff": {
+   "wall_s": 13.803,
+   "maxrss_kib": 131712,
+   "outcome": "plan-found",
+   "plan_length": 72
+  },
+  "ipc/ipc-2002/depots-strips-automatic/05/mff": {
+   "wall_s": 0.009,
+   "maxrss_kib": 18048,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/depots-strips-automatic/05/mff-s0": {
+   "wall_s": 13.646,
+   "maxrss_kib": 206592,
+   "outcome": "plan-found",
+   "plan_length": 74
+  },
+  "ipc/ipc-2002/depots-strips-automatic/06/mff": {
+   "wall_s": 0.016,
+   "maxrss_kib": 18048,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/depots-strips-automatic/07/ff": {
+   "wall_s": 0.009,
+   "maxrss_kib": 18048,
+   "outcome": "plan-found",
+   "plan_length": 27
+  },
+  "ipc/ipc-2002/depots-strips-automatic/07/mff": {
+   "wall_s": 0.006,
+   "maxrss_kib": 18048,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/depots-strips-automatic/07/mff-s0": {
+   "wall_s": 0.022,
+   "maxrss_kib": 18048,
+   "outcome": "plan-found",
+   "plan_length": 27
+  },
+  "ipc/ipc-2002/depots-strips-automatic/08/mff": {
+   "wall_s": 0.01,
+   "maxrss_kib": 18048,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/depots-strips-automatic/08/mff-s0": {
+   "wall_s": 0.1,
+   "maxrss_kib": 18048,
+   "outcome": "plan-found",
+   "plan_length": 42
+  },
+  "ipc/ipc-2002/depots-strips-automatic/09/ff": {
+   "wall_s": 0.247,
+   "maxrss_kib": 18048,
+   "outcome": "plan-found",
+   "plan_length": 75
+  },
+  "ipc/ipc-2002/depots-strips-automatic/09/mff": {
+   "wall_s": 0.017,
+   "maxrss_kib": 18048,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/depots-strips-automatic/09/mff-s0": {
+   "wall_s": 6.396,
+   "maxrss_kib": 93312,
+   "outcome": "plan-found",
+   "plan_length": 88
+  },
+  "ipc/ipc-2002/depots-strips-automatic/10/ff": {
+   "wall_s": 8.893,
+   "maxrss_kib": 21888,
+   "outcome": "plan-found",
+   "plan_length": 29
+  },
+  "ipc/ipc-2002/depots-strips-automatic/10/mff": {
+   "wall_s": 0.021,
+   "maxrss_kib": 18048,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/depots-strips-automatic/10/mff-s0": {
+   "wall_s": 0.048,
+   "maxrss_kib": 18048,
+   "outcome": "plan-found",
+   "plan_length": 28
+  },
+  "ipc/ipc-2002/depots-strips-automatic/11/ff": {
+   "wall_s": 0.078,
+   "maxrss_kib": 18048,
+   "outcome": "plan-found",
+   "plan_length": 63
+  },
+  "ipc/ipc-2002/depots-strips-automatic/11/mff": {
+   "wall_s": 0.028,
+   "maxrss_kib": 18048,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/depots-strips-automatic/11/mff-s0": {
+   "wall_s": 0.297,
+   "maxrss_kib": 18048,
+   "outcome": "plan-found",
+   "plan_length": 61
+  },
+  "ipc/ipc-2002/depots-strips-automatic/12/ff": {
+   "wall_s": 1.211,
+   "maxrss_kib": 18048,
+   "outcome": "plan-found",
+   "plan_length": 94
+  },
+  "ipc/ipc-2002/depots-strips-automatic/12/mff": {
+   "wall_s": 0.041,
+   "maxrss_kib": 24832,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/depots-strips-automatic/12/mff-s0": {
+   "wall_s": 5.48,
+   "maxrss_kib": 41600,
+   "outcome": "plan-found",
+   "plan_length": 96
+  },
+  "ipc/ipc-2002/driverlog-numeric-automatic/01/mff": {
+   "wall_s": 0.004,
+   "maxrss_kib": 18176,
+   "outcome": "plan-found",
+   "plan_length": 7
+  },
+  "ipc/ipc-2002/driverlog-numeric-automatic/01/mff-s0": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18176,
+   "outcome": "plan-found",
+   "plan_length": 7
+  },
+  "ipc/ipc-2002/driverlog-numeric-automatic/01/mff-s3": {
+   "wall_s": 0.004,
+   "maxrss_kib": 18176,
+   "outcome": "plan-found",
+   "plan_length": 7
+  },
+  "ipc/ipc-2002/driverlog-numeric-automatic/01/mff-s4": {
+   "wall_s": 0.005,
+   "maxrss_kib": 18304,
+   "outcome": "plan-found",
+   "plan_length": 8
+  },
+  "ipc/ipc-2002/driverlog-numeric-automatic/02/mff": {
+   "wall_s": 0.008,
+   "maxrss_kib": 18304,
+   "outcome": "plan-found",
+   "plan_length": 23
+  },
+  "ipc/ipc-2002/driverlog-numeric-automatic/02/mff-s0": {
+   "wall_s": 0.008,
+   "maxrss_kib": 18304,
+   "outcome": "plan-found",
+   "plan_length": 23
+  },
+  "ipc/ipc-2002/driverlog-numeric-automatic/02/mff-s4": {
+   "wall_s": 0.01,
+   "maxrss_kib": 18304,
+   "outcome": "plan-found",
+   "plan_length": 29
+  },
+  "ipc/ipc-2002/driverlog-numeric-automatic/03/mff": {
+   "wall_s": 0.005,
+   "maxrss_kib": 18304,
+   "outcome": "plan-found",
+   "plan_length": 12
+  },
+  "ipc/ipc-2002/driverlog-numeric-automatic/03/mff-s0": {
+   "wall_s": 0.005,
+   "maxrss_kib": 18304,
+   "outcome": "plan-found",
+   "plan_length": 12
+  },
+  "ipc/ipc-2002/driverlog-numeric-automatic/03/mff-s4": {
+   "wall_s": 0.006,
+   "maxrss_kib": 18304,
+   "outcome": "plan-found",
+   "plan_length": 13
+  },
+  "ipc/ipc-2002/driverlog-numeric-automatic/04/mff": {
+   "wall_s": 0.009,
+   "maxrss_kib": 18304,
+   "outcome": "plan-found",
+   "plan_length": 18
+  },
+  "ipc/ipc-2002/driverlog-numeric-automatic/04/mff-s0": {
+   "wall_s": 0.009,
+   "maxrss_kib": 18304,
+   "outcome": "plan-found",
+   "plan_length": 18
+  },
+  "ipc/ipc-2002/driverlog-numeric-automatic/04/mff-s4": {
+   "wall_s": 0.034,
+   "maxrss_kib": 18304,
+   "outcome": "plan-found",
+   "plan_length": 29
+  },
+  "ipc/ipc-2002/driverlog-numeric-automatic/05/mff": {
+   "wall_s": 0.007,
+   "maxrss_kib": 18304,
+   "outcome": "plan-found",
+   "plan_length": 22
+  },
+  "ipc/ipc-2002/driverlog-numeric-automatic/05/mff-s0": {
+   "wall_s": 0.007,
+   "maxrss_kib": 18304,
+   "outcome": "plan-found",
+   "plan_length": 22
+  },
+  "ipc/ipc-2002/driverlog-numeric-automatic/05/mff-s4": {
+   "wall_s": 0.01,
+   "maxrss_kib": 18304,
+   "outcome": "plan-found",
+   "plan_length": 24
+  },
+  "ipc/ipc-2002/driverlog-numeric-automatic/06/mff": {
+   "wall_s": 0.068,
+   "maxrss_kib": 18304,
+   "outcome": "plan-found",
+   "plan_length": 13
+  },
+  "ipc/ipc-2002/driverlog-numeric-automatic/06/mff-s0": {
+   "wall_s": 0.068,
+   "maxrss_kib": 18304,
+   "outcome": "plan-found",
+   "plan_length": 13
+  },
+  "ipc/ipc-2002/driverlog-numeric-automatic/06/mff-s4": {
+   "wall_s": 0.009,
+   "maxrss_kib": 18304,
+   "outcome": "plan-found",
+   "plan_length": 13
+  },
+  "ipc/ipc-2002/driverlog-numeric-automatic/07/mff": {
+   "wall_s": 0.006,
+   "maxrss_kib": 18304,
+   "outcome": "plan-found",
+   "plan_length": 16
+  },
+  "ipc/ipc-2002/driverlog-numeric-automatic/07/mff-s0": {
+   "wall_s": 0.006,
+   "maxrss_kib": 18304,
+   "outcome": "plan-found",
+   "plan_length": 16
+  },
+  "ipc/ipc-2002/driverlog-numeric-automatic/07/mff-s4": {
+   "wall_s": 0.009,
+   "maxrss_kib": 18304,
+   "outcome": "plan-found",
+   "plan_length": 13
+  },
+  "ipc/ipc-2002/driverlog-numeric-automatic/08/mff": {
+   "wall_s": 0.059,
+   "maxrss_kib": 18304,
+   "outcome": "plan-found",
+   "plan_length": 24
+  },
+  "ipc/ipc-2002/driverlog-numeric-automatic/08/mff-s0": {
+   "wall_s": 0.06,
+   "maxrss_kib": 18304,
+   "outcome": "plan-found",
+   "plan_length": 24
+  },
+  "ipc/ipc-2002/driverlog-numeric-automatic/09/mff": {
+   "wall_s": 0.018,
+   "maxrss_kib": 18304,
+   "outcome": "plan-found",
+   "plan_length": 28
+  },
+  "ipc/ipc-2002/driverlog-numeric-automatic/09/mff-s0": {
+   "wall_s": 0.019,
+   "maxrss_kib": 18304,
+   "outcome": "plan-found",
+   "plan_length": 28
+  },
+  "ipc/ipc-2002/driverlog-numeric-automatic/09/mff-s4": {
+   "wall_s": 0.207,
+   "maxrss_kib": 18304,
+   "outcome": "plan-found",
+   "plan_length": 38
+  },
+  "ipc/ipc-2002/driverlog-numeric-automatic/10/mff": {
+   "wall_s": 0.009,
+   "maxrss_kib": 18304,
+   "outcome": "plan-found",
+   "plan_length": 21
+  },
+  "ipc/ipc-2002/driverlog-numeric-automatic/10/mff-s0": {
+   "wall_s": 0.009,
+   "maxrss_kib": 18304,
+   "outcome": "plan-found",
+   "plan_length": 21
+  },
+  "ipc/ipc-2002/driverlog-numeric-automatic/11/mff": {
+   "wall_s": 0.01,
+   "maxrss_kib": 18304,
+   "outcome": "plan-found",
+   "plan_length": 21
+  },
+  "ipc/ipc-2002/driverlog-numeric-automatic/11/mff-s0": {
+   "wall_s": 0.008,
+   "maxrss_kib": 18304,
+   "outcome": "plan-found",
+   "plan_length": 21
+  },
+  "ipc/ipc-2002/driverlog-numeric-automatic/11/mff-s4": {
+   "wall_s": 0.063,
+   "maxrss_kib": 18304,
+   "outcome": "plan-found",
+   "plan_length": 39
+  },
+  "ipc/ipc-2002/driverlog-numeric-automatic/12/mff": {
+   "wall_s": 0.004,
+   "maxrss_kib": 18304,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-automatic/12/mff-s0": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18304,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-automatic/12/mff-s3": {
+   "wall_s": 0.004,
+   "maxrss_kib": 18304,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-automatic/12/mff-s4": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18304,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-automatic/13/mff": {
+   "wall_s": 0.004,
+   "maxrss_kib": 18304,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-automatic/13/mff-s0": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18304,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-automatic/13/mff-s3": {
+   "wall_s": 0.004,
+   "maxrss_kib": 18304,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-automatic/13/mff-s4": {
+   "wall_s": 0.004,
+   "maxrss_kib": 18304,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-automatic/14/mff": {
+   "wall_s": 0.004,
+   "maxrss_kib": 18304,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-automatic/14/mff-s0": {
+   "wall_s": 0.002,
+   "maxrss_kib": 18304,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-automatic/14/mff-s3": {
+   "wall_s": 0.004,
+   "maxrss_kib": 18304,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-automatic/14/mff-s4": {
+   "wall_s": 0.004,
+   "maxrss_kib": 18304,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-automatic/15/mff": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18304,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-automatic/15/mff-s0": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18304,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-automatic/15/mff-s3": {
+   "wall_s": 0.004,
+   "maxrss_kib": 18304,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-automatic/15/mff-s4": {
+   "wall_s": 0.004,
+   "maxrss_kib": 18304,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-automatic/16/mff": {
+   "wall_s": 0.103,
+   "maxrss_kib": 18304,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-automatic/16/mff-s0": {
+   "wall_s": 0.104,
+   "maxrss_kib": 18304,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-automatic/16/mff-s3": {
+   "wall_s": 0.106,
+   "maxrss_kib": 18304,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-automatic/16/mff-s4": {
+   "wall_s": 0.102,
+   "maxrss_kib": 18304,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-automatic/17/mff": {
+   "wall_s": 0.109,
+   "maxrss_kib": 18304,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-automatic/17/mff-s0": {
+   "wall_s": 0.104,
+   "maxrss_kib": 18304,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-automatic/17/mff-s3": {
+   "wall_s": 0.108,
+   "maxrss_kib": 18304,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-automatic/17/mff-s4": {
+   "wall_s": 0.137,
+   "maxrss_kib": 18304,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-automatic/18/mff": {
+   "wall_s": 0.107,
+   "maxrss_kib": 18304,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-automatic/18/mff-s0": {
+   "wall_s": 0.136,
+   "maxrss_kib": 18304,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-automatic/18/mff-s3": {
+   "wall_s": 0.109,
+   "maxrss_kib": 18304,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-automatic/18/mff-s4": {
+   "wall_s": 0.102,
+   "maxrss_kib": 18304,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-automatic/19/mff": {
+   "wall_s": 0.105,
+   "maxrss_kib": 18304,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-automatic/19/mff-s0": {
+   "wall_s": 0.104,
+   "maxrss_kib": 18304,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-automatic/19/mff-s3": {
+   "wall_s": 0.124,
+   "maxrss_kib": 18304,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-automatic/19/mff-s4": {
+   "wall_s": 0.128,
+   "maxrss_kib": 18304,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-automatic/20/mff": {
+   "wall_s": 0.116,
+   "maxrss_kib": 18304,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-automatic/20/mff-s0": {
+   "wall_s": 0.13,
+   "maxrss_kib": 18304,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-automatic/20/mff-s3": {
+   "wall_s": 0.108,
+   "maxrss_kib": 18304,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-automatic/20/mff-s4": {
+   "wall_s": 0.109,
+   "maxrss_kib": 18304,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-hard-automatic/01/mff": {
+   "wall_s": 0.004,
+   "maxrss_kib": 18432,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-hard-automatic/01/mff-s0": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18432,
+   "outcome": "plan-found",
+   "plan_length": 7
+  },
+  "ipc/ipc-2002/driverlog-numeric-hard-automatic/01/mff-s3": {
+   "wall_s": 0.005,
+   "maxrss_kib": 18432,
+   "outcome": "plan-found",
+   "plan_length": 8
+  },
+  "ipc/ipc-2002/driverlog-numeric-hard-automatic/01/mff-s4": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18432,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-hard-automatic/02/mff": {
+   "wall_s": 0.004,
+   "maxrss_kib": 18432,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-hard-automatic/02/mff-s0": {
+   "wall_s": 0.008,
+   "maxrss_kib": 18432,
+   "outcome": "plan-found",
+   "plan_length": 23
+  },
+  "ipc/ipc-2002/driverlog-numeric-hard-automatic/02/mff-s3": {
+   "wall_s": 0.007,
+   "maxrss_kib": 18432,
+   "outcome": "plan-found",
+   "plan_length": 21
+  },
+  "ipc/ipc-2002/driverlog-numeric-hard-automatic/02/mff-s4": {
+   "wall_s": 0.004,
+   "maxrss_kib": 18432,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-hard-automatic/03/mff": {
+   "wall_s": 0.004,
+   "maxrss_kib": 18432,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-hard-automatic/03/mff-s0": {
+   "wall_s": 0.005,
+   "maxrss_kib": 18432,
+   "outcome": "plan-found",
+   "plan_length": 12
+  },
+  "ipc/ipc-2002/driverlog-numeric-hard-automatic/03/mff-s3": {
+   "wall_s": 0.005,
+   "maxrss_kib": 18432,
+   "outcome": "plan-found",
+   "plan_length": 12
+  },
+  "ipc/ipc-2002/driverlog-numeric-hard-automatic/03/mff-s4": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18432,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-hard-automatic/04/mff": {
+   "wall_s": 0.005,
+   "maxrss_kib": 18432,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-hard-automatic/04/mff-s0": {
+   "wall_s": 0.01,
+   "maxrss_kib": 18432,
+   "outcome": "plan-found",
+   "plan_length": 18
+  },
+  "ipc/ipc-2002/driverlog-numeric-hard-automatic/04/mff-s3": {
+   "wall_s": 0.007,
+   "maxrss_kib": 18432,
+   "outcome": "plan-found",
+   "plan_length": 17
+  },
+  "ipc/ipc-2002/driverlog-numeric-hard-automatic/04/mff-s4": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18432,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-hard-automatic/05/mff": {
+   "wall_s": 0.005,
+   "maxrss_kib": 18432,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-hard-automatic/05/mff-s0": {
+   "wall_s": 0.008,
+   "maxrss_kib": 18432,
+   "outcome": "plan-found",
+   "plan_length": 22
+  },
+  "ipc/ipc-2002/driverlog-numeric-hard-automatic/05/mff-s3": {
+   "wall_s": 0.009,
+   "maxrss_kib": 18432,
+   "outcome": "plan-found",
+   "plan_length": 20
+  },
+  "ipc/ipc-2002/driverlog-numeric-hard-automatic/05/mff-s4": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18432,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-hard-automatic/06/mff": {
+   "wall_s": 0.004,
+   "maxrss_kib": 18432,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-hard-automatic/06/mff-s0": {
+   "wall_s": 0.08,
+   "maxrss_kib": 18432,
+   "outcome": "plan-found",
+   "plan_length": 13
+  },
+  "ipc/ipc-2002/driverlog-numeric-hard-automatic/06/mff-s3": {
+   "wall_s": 0.01,
+   "maxrss_kib": 18432,
+   "outcome": "plan-found",
+   "plan_length": 13
+  },
+  "ipc/ipc-2002/driverlog-numeric-hard-automatic/06/mff-s4": {
+   "wall_s": 0.004,
+   "maxrss_kib": 18432,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-hard-automatic/07/mff": {
+   "wall_s": 0.005,
+   "maxrss_kib": 18432,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-hard-automatic/07/mff-s0": {
+   "wall_s": 0.007,
+   "maxrss_kib": 18432,
+   "outcome": "plan-found",
+   "plan_length": 16
+  },
+  "ipc/ipc-2002/driverlog-numeric-hard-automatic/07/mff-s3": {
+   "wall_s": 0.01,
+   "maxrss_kib": 18432,
+   "outcome": "plan-found",
+   "plan_length": 14
+  },
+  "ipc/ipc-2002/driverlog-numeric-hard-automatic/07/mff-s4": {
+   "wall_s": 0.005,
+   "maxrss_kib": 18432,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-hard-automatic/08/mff": {
+   "wall_s": 0.005,
+   "maxrss_kib": 18432,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-hard-automatic/08/mff-s0": {
+   "wall_s": 0.073,
+   "maxrss_kib": 18432,
+   "outcome": "plan-found",
+   "plan_length": 24
+  },
+  "ipc/ipc-2002/driverlog-numeric-hard-automatic/08/mff-s3": {
+   "wall_s": 0.019,
+   "maxrss_kib": 18432,
+   "outcome": "plan-found",
+   "plan_length": 23
+  },
+  "ipc/ipc-2002/driverlog-numeric-hard-automatic/08/mff-s4": {
+   "wall_s": 0.006,
+   "maxrss_kib": 18432,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-hard-automatic/09/mff": {
+   "wall_s": 0.007,
+   "maxrss_kib": 18432,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-hard-automatic/09/mff-s0": {
+   "wall_s": 0.023,
+   "maxrss_kib": 18432,
+   "outcome": "plan-found",
+   "plan_length": 28
+  },
+  "ipc/ipc-2002/driverlog-numeric-hard-automatic/09/mff-s3": {
+   "wall_s": 0.021,
+   "maxrss_kib": 18432,
+   "outcome": "plan-found",
+   "plan_length": 29
+  },
+  "ipc/ipc-2002/driverlog-numeric-hard-automatic/09/mff-s4": {
+   "wall_s": 0.007,
+   "maxrss_kib": 18432,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-hard-automatic/10/mff": {
+   "wall_s": 0.006,
+   "maxrss_kib": 18432,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-hard-automatic/10/mff-s0": {
+   "wall_s": 0.009,
+   "maxrss_kib": 18432,
+   "outcome": "plan-found",
+   "plan_length": 21
+  },
+  "ipc/ipc-2002/driverlog-numeric-hard-automatic/10/mff-s3": {
+   "wall_s": 0.016,
+   "maxrss_kib": 18432,
+   "outcome": "plan-found",
+   "plan_length": 18
+  },
+  "ipc/ipc-2002/driverlog-numeric-hard-automatic/10/mff-s4": {
+   "wall_s": 0.008,
+   "maxrss_kib": 18432,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-hard-automatic/11/mff": {
+   "wall_s": 0.009,
+   "maxrss_kib": 18432,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-hard-automatic/11/mff-s0": {
+   "wall_s": 0.011,
+   "maxrss_kib": 18432,
+   "outcome": "plan-found",
+   "plan_length": 21
+  },
+  "ipc/ipc-2002/driverlog-numeric-hard-automatic/11/mff-s3": {
+   "wall_s": 0.24,
+   "maxrss_kib": 18432,
+   "outcome": "plan-found",
+   "plan_length": 29
+  },
+  "ipc/ipc-2002/driverlog-numeric-hard-automatic/11/mff-s4": {
+   "wall_s": 0.009,
+   "maxrss_kib": 18432,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-hard-automatic/12/mff": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18432,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-hard-automatic/12/mff-s0": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18432,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-hard-automatic/12/mff-s3": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18432,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-hard-automatic/12/mff-s4": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18432,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-hard-automatic/13/mff": {
+   "wall_s": 0.004,
+   "maxrss_kib": 18432,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-hard-automatic/13/mff-s0": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18432,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-hard-automatic/13/mff-s3": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18432,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-hard-automatic/13/mff-s4": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18432,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-hard-automatic/14/mff": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18432,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-hard-automatic/14/mff-s0": {
+   "wall_s": 0.002,
+   "maxrss_kib": 18432,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-hard-automatic/14/mff-s3": {
+   "wall_s": 0.002,
+   "maxrss_kib": 18432,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-hard-automatic/14/mff-s4": {
+   "wall_s": 0.002,
+   "maxrss_kib": 18432,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-hard-automatic/15/mff": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18432,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-hard-automatic/15/mff-s0": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18432,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-hard-automatic/15/mff-s3": {
+   "wall_s": 0.004,
+   "maxrss_kib": 18432,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-hard-automatic/15/mff-s4": {
+   "wall_s": 0.004,
+   "maxrss_kib": 18432,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-hard-automatic/16/mff": {
+   "wall_s": 0.102,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-hard-automatic/16/mff-s0": {
+   "wall_s": 0.104,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-hard-automatic/16/mff-s3": {
+   "wall_s": 0.102,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-hard-automatic/16/mff-s4": {
+   "wall_s": 0.105,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-hard-automatic/17/mff": {
+   "wall_s": 0.1,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-hard-automatic/17/mff-s0": {
+   "wall_s": 0.104,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-hard-automatic/17/mff-s3": {
+   "wall_s": 0.138,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-hard-automatic/17/mff-s4": {
+   "wall_s": 0.138,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-hard-automatic/18/mff": {
+   "wall_s": 0.101,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-hard-automatic/18/mff-s0": {
+   "wall_s": 0.104,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-hard-automatic/18/mff-s3": {
+   "wall_s": 0.102,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-hard-automatic/18/mff-s4": {
+   "wall_s": 0.108,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-hard-automatic/19/mff": {
+   "wall_s": 0.101,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-hard-automatic/19/mff-s0": {
+   "wall_s": 0.104,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-hard-automatic/19/mff-s3": {
+   "wall_s": 0.102,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-hard-automatic/19/mff-s4": {
+   "wall_s": 0.102,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-hard-automatic/20/mff": {
+   "wall_s": 0.103,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-hard-automatic/20/mff-s0": {
+   "wall_s": 0.102,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-hard-automatic/20/mff-s3": {
+   "wall_s": 0.103,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-numeric-hard-automatic/20/mff-s4": {
+   "wall_s": 0.112,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-strips-automatic/01/ff": {
+   "wall_s": 0.004,
+   "maxrss_kib": 18048,
+   "outcome": "plan-found",
+   "plan_length": 8
+  },
+  "ipc/ipc-2002/driverlog-strips-automatic/01/mff": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18048,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-strips-automatic/01/mff-s0": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18048,
+   "outcome": "plan-found",
+   "plan_length": 7
+  },
+  "ipc/ipc-2002/driverlog-strips-automatic/02/ff": {
+   "wall_s": 0.005,
+   "maxrss_kib": 18048,
+   "outcome": "plan-found",
+   "plan_length": 22
+  },
+  "ipc/ipc-2002/driverlog-strips-automatic/02/mff": {
+   "wall_s": 0.004,
+   "maxrss_kib": 18048,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-strips-automatic/02/mff-s0": {
+   "wall_s": 0.008,
+   "maxrss_kib": 18048,
+   "outcome": "plan-found",
+   "plan_length": 23
+  },
+  "ipc/ipc-2002/driverlog-strips-automatic/03/ff": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18048,
+   "outcome": "plan-found",
+   "plan_length": 12
+  },
+  "ipc/ipc-2002/driverlog-strips-automatic/03/mff": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18048,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-strips-automatic/03/mff-s0": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18048,
+   "outcome": "plan-found",
+   "plan_length": 12
+  },
+  "ipc/ipc-2002/driverlog-strips-automatic/04/ff": {
+   "wall_s": 0.006,
+   "maxrss_kib": 18048,
+   "outcome": "plan-found",
+   "plan_length": 16
+  },
+  "ipc/ipc-2002/driverlog-strips-automatic/04/mff": {
+   "wall_s": 0.004,
+   "maxrss_kib": 18048,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-strips-automatic/04/mff-s0": {
+   "wall_s": 0.009,
+   "maxrss_kib": 18048,
+   "outcome": "plan-found",
+   "plan_length": 18
+  },
+  "ipc/ipc-2002/driverlog-strips-automatic/05/ff": {
+   "wall_s": 0.006,
+   "maxrss_kib": 18048,
+   "outcome": "plan-found",
+   "plan_length": 22
+  },
+  "ipc/ipc-2002/driverlog-strips-automatic/05/mff": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18048,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-strips-automatic/05/mff-s0": {
+   "wall_s": 0.007,
+   "maxrss_kib": 18048,
+   "outcome": "plan-found",
+   "plan_length": 22
+  },
+  "ipc/ipc-2002/driverlog-strips-automatic/06/ff": {
+   "wall_s": 0.006,
+   "maxrss_kib": 18048,
+   "outcome": "plan-found",
+   "plan_length": 13
+  },
+  "ipc/ipc-2002/driverlog-strips-automatic/06/mff": {
+   "wall_s": 0.004,
+   "maxrss_kib": 18048,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-strips-automatic/06/mff-s0": {
+   "wall_s": 0.068,
+   "maxrss_kib": 18048,
+   "outcome": "plan-found",
+   "plan_length": 13
+  },
+  "ipc/ipc-2002/driverlog-strips-automatic/07/ff": {
+   "wall_s": 0.005,
+   "maxrss_kib": 18048,
+   "outcome": "plan-found",
+   "plan_length": 17
+  },
+  "ipc/ipc-2002/driverlog-strips-automatic/07/mff": {
+   "wall_s": 0.008,
+   "maxrss_kib": 18048,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-strips-automatic/07/mff-s0": {
+   "wall_s": 0.011,
+   "maxrss_kib": 18048,
+   "outcome": "plan-found",
+   "plan_length": 16
+  },
+  "ipc/ipc-2002/driverlog-strips-automatic/08/ff": {
+   "wall_s": 0.013,
+   "maxrss_kib": 18048,
+   "outcome": "plan-found",
+   "plan_length": 23
+  },
+  "ipc/ipc-2002/driverlog-strips-automatic/08/mff": {
+   "wall_s": 0.006,
+   "maxrss_kib": 18048,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-strips-automatic/08/mff-s0": {
+   "wall_s": 0.061,
+   "maxrss_kib": 18048,
+   "outcome": "plan-found",
+   "plan_length": 24
+  },
+  "ipc/ipc-2002/driverlog-strips-automatic/09/ff": {
+   "wall_s": 0.015,
+   "maxrss_kib": 18048,
+   "outcome": "plan-found",
+   "plan_length": 31
+  },
+  "ipc/ipc-2002/driverlog-strips-automatic/09/mff": {
+   "wall_s": 0.01,
+   "maxrss_kib": 18048,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-strips-automatic/09/mff-s0": {
+   "wall_s": 0.026,
+   "maxrss_kib": 18048,
+   "outcome": "plan-found",
+   "plan_length": 28
+  },
+  "ipc/ipc-2002/driverlog-strips-automatic/10/ff": {
+   "wall_s": 0.009,
+   "maxrss_kib": 18048,
+   "outcome": "plan-found",
+   "plan_length": 20
+  },
+  "ipc/ipc-2002/driverlog-strips-automatic/10/mff": {
+   "wall_s": 0.006,
+   "maxrss_kib": 18048,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-strips-automatic/10/mff-s0": {
+   "wall_s": 0.017,
+   "maxrss_kib": 18048,
+   "outcome": "plan-found",
+   "plan_length": 21
+  },
+  "ipc/ipc-2002/driverlog-strips-automatic/11/ff": {
+   "wall_s": 0.009,
+   "maxrss_kib": 18048,
+   "outcome": "plan-found",
+   "plan_length": 25
+  },
+  "ipc/ipc-2002/driverlog-strips-automatic/11/mff": {
+   "wall_s": 0.01,
+   "maxrss_kib": 18048,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-strips-automatic/11/mff-s0": {
+   "wall_s": 0.019,
+   "maxrss_kib": 18048,
+   "outcome": "plan-found",
+   "plan_length": 21
+  },
+  "ipc/ipc-2002/driverlog-strips-automatic/12/ff": {
+   "wall_s": 0.129,
+   "maxrss_kib": 18048,
+   "outcome": "plan-found",
+   "plan_length": 52
+  },
+  "ipc/ipc-2002/driverlog-strips-automatic/12/mff": {
+   "wall_s": 0.012,
+   "maxrss_kib": 18048,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/driverlog-strips-automatic/12/mff-s0": {
+   "wall_s": 0.435,
+   "maxrss_kib": 24576,
+   "outcome": "plan-found",
+   "plan_length": 37
+  },
+  "ipc/ipc-2002/rovers-numeric-automatic/01/mff": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18304,
+   "outcome": "plan-found",
+   "plan_length": 10
+  },
+  "ipc/ipc-2002/rovers-numeric-automatic/01/mff-s0": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18304,
+   "outcome": "plan-found",
+   "plan_length": 10
+  },
+  "ipc/ipc-2002/rovers-numeric-automatic/01/mff-s4": {
+   "wall_s": 0.004,
+   "maxrss_kib": 18304,
+   "outcome": "plan-found",
+   "plan_length": 11
+  },
+  "ipc/ipc-2002/rovers-numeric-automatic/02/mff": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18304,
+   "outcome": "plan-found",
+   "plan_length": 8
+  },
+  "ipc/ipc-2002/rovers-numeric-automatic/02/mff-s0": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18304,
+   "outcome": "plan-found",
+   "plan_length": 8
+  },
+  "ipc/ipc-2002/rovers-numeric-automatic/02/mff-s4": {
+   "wall_s": 0.004,
+   "maxrss_kib": 18304,
+   "outcome": "plan-found",
+   "plan_length": 8
+  },
+  "ipc/ipc-2002/rovers-numeric-automatic/03/mff": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18304,
+   "outcome": "plan-found",
+   "plan_length": 11
+  },
+  "ipc/ipc-2002/rovers-numeric-automatic/03/mff-s0": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18304,
+   "outcome": "plan-found",
+   "plan_length": 11
+  },
+  "ipc/ipc-2002/rovers-numeric-automatic/04/mff": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18304,
+   "outcome": "plan-found",
+   "plan_length": 8
+  },
+  "ipc/ipc-2002/rovers-numeric-automatic/04/mff-s0": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18304,
+   "outcome": "plan-found",
+   "plan_length": 8
+  },
+  "ipc/ipc-2002/rovers-numeric-automatic/04/mff-s4": {
+   "wall_s": 0.004,
+   "maxrss_kib": 18304,
+   "outcome": "plan-found",
+   "plan_length": 8
+  },
+  "ipc/ipc-2002/rovers-numeric-automatic/05/mff": {
+   "wall_s": 0.006,
+   "maxrss_kib": 18304,
+   "outcome": "plan-found",
+   "plan_length": 24
+  },
+  "ipc/ipc-2002/rovers-numeric-automatic/05/mff-s0": {
+   "wall_s": 0.006,
+   "maxrss_kib": 18304,
+   "outcome": "plan-found",
+   "plan_length": 24
+  },
+  "ipc/ipc-2002/rovers-numeric-automatic/07/mff": {
+   "wall_s": 0.008,
+   "maxrss_kib": 18304,
+   "outcome": "plan-found",
+   "plan_length": 18
+  },
+  "ipc/ipc-2002/rovers-numeric-automatic/07/mff-s0": {
+   "wall_s": 0.006,
+   "maxrss_kib": 18304,
+   "outcome": "plan-found",
+   "plan_length": 18
+  },
+  "ipc/ipc-2002/rovers-numeric-automatic/07/mff-s4": {
+   "wall_s": 0.015,
+   "maxrss_kib": 18304,
+   "outcome": "plan-found",
+   "plan_length": 26
+  },
+  "ipc/ipc-2002/rovers-numeric-automatic/08/mff": {
+   "wall_s": 0.021,
+   "maxrss_kib": 18304,
+   "outcome": "plan-found",
+   "plan_length": 27
+  },
+  "ipc/ipc-2002/rovers-numeric-automatic/08/mff-s0": {
+   "wall_s": 0.021,
+   "maxrss_kib": 18304,
+   "outcome": "plan-found",
+   "plan_length": 27
+  },
+  "ipc/ipc-2002/rovers-numeric-automatic/10/mff": {
+   "wall_s": 0.042,
+   "maxrss_kib": 18304,
+   "outcome": "plan-found",
+   "plan_length": 41
+  },
+  "ipc/ipc-2002/rovers-numeric-automatic/10/mff-s0": {
+   "wall_s": 0.042,
+   "maxrss_kib": 18304,
+   "outcome": "plan-found",
+   "plan_length": 41
+  },
+  "ipc/ipc-2002/rovers-numeric-automatic/11/mff": {
+   "wall_s": 0.137,
+   "maxrss_kib": 18304,
+   "outcome": "plan-found",
+   "plan_length": 43
+  },
+  "ipc/ipc-2002/rovers-numeric-automatic/11/mff-s0": {
+   "wall_s": 0.134,
+   "maxrss_kib": 18304,
+   "outcome": "plan-found",
+   "plan_length": 43
+  },
+  "ipc/ipc-2002/rovers-numeric-automatic/12/mff": {
+   "wall_s": 0.011,
+   "maxrss_kib": 18304,
+   "outcome": "plan-found",
+   "plan_length": 21
+  },
+  "ipc/ipc-2002/rovers-numeric-automatic/12/mff-s0": {
+   "wall_s": 0.013,
+   "maxrss_kib": 18304,
+   "outcome": "plan-found",
+   "plan_length": 21
+  },
+  "ipc/ipc-2002/rovers-numeric-automatic/13/mff": {
+   "wall_s": 0.004,
+   "maxrss_kib": 18304,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/rovers-numeric-automatic/13/mff-s0": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18304,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/rovers-numeric-automatic/13/mff-s3": {
+   "wall_s": 0.004,
+   "maxrss_kib": 18304,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/rovers-numeric-automatic/13/mff-s4": {
+   "wall_s": 0.002,
+   "maxrss_kib": 18304,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/rovers-numeric-automatic/14/mff": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18304,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/rovers-numeric-automatic/14/mff-s0": {
+   "wall_s": 0.002,
+   "maxrss_kib": 18304,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/rovers-numeric-automatic/14/mff-s3": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18304,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/rovers-numeric-automatic/14/mff-s4": {
+   "wall_s": 0.004,
+   "maxrss_kib": 18304,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/rovers-numeric-automatic/15/mff": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18304,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/rovers-numeric-automatic/15/mff-s0": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18304,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/rovers-numeric-automatic/15/mff-s3": {
+   "wall_s": 0.004,
+   "maxrss_kib": 18304,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/rovers-numeric-automatic/15/mff-s4": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18304,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/rovers-numeric-automatic/16/mff": {
+   "wall_s": 0.004,
+   "maxrss_kib": 18304,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/rovers-numeric-automatic/16/mff-s0": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18304,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/rovers-numeric-automatic/16/mff-s3": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18304,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/rovers-numeric-automatic/16/mff-s4": {
+   "wall_s": 0.004,
+   "maxrss_kib": 18304,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/rovers-numeric-automatic/17/mff": {
+   "wall_s": 0.107,
+   "maxrss_kib": 18304,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/rovers-numeric-automatic/17/mff-s0": {
+   "wall_s": 0.143,
+   "maxrss_kib": 18304,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/rovers-numeric-automatic/17/mff-s3": {
+   "wall_s": 0.109,
+   "maxrss_kib": 18304,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/rovers-numeric-automatic/17/mff-s4": {
+   "wall_s": 0.116,
+   "maxrss_kib": 18304,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/rovers-numeric-automatic/18/mff": {
+   "wall_s": 0.133,
+   "maxrss_kib": 18304,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/rovers-numeric-automatic/18/mff-s0": {
+   "wall_s": 0.121,
+   "maxrss_kib": 18304,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/rovers-numeric-automatic/18/mff-s3": {
+   "wall_s": 0.155,
+   "maxrss_kib": 18304,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/rovers-numeric-automatic/18/mff-s4": {
+   "wall_s": 0.152,
+   "maxrss_kib": 18304,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/rovers-numeric-automatic/19/mff": {
+   "wall_s": 0.124,
+   "maxrss_kib": 18304,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/rovers-numeric-automatic/19/mff-s0": {
+   "wall_s": 0.154,
+   "maxrss_kib": 18304,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/rovers-numeric-automatic/19/mff-s3": {
+   "wall_s": 0.114,
+   "maxrss_kib": 18304,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/rovers-numeric-automatic/19/mff-s4": {
+   "wall_s": 0.111,
+   "maxrss_kib": 18304,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/rovers-numeric-automatic/20/mff": {
+   "wall_s": 0.12,
+   "maxrss_kib": 18304,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/rovers-numeric-automatic/20/mff-s0": {
+   "wall_s": 0.108,
+   "maxrss_kib": 18304,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/rovers-numeric-automatic/20/mff-s3": {
+   "wall_s": 0.12,
+   "maxrss_kib": 18304,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/rovers-numeric-automatic/20/mff-s4": {
+   "wall_s": 0.115,
+   "maxrss_kib": 18304,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-automatic/03/mff": {
+   "wall_s": 0.004,
+   "maxrss_kib": 18304,
+   "outcome": "plan-found",
+   "plan_length": 11
+  },
+  "ipc/ipc-2002/satellite-numeric-automatic/03/mff-s0": {
+   "wall_s": 0.004,
+   "maxrss_kib": 18304,
+   "outcome": "plan-found",
+   "plan_length": 11
+  },
+  "ipc/ipc-2002/satellite-numeric-automatic/03/mff-s4": {
+   "wall_s": 0.008,
+   "maxrss_kib": 18304,
+   "outcome": "plan-found",
+   "plan_length": 11
+  },
+  "ipc/ipc-2002/satellite-numeric-automatic/04/mff": {
+   "wall_s": 0.011,
+   "maxrss_kib": 18304,
+   "outcome": "plan-found",
+   "plan_length": 21
+  },
+  "ipc/ipc-2002/satellite-numeric-automatic/04/mff-s0": {
+   "wall_s": 0.012,
+   "maxrss_kib": 18304,
+   "outcome": "plan-found",
+   "plan_length": 21
+  },
+  "ipc/ipc-2002/satellite-numeric-automatic/05/mff": {
+   "wall_s": 0.037,
+   "maxrss_kib": 18304,
+   "outcome": "plan-found",
+   "plan_length": 22
+  },
+  "ipc/ipc-2002/satellite-numeric-automatic/05/mff-s0": {
+   "wall_s": 0.038,
+   "maxrss_kib": 18304,
+   "outcome": "plan-found",
+   "plan_length": 22
+  },
+  "ipc/ipc-2002/satellite-numeric-automatic/06/mff": {
+   "wall_s": 0.016,
+   "maxrss_kib": 18304,
+   "outcome": "plan-found",
+   "plan_length": 24
+  },
+  "ipc/ipc-2002/satellite-numeric-automatic/06/mff-s0": {
+   "wall_s": 0.016,
+   "maxrss_kib": 18304,
+   "outcome": "plan-found",
+   "plan_length": 24
+  },
+  "ipc/ipc-2002/satellite-numeric-automatic/07/mff": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18304,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-automatic/07/mff-s0": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18304,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-automatic/07/mff-s3": {
+   "wall_s": 0.004,
+   "maxrss_kib": 18304,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-automatic/07/mff-s4": {
+   "wall_s": 0.004,
+   "maxrss_kib": 18304,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-automatic/08/mff": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18304,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-automatic/08/mff-s0": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18304,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-automatic/08/mff-s3": {
+   "wall_s": 0.004,
+   "maxrss_kib": 18304,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-automatic/08/mff-s4": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18304,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-automatic/09/mff": {
+   "wall_s": 0.004,
+   "maxrss_kib": 18304,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-automatic/09/mff-s0": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18304,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-automatic/09/mff-s3": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18304,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-automatic/09/mff-s4": {
+   "wall_s": 0.004,
+   "maxrss_kib": 18304,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-automatic/10/mff": {
+   "wall_s": 0.123,
+   "maxrss_kib": 18304,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-automatic/10/mff-s0": {
+   "wall_s": 0.107,
+   "maxrss_kib": 18304,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-automatic/10/mff-s3": {
+   "wall_s": 0.125,
+   "maxrss_kib": 18304,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-automatic/10/mff-s4": {
+   "wall_s": 0.115,
+   "maxrss_kib": 18304,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-automatic/11/mff": {
+   "wall_s": 0.108,
+   "maxrss_kib": 18304,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-automatic/11/mff-s0": {
+   "wall_s": 0.112,
+   "maxrss_kib": 18304,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-automatic/11/mff-s3": {
+   "wall_s": 0.113,
+   "maxrss_kib": 18304,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-automatic/11/mff-s4": {
+   "wall_s": 0.11,
+   "maxrss_kib": 18304,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-automatic/12/mff": {
+   "wall_s": 0.126,
+   "maxrss_kib": 18304,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-automatic/12/mff-s0": {
+   "wall_s": 0.109,
+   "maxrss_kib": 18304,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-automatic/12/mff-s3": {
+   "wall_s": 0.123,
+   "maxrss_kib": 18304,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-automatic/12/mff-s4": {
+   "wall_s": 0.118,
+   "maxrss_kib": 18304,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-automatic/13/mff": {
+   "wall_s": 0.112,
+   "maxrss_kib": 18304,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-automatic/13/mff-s0": {
+   "wall_s": 0.113,
+   "maxrss_kib": 18304,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-automatic/13/mff-s3": {
+   "wall_s": 0.113,
+   "maxrss_kib": 18304,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-automatic/13/mff-s4": {
+   "wall_s": 0.113,
+   "maxrss_kib": 18304,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-automatic/14/mff": {
+   "wall_s": 0.11,
+   "maxrss_kib": 18304,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-automatic/14/mff-s0": {
+   "wall_s": 0.117,
+   "maxrss_kib": 18304,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-automatic/14/mff-s3": {
+   "wall_s": 0.107,
+   "maxrss_kib": 18304,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-automatic/14/mff-s4": {
+   "wall_s": 0.108,
+   "maxrss_kib": 18304,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-automatic/15/mff": {
+   "wall_s": 0.11,
+   "maxrss_kib": 18304,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-automatic/15/mff-s0": {
+   "wall_s": 0.107,
+   "maxrss_kib": 18304,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-automatic/15/mff-s3": {
+   "wall_s": 0.112,
+   "maxrss_kib": 18304,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-automatic/15/mff-s4": {
+   "wall_s": 0.106,
+   "maxrss_kib": 18304,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-automatic/16/mff": {
+   "wall_s": 0.106,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-automatic/16/mff-s0": {
+   "wall_s": 0.106,
+   "maxrss_kib": 18304,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-automatic/16/mff-s3": {
+   "wall_s": 0.106,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-automatic/16/mff-s4": {
+   "wall_s": 0.144,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-automatic/17/mff": {
+   "wall_s": 0.114,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-automatic/17/mff-s0": {
+   "wall_s": 0.177,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-automatic/17/mff-s3": {
+   "wall_s": 0.112,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-automatic/17/mff-s4": {
+   "wall_s": 0.112,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-automatic/18/mff": {
+   "wall_s": 0.113,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-automatic/18/mff-s0": {
+   "wall_s": 0.113,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-automatic/18/mff-s3": {
+   "wall_s": 0.106,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-automatic/18/mff-s4": {
+   "wall_s": 0.105,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-automatic/19/mff": {
+   "wall_s": 0.108,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-automatic/19/mff-s0": {
+   "wall_s": 0.107,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-automatic/19/mff-s3": {
+   "wall_s": 0.109,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-automatic/19/mff-s4": {
+   "wall_s": 0.105,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-automatic/20/mff": {
+   "wall_s": 0.108,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-automatic/20/mff-s0": {
+   "wall_s": 0.103,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-automatic/20/mff-s3": {
+   "wall_s": 0.108,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-automatic/20/mff-s4": {
+   "wall_s": 0.104,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-hard-automatic/01/mff": {
+   "wall_s": 0.002,
+   "maxrss_kib": 18432,
+   "outcome": "plan-found",
+   "plan_length": 0
+  },
+  "ipc/ipc-2002/satellite-numeric-hard-automatic/01/mff-s0": {
+   "wall_s": 0.002,
+   "maxrss_kib": 18432,
+   "outcome": "plan-found",
+   "plan_length": 0
+  },
+  "ipc/ipc-2002/satellite-numeric-hard-automatic/01/mff-s3": {
+   "wall_s": 0.002,
+   "maxrss_kib": 18432,
+   "outcome": "plan-found",
+   "plan_length": 0
+  },
+  "ipc/ipc-2002/satellite-numeric-hard-automatic/01/mff-s4": {
+   "wall_s": 0.002,
+   "maxrss_kib": 18432,
+   "outcome": "plan-found",
+   "plan_length": 0
+  },
+  "ipc/ipc-2002/satellite-numeric-hard-automatic/02/mff": {
+   "wall_s": 0.002,
+   "maxrss_kib": 18432,
+   "outcome": "plan-found",
+   "plan_length": 0
+  },
+  "ipc/ipc-2002/satellite-numeric-hard-automatic/02/mff-s0": {
+   "wall_s": 0.002,
+   "maxrss_kib": 18432,
+   "outcome": "plan-found",
+   "plan_length": 0
+  },
+  "ipc/ipc-2002/satellite-numeric-hard-automatic/02/mff-s3": {
+   "wall_s": 0.002,
+   "maxrss_kib": 18432,
+   "outcome": "plan-found",
+   "plan_length": 0
+  },
+  "ipc/ipc-2002/satellite-numeric-hard-automatic/02/mff-s4": {
+   "wall_s": 0.002,
+   "maxrss_kib": 18432,
+   "outcome": "plan-found",
+   "plan_length": 0
+  },
+  "ipc/ipc-2002/satellite-numeric-hard-automatic/03/mff": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18432,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-hard-automatic/03/mff-s0": {
+   "wall_s": 0.004,
+   "maxrss_kib": 18432,
+   "outcome": "plan-found",
+   "plan_length": 1
+  },
+  "ipc/ipc-2002/satellite-numeric-hard-automatic/03/mff-s3": {
+   "wall_s": 0.007,
+   "maxrss_kib": 18432,
+   "outcome": "plan-found",
+   "plan_length": 8
+  },
+  "ipc/ipc-2002/satellite-numeric-hard-automatic/03/mff-s4": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18432,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-hard-automatic/04/mff": {
+   "wall_s": 0.004,
+   "maxrss_kib": 18432,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-hard-automatic/04/mff-s0": {
+   "wall_s": 0.006,
+   "maxrss_kib": 18432,
+   "outcome": "plan-found",
+   "plan_length": 1
+  },
+  "ipc/ipc-2002/satellite-numeric-hard-automatic/04/mff-s3": {
+   "wall_s": 0.01,
+   "maxrss_kib": 18432,
+   "outcome": "plan-found",
+   "plan_length": 33
+  },
+  "ipc/ipc-2002/satellite-numeric-hard-automatic/04/mff-s4": {
+   "wall_s": 0.004,
+   "maxrss_kib": 18432,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-hard-automatic/05/mff": {
+   "wall_s": 0.007,
+   "maxrss_kib": 18432,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-hard-automatic/05/mff-s0": {
+   "wall_s": 0.006,
+   "maxrss_kib": 18432,
+   "outcome": "plan-found",
+   "plan_length": 1
+  },
+  "ipc/ipc-2002/satellite-numeric-hard-automatic/05/mff-s4": {
+   "wall_s": 0.007,
+   "maxrss_kib": 18432,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-hard-automatic/06/mff": {
+   "wall_s": 0.002,
+   "maxrss_kib": 18432,
+   "outcome": "plan-found",
+   "plan_length": 0
+  },
+  "ipc/ipc-2002/satellite-numeric-hard-automatic/06/mff-s0": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18432,
+   "outcome": "plan-found",
+   "plan_length": 0
+  },
+  "ipc/ipc-2002/satellite-numeric-hard-automatic/06/mff-s3": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18432,
+   "outcome": "plan-found",
+   "plan_length": 0
+  },
+  "ipc/ipc-2002/satellite-numeric-hard-automatic/06/mff-s4": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18432,
+   "outcome": "plan-found",
+   "plan_length": 0
+  },
+  "ipc/ipc-2002/satellite-numeric-hard-automatic/07/mff": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18432,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-hard-automatic/07/mff-s0": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18432,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-hard-automatic/07/mff-s3": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18432,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-hard-automatic/07/mff-s4": {
+   "wall_s": 0.004,
+   "maxrss_kib": 18432,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-hard-automatic/08/mff": {
+   "wall_s": 0.002,
+   "maxrss_kib": 18432,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-hard-automatic/08/mff-s0": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18432,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-hard-automatic/08/mff-s3": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18432,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-hard-automatic/08/mff-s4": {
+   "wall_s": 0.004,
+   "maxrss_kib": 18432,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-hard-automatic/09/mff": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18432,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-hard-automatic/09/mff-s0": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18432,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-hard-automatic/09/mff-s3": {
+   "wall_s": 0.004,
+   "maxrss_kib": 18432,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-hard-automatic/09/mff-s4": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18432,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-hard-automatic/10/mff": {
+   "wall_s": 0.099,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-hard-automatic/10/mff-s0": {
+   "wall_s": 0.115,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-hard-automatic/10/mff-s3": {
+   "wall_s": 0.126,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-hard-automatic/10/mff-s4": {
+   "wall_s": 0.097,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-hard-automatic/11/mff": {
+   "wall_s": 0.099,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-hard-automatic/11/mff-s0": {
+   "wall_s": 0.099,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-hard-automatic/11/mff-s3": {
+   "wall_s": 0.1,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-hard-automatic/11/mff-s4": {
+   "wall_s": 0.1,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-hard-automatic/12/mff": {
+   "wall_s": 0.102,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-hard-automatic/12/mff-s0": {
+   "wall_s": 0.1,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-hard-automatic/12/mff-s3": {
+   "wall_s": 0.101,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-hard-automatic/12/mff-s4": {
+   "wall_s": 0.102,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-hard-automatic/13/mff": {
+   "wall_s": 0.104,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-hard-automatic/13/mff-s0": {
+   "wall_s": 0.104,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-hard-automatic/13/mff-s3": {
+   "wall_s": 0.103,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-hard-automatic/13/mff-s4": {
+   "wall_s": 0.104,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-hard-automatic/14/mff": {
+   "wall_s": 0.105,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-hard-automatic/14/mff-s0": {
+   "wall_s": 0.103,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-hard-automatic/14/mff-s3": {
+   "wall_s": 0.102,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-hard-automatic/14/mff-s4": {
+   "wall_s": 0.102,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-hard-automatic/15/mff": {
+   "wall_s": 0.106,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-hard-automatic/15/mff-s0": {
+   "wall_s": 0.104,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-hard-automatic/15/mff-s3": {
+   "wall_s": 0.118,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-hard-automatic/15/mff-s4": {
+   "wall_s": 0.116,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-hard-automatic/16/mff": {
+   "wall_s": 0.116,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-hard-automatic/16/mff-s0": {
+   "wall_s": 0.122,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-hard-automatic/16/mff-s3": {
+   "wall_s": 0.103,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-hard-automatic/16/mff-s4": {
+   "wall_s": 0.117,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-hard-automatic/17/mff": {
+   "wall_s": 0.118,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-hard-automatic/17/mff-s0": {
+   "wall_s": 0.117,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-hard-automatic/17/mff-s3": {
+   "wall_s": 0.099,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-hard-automatic/17/mff-s4": {
+   "wall_s": 0.102,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-hard-automatic/18/mff": {
+   "wall_s": 0.161,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-hard-automatic/18/mff-s0": {
+   "wall_s": 0.147,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-hard-automatic/18/mff-s3": {
+   "wall_s": 0.114,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-hard-automatic/18/mff-s4": {
+   "wall_s": 0.114,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-hard-automatic/19/mff": {
+   "wall_s": 0.109,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-hard-automatic/19/mff-s0": {
+   "wall_s": 0.109,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-hard-automatic/19/mff-s3": {
+   "wall_s": 0.109,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-hard-automatic/19/mff-s4": {
+   "wall_s": 0.109,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-hard-automatic/20/mff": {
+   "wall_s": 0.107,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-hard-automatic/20/mff-s0": {
+   "wall_s": 0.105,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-hard-automatic/20/mff-s3": {
+   "wall_s": 0.108,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-numeric-hard-automatic/20/mff-s4": {
+   "wall_s": 0.108,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-strips-automatic/01/ff": {
+   "wall_s": 0.008,
+   "maxrss_kib": 18048,
+   "outcome": "plan-found",
+   "plan_length": 9
+  },
+  "ipc/ipc-2002/satellite-strips-automatic/01/mff": {
+   "wall_s": 0.007,
+   "maxrss_kib": 18048,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-strips-automatic/01/mff-s0": {
+   "wall_s": 0.012,
+   "maxrss_kib": 18048,
+   "outcome": "plan-found",
+   "plan_length": 9
+  },
+  "ipc/ipc-2002/satellite-strips-automatic/02/ff": {
+   "wall_s": 0.004,
+   "maxrss_kib": 18048,
+   "outcome": "plan-found",
+   "plan_length": 13
+  },
+  "ipc/ipc-2002/satellite-strips-automatic/02/mff": {
+   "wall_s": 0.004,
+   "maxrss_kib": 18048,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-strips-automatic/02/mff-s0": {
+   "wall_s": 0.005,
+   "maxrss_kib": 18048,
+   "outcome": "plan-found",
+   "plan_length": 13
+  },
+  "ipc/ipc-2002/satellite-strips-automatic/03/ff": {
+   "wall_s": 0.005,
+   "maxrss_kib": 18048,
+   "outcome": "plan-found",
+   "plan_length": 11
+  },
+  "ipc/ipc-2002/satellite-strips-automatic/03/mff": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18048,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-strips-automatic/03/mff-s0": {
+   "wall_s": 0.01,
+   "maxrss_kib": 18048,
+   "outcome": "plan-found",
+   "plan_length": 11
+  },
+  "ipc/ipc-2002/satellite-strips-automatic/04/ff": {
+   "wall_s": 0.014,
+   "maxrss_kib": 18048,
+   "outcome": "plan-found",
+   "plan_length": 18
+  },
+  "ipc/ipc-2002/satellite-strips-automatic/04/mff": {
+   "wall_s": 0.006,
+   "maxrss_kib": 18048,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-strips-automatic/04/mff-s0": {
+   "wall_s": 0.014,
+   "maxrss_kib": 18048,
+   "outcome": "plan-found",
+   "plan_length": 17
+  },
+  "ipc/ipc-2002/satellite-strips-automatic/05/ff": {
+   "wall_s": 0.01,
+   "maxrss_kib": 18048,
+   "outcome": "plan-found",
+   "plan_length": 16
+  },
+  "ipc/ipc-2002/satellite-strips-automatic/05/mff": {
+   "wall_s": 0.01,
+   "maxrss_kib": 18048,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-strips-automatic/05/mff-s0": {
+   "wall_s": 0.013,
+   "maxrss_kib": 18048,
+   "outcome": "plan-found",
+   "plan_length": 16
+  },
+  "ipc/ipc-2002/satellite-strips-automatic/06/ff": {
+   "wall_s": 0.007,
+   "maxrss_kib": 18048,
+   "outcome": "plan-found",
+   "plan_length": 20
+  },
+  "ipc/ipc-2002/satellite-strips-automatic/06/mff": {
+   "wall_s": 0.008,
+   "maxrss_kib": 18048,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-strips-automatic/06/mff-s0": {
+   "wall_s": 0.017,
+   "maxrss_kib": 18048,
+   "outcome": "plan-found",
+   "plan_length": 21
+  },
+  "ipc/ipc-2002/satellite-strips-automatic/07/ff": {
+   "wall_s": 0.011,
+   "maxrss_kib": 18048,
+   "outcome": "plan-found",
+   "plan_length": 22
+  },
+  "ipc/ipc-2002/satellite-strips-automatic/07/mff": {
+   "wall_s": 0.011,
+   "maxrss_kib": 18048,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-strips-automatic/07/mff-s0": {
+   "wall_s": 0.018,
+   "maxrss_kib": 18048,
+   "outcome": "plan-found",
+   "plan_length": 22
+  },
+  "ipc/ipc-2002/satellite-strips-automatic/08/ff": {
+   "wall_s": 0.013,
+   "maxrss_kib": 18048,
+   "outcome": "plan-found",
+   "plan_length": 28
+  },
+  "ipc/ipc-2002/satellite-strips-automatic/08/mff": {
+   "wall_s": 0.015,
+   "maxrss_kib": 18048,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-strips-automatic/08/mff-s0": {
+   "wall_s": 0.034,
+   "maxrss_kib": 18048,
+   "outcome": "plan-found",
+   "plan_length": 26
+  },
+  "ipc/ipc-2002/satellite-strips-automatic/09/ff": {
+   "wall_s": 0.017,
+   "maxrss_kib": 18048,
+   "outcome": "plan-found",
+   "plan_length": 35
+  },
+  "ipc/ipc-2002/satellite-strips-automatic/09/mff": {
+   "wall_s": 0.012,
+   "maxrss_kib": 18048,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-strips-automatic/09/mff-s0": {
+   "wall_s": 0.038,
+   "maxrss_kib": 18048,
+   "outcome": "plan-found",
+   "plan_length": 27
+  },
+  "ipc/ipc-2002/satellite-strips-automatic/10/ff": {
+   "wall_s": 0.018,
+   "maxrss_kib": 18048,
+   "outcome": "plan-found",
+   "plan_length": 35
+  },
+  "ipc/ipc-2002/satellite-strips-automatic/10/mff": {
+   "wall_s": 0.022,
+   "maxrss_kib": 18048,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-strips-automatic/10/mff-s0": {
+   "wall_s": 0.061,
+   "maxrss_kib": 18048,
+   "outcome": "plan-found",
+   "plan_length": 31
+  },
+  "ipc/ipc-2002/satellite-strips-automatic/11/ff": {
+   "wall_s": 0.019,
+   "maxrss_kib": 18048,
+   "outcome": "plan-found",
+   "plan_length": 34
+  },
+  "ipc/ipc-2002/satellite-strips-automatic/11/mff": {
+   "wall_s": 0.029,
+   "maxrss_kib": 18176,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-strips-automatic/11/mff-s0": {
+   "wall_s": 0.044,
+   "maxrss_kib": 18176,
+   "outcome": "plan-found",
+   "plan_length": 33
+  },
+  "ipc/ipc-2002/satellite-strips-automatic/12/ff": {
+   "wall_s": 0.036,
+   "maxrss_kib": 18176,
+   "outcome": "plan-found",
+   "plan_length": 43
+  },
+  "ipc/ipc-2002/satellite-strips-automatic/12/mff": {
+   "wall_s": 0.04,
+   "maxrss_kib": 21632,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/satellite-strips-automatic/12/mff-s0": {
+   "wall_s": 0.178,
+   "maxrss_kib": 22272,
+   "outcome": "plan-found",
+   "plan_length": 43
+  },
+  "ipc/ipc-2002/settlers-numeric-automatic/01/mff": {
+   "wall_s": 3.655,
+   "maxrss_kib": 54784,
+   "outcome": "plan-found",
+   "plan_length": 53
+  },
+  "ipc/ipc-2002/settlers-numeric-automatic/01/mff-s0": {
+   "wall_s": 3.636,
+   "maxrss_kib": 54784,
+   "outcome": "plan-found",
+   "plan_length": 53
+  },
+  "ipc/ipc-2002/settlers-numeric-automatic/01/mff-s3": {
+   "wall_s": 10.341,
+   "maxrss_kib": 92800,
+   "outcome": "proven-unsolvable",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/settlers-numeric-automatic/01/mff-s4": {
+   "wall_s": 10.151,
+   "maxrss_kib": 92800,
+   "outcome": "search-failed",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/settlers-numeric-automatic/02/mff": {
+   "wall_s": 0.016,
+   "maxrss_kib": 18432,
+   "outcome": "plan-found",
+   "plan_length": 26
+  },
+  "ipc/ipc-2002/settlers-numeric-automatic/02/mff-s0": {
+   "wall_s": 0.016,
+   "maxrss_kib": 18432,
+   "outcome": "plan-found",
+   "plan_length": 26
+  },
+  "ipc/ipc-2002/settlers-numeric-automatic/03/mff": {
+   "wall_s": 21.182,
+   "maxrss_kib": 111872,
+   "outcome": "plan-found",
+   "plan_length": 102
+  },
+  "ipc/ipc-2002/settlers-numeric-automatic/03/mff-s0": {
+   "wall_s": 21.851,
+   "maxrss_kib": 111872,
+   "outcome": "plan-found",
+   "plan_length": 102
+  },
+  "ipc/ipc-2002/settlers-numeric-automatic/05/mff": {
+   "wall_s": 0.263,
+   "maxrss_kib": 18432,
+   "outcome": "plan-found",
+   "plan_length": 77
+  },
+  "ipc/ipc-2002/settlers-numeric-automatic/05/mff-s0": {
+   "wall_s": 0.266,
+   "maxrss_kib": 18432,
+   "outcome": "plan-found",
+   "plan_length": 77
+  },
+  "ipc/ipc-2002/settlers-numeric-automatic/06/mff": {
+   "wall_s": 10.311,
+   "maxrss_kib": 129280,
+   "outcome": "plan-found",
+   "plan_length": 78
+  },
+  "ipc/ipc-2002/settlers-numeric-automatic/06/mff-s0": {
+   "wall_s": 10.488,
+   "maxrss_kib": 129280,
+   "outcome": "plan-found",
+   "plan_length": 78
+  },
+  "ipc/ipc-2002/settlers-numeric-automatic/08/mff": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18432,
+   "outcome": "proven-unsolvable",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/settlers-numeric-automatic/08/mff-s0": {
+   "wall_s": 0.005,
+   "maxrss_kib": 18432,
+   "outcome": "proven-unsolvable",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/settlers-numeric-automatic/08/mff-s3": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18432,
+   "outcome": "proven-unsolvable",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/settlers-numeric-automatic/08/mff-s4": {
+   "wall_s": 0.004,
+   "maxrss_kib": 18432,
+   "outcome": "proven-unsolvable",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/settlers-numeric-automatic/09/mff-s3": {
+   "wall_s": 3.213,
+   "maxrss_kib": 29696,
+   "outcome": "proven-unsolvable",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/settlers-numeric-automatic/09/mff-s4": {
+   "wall_s": 2.535,
+   "maxrss_kib": 29696,
+   "outcome": "search-failed",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/settlers-numeric-automatic/17/mff": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18432,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/settlers-numeric-automatic/17/mff-s0": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18432,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/settlers-numeric-automatic/17/mff-s3": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18432,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/settlers-numeric-automatic/17/mff-s4": {
+   "wall_s": 0.004,
+   "maxrss_kib": 18432,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/settlers-numeric-automatic/18/mff": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18432,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/settlers-numeric-automatic/18/mff-s0": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18432,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/settlers-numeric-automatic/18/mff-s3": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18432,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/settlers-numeric-automatic/18/mff-s4": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18432,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/settlers-numeric-automatic/19/mff": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18432,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/settlers-numeric-automatic/19/mff-s0": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18432,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/settlers-numeric-automatic/19/mff-s3": {
+   "wall_s": 0.004,
+   "maxrss_kib": 18432,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/settlers-numeric-automatic/19/mff-s4": {
+   "wall_s": 0.004,
+   "maxrss_kib": 18432,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/settlers-numeric-automatic/20/mff": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18432,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/settlers-numeric-automatic/20/mff-s0": {
+   "wall_s": 0.004,
+   "maxrss_kib": 18432,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/settlers-numeric-automatic/20/mff-s3": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18432,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/settlers-numeric-automatic/20/mff-s4": {
+   "wall_s": 0.004,
+   "maxrss_kib": 18432,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/zenotravel-numeric-automatic/01/mff": {
+   "wall_s": 0.002,
+   "maxrss_kib": 18432,
+   "outcome": "plan-found",
+   "plan_length": 1
+  },
+  "ipc/ipc-2002/zenotravel-numeric-automatic/01/mff-s0": {
+   "wall_s": 0.002,
+   "maxrss_kib": 18432,
+   "outcome": "plan-found",
+   "plan_length": 1
+  },
+  "ipc/ipc-2002/zenotravel-numeric-automatic/01/mff-s3": {
+   "wall_s": 0.002,
+   "maxrss_kib": 18432,
+   "outcome": "plan-found",
+   "plan_length": 1
+  },
+  "ipc/ipc-2002/zenotravel-numeric-automatic/01/mff-s4": {
+   "wall_s": 0.002,
+   "maxrss_kib": 18432,
+   "outcome": "plan-found",
+   "plan_length": 1
+  },
+  "ipc/ipc-2002/zenotravel-numeric-automatic/02/mff": {
+   "wall_s": 0.002,
+   "maxrss_kib": 18432,
+   "outcome": "plan-found",
+   "plan_length": 8
+  },
+  "ipc/ipc-2002/zenotravel-numeric-automatic/02/mff-s0": {
+   "wall_s": 0.002,
+   "maxrss_kib": 18432,
+   "outcome": "plan-found",
+   "plan_length": 8
+  },
+  "ipc/ipc-2002/zenotravel-numeric-automatic/02/mff-s3": {
+   "wall_s": 0.002,
+   "maxrss_kib": 18432,
+   "outcome": "proven-unsolvable",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/zenotravel-numeric-automatic/02/mff-s4": {
+   "wall_s": 0.002,
+   "maxrss_kib": 18432,
+   "outcome": "search-failed",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/zenotravel-numeric-automatic/03/mff": {
+   "wall_s": 0.002,
+   "maxrss_kib": 18432,
+   "outcome": "plan-found",
+   "plan_length": 7
+  },
+  "ipc/ipc-2002/zenotravel-numeric-automatic/03/mff-s0": {
+   "wall_s": 0.002,
+   "maxrss_kib": 18432,
+   "outcome": "plan-found",
+   "plan_length": 7
+  },
+  "ipc/ipc-2002/zenotravel-numeric-automatic/03/mff-s3": {
+   "wall_s": 2.716,
+   "maxrss_kib": 30976,
+   "outcome": "proven-unsolvable",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/zenotravel-numeric-automatic/04/mff": {
+   "wall_s": 0.002,
+   "maxrss_kib": 18432,
+   "outcome": "plan-found",
+   "plan_length": 13
+  },
+  "ipc/ipc-2002/zenotravel-numeric-automatic/04/mff-s0": {
+   "wall_s": 0.002,
+   "maxrss_kib": 18432,
+   "outcome": "plan-found",
+   "plan_length": 13
+  },
+  "ipc/ipc-2002/zenotravel-numeric-automatic/04/mff-s3": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18432,
+   "outcome": "proven-unsolvable",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/zenotravel-numeric-automatic/04/mff-s4": {
+   "wall_s": 0.002,
+   "maxrss_kib": 18432,
+   "outcome": "search-failed",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/zenotravel-numeric-automatic/05/mff": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18432,
+   "outcome": "plan-found",
+   "plan_length": 14
+  },
+  "ipc/ipc-2002/zenotravel-numeric-automatic/05/mff-s0": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18432,
+   "outcome": "plan-found",
+   "plan_length": 14
+  },
+  "ipc/ipc-2002/zenotravel-numeric-automatic/05/mff-s3": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18432,
+   "outcome": "proven-unsolvable",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/zenotravel-numeric-automatic/05/mff-s4": {
+   "wall_s": 0.004,
+   "maxrss_kib": 18432,
+   "outcome": "search-failed",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/zenotravel-numeric-automatic/06/mff": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18432,
+   "outcome": "plan-found",
+   "plan_length": 14
+  },
+  "ipc/ipc-2002/zenotravel-numeric-automatic/06/mff-s0": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18432,
+   "outcome": "plan-found",
+   "plan_length": 14
+  },
+  "ipc/ipc-2002/zenotravel-numeric-automatic/06/mff-s3": {
+   "wall_s": 0.004,
+   "maxrss_kib": 18432,
+   "outcome": "proven-unsolvable",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/zenotravel-numeric-automatic/06/mff-s4": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18432,
+   "outcome": "search-failed",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/zenotravel-numeric-automatic/07/mff": {
+   "wall_s": 0.004,
+   "maxrss_kib": 18432,
+   "outcome": "plan-found",
+   "plan_length": 15
+  },
+  "ipc/ipc-2002/zenotravel-numeric-automatic/07/mff-s0": {
+   "wall_s": 0.005,
+   "maxrss_kib": 18432,
+   "outcome": "plan-found",
+   "plan_length": 15
+  },
+  "ipc/ipc-2002/zenotravel-numeric-automatic/08/mff": {
+   "wall_s": 0.006,
+   "maxrss_kib": 18432,
+   "outcome": "plan-found",
+   "plan_length": 15
+  },
+  "ipc/ipc-2002/zenotravel-numeric-automatic/08/mff-s0": {
+   "wall_s": 0.004,
+   "maxrss_kib": 18432,
+   "outcome": "plan-found",
+   "plan_length": 15
+  },
+  "ipc/ipc-2002/zenotravel-numeric-automatic/08/mff-s3": {
+   "wall_s": 8.606,
+   "maxrss_kib": 79744,
+   "outcome": "proven-unsolvable",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/zenotravel-numeric-automatic/09/mff": {
+   "wall_s": 0.008,
+   "maxrss_kib": 18432,
+   "outcome": "plan-found",
+   "plan_length": 23
+  },
+  "ipc/ipc-2002/zenotravel-numeric-automatic/09/mff-s0": {
+   "wall_s": 0.008,
+   "maxrss_kib": 18432,
+   "outcome": "plan-found",
+   "plan_length": 23
+  },
+  "ipc/ipc-2002/zenotravel-numeric-automatic/09/mff-s3": {
+   "wall_s": 0.006,
+   "maxrss_kib": 18432,
+   "outcome": "proven-unsolvable",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/zenotravel-numeric-automatic/09/mff-s4": {
+   "wall_s": 0.006,
+   "maxrss_kib": 18432,
+   "outcome": "search-failed",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/zenotravel-numeric-automatic/10/mff": {
+   "wall_s": 0.013,
+   "maxrss_kib": 18432,
+   "outcome": "plan-found",
+   "plan_length": 27
+  },
+  "ipc/ipc-2002/zenotravel-numeric-automatic/10/mff-s0": {
+   "wall_s": 0.013,
+   "maxrss_kib": 18432,
+   "outcome": "plan-found",
+   "plan_length": 27
+  },
+  "ipc/ipc-2002/zenotravel-numeric-automatic/10/mff-s3": {
+   "wall_s": 0.014,
+   "maxrss_kib": 18432,
+   "outcome": "proven-unsolvable",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/zenotravel-numeric-automatic/10/mff-s4": {
+   "wall_s": 0.013,
+   "maxrss_kib": 18432,
+   "outcome": "search-failed",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/zenotravel-numeric-automatic/11/mff": {
+   "wall_s": 0.009,
+   "maxrss_kib": 18432,
+   "outcome": "plan-found",
+   "plan_length": 17
+  },
+  "ipc/ipc-2002/zenotravel-numeric-automatic/11/mff-s0": {
+   "wall_s": 0.01,
+   "maxrss_kib": 18432,
+   "outcome": "plan-found",
+   "plan_length": 17
+  },
+  "ipc/ipc-2002/zenotravel-numeric-automatic/11/mff-s3": {
+   "wall_s": 0.009,
+   "maxrss_kib": 18432,
+   "outcome": "proven-unsolvable",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/zenotravel-numeric-automatic/11/mff-s4": {
+   "wall_s": 0.009,
+   "maxrss_kib": 18432,
+   "outcome": "search-failed",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/zenotravel-numeric-automatic/12/mff": {
+   "wall_s": 0.013,
+   "maxrss_kib": 18432,
+   "outcome": "plan-found",
+   "plan_length": 25
+  },
+  "ipc/ipc-2002/zenotravel-numeric-automatic/12/mff-s0": {
+   "wall_s": 0.015,
+   "maxrss_kib": 18432,
+   "outcome": "plan-found",
+   "plan_length": 25
+  },
+  "ipc/ipc-2002/zenotravel-numeric-automatic/12/mff-s3": {
+   "wall_s": 1.196,
+   "maxrss_kib": 18432,
+   "outcome": "proven-unsolvable",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/zenotravel-numeric-automatic/12/mff-s4": {
+   "wall_s": 3.333,
+   "maxrss_kib": 23808,
+   "outcome": "search-failed",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/zenotravel-numeric-automatic/13/mff": {
+   "wall_s": 0.017,
+   "maxrss_kib": 18432,
+   "outcome": "plan-found",
+   "plan_length": 30
+  },
+  "ipc/ipc-2002/zenotravel-numeric-automatic/13/mff-s0": {
+   "wall_s": 0.017,
+   "maxrss_kib": 18432,
+   "outcome": "plan-found",
+   "plan_length": 30
+  },
+  "ipc/ipc-2002/zenotravel-numeric-automatic/13/mff-s3": {
+   "wall_s": 0.094,
+   "maxrss_kib": 18432,
+   "outcome": "proven-unsolvable",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/zenotravel-numeric-automatic/13/mff-s4": {
+   "wall_s": 0.119,
+   "maxrss_kib": 18432,
+   "outcome": "search-failed",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/zenotravel-numeric-automatic/14/mff": {
+   "wall_s": 0.066,
+   "maxrss_kib": 18432,
+   "outcome": "plan-found",
+   "plan_length": 37
+  },
+  "ipc/ipc-2002/zenotravel-numeric-automatic/14/mff-s0": {
+   "wall_s": 0.067,
+   "maxrss_kib": 18432,
+   "outcome": "plan-found",
+   "plan_length": 37
+  },
+  "ipc/ipc-2002/zenotravel-numeric-automatic/15/mff": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18432,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/zenotravel-numeric-automatic/15/mff-s0": {
+   "wall_s": 0.002,
+   "maxrss_kib": 18432,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/zenotravel-numeric-automatic/15/mff-s3": {
+   "wall_s": 0.004,
+   "maxrss_kib": 18432,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/zenotravel-numeric-automatic/15/mff-s4": {
+   "wall_s": 0.004,
+   "maxrss_kib": 18432,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/zenotravel-numeric-automatic/16/mff": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18432,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/zenotravel-numeric-automatic/16/mff-s0": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18432,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/zenotravel-numeric-automatic/16/mff-s3": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18432,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/zenotravel-numeric-automatic/16/mff-s4": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18432,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/zenotravel-numeric-automatic/17/mff": {
+   "wall_s": 0.005,
+   "maxrss_kib": 18432,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/zenotravel-numeric-automatic/17/mff-s0": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18432,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/zenotravel-numeric-automatic/17/mff-s3": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18432,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/zenotravel-numeric-automatic/17/mff-s4": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18432,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/zenotravel-numeric-automatic/18/mff": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18432,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/zenotravel-numeric-automatic/18/mff-s0": {
+   "wall_s": 0.003,
+   "maxrss_kib": 18432,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/zenotravel-numeric-automatic/18/mff-s3": {
+   "wall_s": 0.004,
+   "maxrss_kib": 18432,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/zenotravel-numeric-automatic/18/mff-s4": {
+   "wall_s": 0.005,
+   "maxrss_kib": 18432,
+   "outcome": "parse-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/zenotravel-numeric-automatic/19/mff": {
+   "wall_s": 0.108,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/zenotravel-numeric-automatic/19/mff-s0": {
+   "wall_s": 0.118,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/zenotravel-numeric-automatic/19/mff-s3": {
+   "wall_s": 0.111,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/zenotravel-numeric-automatic/19/mff-s4": {
+   "wall_s": 0.108,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/zenotravel-numeric-automatic/20/mff": {
+   "wall_s": 0.106,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/zenotravel-numeric-automatic/20/mff-s0": {
+   "wall_s": 0.154,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/zenotravel-numeric-automatic/20/mff-s3": {
+   "wall_s": 0.147,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/zenotravel-numeric-automatic/20/mff-s4": {
+   "wall_s": 0.108,
+   "maxrss_kib": 18432,
+   "outcome": "crash",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/zenotravel-strips-automatic/01/ff": {
+   "wall_s": 0.006,
+   "maxrss_kib": 18176,
+   "outcome": "plan-found",
+   "plan_length": 1
+  },
+  "ipc/ipc-2002/zenotravel-strips-automatic/01/mff": {
+   "wall_s": 0.005,
+   "maxrss_kib": 18176,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/zenotravel-strips-automatic/01/mff-s0": {
+   "wall_s": 0.006,
+   "maxrss_kib": 18176,
+   "outcome": "plan-found",
+   "plan_length": 1
+  },
+  "ipc/ipc-2002/zenotravel-strips-automatic/02/ff": {
+   "wall_s": 0.006,
+   "maxrss_kib": 18176,
+   "outcome": "plan-found",
+   "plan_length": 6
+  },
+  "ipc/ipc-2002/zenotravel-strips-automatic/02/mff": {
+   "wall_s": 0.007,
+   "maxrss_kib": 18176,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/zenotravel-strips-automatic/02/mff-s0": {
+   "wall_s": 0.005,
+   "maxrss_kib": 18176,
+   "outcome": "plan-found",
+   "plan_length": 8
+  },
+  "ipc/ipc-2002/zenotravel-strips-automatic/03/ff": {
+   "wall_s": 0.01,
+   "maxrss_kib": 18176,
+   "outcome": "plan-found",
+   "plan_length": 6
+  },
+  "ipc/ipc-2002/zenotravel-strips-automatic/03/mff": {
+   "wall_s": 0.01,
+   "maxrss_kib": 18176,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/zenotravel-strips-automatic/03/mff-s0": {
+   "wall_s": 0.008,
+   "maxrss_kib": 18176,
+   "outcome": "plan-found",
+   "plan_length": 6
+  },
+  "ipc/ipc-2002/zenotravel-strips-automatic/04/ff": {
+   "wall_s": 0.014,
+   "maxrss_kib": 18176,
+   "outcome": "plan-found",
+   "plan_length": 11
+  },
+  "ipc/ipc-2002/zenotravel-strips-automatic/04/mff": {
+   "wall_s": 0.007,
+   "maxrss_kib": 18176,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/zenotravel-strips-automatic/04/mff-s0": {
+   "wall_s": 0.013,
+   "maxrss_kib": 18176,
+   "outcome": "plan-found",
+   "plan_length": 13
+  },
+  "ipc/ipc-2002/zenotravel-strips-automatic/05/ff": {
+   "wall_s": 0.012,
+   "maxrss_kib": 18176,
+   "outcome": "plan-found",
+   "plan_length": 11
+  },
+  "ipc/ipc-2002/zenotravel-strips-automatic/05/mff": {
+   "wall_s": 0.008,
+   "maxrss_kib": 18176,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/zenotravel-strips-automatic/05/mff-s0": {
+   "wall_s": 0.013,
+   "maxrss_kib": 18176,
+   "outcome": "plan-found",
+   "plan_length": 11
+  },
+  "ipc/ipc-2002/zenotravel-strips-automatic/06/ff": {
+   "wall_s": 0.006,
+   "maxrss_kib": 18176,
+   "outcome": "plan-found",
+   "plan_length": 12
+  },
+  "ipc/ipc-2002/zenotravel-strips-automatic/06/mff": {
+   "wall_s": 0.006,
+   "maxrss_kib": 18176,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/zenotravel-strips-automatic/06/mff-s0": {
+   "wall_s": 0.013,
+   "maxrss_kib": 18176,
+   "outcome": "plan-found",
+   "plan_length": 12
+  },
+  "ipc/ipc-2002/zenotravel-strips-automatic/07/ff": {
+   "wall_s": 0.009,
+   "maxrss_kib": 18176,
+   "outcome": "plan-found",
+   "plan_length": 16
+  },
+  "ipc/ipc-2002/zenotravel-strips-automatic/07/mff": {
+   "wall_s": 0.015,
+   "maxrss_kib": 18176,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/zenotravel-strips-automatic/07/mff-s0": {
+   "wall_s": 0.013,
+   "maxrss_kib": 18176,
+   "outcome": "plan-found",
+   "plan_length": 16
+  },
+  "ipc/ipc-2002/zenotravel-strips-automatic/08/ff": {
+   "wall_s": 0.011,
+   "maxrss_kib": 18176,
+   "outcome": "plan-found",
+   "plan_length": 12
+  },
+  "ipc/ipc-2002/zenotravel-strips-automatic/08/mff": {
+   "wall_s": 0.02,
+   "maxrss_kib": 18176,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/zenotravel-strips-automatic/08/mff-s0": {
+   "wall_s": 0.021,
+   "maxrss_kib": 18176,
+   "outcome": "plan-found",
+   "plan_length": 12
+  },
+  "ipc/ipc-2002/zenotravel-strips-automatic/09/ff": {
+   "wall_s": 0.02,
+   "maxrss_kib": 18176,
+   "outcome": "plan-found",
+   "plan_length": 24
+  },
+  "ipc/ipc-2002/zenotravel-strips-automatic/09/mff": {
+   "wall_s": 0.017,
+   "maxrss_kib": 18176,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/zenotravel-strips-automatic/09/mff-s0": {
+   "wall_s": 0.026,
+   "maxrss_kib": 18176,
+   "outcome": "plan-found",
+   "plan_length": 23
+  },
+  "ipc/ipc-2002/zenotravel-strips-automatic/10/ff": {
+   "wall_s": 0.011,
+   "maxrss_kib": 18176,
+   "outcome": "plan-found",
+   "plan_length": 24
+  },
+  "ipc/ipc-2002/zenotravel-strips-automatic/10/mff": {
+   "wall_s": 0.019,
+   "maxrss_kib": 18176,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/zenotravel-strips-automatic/10/mff-s0": {
+   "wall_s": 0.034,
+   "maxrss_kib": 18176,
+   "outcome": "plan-found",
+   "plan_length": 27
+  },
+  "ipc/ipc-2002/zenotravel-strips-automatic/11/ff": {
+   "wall_s": 0.01,
+   "maxrss_kib": 18176,
+   "outcome": "plan-found",
+   "plan_length": 14
+  },
+  "ipc/ipc-2002/zenotravel-strips-automatic/11/mff": {
+   "wall_s": 0.018,
+   "maxrss_kib": 18176,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/zenotravel-strips-automatic/11/mff-s0": {
+   "wall_s": 0.029,
+   "maxrss_kib": 18176,
+   "outcome": "plan-found",
+   "plan_length": 15
+  },
+  "ipc/ipc-2002/zenotravel-strips-automatic/12/ff": {
+   "wall_s": 0.013,
+   "maxrss_kib": 18176,
+   "outcome": "plan-found",
+   "plan_length": 23
+  },
+  "ipc/ipc-2002/zenotravel-strips-automatic/12/mff": {
+   "wall_s": 0.018,
+   "maxrss_kib": 18176,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "ipc/ipc-2002/zenotravel-strips-automatic/12/mff-s0": {
+   "wall_s": 0.042,
+   "maxrss_kib": 18176,
+   "outcome": "plan-found",
+   "plan_length": 27
+  }
+ }
+}

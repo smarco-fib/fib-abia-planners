@@ -1,0 +1,24 @@
+{
+ "command": "ff -o domain.pddl -f instances/instance-6.pddl",
+ "cwd": "corpus/ipc/ipc-2002/driverlog-strips-automatic",
+ "exit_code": 0,
+ "outcome": "plan-found",
+ "plan": [
+  "LOAD-TRUCK PACKAGE1 TRUCK3 S1",
+  "WALK DRIVER2 S2 P2-0",
+  "WALK DRIVER1 S2 P1-2",
+  "BOARD-TRUCK DRIVER3 TRUCK3 S1",
+  "WALK DRIVER2 P2-0 S0",
+  "WALK DRIVER1 P1-2 S1",
+  "DRIVE-TRUCK TRUCK3 S1 S2 DRIVER3",
+  "UNLOAD-TRUCK PACKAGE1 TRUCK3 S2",
+  "DISEMBARK-TRUCK DRIVER3 TRUCK3 S2",
+  "WALK DRIVER3 S2 P1-2",
+  "WALK DRIVER3 P1-2 S1",
+  "BOARD-TRUCK DRIVER3 TRUCK2 S1",
+  "DRIVE-TRUCK TRUCK2 S1 S0 DRIVER3"
+ ],
+ "stdout": "\nff: parsing domain file\ndomain 'DRIVERLOG' defined\n ... done.\nff: parsing problem file\nproblem 'DLOG-3-3-5' defined\n ... done.\n\n\n\nCueing down from goal distance:   10 into depth [1]\n                                   9            [1]\n                                   8            [1]\n                                   7            [1]\n                                   6            [1]\n                                   5            [1]\n                                   4            [1]\n                                   3            [1]\n\nEnforced Hill-climbing failed !\nswitching to Best-first Search now.\n\nadvancing to distance :   10\n                           9\n                           8\n                           7\n                           6\n                           5\n                           4\n                           3\n                           2\n                           1\n                           0\n\nff: found legal plan as follows\n\nstep    0: LOAD-TRUCK PACKAGE1 TRUCK3 S1\n        1: WALK DRIVER2 S2 P2-0\n        2: WALK DRIVER1 S2 P1-2\n        3: BOARD-TRUCK DRIVER3 TRUCK3 S1\n        4: WALK DRIVER2 P2-0 S0\n        5: WALK DRIVER1 P1-2 S1\n        6: DRIVE-TRUCK TRUCK3 S1 S2 DRIVER3\n        7: UNLOAD-TRUCK PACKAGE1 TRUCK3 S2\n        8: DISEMBARK-TRUCK DRIVER3 TRUCK3 S2\n        9: WALK DRIVER3 S2 P1-2\n       10: WALK DRIVER3 P1-2 S1\n       11: BOARD-TRUCK DRIVER3 TRUCK2 S1\n       12: DRIVE-TRUCK TRUCK2 S1 S0 DRIVER3\n     \n\ntime spent:    T.TT seconds instantiating 318 easy, 0 hard action templates\n               T.TT seconds reachability analysis, yielding 66 facts and 222 actions\n               T.TT seconds creating final representation with 66 relevant facts\n               T.TT seconds building connectivity graph\n               T.TT seconds searching, evaluating 232 states, to a max depth of 1\n               T.TT seconds total time\n\n",
+ "stderr": "",
+ "reason": "ff: found legal plan as follows"
+}

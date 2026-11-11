@@ -1,0 +1,10 @@
+{
+ "command": "ff -o domain.pddl -f instances/instance-11.pddl",
+ "cwd": "corpus/ipc/ipc-1998/mystery-round-1-adl",
+ "exit_code": 1,
+ "outcome": "parse-error",
+ "plan": null,
+ "stdout": "\nff: parsing domain file",
+ "stderr": "\ndomain.pddl: syntax error in line 1, 'IN-PACKAGE':\ndomain definition expected\n",
+ "reason": "syntax error in line 1"
+}

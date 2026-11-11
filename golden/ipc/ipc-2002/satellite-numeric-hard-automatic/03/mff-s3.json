@@ -1,0 +1,19 @@
+{
+ "command": "metric-ff -s 3 -o domain.pddl -f instances/instance-3.pddl",
+ "cwd": "corpus/ipc/ipc-2002/satellite-numeric-hard-automatic",
+ "exit_code": 0,
+ "outcome": "plan-found",
+ "plan": [
+  "TURN_TO SATELLITE0 STAR1 STAR4",
+  "TURN_TO SATELLITE0 STAR2 STAR1",
+  "TURN_TO SATELLITE0 STAR0 STAR2",
+  "TURN_TO SATELLITE0 STAR3 STAR0",
+  "TURN_TO SATELLITE0 STAR4 STAR3",
+  "TURN_TO SATELLITE0 STAR1 STAR4",
+  "TURN_TO SATELLITE0 STAR4 STAR1",
+  "TURN_TO SATELLITE0 PHENOMENON5 STAR4"
+ ],
+ "stdout": "\nff: parsing domain file\ndomain 'SATELLITE' defined\n ... done.\nff: parsing problem file\nproblem 'STRIPS-SAT-X-1' defined\n ... done.\n\n\ntranslating negated cond for predicate =\nwarning: change on metric in wrong direction. no optimization done.\nwarning: numeric precondition. turning cost-minimizing relaxed plans OFF.\n\nff: search configuration is weighted A* with weight 5. plan length\nCOST MINIMIZATION DONE (WITHOUT cost-minimizing relaxed plans).\n\nadvancing to goal distance:    1\n                               0\n\nff: found legal plan as follows\nstep    0: TURN_TO SATELLITE0 STAR1 STAR4\n        1: TURN_TO SATELLITE0 STAR2 STAR1\n        2: TURN_TO SATELLITE0 STAR0 STAR2\n        3: TURN_TO SATELLITE0 STAR3 STAR0\n        4: TURN_TO SATELLITE0 STAR4 STAR3\n        5: TURN_TO SATELLITE0 STAR1 STAR4\n        6: TURN_TO SATELLITE0 STAR4 STAR1\n        7: TURN_TO SATELLITE0 PHENOMENON5 STAR4\n\ntime spent:    T.TT seconds instantiating 188 easy, 0 hard action templates\n               T.TT seconds reachability analysis, yielding 50 facts and 164 actions\n               T.TT seconds creating final representation with 50 relevant facts, 7 relevant fluents\n               T.TT seconds computing LNF\n               T.TT seconds building connectivity graph\n               T.TT seconds searching, evaluating 127 states, to a max depth of 0\n               T.TT seconds total time\n\n",
+ "stderr": "",
+ "reason": "ff: found legal plan as follows"
+}

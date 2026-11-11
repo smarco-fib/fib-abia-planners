@@ -1,0 +1,10 @@
+{
+ "command": "metric-ff -s 3 -o domain.pddl -f instances/instance-16.pddl",
+ "cwd": "corpus/ipc/ipc-2002/rovers-numeric-automatic",
+ "exit_code": 1,
+ "outcome": "parse-error",
+ "plan": null,
+ "stdout": "\nff: parsing domain file\ndomain 'ROVER' defined\n ... done.\nff: parsing problem file\nproblem 'ROVERPROB5142' defined\n ... done.\n\n\n\nunknown optimization method ëâ¨Ó[. check input files\n\n",
+ "stderr": "",
+ "reason": "check input files"
+}

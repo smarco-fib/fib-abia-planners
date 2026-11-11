@@ -1,0 +1,16 @@
+{
+ "command": "metric-ff -s 0 -o domain.pddl -f instances/instance-10.pddl",
+ "cwd": "corpus/ipc/ipc-2000/schedule-adl-typed",
+ "exit_code": 0,
+ "outcome": "plan-found",
+ "plan": [
+  "DO-LATHE D0",
+  "DO-TIME-STEP",
+  "DO-IMMERSION-PAINT D0 YELLOW",
+  "DO-SPRAY-PAINT A0 BLUE",
+  "DO-POLISH B0"
+ ],
+ "stdout": "\nff: parsing domain file\ndomain 'SCHEDULE' defined\n ... done.\nff: parsing problem file\nproblem 'SCHEDULE-5-0' defined\n ... done.\n\n\ntranslating negated cond for predicate SCHEDULED\ntranslating negated cond for predicate BUSY\ntranslating negated cond for predicate OBJSCHEDULED\ntranslating negated cond for predicate HAS-HOLE\nno metric specified.\n\ntask contains conditional effects. turning off state domination.\n\n\n\nff: search configuration is Enforced Hill-Climbing, if that fails then best-first search.\nMetric is plan length.\nNO COST MINIMIZATION (and no cost-minimizing relaxed plans).\n\nCueing down from goal distance:    5 into depth [1]\n                                   4            [1]\n                                   3            [1]\n                                   2            [1]\n                                   1            [1]\n                                   0            \n\nff: found legal plan as follows\nstep    0: DO-LATHE D0\n        1: DO-TIME-STEP\n        2: DO-IMMERSION-PAINT D0 YELLOW\n        3: DO-SPRAY-PAINT A0 BLUE\n        4: DO-POLISH B0\n\ntime spent:    T.TT seconds instantiating 121 easy, 0 hard action templates\n               T.TT seconds reachability analysis, yielding 140 facts and 121 actions\n               T.TT seconds creating final representation with 140 relevant facts, 0 relevant fluents\n               T.TT seconds computing LNF\n               T.TT seconds building connectivity graph\n               T.TT seconds searching, evaluating 11 states, to a max depth of 1\n               T.TT seconds total time\n\n",
+ "stderr": "",
+ "reason": "ff: found legal plan as follows"
+}

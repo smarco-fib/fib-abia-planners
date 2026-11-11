@@ -1,0 +1,24 @@
+{
+ "command": "metric-ff -s 0 -o domain.pddl -f instances/instance-4.pddl",
+ "cwd": "corpus/ipc/ipc-2002/zenotravel-strips-automatic",
+ "exit_code": 0,
+ "outcome": "plan-found",
+ "plan": [
+  "ZOOM PLANE1 CITY2 CITY1 FL5 FL4 FL3",
+  "BOARD PERSON2 PLANE1 CITY1",
+  "ZOOM PLANE1 CITY1 CITY2 FL3 FL2 FL1",
+  "DEBARK PERSON2 PLANE1 CITY2",
+  "FLY PLANE1 CITY2 CITY1 FL1 FL0",
+  "REFUEL PLANE1 CITY1 FL0 FL1",
+  "FLY PLANE1 CITY1 CITY0 FL1 FL0",
+  "REFUEL PLANE1 CITY0 FL0 FL1",
+  "BOARD PERSON4 PLANE1 CITY0",
+  "FLY PLANE1 CITY0 CITY1 FL1 FL0",
+  "REFUEL PLANE1 CITY1 FL0 FL1",
+  "DEBARK PERSON4 PLANE1 CITY1",
+  "FLY PLANE1 CITY1 CITY0 FL1 FL0"
+ ],
+ "stdout": "\nff: parsing domain file\ndomain 'ZENO-TRAVEL' defined\n ... done.\nff: parsing problem file\nproblem 'ZTRAVEL-2-5' defined\n ... done.\n\n\nno metric specified.\n\nff: search configuration is Enforced Hill-Climbing, if that fails then best-first search.\nMetric is plan length.\nNO COST MINIMIZATION (and no cost-minimizing relaxed plans).\n\nCueing down from goal distance:    6 into depth [1][2]\n                                   5            [1][2]\n                                   4            [1][2]\n                                   3            [1][2][3]\n                                   2            [1][2][3]\n                                   1            [1]\n                                   0            \n\nff: found legal plan as follows\nstep    0: ZOOM PLANE1 CITY2 CITY1 FL5 FL4 FL3\n        1: BOARD PERSON2 PLANE1 CITY1\n        2: ZOOM PLANE1 CITY1 CITY2 FL3 FL2 FL1\n        3: DEBARK PERSON2 PLANE1 CITY2\n        4: FLY PLANE1 CITY2 CITY1 FL1 FL0\n        5: REFUEL PLANE1 CITY1 FL0 FL1\n        6: FLY PLANE1 CITY1 CITY0 FL1 FL0\n        7: REFUEL PLANE1 CITY0 FL0 FL1\n        8: BOARD PERSON4 PLANE1 CITY0\n        9: FLY PLANE1 CITY0 CITY1 FL1 FL0\n       10: REFUEL PLANE1 CITY1 FL0 FL1\n       11: DEBARK PERSON4 PLANE1 CITY1\n       12: FLY PLANE1 CITY1 CITY0 FL1 FL0\n\ntime spent:    T.TT seconds instantiating 294 easy, 0 hard action templates\n               T.TT seconds reachability analysis, yielding 45 facts and 294 actions\n               T.TT seconds creating final representation with 45 relevant facts, 0 relevant fluents\n               T.TT seconds computing LNF\n               T.TT seconds building connectivity graph\n               T.TT seconds searching, evaluating 26 states, to a max depth of 3\n               T.TT seconds total time\n\n",
+ "stderr": "",
+ "reason": "ff: found legal plan as follows"
+}

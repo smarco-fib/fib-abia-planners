@@ -1,0 +1,10 @@
+{
+ "command": "metric-ff -s 4 -o domain.pddl -f no-fuel.pddl",
+ "cwd": "corpus/synthetic/numeric",
+ "exit_code": 0,
+ "outcome": "search-failed",
+ "plan": null,
+ "stdout": "\nff: parsing domain file\ndomain 'FUEL-GRID' defined\n ... done.\nff: parsing problem file\nproblem 'NO-FUEL' defined\n ... done.\n\n\nwarning: numeric precondition. turning cost-minimizing relaxed plans OFF.\n\nff: search configuration is A*epsilon with weight 5.\nMetric is ((1.00*[RF0](TOTAL-COST)) - () + 0.00)\nCOST MINIMIZATION DONE (WITHOUT cost-minimizing relaxed plans).\n\nAdvancing to goal distance:    4\n                               3\n                               2\n\nAstar epsilon search space empty!\nBailing out.\n\ntime spent:    T.TT seconds instantiating 24 easy, 0 hard action templates\n               T.TT seconds reachability analysis, yielding 18 facts and 24 actions\n               T.TT seconds creating final representation with 18 relevant facts, 2 relevant fluents\n               T.TT seconds computing LNF\n               T.TT seconds building connectivity graph\n               T.TT seconds searching, evaluating 25 states, to a max depth of 0\n               T.TT seconds total time\n\n",
+ "stderr": "",
+ "reason": "Astar epsilon search space empty! Bailing out"
+}

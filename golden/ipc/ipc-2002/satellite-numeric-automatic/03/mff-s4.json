@@ -1,0 +1,22 @@
+{
+ "command": "metric-ff -s 4 -o domain.pddl -f instances/instance-3.pddl",
+ "cwd": "corpus/ipc/ipc-2002/satellite-numeric-automatic",
+ "exit_code": 0,
+ "outcome": "plan-found",
+ "plan": [
+  "SWITCH_ON INSTRUMENT3 SATELLITE1",
+  "CALIBRATE SATELLITE1 INSTRUMENT3 STAR0",
+  "TURN_TO SATELLITE1 STAR4 STAR0",
+  "TURN_TO SATELLITE0 PHENOMENON5 STAR4",
+  "TAKE_IMAGE SATELLITE1 STAR4 INSTRUMENT3 SPECTROGRAPH2",
+  "TURN_TO SATELLITE1 PHENOMENON5 STAR4",
+  "TAKE_IMAGE SATELLITE1 PHENOMENON5 INSTRUMENT3 SPECTROGRAPH2",
+  "TURN_TO SATELLITE1 PHENOMENON7 PHENOMENON5",
+  "TAKE_IMAGE SATELLITE1 PHENOMENON7 INSTRUMENT3 SPECTROGRAPH2",
+  "TURN_TO SATELLITE1 STAR3 PHENOMENON7",
+  "TAKE_IMAGE SATELLITE1 STAR3 INSTRUMENT3 INFRARED0"
+ ],
+ "stdout": "\nff: parsing domain file\ndomain 'SATELLITE' defined\n ... done.\nff: parsing problem file\nproblem 'STRIPS-SAT-X-1' defined\n ... done.\n\n\ntranslating negated cond for predicate =\nwarning: numeric precondition. turning cost-minimizing relaxed plans OFF.\n\nff: search configuration is A*epsilon with weight 5.\nMetric is ((1.00*[RF0](FUEL-USED)) - () + 0.00)\nCOST MINIMIZATION DONE (WITHOUT cost-minimizing relaxed plans).\n\nAdvancing to goal distance:   11\n                              10\n                               9\n                               8\n                               7\n                               6\n                               5\n                               4\n                               3\n                               2\n                               1\n                               0\n\nff: found legal plan as follows\nstep    0: SWITCH_ON INSTRUMENT3 SATELLITE1\n        1: CALIBRATE SATELLITE1 INSTRUMENT3 STAR0\n        2: TURN_TO SATELLITE1 STAR4 STAR0\n        3: TURN_TO SATELLITE0 PHENOMENON5 STAR4\n        4: TAKE_IMAGE SATELLITE1 STAR4 INSTRUMENT3 SPECTROGRAPH2\n        5: TURN_TO SATELLITE1 PHENOMENON5 STAR4\n        6: TAKE_IMAGE SATELLITE1 PHENOMENON5 INSTRUMENT3 SPECTROGRAPH2\n        7: TURN_TO SATELLITE1 PHENOMENON7 PHENOMENON5\n        8: TAKE_IMAGE SATELLITE1 PHENOMENON7 INSTRUMENT3 SPECTROGRAPH2\n        9: TURN_TO SATELLITE1 STAR3 PHENOMENON7\n       10: TAKE_IMAGE SATELLITE1 STAR3 INSTRUMENT3 INFRARED0\nplan cost: 170.949402\n\ntime spent:    T.TT seconds instantiating 188 easy, 0 hard action templates\n               T.TT seconds reachability analysis, yielding 50 facts and 164 actions\n               T.TT seconds creating final representation with 50 relevant facts, 6 relevant fluents\n               T.TT seconds computing LNF\n               T.TT seconds building connectivity graph\n               T.TT seconds searching, evaluating 195 states, to a max depth of 0\n               T.TT seconds total time\n\n",
+ "stderr": "",
+ "reason": "ff: found legal plan as follows"
+}

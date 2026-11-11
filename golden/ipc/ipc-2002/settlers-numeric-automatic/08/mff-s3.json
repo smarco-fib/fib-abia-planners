@@ -1,0 +1,10 @@
+{
+ "command": "metric-ff -s 3 -o domain.pddl -f instances/instance-8.pddl",
+ "cwd": "corpus/ipc/ipc-2002/settlers-numeric-automatic",
+ "exit_code": 1,
+ "outcome": "proven-unsolvable",
+ "plan": null,
+ "stdout": "\nff: parsing domain file\ndomain 'CIV' defined\n ... done.\nff: parsing problem file\nproblem 'SETTLERS' defined\n ... done.\n\n\nff: goal can be simplified to FALSE. No plan will solve it\n\n",
+ "stderr": "",
+ "reason": "ff: goal can be simplified to FALSE. No plan will solve it"
+}

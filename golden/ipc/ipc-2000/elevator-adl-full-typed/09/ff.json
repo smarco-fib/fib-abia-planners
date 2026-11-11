@@ -1,0 +1,18 @@
+{
+ "command": "ff -o domain.pddl -f instances/instance-9.pddl",
+ "cwd": "corpus/ipc/ipc-2000/elevator-adl-full-typed",
+ "exit_code": 0,
+ "outcome": "plan-found",
+ "plan": [
+  "UP F0 F3",
+  "DOWN F3 F2",
+  "STOP F2",
+  "DOWN F2 F1",
+  "STOP F1",
+  "UP F1 F3",
+  "STOP F3"
+ ],
+ "stdout": "\nff: parsing domain file\ndomain 'MICONIC' defined\n ... done.\nff: parsing problem file\nproblem 'MIXED-F4-P2-U20-V5-G5-A60-N10-A20-B80-N50-F5-R3' defined\n ... done.\n\n\nwarning: quantified var ?P has unknown or empty type GOING_UP. simplifying.\n\n\nwarning: quantified var ?P has unknown or empty type GOING_DOWN. simplifying.\n\n\nwarning: quantified var ?P has unknown or empty type CONFLICT_A. simplifying.\n\n\nwarning: quantified var ?Q has unknown or empty type CONFLICT_B. simplifying.\n\n\nwarning: quantified var ?P has unknown or empty type CONFLICT_B. simplifying.\n\n\nwarning: quantified var ?Q has unknown or empty type CONFLICT_A. simplifying.\n\n\nwarning: quantified var ?P has unknown or empty type NEVER_ALONE. simplifying.\n\n\nwarning: quantified var ?Q has unknown or empty type ATTENDANT. simplifying.\n\n\nwarning: quantified var ?P has unknown or empty type GOING_NONSTOP. simplifying.\n\n\nwarning: quantified var ?P has unknown or empty type VIP. simplifying.\n\n\nwarning: quantified var ?P has unknown or empty type VIP. simplifying.\n\n\n\nCueing down from goal distance:    6 into depth [1]\n                                   5            [1][2][3]\n                                   3            [1]\n                                   2            [1]\n                                   1            [1]\n                                   0            \n\nff: found legal plan as follows\n\nstep    0: UP F0 F3\n        1: DOWN F3 F2\n        2: STOP F2\n        3: DOWN F2 F1\n        4: STOP F1\n        5: UP F1 F3\n        6: STOP F3\n     \n\ntime spent:    T.TT seconds instantiating 16 easy, 0 hard action templates\n               T.TT seconds reachability analysis, yielding 10 facts and 16 actions\n               T.TT seconds creating final representation with 10 relevant facts\n               T.TT seconds building connectivity graph\n               T.TT seconds searching, evaluating 12 states, to a max depth of 3\n               T.TT seconds total time\n\n",
+ "stderr": "",
+ "reason": "ff: found legal plan as follows"
+}

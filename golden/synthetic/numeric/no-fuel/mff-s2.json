@@ -1,0 +1,10 @@
+{
+ "command": "metric-ff -s 2 -o domain.pddl -f no-fuel.pddl",
+ "cwd": "corpus/synthetic/numeric",
+ "exit_code": 0,
+ "outcome": "proven-unsolvable",
+ "plan": null,
+ "stdout": "\nff: parsing domain file\ndomain 'FUEL-GRID' defined\n ... done.\nff: parsing problem file\nproblem 'NO-FUEL' defined\n ... done.\n\n\n\nff: search configuration is best-first search with helpful actions pruning.\nMetric is plan length.\nNO COST MINIMIZATION. (and no cost-minimizing relaxed plans).\n\nadvancing to goal distance:    4\n                               3\n                               2\n\nbest first search space empty! problem proven unsolvable.\n\n\n\ntime spent:    T.TT seconds instantiating 24 easy, 0 hard action templates\n               T.TT seconds reachability analysis, yielding 18 facts and 24 actions\n               T.TT seconds creating final representation with 18 relevant facts, 2 relevant fluents\n               T.TT seconds computing LNF\n               T.TT seconds building connectivity graph\n               T.TT seconds searching, evaluating 4 states, to a max depth of 0\n               T.TT seconds total time\n\n",
+ "stderr": "",
+ "reason": "search space empty! problem proven unsolvable"
+}

@@ -1,0 +1,29 @@
+{
+ "command": "metric-ff -s 0 -o logistics.pddl -f log-3-2.pddl",
+ "cwd": "examples/logistics",
+ "exit_code": 0,
+ "outcome": "plan-found",
+ "plan": [
+  "LOAD PACKET2 TRUCK3 OFFICE3",
+  "DRIVE TRUCK3 OFFICE3 AIRPORT3 CITY3",
+  "UNLOAD PACKET2 TRUCK3 AIRPORT3",
+  "DRIVE TRUCK1 AIRPORT1 OFFICE1 CITY1",
+  "LOAD PACKET1 TRUCK1 OFFICE1",
+  "DRIVE TRUCK1 OFFICE1 AIRPORT1 CITY1",
+  "UNLOAD PACKET1 TRUCK1 AIRPORT1",
+  "LOAD PACKET1 AIRPLANE1 AIRPORT1",
+  "FLY AIRPLANE1 AIRPORT1 AIRPORT3",
+  "LOAD PACKET2 AIRPLANE1 AIRPORT3",
+  "FLY AIRPLANE1 AIRPORT3 AIRPORT2",
+  "UNLOAD PACKET1 AIRPLANE1 AIRPORT2",
+  "UNLOAD PACKET2 AIRPLANE1 AIRPORT2",
+  "LOAD PACKET1 TRUCK2 AIRPORT2",
+  "LOAD PACKET2 TRUCK2 AIRPORT2",
+  "DRIVE TRUCK2 AIRPORT2 OFFICE2 CITY2",
+  "UNLOAD PACKET1 TRUCK2 OFFICE2",
+  "UNLOAD PACKET2 TRUCK2 OFFICE2"
+ ],
+ "stdout": "\nff: parsing domain file\ndomain 'LOGISTICS' defined\n ... done.\nff: parsing problem file\nproblem 'C3_2' defined\n ... done.\n\n\nno metric specified.\n\nff: search configuration is Enforced Hill-Climbing, if that fails then best-first search.\nMetric is plan length.\nNO COST MINIMIZATION (and no cost-minimizing relaxed plans).\n\nCueing down from goal distance:   17 into depth [1]\n                                  16            [1]\n                                  15            [1]\n                                  14            [1][2]\n                                  13            [1]\n                                  12            [1]\n                                  11            [1]\n                                  10            [1]\n                                   9            [1]\n                                   8            [1]\n                                   7            [1]\n                                   6            [1]\n                                   5            [1]\n                                   4            [1]\n                                   3            [1]\n                                   2            [1]\n                                   1            [1]\n                                   0            \n\nff: found legal plan as follows\nstep    0: LOAD PACKET2 TRUCK3 OFFICE3\n        1: DRIVE TRUCK3 OFFICE3 AIRPORT3 CITY3\n        2: UNLOAD PACKET2 TRUCK3 AIRPORT3\n        3: DRIVE TRUCK1 AIRPORT1 OFFICE1 CITY1\n        4: LOAD PACKET1 TRUCK1 OFFICE1\n        5: DRIVE TRUCK1 OFFICE1 AIRPORT1 CITY1\n        6: UNLOAD PACKET1 TRUCK1 AIRPORT1\n        7: LOAD PACKET1 AIRPLANE1 AIRPORT1\n        8: FLY AIRPLANE1 AIRPORT1 AIRPORT3\n        9: LOAD PACKET2 AIRPLANE1 AIRPORT3\n       10: FLY AIRPLANE1 AIRPORT3 AIRPORT2\n       11: UNLOAD PACKET1 AIRPLANE1 AIRPORT2\n       12: UNLOAD PACKET2 AIRPLANE1 AIRPORT2\n       13: LOAD PACKET1 TRUCK2 AIRPORT2\n       14: LOAD PACKET2 TRUCK2 AIRPORT2\n       15: DRIVE TRUCK2 AIRPORT2 OFFICE2 CITY2\n       16: UNLOAD PACKET1 TRUCK2 OFFICE2\n       17: UNLOAD PACKET2 TRUCK2 OFFICE2\n\ntime spent:    T.TT seconds instantiating 141 easy, 0 hard action templates\n               T.TT seconds reachability analysis, yielding 29 facts and 57 actions\n               T.TT seconds creating final representation with 29 relevant facts, 0 relevant fluents\n               T.TT seconds computing LNF\n               T.TT seconds building connectivity graph\n               T.TT seconds searching, evaluating 30 states, to a max depth of 2\n               T.TT seconds total time\n\n",
+ "stderr": "",
+ "reason": "ff: found legal plan as follows"
+}

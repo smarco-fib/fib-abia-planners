@@ -1,0 +1,10 @@
+{
+ "command": "metric-ff -s 3 -o domain.pddl -f instances/instance-9.pddl",
+ "cwd": "corpus/ipc/ipc-2002/settlers-numeric-automatic",
+ "exit_code": 0,
+ "outcome": "proven-unsolvable",
+ "plan": null,
+ "stdout": "\nff: parsing domain file\ndomain 'CIV' defined\n ... done.\nff: parsing problem file\nproblem 'SETTLERS' defined\n ... done.\n\n\nwarning: numeric precondition. turning cost-minimizing relaxed plans OFF.\n\nff: search configuration is weighted A* with weight 5.\nMetric is ((1.00*[RF51](RESOURCE-USE)1.00*[RF50](LABOUR)) - () + 0.00)\nCOST MINIMIZATION DONE (WITHOUT cost-minimizing relaxed plans).\n\nadvancing to goal distance:   71\n                              69\n                              68\n                              67\n                              66\n                              65\n\nweighted A* search space empty! problem proven unsolvable.\n\n\n\ntime spent:    T.TT seconds instantiating 1404 easy, 0 hard action templates\n               T.TT seconds reachability analysis, yielding 144 facts and 1240 actions\n               T.TT seconds creating final representation with 144 relevant facts, 101 relevant fluents\n               T.TT seconds computing LNF\n               T.TT seconds building connectivity graph\n               T.TT seconds searching, evaluating 1957 states, to a max depth of 0\n               T.TT seconds total time\n\n",
+ "stderr": "",
+ "reason": "search space empty! problem proven unsolvable"
+}

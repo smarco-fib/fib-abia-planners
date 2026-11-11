@@ -1,0 +1,21 @@
+{
+ "command": "metric-ff -s 0 -o domain.pddl -f instances/instance-1.pddl",
+ "cwd": "corpus/ipc/ipc-2000/blocks-strips-typed",
+ "exit_code": 0,
+ "outcome": "plan-found",
+ "plan": [
+  "PICK-UP D",
+  "STACK D C",
+  "PICK-UP B",
+  "STACK B A",
+  "UNSTACK D C",
+  "PUT-DOWN D",
+  "PICK-UP C",
+  "STACK C B",
+  "PICK-UP D",
+  "STACK D C"
+ ],
+ "stdout": "\nff: parsing domain file\ndomain 'BLOCKS' defined\n ... done.\nff: parsing problem file\nproblem 'BLOCKS-4-0' defined\n ... done.\n\n\nno metric specified.\n\nff: search configuration is Enforced Hill-Climbing, if that fails then best-first search.\nMetric is plan length.\nNO COST MINIMIZATION (and no cost-minimizing relaxed plans).\n\nCueing down from goal distance:    6 into depth [1]\n                                   5            [1][2]\n                                   4            [1]\n                                   3            [1][2][3][4]\n                                   2            [1]\n                                   1            [1]\n                                   0            \n\nff: found legal plan as follows\nstep    0: PICK-UP D\n        1: STACK D C\n        2: PICK-UP B\n        3: STACK B A\n        4: UNSTACK D C\n        5: PUT-DOWN D\n        6: PICK-UP C\n        7: STACK C B\n        8: PICK-UP D\n        9: STACK D C\n\ntime spent:    T.TT seconds instantiating 40 easy, 0 hard action templates\n               T.TT seconds reachability analysis, yielding 29 facts and 40 actions\n               T.TT seconds creating final representation with 29 relevant facts, 0 relevant fluents\n               T.TT seconds computing LNF\n               T.TT seconds building connectivity graph\n               T.TT seconds searching, evaluating 17 states, to a max depth of 4\n               T.TT seconds total time\n\n",
+ "stderr": "",
+ "reason": "ff: found legal plan as follows"
+}

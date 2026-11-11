@@ -1,0 +1,27 @@
+{
+ "command": "metric-ff -s 0 -o domain.pddl -f instances/instance-8.pddl",
+ "cwd": "corpus/ipc/ipc-2000/blocks-strips-typed",
+ "exit_code": 0,
+ "outcome": "plan-found",
+ "plan": [
+  "UNSTACK A F",
+  "STACK A D",
+  "PICK-UP E",
+  "STACK E F",
+  "PICK-UP C",
+  "STACK C E",
+  "PICK-UP B",
+  "STACK B A",
+  "UNSTACK C E",
+  "STACK C B",
+  "UNSTACK E F",
+  "PUT-DOWN E",
+  "PICK-UP F",
+  "STACK F C",
+  "PICK-UP E",
+  "STACK E F"
+ ],
+ "stdout": "\nff: parsing domain file\ndomain 'BLOCKS' defined\n ... done.\nff: parsing problem file\nproblem 'BLOCKS-6-1' defined\n ... done.\n\n\nno metric specified.\n\nff: search configuration is Enforced Hill-Climbing, if that fails then best-first search.\nMetric is plan length.\nNO COST MINIMIZATION (and no cost-minimizing relaxed plans).\n\nCueing down from goal distance:   10 into depth [1]\n                                   9            [1]\n                                   8            [1]\n                                   7            [1][2]\n                                   6            [1][2][3]\n                                   5            [1]\n                                   4            [1]\n                                   3            [1][2][3][4]\n                                   2            [1]\n                                   1            [1]\n                                   0            \n\nff: found legal plan as follows\nstep    0: UNSTACK A F\n        1: STACK A D\n        2: PICK-UP E\n        3: STACK E F\n        4: PICK-UP C\n        5: STACK C E\n        6: PICK-UP B\n        7: STACK B A\n        8: UNSTACK C E\n        9: STACK C B\n       10: UNSTACK E F\n       11: PUT-DOWN E\n       12: PICK-UP F\n       13: STACK F C\n       14: PICK-UP E\n       15: STACK E F\n\ntime spent:    T.TT seconds instantiating 84 easy, 0 hard action templates\n               T.TT seconds reachability analysis, yielding 55 facts and 84 actions\n               T.TT seconds creating final representation with 55 relevant facts, 0 relevant fluents\n               T.TT seconds computing LNF\n               T.TT seconds building connectivity graph\n               T.TT seconds searching, evaluating 45 states, to a max depth of 4\n               T.TT seconds total time\n\n",
+ "stderr": "",
+ "reason": "ff: found legal plan as follows"
+}

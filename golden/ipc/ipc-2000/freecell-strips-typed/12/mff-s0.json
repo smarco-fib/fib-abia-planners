@@ -1,0 +1,32 @@
+{
+ "command": "metric-ff -s 0 -o domain.pddl -f instances/instance-12.pddl",
+ "cwd": "corpus/ipc/ipc-2000/freecell-strips-typed",
+ "exit_code": 0,
+ "outcome": "plan-found",
+ "plan": [
+  "SENDTOHOME CA D2 C N1 C0 N0",
+  "SENDTOHOME-B DA D N1 D0 N0 N1 N2",
+  "SENDTOHOME SA H3 S N1 S0 N0",
+  "SENDTONEWCOL D3 S2 N2 N1",
+  "SENDTOHOME-B D2 D N2 DA N1 N1 N2",
+  "SENDTONEWCOL S3 C4 N2 N1",
+  "SENDTONEWCOL H3 HA N1 N0",
+  "SENDTOHOME HA D4 H N1 H0 N0",
+  "SENDTOHOME S2 C3 S N2 SA N1",
+  "SENDTOHOME-B D3 D N3 D2 N2 N0 N1",
+  "SENDTOHOME-B H2 H N2 HA N1 N1 N2",
+  "SENDTONEWCOL H4 S4 N2 N1",
+  "SENDTONEWCOL S4 C2 N1 N0",
+  "SENDTOHOME-B C2 C N2 CA N1 N0 N1",
+  "SENDTOHOME-B C3 C N3 C2 N2 N1 N2",
+  "SENDTOHOME-B H3 H N3 H2 N2 N2 N3",
+  "SENDTOHOME-B S3 S N3 S2 N2 N3 N4",
+  "SENDTOHOME-B C4 C N4 C3 N3 N4 N5",
+  "SENDTOHOME-B D4 D N4 D3 N3 N5 N6",
+  "SENDTOHOME-B H4 H N4 H3 N3 N6 N7",
+  "SENDTOHOME-B S4 S N4 S3 N3 N7 N8"
+ ],
+ "stdout": "\nff: parsing domain file\ndomain 'FREECELL' defined\n ... done.\nff: parsing problem file\nproblem 'FREECELL-4-2' defined\n ... done.\n\n\nno metric specified.\n\nff: search configuration is Enforced Hill-Climbing, if that fails then best-first search.\nMetric is plan length.\nNO COST MINIMIZATION (and no cost-minimizing relaxed plans).\n\nCueing down from goal distance:   27 into depth [1]\n                                  26            [1]\n                                  24            [1]\n                                  23            [1]\n                                  21            [1]\n                                  19            [1]\n                                  18            [1]\n                                  17            [1]\n                                  15            [1]\n                                  12            [1]\n                                  10            [1]\n                                   9            [1][2]\n                                   8            [1]\n                                   7            [1][2]\n                                   6            [1]\n                                   4            [1]\n                                   3            [1]\n                                   2            [1]\n                                   1            [1]\n                                   0            \n\nff: found legal plan as follows\nstep    0: SENDTOHOME CA D2 C N1 C0 N0\n        1: SENDTOHOME-B DA D N1 D0 N0 N1 N2\n        2: SENDTOHOME SA H3 S N1 S0 N0\n        3: SENDTONEWCOL D3 S2 N2 N1\n        4: SENDTOHOME-B D2 D N2 DA N1 N1 N2\n        5: SENDTONEWCOL S3 C4 N2 N1\n        6: SENDTONEWCOL H3 HA N1 N0\n        7: SENDTOHOME HA D4 H N1 H0 N0\n        8: SENDTOHOME S2 C3 S N2 SA N1\n        9: SENDTOHOME-B D3 D N3 D2 N2 N0 N1\n       10: SENDTOHOME-B H2 H N2 HA N1 N1 N2\n       11: SENDTONEWCOL H4 S4 N2 N1\n       12: SENDTONEWCOL S4 C2 N1 N0\n       13: SENDTOHOME-B C2 C N2 CA N1 N0 N1\n       14: SENDTOHOME-B C3 C N3 C2 N2 N1 N2\n       15: SENDTOHOME-B H3 H N3 H2 N2 N2 N3\n       16: SENDTOHOME-B S3 S N3 S2 N2 N3 N4\n       17: SENDTOHOME-B C4 C N4 C3 N3 N4 N5\n       18: SENDTOHOME-B D4 D N4 D3 N3 N5 N6\n       19: SENDTOHOME-B H4 H N4 H3 N3 N6 N7\n       20: SENDTOHOME-B S4 S N4 S3 N3 N7 N8\n\ntime spent:    T.TT seconds instantiating 19000 easy, 0 hard action templates\n               T.TT seconds reachability analysis, yielding 128 facts and 7372 actions\n               T.TT seconds creating final representation with 128 relevant facts, 0 relevant fluents\n               T.TT seconds computing LNF\n               T.TT seconds building connectivity graph\n               T.TT seconds searching, evaluating 50 states, to a max depth of 2\n               T.TT seconds total time\n\n",
+ "stderr": "",
+ "reason": "ff: found legal plan as follows"
+}

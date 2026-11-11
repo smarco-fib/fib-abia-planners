@@ -1,0 +1,10 @@
+{
+ "command": "metric-ff -s 4 -o domain.pddl -f instances/instance-20.pddl",
+ "cwd": "corpus/ipc/ipc-2002/satellite-numeric-automatic",
+ "exit_code": -11,
+ "outcome": "crash",
+ "plan": null,
+ "stdout": "",
+ "stderr": "",
+ "reason": "signal 11"
+}

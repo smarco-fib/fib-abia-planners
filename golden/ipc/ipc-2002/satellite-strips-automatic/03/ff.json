@@ -1,0 +1,22 @@
+{
+ "command": "ff -o domain.pddl -f instances/instance-3.pddl",
+ "cwd": "corpus/ipc/ipc-2002/satellite-strips-automatic",
+ "exit_code": 0,
+ "outcome": "plan-found",
+ "plan": [
+  "SWITCH_ON INSTRUMENT0 SATELLITE0",
+  "TURN_TO SATELLITE0 STAR1 STAR4",
+  "CALIBRATE SATELLITE0 INSTRUMENT0 STAR1",
+  "TURN_TO SATELLITE0 STAR3 STAR1",
+  "TAKE_IMAGE SATELLITE0 STAR3 INSTRUMENT0 INFRARED0",
+  "TURN_TO SATELLITE0 STAR4 STAR3",
+  "TAKE_IMAGE SATELLITE0 STAR4 INSTRUMENT0 SPECTROGRAPH2",
+  "TURN_TO SATELLITE0 PHENOMENON7 STAR4",
+  "TAKE_IMAGE SATELLITE0 PHENOMENON7 INSTRUMENT0 SPECTROGRAPH2",
+  "TURN_TO SATELLITE0 PHENOMENON5 PHENOMENON7",
+  "TAKE_IMAGE SATELLITE0 PHENOMENON5 INSTRUMENT0 SPECTROGRAPH2"
+ ],
+ "stdout": "\nff: parsing domain file\ndomain 'SATELLITE' defined\n ... done.\nff: parsing problem file\nproblem 'STRIPS-SAT-X-1' defined\n ... done.\n\n\n\nCueing down from goal distance:   10 into depth [1]\n                                   9            [1][2]\n                                   8            [1]\n                                   7            [1]\n                                   6            [1]\n                                   5            [1]\n                                   4            [1]\n                                   3            [1]\n                                   2            [1]\n                                   1            [1]\n                                   0            \n\nff: found legal plan as follows\n\nstep    0: SWITCH_ON INSTRUMENT0 SATELLITE0\n        1: TURN_TO SATELLITE0 STAR1 STAR4\n        2: CALIBRATE SATELLITE0 INSTRUMENT0 STAR1\n        3: TURN_TO SATELLITE0 STAR3 STAR1\n        4: TAKE_IMAGE SATELLITE0 STAR3 INSTRUMENT0 INFRARED0\n        5: TURN_TO SATELLITE0 STAR4 STAR3\n        6: TAKE_IMAGE SATELLITE0 STAR4 INSTRUMENT0 SPECTROGRAPH2\n        7: TURN_TO SATELLITE0 PHENOMENON7 STAR4\n        8: TAKE_IMAGE SATELLITE0 PHENOMENON7 INSTRUMENT0 SPECTROGRAPH2\n        9: TURN_TO SATELLITE0 PHENOMENON5 PHENOMENON7\n       10: TAKE_IMAGE SATELLITE0 PHENOMENON5 INSTRUMENT0 SPECTROGRAPH2\n     \n\ntime spent:    T.TT seconds instantiating 188 easy, 0 hard action templates\n               T.TT seconds reachability analysis, yielding 50 facts and 188 actions\n               T.TT seconds creating final representation with 50 relevant facts\n               T.TT seconds building connectivity graph\n               T.TT seconds searching, evaluating 19 states, to a max depth of 2\n               T.TT seconds total time\n\n",
+ "stderr": "",
+ "reason": "ff: found legal plan as follows"
+}

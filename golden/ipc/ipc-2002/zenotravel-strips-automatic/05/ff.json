@@ -1,0 +1,22 @@
+{
+ "command": "ff -o domain.pddl -f instances/instance-5.pddl",
+ "cwd": "corpus/ipc/ipc-2002/zenotravel-strips-automatic",
+ "exit_code": 0,
+ "outcome": "plan-found",
+ "plan": [
+  "BOARD PERSON4 PLANE1 CITY1",
+  "FLY PLANE1 CITY1 CITY0 FL6 FL5",
+  "BOARD PERSON2 PLANE1 CITY0",
+  "BOARD PERSON3 PLANE1 CITY0",
+  "FLY PLANE1 CITY0 CITY3 FL5 FL4",
+  "BOARD PERSON1 PLANE1 CITY3",
+  "DEBARK PERSON2 PLANE1 CITY3",
+  "DEBARK PERSON3 PLANE1 CITY3",
+  "DEBARK PERSON4 PLANE1 CITY3",
+  "FLY PLANE1 CITY3 CITY2 FL4 FL3",
+  "DEBARK PERSON1 PLANE1 CITY2"
+ ],
+ "stdout": "\nff: parsing domain file\ndomain 'ZENO-TRAVEL' defined\n ... done.\nff: parsing problem file\nproblem 'ZTRAVEL-2-4' defined\n ... done.\n\n\n\nCueing down from goal distance:   11 into depth [1]\n                                  10            [1]\n                                   9            [1]\n                                   8            [1]\n                                   7            [1]\n                                   6            [1]\n                                   5            [1]\n                                   4            [1]\n                                   3            [1]\n                                   2            [1]\n                                   1            [1]\n                                   0            \n\nff: found legal plan as follows\n\nstep    0: BOARD PERSON4 PLANE1 CITY1\n        1: FLY PLANE1 CITY1 CITY0 FL6 FL5\n        2: BOARD PERSON2 PLANE1 CITY0\n        3: BOARD PERSON3 PLANE1 CITY0\n        4: FLY PLANE1 CITY0 CITY3 FL5 FL4\n        5: BOARD PERSON1 PLANE1 CITY3\n        6: DEBARK PERSON2 PLANE1 CITY3\n        7: DEBARK PERSON3 PLANE1 CITY3\n        8: DEBARK PERSON4 PLANE1 CITY3\n        9: FLY PLANE1 CITY3 CITY2 FL4 FL3\n       10: DEBARK PERSON1 PLANE1 CITY2\n     \n\ntime spent:    T.TT seconds instantiating 464 easy, 0 hard action templates\n               T.TT seconds reachability analysis, yielding 46 facts and 464 actions\n               T.TT seconds creating final representation with 46 relevant facts\n               T.TT seconds building connectivity graph\n               T.TT seconds searching, evaluating 12 states, to a max depth of 1\n               T.TT seconds total time\n\n",
+ "stderr": "",
+ "reason": "ff: found legal plan as follows"
+}

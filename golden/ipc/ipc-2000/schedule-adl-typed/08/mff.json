@@ -1,0 +1,10 @@
+{
+ "command": "metric-ff -o domain.pddl -f instances/instance-8.pddl",
+ "cwd": "corpus/ipc/ipc-2000/schedule-adl-typed",
+ "exit_code": 1,
+ "outcome": "usage-error",
+ "plan": null,
+ "stdout": "\nff: parsing domain file\ndomain 'SCHEDULE' defined\n ... done.\nff: parsing problem file\nproblem 'SCHEDULE-4-1' defined\n ... done.\n\n\ntranslating negated cond for predicate SCHEDULED\ntranslating negated cond for predicate BUSY\ntranslating negated cond for predicate OBJSCHEDULED\ntranslating negated cond for predicate HAS-HOLE\nno metric specified.\n\ntask contains conditional effects. turning off state domination.\n\n\n\nff: search configuration is Enforced Hill-Climbing, then A*epsilon with weight 5.\nError! Optimization criterion not established.\nA*epsilon not defined.\n\n",
+ "stderr": "",
+ "reason": "Optimization criterion not established"
+}

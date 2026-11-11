@@ -1,0 +1,24 @@
+{
+ "command": "metric-ff -s 0 -o domain.pddl -f instances/instance-6.pddl",
+ "cwd": "corpus/ipc/ipc-2002/driverlog-numeric-hard-automatic",
+ "exit_code": 0,
+ "outcome": "plan-found",
+ "plan": [
+  "WALK DRIVER1 S2 P1-2",
+  "WALK DRIVER2 S2 P2-0",
+  "BOARD-TRUCK DRIVER3 TRUCK3 S1",
+  "LOAD-TRUCK PACKAGE1 TRUCK3 S1",
+  "WALK DRIVER1 P1-2 S1",
+  "WALK DRIVER2 P2-0 S0",
+  "DRIVE-TRUCK TRUCK3 S1 S2 DRIVER3",
+  "UNLOAD-TRUCK PACKAGE1 TRUCK3 S2",
+  "DISEMBARK-TRUCK DRIVER3 TRUCK3 S2",
+  "WALK DRIVER3 S2 P1-2",
+  "WALK DRIVER3 P1-2 S1",
+  "BOARD-TRUCK DRIVER3 TRUCK2 S1",
+  "DRIVE-TRUCK TRUCK2 S1 S0 DRIVER3"
+ ],
+ "stdout": "\nff: parsing domain file\ndomain 'DRIVERLOG' defined\n ... done.\nff: parsing problem file\nproblem 'DLOG-3-3-5' defined\n ... done.\n\n\nwarning: non-constant effect on metric. no optimization done.\n\nff: search configuration is Enforced Hill-Climbing, if that fails then best-first search.\nMetric is plan length.\nNO COST MINIMIZATION (and no cost-minimizing relaxed plans).\n\nCueing down from goal distance:   11 into depth [1]\n                                  10            [1]\n                                   9            [1]\n                                   8            [1]\n                                   7            [1]\n                                   5            [1]\n                                   4            [1]\n                                   3            [1]\n                                   2            [1][2] --- pruning stopped --- [1][2][3][4]\n                                   1            [1]\n                                   0            \n\nff: found legal plan as follows\nstep    0: WALK DRIVER1 S2 P1-2\n        1: WALK DRIVER2 S2 P2-0\n        2: BOARD-TRUCK DRIVER3 TRUCK3 S1\n        3: LOAD-TRUCK PACKAGE1 TRUCK3 S1\n        4: WALK DRIVER1 P1-2 S1\n        5: WALK DRIVER2 P2-0 S0\n        6: DRIVE-TRUCK TRUCK3 S1 S2 DRIVER3\n        7: UNLOAD-TRUCK PACKAGE1 TRUCK3 S2\n        8: DISEMBARK-TRUCK DRIVER3 TRUCK3 S2\n        9: WALK DRIVER3 S2 P1-2\n       10: WALK DRIVER3 P1-2 S1\n       11: BOARD-TRUCK DRIVER3 TRUCK2 S1\n       12: DRIVE-TRUCK TRUCK2 S1 S0 DRIVER3\n\ntime spent:    T.TT seconds instantiating 318 easy, 0 hard action templates\n               T.TT seconds reachability analysis, yielding 66 facts and 222 actions\n               T.TT seconds creating final representation with 66 relevant facts, 19 relevant fluents\n               T.TT seconds computing LNF\n               T.TT seconds building connectivity graph\n               T.TT seconds searching, evaluating 1618 states, to a max depth of 4\n               T.TT seconds total time\n\n",
+ "stderr": "",
+ "reason": "ff: found legal plan as follows"
+}

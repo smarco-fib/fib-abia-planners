@@ -1,0 +1,32 @@
+{
+ "command": "metric-ff -s 0 -o miconic.pddl -f miconic03.pddl",
+ "cwd": "examples/ascensor",
+ "exit_code": 0,
+ "outcome": "plan-found",
+ "plan": [
+  "STOP F0",
+  "UP F0 F4",
+  "STOP F4",
+  "DOWN F4 F1",
+  "STOP F1",
+  "UP F1 F7",
+  "STOP F7",
+  "UP F7 F8",
+  "STOP F8",
+  "DOWN F8 F0",
+  "STOP F0",
+  "UP F0 F9",
+  "STOP F9",
+  "DOWN F9 F3",
+  "STOP F3",
+  "DOWN F3 F2",
+  "STOP F2",
+  "UP F2 F6",
+  "STOP F6",
+  "DOWN F6 F5",
+  "STOP F5"
+ ],
+ "stdout": "\nff: parsing domain file\ndomain 'MICONIC' defined\n ... done.\nff: parsing problem file\nproblem 'MIXED-F10-P10-U0-V5-D0-A0-N0-A0-B0-N0-F0' defined\n ... done.\n\n\ntranslating negated cond for predicate SERVED\nno metric specified.\n\ntask contains conditional effects. turning off state domination.\n\n\n\nff: search configuration is Enforced Hill-Climbing, if that fails then best-first search.\nMetric is plan length.\nNO COST MINIMIZATION (and no cost-minimizing relaxed plans).\n\nCueing down from goal distance:   22 into depth [1]\n                                  21            [1]\n                                  20            [1]\n                                  19            [1]\n                                  18            [1]\n                                  17            [1]\n                                  15            [1]\n                                  14            [1]\n                                  13            [1]\n                                  12            [1]\n                                  11            [1]\n                                  10            [1]\n                                   9            [1]\n                                   8            [1]\n                                   7            [1]\n                                   6            [1]\n                                   5            [1]\n                                   4            [1]\n                                   3            [1]\n                                   2            [1]\n                                   1            [1]\n                                   0            \n\nff: found legal plan as follows\nstep    0: STOP F0\n        1: UP F0 F4\n        2: STOP F4\n        3: DOWN F4 F1\n        4: STOP F1\n        5: UP F1 F7\n        6: STOP F7\n        7: UP F7 F8\n        8: STOP F8\n        9: DOWN F8 F0\n       10: STOP F0\n       11: UP F0 F9\n       12: STOP F9\n       13: DOWN F9 F3\n       14: STOP F3\n       15: DOWN F3 F2\n       16: STOP F2\n       17: UP F2 F6\n       18: STOP F6\n       19: DOWN F6 F5\n       20: STOP F5\n\ntime spent:    T.TT seconds instantiating 100 easy, 0 hard action templates\n               T.TT seconds reachability analysis, yielding 40 facts and 100 actions\n               T.TT seconds creating final representation with 40 relevant facts, 0 relevant fluents\n               T.TT seconds computing LNF\n               T.TT seconds building connectivity graph\n               T.TT seconds searching, evaluating 44 states, to a max depth of 1\n               T.TT seconds total time\n\n",
+ "stderr": "",
+ "reason": "ff: found legal plan as follows"
+}

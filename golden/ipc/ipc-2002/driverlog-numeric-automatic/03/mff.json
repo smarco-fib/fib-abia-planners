@@ -1,0 +1,23 @@
+{
+ "command": "metric-ff -o domain.pddl -f instances/instance-3.pddl",
+ "cwd": "corpus/ipc/ipc-2002/driverlog-numeric-automatic",
+ "exit_code": 0,
+ "outcome": "plan-found",
+ "plan": [
+  "BOARD-TRUCK DRIVER1 TRUCK1 S1",
+  "WALK DRIVER2 S0 P2-0",
+  "LOAD-TRUCK PACKAGE3 TRUCK1 S1",
+  "WALK DRIVER2 P2-0 S2",
+  "DRIVE-TRUCK TRUCK1 S1 S0 DRIVER1",
+  "LOAD-TRUCK PACKAGE1 TRUCK1 S0",
+  "LOAD-TRUCK PACKAGE2 TRUCK1 S0",
+  "DRIVE-TRUCK TRUCK1 S0 S2 DRIVER1",
+  "UNLOAD-TRUCK PACKAGE3 TRUCK1 S2",
+  "DRIVE-TRUCK TRUCK1 S2 S1 DRIVER1",
+  "UNLOAD-TRUCK PACKAGE1 TRUCK1 S1",
+  "UNLOAD-TRUCK PACKAGE2 TRUCK1 S1"
+ ],
+ "stdout": "\nff: parsing domain file\ndomain 'DRIVERLOG' defined\n ... done.\nff: parsing problem file\nproblem 'DLOG-2-2-4' defined\n ... done.\n\n\n\nff: search configuration is Enforced Hill-Climbing, then A*epsilon with weight 5.\nMetric is ((4.00*[TOTAL-TIME]3.00*[RF1](DRIVEN)3.00*[RF0](WALKED)) - () + 0.00)\nCOST MINIMIZATION DONE (WITH cost-minimizing relaxed plans).\n\nCueing down from goal distance:   11 into depth [1]\n                                  10            [1]\n                                   9            [1]\n                                   8            [1]\n                                   7            [1][2]\n                                   6            [1]\n                                   5            [1]\n                                   4            [1]\n                                   3            [1]\n                                   2            [1]\n                                   1            [1]\n                                   0            \n\nff: found legal plan as follows\nstep    0: BOARD-TRUCK DRIVER1 TRUCK1 S1\n        1: WALK DRIVER2 S0 P2-0\n        2: LOAD-TRUCK PACKAGE3 TRUCK1 S1\n        3: WALK DRIVER2 P2-0 S2\n        4: DRIVE-TRUCK TRUCK1 S1 S0 DRIVER1\n        5: LOAD-TRUCK PACKAGE1 TRUCK1 S0\n        6: LOAD-TRUCK PACKAGE2 TRUCK1 S0\n        7: DRIVE-TRUCK TRUCK1 S0 S2 DRIVER1\n        8: UNLOAD-TRUCK PACKAGE3 TRUCK1 S2\n        9: DRIVE-TRUCK TRUCK1 S2 S1 DRIVER1\n       10: UNLOAD-TRUCK PACKAGE1 TRUCK1 S1\n       11: UNLOAD-TRUCK PACKAGE2 TRUCK1 S1\nplan cost: 927.000000\n\ntime spent:    T.TT seconds instantiating 192 easy, 0 hard action templates\n               T.TT seconds reachability analysis, yielding 44 facts and 120 actions\n               T.TT seconds creating final representation with 44 relevant facts, 2 relevant fluents\n               T.TT seconds computing LNF\n               T.TT seconds building connectivity graph\n               T.TT seconds searching, evaluating 20 states, to a max depth of 2\n               T.TT seconds total time\n\n",
+ "stderr": "",
+ "reason": "ff: found legal plan as follows"
+}

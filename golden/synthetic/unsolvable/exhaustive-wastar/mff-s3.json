@@ -1,0 +1,10 @@
+{
+ "command": "metric-ff -s 3 -o exhaustive-domain.pddl -f exhaustive.pddl",
+ "cwd": "corpus/synthetic/unsolvable",
+ "exit_code": -9,
+ "outcome": "timeout",
+ "plan": null,
+ "stdout": "\nff: parsing domain file\ndomain 'RING' defined\n ... done.\nff: parsing problem file\nproblem 'ONE-TOKEN-TWO-PLACES' defined\n ... done.\n\n\nno metric specified.\n\nff: search configuration is weighted A* with weight 5. plan length\nCOST MINIMIZATION DONE (WITH cost-minimizing relaxed plans).\n\nadvancing to goal distance:    5",
+ "stderr": "",
+ "reason": "timeout"
+}

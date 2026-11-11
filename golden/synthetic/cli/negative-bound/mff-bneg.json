@@ -1,0 +1,10 @@
+{
+ "command": "metric-ff -b -2 -o domain.pddl -f ties.pddl",
+ "cwd": "corpus/synthetic/numeric",
+ "exit_code": 1,
+ "outcome": "usage-error",
+ "plan": null,
+ "stdout": "\n\nff: invalid cost bound -2.000000; must be >= 0.\n\n\nusage of ff:\n\nOPTIONS   DESCRIPTIONS\n\n-p <str>    Path for operator and fact file\n-o <str>    Operator file name\n-f <str>    Fact file name\n\n-r <int>    Random seed [used for random restarts; preset: 0]\n\n-s <int>    Search configuration [preset: s=5]; '+H': helpful actions pruning\n      0     Standard-FF: EHC+H then BFS (cost minimization: NO)\n      1     BFS (cost minimization: NO)\n      2     BFS+H (cost minimization: NO)\n      3     Weighted A* (cost minimization: YES)\n      4     A*epsilon (cost minimization: YES)\n      5     EHC+H then A*epsilon (cost minimization: YES)\n-w <num>    Set weight w for search configs 3,4,5 [preset: w=5]\n\n-C          Do NOT use cost-minimizing relaxed plans for options 3,4,5\n\n-b <float>  Fixed upper bound on solution cost (prune based on g+hmax); active only with cost minimization\n\n",
+ "stderr": "",
+ "reason": "invalid cost bound"
+}

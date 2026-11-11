@@ -1,0 +1,15 @@
+{
+ "command": "metric-ff -o domain.pddl -f ties.pddl",
+ "cwd": "corpus/synthetic/numeric",
+ "exit_code": 0,
+ "outcome": "plan-found",
+ "plan": [
+  "MOVE C00 C10",
+  "MOVE C10 C20",
+  "MOVE C20 C21",
+  "MOVE C21 C22"
+ ],
+ "stdout": "\nff: parsing domain file\ndomain 'FUEL-GRID' defined\n ... done.\nff: parsing problem file\nproblem 'TIES' defined\n ... done.\n\n\nwarning: numeric precondition. turning cost-minimizing relaxed plans OFF.\n\nff: search configuration is Enforced Hill-Climbing, then A*epsilon with weight 5.\nMetric is ((1.00*[RF0](TOTAL-COST)) - () + 0.00)\nCOST MINIMIZATION DONE (WITHOUT cost-minimizing relaxed plans).\n\nCueing down from goal distance:    4 into depth [1]\n                                   3            [1]\n                                   2            [1]\n                                   1            [1]\n                                   0            \n\nff: found legal plan as follows\nstep    0: MOVE C00 C10\n        1: MOVE C10 C20\n        2: MOVE C20 C21\n        3: MOVE C21 C22\nplan cost: 4.000000\n\ntime spent:    T.TT seconds instantiating 24 easy, 0 hard action templates\n               T.TT seconds reachability analysis, yielding 18 facts and 24 actions\n               T.TT seconds creating final representation with 18 relevant facts, 2 relevant fluents\n               T.TT seconds computing LNF\n               T.TT seconds building connectivity graph\n               T.TT seconds searching, evaluating 5 states, to a max depth of 1\n               T.TT seconds total time\n\n",
+ "stderr": "",
+ "reason": "ff: found legal plan as follows"
+}

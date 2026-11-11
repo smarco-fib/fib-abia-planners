@@ -1,0 +1,23 @@
+{
+ "command": "ff -o domain.pddl -f instances/instance-4.pddl",
+ "cwd": "corpus/ipc/ipc-2000/blocks-strips-typed",
+ "exit_code": 0,
+ "outcome": "plan-found",
+ "plan": [
+  "UNSTACK C E",
+  "PUT-DOWN C",
+  "PICK-UP D",
+  "STACK D C",
+  "UNSTACK E B",
+  "PUT-DOWN E",
+  "UNSTACK B A",
+  "STACK B D",
+  "PICK-UP E",
+  "STACK E B",
+  "PICK-UP A",
+  "STACK A E"
+ ],
+ "stdout": "\nff: parsing domain file\ndomain 'BLOCKS' defined\n ... done.\nff: parsing problem file\nproblem 'BLOCKS-5-0' defined\n ... done.\n\n\n\nCueing down from goal distance:    2 into depth [1]\n                                   1            [1]\n                                   0            \n\nCueing down from goal distance:    5 into depth [1][2][3][4][5]\n                                   4            [1]\n                                   3            [1][2]\n                                   2            [1]\n                                   1            [1]\n                                   0            \n\nCueing down from goal distance:    2 into depth [1]\n                                   1            [1]\n                                   0            \n\nCueing down from goal distance:    2 into depth [1]\n                                   1            [1]\n                                   0            \n\nff: found legal plan as follows\n\nstep    0: UNSTACK C E\n        1: PUT-DOWN C\n        2: PICK-UP D\n        3: STACK D C\n        4: UNSTACK E B\n        5: PUT-DOWN E\n        6: UNSTACK B A\n        7: STACK B D\n        8: PICK-UP E\n        9: STACK E B\n       10: PICK-UP A\n       11: STACK A E\n     \n\ntime spent:    T.TT seconds instantiating 60 easy, 0 hard action templates\n               T.TT seconds reachability analysis, yielding 41 facts and 60 actions\n               T.TT seconds creating final representation with 41 relevant facts\n               T.TT seconds building connectivity graph\n               T.TT seconds searching, evaluating 24 states, to a max depth of 5\n               T.TT seconds total time\n\n",
+ "stderr": "",
+ "reason": "ff: found legal plan as follows"
+}

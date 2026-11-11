@@ -1,0 +1,32 @@
+{
+ "command": "metric-ff -s 0 -o domain.pddl -f instances/instance-11.pddl",
+ "cwd": "corpus/ipc/ipc-2002/driverlog-strips-automatic",
+ "exit_code": 0,
+ "outcome": "plan-found",
+ "plan": [
+  "WALK DRIVER1 S6 P2-6",
+  "WALK DRIVER1 P2-6 S2",
+  "WALK DRIVER2 S0 P4-0",
+  "BOARD-TRUCK DRIVER1 TRUCK2 S2",
+  "LOAD-TRUCK PACKAGE2 TRUCK2 S2",
+  "DRIVE-TRUCK TRUCK2 S2 S0 DRIVER1",
+  "LOAD-TRUCK PACKAGE4 TRUCK2 S0",
+  "DRIVE-TRUCK TRUCK2 S0 S6 DRIVER1",
+  "WALK DRIVER2 P4-0 S4",
+  "UNLOAD-TRUCK PACKAGE4 TRUCK2 S6",
+  "DRIVE-TRUCK TRUCK2 S6 S1 DRIVER1",
+  "DRIVE-TRUCK TRUCK2 S1 S5 DRIVER1",
+  "LOAD-TRUCK PACKAGE5 TRUCK2 S5",
+  "DRIVE-TRUCK TRUCK2 S5 S6 DRIVER1",
+  "DRIVE-TRUCK TRUCK2 S6 S3 DRIVER1",
+  "LOAD-TRUCK PACKAGE3 TRUCK2 S3",
+  "UNLOAD-TRUCK PACKAGE2 TRUCK2 S3",
+  "DRIVE-TRUCK TRUCK2 S3 S1 DRIVER1",
+  "UNLOAD-TRUCK PACKAGE5 TRUCK2 S1",
+  "DRIVE-TRUCK TRUCK2 S1 S4 DRIVER1",
+  "UNLOAD-TRUCK PACKAGE3 TRUCK2 S4"
+ ],
+ "stdout": "\nff: parsing domain file\ndomain 'DRIVERLOG' defined\n ... done.\nff: parsing problem file\nproblem 'DLOG-2-3-6' defined\n ... done.\n\n\nno metric specified.\n\nff: search configuration is Enforced Hill-Climbing, if that fails then best-first search.\nMetric is plan length.\nNO COST MINIMIZATION (and no cost-minimizing relaxed plans).\n\nCueing down from goal distance:   21 into depth [1]\n                                  20            [1]\n                                  19            [1]\n                                  18            [1]\n                                  15            [1]\n                                  14            [1]\n                                  13            [1]\n                                  12            [1]\n                                  11            [1]\n                                  10            [1]\n                                   9            [1]\n                                   8            [1][2][3]\n                                   7            [1]\n                                   6            [1]\n                                   5            [1]\n                                   4            [1]\n                                   3            [1]\n                                   2            [1]\n                                   1            [1]\n                                   0            \n\nff: found legal plan as follows\nstep    0: WALK DRIVER1 S6 P2-6\n        1: WALK DRIVER1 P2-6 S2\n        2: WALK DRIVER2 S0 P4-0\n        3: BOARD-TRUCK DRIVER1 TRUCK2 S2\n        4: LOAD-TRUCK PACKAGE2 TRUCK2 S2\n        5: DRIVE-TRUCK TRUCK2 S2 S0 DRIVER1\n        6: LOAD-TRUCK PACKAGE4 TRUCK2 S0\n        7: DRIVE-TRUCK TRUCK2 S0 S6 DRIVER1\n        8: WALK DRIVER2 P4-0 S4\n        9: UNLOAD-TRUCK PACKAGE4 TRUCK2 S6\n       10: DRIVE-TRUCK TRUCK2 S6 S1 DRIVER1\n       11: DRIVE-TRUCK TRUCK2 S1 S5 DRIVER1\n       12: LOAD-TRUCK PACKAGE5 TRUCK2 S5\n       13: DRIVE-TRUCK TRUCK2 S5 S6 DRIVER1\n       14: DRIVE-TRUCK TRUCK2 S6 S3 DRIVER1\n       15: LOAD-TRUCK PACKAGE3 TRUCK2 S3\n       16: UNLOAD-TRUCK PACKAGE2 TRUCK2 S3\n       17: DRIVE-TRUCK TRUCK2 S3 S1 DRIVER1\n       18: UNLOAD-TRUCK PACKAGE5 TRUCK2 S1\n       19: DRIVE-TRUCK TRUCK2 S1 S4 DRIVER1\n       20: UNLOAD-TRUCK PACKAGE3 TRUCK2 S4\n\ntime spent:    T.TT seconds instantiating 1144 easy, 0 hard action templates\n               T.TT seconds reachability analysis, yielding 126 facts and 616 actions\n               T.TT seconds creating final representation with 126 relevant facts, 0 relevant fluents\n               T.TT seconds computing LNF\n               T.TT seconds building connectivity graph\n               T.TT seconds searching, evaluating 47 states, to a max depth of 3\n               T.TT seconds total time\n\n",
+ "stderr": "",
+ "reason": "ff: found legal plan as follows"
+}

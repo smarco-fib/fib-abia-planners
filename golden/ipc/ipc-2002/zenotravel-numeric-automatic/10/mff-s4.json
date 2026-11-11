@@ -1,0 +1,10 @@
+{
+ "command": "metric-ff -s 4 -o domain.pddl -f instances/instance-10.pddl",
+ "cwd": "corpus/ipc/ipc-2002/zenotravel-numeric-automatic",
+ "exit_code": 0,
+ "outcome": "search-failed",
+ "plan": null,
+ "stdout": "\nff: parsing domain file\ndomain 'ZENO-TRAVEL' defined\n ... done.\nff: parsing problem file\nproblem 'ZTRAVEL-3-8' defined\n ... done.\n\n\nwarning: numeric precondition. turning cost-minimizing relaxed plans OFF.\n\nff: search configuration is A*epsilon with weight 5.\nMetric is ((4.00*[TOTAL-TIME]2.00*[RF0](TOTAL-FUEL-USED)) - () + 0.00)\nCOST MINIMIZATION DONE (WITHOUT cost-minimizing relaxed plans).\n\nAdvancing to goal distance:   24\n                              23\n                              22\n                              21\n                              20\n\nAstar epsilon search space empty!\nBailing out.\n\ntime spent:    T.TT seconds instantiating 405 easy, 0 hard action templates\n               T.TT seconds reachability analysis, yielding 79 facts and 405 actions\n               T.TT seconds creating final representation with 79 relevant facts, 13 relevant fluents\n               T.TT seconds computing LNF\n               T.TT seconds building connectivity graph\n               T.TT seconds searching, evaluating 92 states, to a max depth of 0\n               T.TT seconds total time\n\n",
+ "stderr": "",
+ "reason": "Astar epsilon search space empty! Bailing out"
+}

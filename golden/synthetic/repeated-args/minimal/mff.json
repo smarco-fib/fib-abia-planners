@@ -1,0 +1,10 @@
+{
+ "command": "metric-ff -o domain.pddl -f problem.pddl",
+ "cwd": "corpus/synthetic/repeated-args",
+ "exit_code": 1,
+ "outcome": "usage-error",
+ "plan": null,
+ "stdout": "\nff: parsing domain file\ndomain 'SWAP' defined\n ... done.\nff: parsing problem file\nproblem 'REPEATED-OBJECT' defined\n ... done.\n\n\nno metric specified.\n\nff: search configuration is Enforced Hill-Climbing, then A*epsilon with weight 5.\nError! Optimization criterion not established.\nA*epsilon not defined.\n\n",
+ "stderr": "",
+ "reason": "Optimization criterion not established"
+}

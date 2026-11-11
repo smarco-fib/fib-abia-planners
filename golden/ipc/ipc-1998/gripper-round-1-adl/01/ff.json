@@ -1,0 +1,22 @@
+{
+ "command": "ff -o domain.pddl -f instances/instance-1.pddl",
+ "cwd": "corpus/ipc/ipc-1998/gripper-round-1-adl",
+ "exit_code": 0,
+ "outcome": "plan-found",
+ "plan": [
+  "PICK BALL4 ROOMA RIGHT",
+  "PICK BALL3 ROOMA LEFT",
+  "MOVE ROOMA ROOMB",
+  "DROP BALL4 ROOMB RIGHT",
+  "DROP BALL3 ROOMB LEFT",
+  "MOVE ROOMB ROOMA",
+  "PICK BALL2 ROOMA RIGHT",
+  "PICK BALL1 ROOMA LEFT",
+  "MOVE ROOMA ROOMB",
+  "DROP BALL2 ROOMB RIGHT",
+  "DROP BALL1 ROOMB LEFT"
+ ],
+ "stdout": "\nff: parsing domain file\ndomain 'GRIPPER-TYPED' defined\n ... done.\nff: parsing problem file\nproblem 'GRIPPER-X-1' defined\n ... done.\n\n\n\nCueing down from goal distance:    9 into depth [1]\n                                   8            [1]\n                                   7            [1][2]\n                                   6            [1]\n                                   5            [1][2]\n                                   4            [1]\n                                   3            [1]\n                                   2            [1]\n                                   1            [1]\n                                   0            \n\nff: found legal plan as follows\n\nstep    0: PICK BALL4 ROOMA RIGHT\n        1: PICK BALL3 ROOMA LEFT\n        2: MOVE ROOMA ROOMB\n        3: DROP BALL4 ROOMB RIGHT\n        4: DROP BALL3 ROOMB LEFT\n        5: MOVE ROOMB ROOMA\n        6: PICK BALL2 ROOMA RIGHT\n        7: PICK BALL1 ROOMA LEFT\n        8: MOVE ROOMA ROOMB\n        9: DROP BALL2 ROOMB RIGHT\n       10: DROP BALL1 ROOMB LEFT\n     \n\ntime spent:    T.TT seconds instantiating 36 easy, 0 hard action templates\n               T.TT seconds reachability analysis, yielding 20 facts and 36 actions\n               T.TT seconds creating final representation with 20 relevant facts\n               T.TT seconds building connectivity graph\n               T.TT seconds searching, evaluating 16 states, to a max depth of 2\n               T.TT seconds total time\n\n",
+ "stderr": "",
+ "reason": "ff: found legal plan as follows"
+}

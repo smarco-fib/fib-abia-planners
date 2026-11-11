@@ -1,0 +1,10 @@
+{
+ "command": "metric-ff -o domain.pddl -f instances/instance-2.pddl",
+ "cwd": "corpus/ipc/ipc-2002/satellite-numeric-hard-automatic",
+ "exit_code": 1,
+ "outcome": "plan-found",
+ "plan": [],
+ "stdout": "\nff: parsing domain file\ndomain 'SATELLITE' defined\n ... done.\nff: parsing problem file\nproblem 'STRIPS-SAT-X-1' defined\n ... done.\n\n\nwarning: empty con/disjunction in domain definition. simplifying.\n\n\nff: goal can be simplified to TRUE. The empty plan solves it\n\n",
+ "stderr": "",
+ "reason": "ff: goal can be simplified to TRUE. The empty plan solves it"
+}

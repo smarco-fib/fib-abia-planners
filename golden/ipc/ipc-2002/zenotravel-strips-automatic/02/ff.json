@@ -1,0 +1,17 @@
+{
+ "command": "ff -o domain.pddl -f instances/instance-2.pddl",
+ "cwd": "corpus/ipc/ipc-2002/zenotravel-strips-automatic",
+ "exit_code": 0,
+ "outcome": "plan-found",
+ "plan": [
+  "FLY PLANE1 CITY0 CITY2 FL2 FL1",
+  "BOARD PERSON1 PLANE1 CITY2",
+  "REFUEL PLANE1 CITY2 FL1 FL2",
+  "FLY PLANE1 CITY2 CITY1 FL2 FL1",
+  "DEBARK PERSON1 PLANE1 CITY1",
+  "FLY PLANE1 CITY1 CITY2 FL1 FL0"
+ ],
+ "stdout": "\nff: parsing domain file\ndomain 'ZENO-TRAVEL' defined\n ... done.\nff: parsing problem file\nproblem 'ZTRAVEL-1-3' defined\n ... done.\n\n\n\nCueing down from goal distance:    4 into depth [1]\n                                   3            [1]\n\nEnforced Hill-climbing failed !\nswitching to Best-first Search now.\n\nadvancing to distance :    4\n                           3\n                           2\n                           1\n                           0\n\nff: found legal plan as follows\n\nstep    0: FLY PLANE1 CITY0 CITY2 FL2 FL1\n        1: BOARD PERSON1 PLANE1 CITY2\n        2: REFUEL PLANE1 CITY2 FL1 FL2\n        3: FLY PLANE1 CITY2 CITY1 FL2 FL1\n        4: DEBARK PERSON1 PLANE1 CITY1\n        5: FLY PLANE1 CITY1 CITY2 FL1 FL0\n     \n\ntime spent:    T.TT seconds instantiating 135 easy, 0 hard action templates\n               T.TT seconds reachability analysis, yielding 22 facts and 135 actions\n               T.TT seconds creating final representation with 22 relevant facts\n               T.TT seconds building connectivity graph\n               T.TT seconds searching, evaluating 35 states, to a max depth of 1\n               T.TT seconds total time\n\n",
+ "stderr": "",
+ "reason": "ff: found legal plan as follows"
+}

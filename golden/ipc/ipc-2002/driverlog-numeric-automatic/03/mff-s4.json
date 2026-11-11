@@ -1,0 +1,24 @@
+{
+ "command": "metric-ff -s 4 -o domain.pddl -f instances/instance-3.pddl",
+ "cwd": "corpus/ipc/ipc-2002/driverlog-numeric-automatic",
+ "exit_code": 0,
+ "outcome": "plan-found",
+ "plan": [
+  "LOAD-TRUCK PACKAGE3 TRUCK1 S1",
+  "WALK DRIVER2 S0 P2-0",
+  "BOARD-TRUCK DRIVER1 TRUCK1 S1",
+  "LOAD-TRUCK PACKAGE4 TRUCK1 S1",
+  "DRIVE-TRUCK TRUCK1 S1 S2 DRIVER1",
+  "UNLOAD-TRUCK PACKAGE3 TRUCK1 S2",
+  "WALK DRIVER2 P2-0 S2",
+  "DRIVE-TRUCK TRUCK1 S2 S0 DRIVER1",
+  "LOAD-TRUCK PACKAGE1 TRUCK1 S0",
+  "LOAD-TRUCK PACKAGE2 TRUCK1 S0",
+  "DRIVE-TRUCK TRUCK1 S0 S1 DRIVER1",
+  "UNLOAD-TRUCK PACKAGE2 TRUCK1 S1",
+  "UNLOAD-TRUCK PACKAGE1 TRUCK1 S1"
+ ],
+ "stdout": "\nff: parsing domain file\ndomain 'DRIVERLOG' defined\n ... done.\nff: parsing problem file\nproblem 'DLOG-2-2-4' defined\n ... done.\n\n\n\nff: search configuration is A*epsilon with weight 5.\nMetric is ((4.00*[TOTAL-TIME]3.00*[RF1](DRIVEN)3.00*[RF0](WALKED)) - () + 0.00)\nCOST MINIMIZATION DONE (WITH cost-minimizing relaxed plans).\n\nAdvancing to goal distance:   11\n                              10\n                               9\n                               8\n                               7\n                               6\n                               5\n                               4\n                               3\n                               2\n                               1\n                               0\n\nff: found legal plan as follows\nstep    0: LOAD-TRUCK PACKAGE3 TRUCK1 S1\n        1: WALK DRIVER2 S0 P2-0\n        2: BOARD-TRUCK DRIVER1 TRUCK1 S1\n        3: LOAD-TRUCK PACKAGE4 TRUCK1 S1\n        4: DRIVE-TRUCK TRUCK1 S1 S2 DRIVER1\n        5: UNLOAD-TRUCK PACKAGE3 TRUCK1 S2\n        6: WALK DRIVER2 P2-0 S2\n        7: DRIVE-TRUCK TRUCK1 S2 S0 DRIVER1\n        8: LOAD-TRUCK PACKAGE1 TRUCK1 S0\n        9: LOAD-TRUCK PACKAGE2 TRUCK1 S0\n       10: DRIVE-TRUCK TRUCK1 S0 S1 DRIVER1\n       11: UNLOAD-TRUCK PACKAGE2 TRUCK1 S1\n       12: UNLOAD-TRUCK PACKAGE1 TRUCK1 S1\nplan cost: 931.000000\n\ntime spent:    T.TT seconds instantiating 192 easy, 0 hard action templates\n               T.TT seconds reachability analysis, yielding 44 facts and 120 actions\n               T.TT seconds creating final representation with 44 relevant facts, 2 relevant fluents\n               T.TT seconds computing LNF\n               T.TT seconds building connectivity graph\n               T.TT seconds searching, evaluating 89 states, to a max depth of 0\n               T.TT seconds total time\n\n",
+ "stderr": "",
+ "reason": "ff: found legal plan as follows"
+}

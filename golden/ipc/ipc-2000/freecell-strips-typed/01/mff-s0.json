@@ -1,0 +1,20 @@
+{
+ "command": "metric-ff -s 0 -o domain.pddl -f instances/instance-1.pddl",
+ "cwd": "corpus/ipc/ipc-2000/freecell-strips-typed",
+ "exit_code": 0,
+ "outcome": "plan-found",
+ "plan": [
+  "SENDTONEWCOL C2 CA N2 N1",
+  "SENDTOHOME CA SA C N1 C0 N0",
+  "SENDTOHOME-B DA D N1 D0 N0 N1 N2",
+  "SENDTOHOME-B HA H N1 H0 N0 N2 N3",
+  "SENDTOHOME-B SA S N1 S0 N0 N3 N4",
+  "SENDTOHOME-B C2 C N2 CA N1 N4 N5",
+  "SENDTOHOME-B D2 D N2 DA N1 N5 N6",
+  "SENDTOHOME-B H2 H N2 HA N1 N6 N7",
+  "SENDTOHOME-B S2 S N2 SA N1 N7 N8"
+ ],
+ "stdout": "\nff: parsing domain file\ndomain 'FREECELL' defined\n ... done.\nff: parsing problem file\nproblem 'FREECELL-2-1' defined\n ... done.\n\n\nno metric specified.\n\nff: search configuration is Enforced Hill-Climbing, if that fails then best-first search.\nMetric is plan length.\nNO COST MINIMIZATION (and no cost-minimizing relaxed plans).\n\nCueing down from goal distance:   10 into depth [1]\n                                   8            [1]\n                                   7            [1]\n                                   6            [1]\n                                   5            [1]\n                                   4            [1]\n                                   3            [1]\n                                   2            [1]\n                                   1            [1]\n                                   0            \n\nff: found legal plan as follows\nstep    0: SENDTONEWCOL C2 CA N2 N1\n        1: SENDTOHOME CA SA C N1 C0 N0\n        2: SENDTOHOME-B DA D N1 D0 N0 N1 N2\n        3: SENDTOHOME-B HA H N1 H0 N0 N2 N3\n        4: SENDTOHOME-B SA S N1 S0 N0 N3 N4\n        5: SENDTOHOME-B C2 C N2 CA N1 N4 N5\n        6: SENDTOHOME-B D2 D N2 DA N1 N5 N6\n        7: SENDTOHOME-B H2 H N2 HA N1 N6 N7\n        8: SENDTOHOME-B S2 S N2 SA N1 N7 N8\n\ntime spent:    T.TT seconds instantiating 8408 easy, 0 hard action templates\n               T.TT seconds reachability analysis, yielding 74 facts and 3408 actions\n               T.TT seconds creating final representation with 74 relevant facts, 0 relevant fluents\n               T.TT seconds computing LNF\n               T.TT seconds building connectivity graph\n               T.TT seconds searching, evaluating 13 states, to a max depth of 1\n               T.TT seconds total time\n\n",
+ "stderr": "",
+ "reason": "ff: found legal plan as follows"
+}

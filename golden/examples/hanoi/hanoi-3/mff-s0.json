@@ -1,0 +1,18 @@
+{
+ "command": "metric-ff -s 0 -o hanoi.pddl -f hanoi-3.pddl",
+ "cwd": "examples/hanoi",
+ "exit_code": 0,
+ "outcome": "plan-found",
+ "plan": [
+  "MOVE D1 D2 PEG3",
+  "MOVE D2 D3 PEG2",
+  "MOVE D1 PEG3 D2",
+  "MOVE D3 PEG1 PEG3",
+  "MOVE D1 D2 PEG1",
+  "MOVE D2 PEG2 D3",
+  "MOVE D1 PEG1 D2"
+ ],
+ "stdout": "\nff: parsing domain file\ndomain 'HANOI' defined\n ... done.\nff: parsing problem file\nproblem 'HANOI3' defined\n ... done.\n\n\nno metric specified.\n\nff: search configuration is Enforced Hill-Climbing, if that fails then best-first search.\nMetric is plan length.\nNO COST MINIMIZATION (and no cost-minimizing relaxed plans).\n\nCueing down from goal distance:    3 into depth [1][2][3][4]\n                                   2            [1][2]\n                                   1            [1]\n                                   0            \n\nff: found legal plan as follows\nstep    0: MOVE D1 D2 PEG3\n        1: MOVE D2 D3 PEG2\n        2: MOVE D1 PEG3 D2\n        3: MOVE D3 PEG1 PEG3\n        4: MOVE D1 D2 PEG1\n        5: MOVE D2 PEG2 D3\n        6: MOVE D1 PEG1 D2\n\ntime spent:    T.TT seconds instantiating 72 easy, 0 hard action templates\n               T.TT seconds reachability analysis, yielding 18 facts and 50 actions\n               T.TT seconds creating final representation with 17 relevant facts, 0 relevant fluents\n               T.TT seconds computing LNF\n               T.TT seconds building connectivity graph\n               T.TT seconds searching, evaluating 14 states, to a max depth of 4\n               T.TT seconds total time\n\n",
+ "stderr": "",
+ "reason": "ff: found legal plan as follows"
+}

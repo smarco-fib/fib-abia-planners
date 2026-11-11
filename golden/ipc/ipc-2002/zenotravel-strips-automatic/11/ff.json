@@ -1,0 +1,25 @@
+{
+ "command": "ff -o domain.pddl -f instances/instance-11.pddl",
+ "cwd": "corpus/ipc/ipc-2002/zenotravel-strips-automatic",
+ "exit_code": 0,
+ "outcome": "plan-found",
+ "plan": [
+  "FLY PLANE1 CITY4 CITY1 FL4 FL3",
+  "FLY PLANE3 CITY1 CITY5 FL5 FL4",
+  "BOARD PERSON7 PLANE3 CITY5",
+  "FLY PLANE3 CITY5 CITY0 FL4 FL3",
+  "BOARD PERSON4 PLANE3 CITY0",
+  "DEBARK PERSON7 PLANE3 CITY0",
+  "FLY PLANE3 CITY0 CITY2 FL3 FL2",
+  "BOARD PERSON2 PLANE3 CITY2",
+  "BOARD PERSON6 PLANE3 CITY2",
+  "DEBARK PERSON4 PLANE3 CITY2",
+  "FLY PLANE3 CITY2 CITY1 FL2 FL1",
+  "DEBARK PERSON2 PLANE3 CITY1",
+  "FLY PLANE3 CITY1 CITY4 FL1 FL0",
+  "DEBARK PERSON6 PLANE3 CITY4"
+ ],
+ "stdout": "\nff: parsing domain file\ndomain 'ZENO-TRAVEL' defined\n ... done.\nff: parsing problem file\nproblem 'ZTRAVEL-3-7' defined\n ... done.\n\n\n\nCueing down from goal distance:   13 into depth [1]\n                                  12            [1][2]\n                                  11            [1]\n                                  10            [1]\n                                   9            [1]\n                                   8            [1]\n                                   7            [1]\n                                   6            [1]\n                                   5            [1]\n                                   4            [1]\n                                   3            [1]\n                                   2            [1]\n                                   1            [1]\n                                   0            \n\nff: found legal plan as follows\n\nstep    0: FLY PLANE1 CITY4 CITY1 FL4 FL3\n        1: FLY PLANE3 CITY1 CITY5 FL5 FL4\n        2: BOARD PERSON7 PLANE3 CITY5\n        3: FLY PLANE3 CITY5 CITY0 FL4 FL3\n        4: BOARD PERSON4 PLANE3 CITY0\n        5: DEBARK PERSON7 PLANE3 CITY0\n        6: FLY PLANE3 CITY0 CITY2 FL3 FL2\n        7: BOARD PERSON2 PLANE3 CITY2\n        8: BOARD PERSON6 PLANE3 CITY2\n        9: DEBARK PERSON4 PLANE3 CITY2\n       10: FLY PLANE3 CITY2 CITY1 FL2 FL1\n       11: DEBARK PERSON2 PLANE3 CITY1\n       12: FLY PLANE3 CITY1 CITY4 FL1 FL0\n       13: DEBARK PERSON6 PLANE3 CITY4\n     \n\ntime spent:    T.TT seconds instantiating 1548 easy, 0 hard action templates\n               T.TT seconds reachability analysis, yielding 102 facts and 1548 actions\n               T.TT seconds creating final representation with 102 relevant facts\n               T.TT seconds building connectivity graph\n               T.TT seconds searching, evaluating 56 states, to a max depth of 2\n               T.TT seconds total time\n\n",
+ "stderr": "",
+ "reason": "ff: found legal plan as follows"
+}

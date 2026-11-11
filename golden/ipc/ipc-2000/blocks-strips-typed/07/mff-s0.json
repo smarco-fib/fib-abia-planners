@@ -1,0 +1,23 @@
+{
+ "command": "metric-ff -s 0 -o domain.pddl -f instances/instance-7.pddl",
+ "cwd": "corpus/ipc/ipc-2000/blocks-strips-typed",
+ "exit_code": 0,
+ "outcome": "plan-found",
+ "plan": [
+  "UNSTACK D A",
+  "PUT-DOWN D",
+  "UNSTACK F E",
+  "STACK F D",
+  "UNSTACK E B",
+  "STACK E F",
+  "UNSTACK A C",
+  "STACK A E",
+  "PICK-UP B",
+  "STACK B A",
+  "PICK-UP C",
+  "STACK C B"
+ ],
+ "stdout": "\nff: parsing domain file\ndomain 'BLOCKS' defined\n ... done.\nff: parsing problem file\nproblem 'BLOCKS-6-0' defined\n ... done.\n\n\nno metric specified.\n\nff: search configuration is Enforced Hill-Climbing, if that fails then best-first search.\nMetric is plan length.\nNO COST MINIMIZATION (and no cost-minimizing relaxed plans).\n\nCueing down from goal distance:   11 into depth [1]\n                                  10            [1][2]\n                                   9            [1][2][3][4][5][6][7]\n                                   8            [1]\n                                   7            [1][2][3]\n                                   6            [1]\n                                   5            [1]\n                                   4            [1]\n                                   3            [1][2][3]\n                                   2            [1]\n                                   1            [1]\n                                   0            \n\nff: found legal plan as follows\nstep    0: UNSTACK D A\n        1: PUT-DOWN D\n        2: UNSTACK F E\n        3: STACK F D\n        4: UNSTACK E B\n        5: STACK E F\n        6: UNSTACK A C\n        7: STACK A E\n        8: PICK-UP B\n        9: STACK B A\n       10: PICK-UP C\n       11: STACK C B\n\ntime spent:    T.TT seconds instantiating 84 easy, 0 hard action templates\n               T.TT seconds reachability analysis, yielding 55 facts and 84 actions\n               T.TT seconds creating final representation with 55 relevant facts, 0 relevant fluents\n               T.TT seconds computing LNF\n               T.TT seconds building connectivity graph\n               T.TT seconds searching, evaluating 138 states, to a max depth of 7\n               T.TT seconds total time\n\n",
+ "stderr": "",
+ "reason": "ff: found legal plan as follows"
+}

@@ -1,0 +1,10 @@
+{
+ "command": "ff -o domain.pddl -f unknown-type.pddl",
+ "cwd": "corpus/synthetic/malformed",
+ "exit_code": 1,
+ "outcome": "parse-error",
+ "plan": null,
+ "stdout": "\nff: parsing domain file\ndomain 'TINY' defined\n ... done.\nff: parsing problem file\nproblem 'UNKNOWN-TYPE' defined\n ... done.\n\n\npredicate HELD is declared to use unknown or empty type BLOCK\n\n",
+ "stderr": "",
+ "reason": "is declared to use unknown or empty type"
+}

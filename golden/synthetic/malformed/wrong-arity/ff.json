@@ -1,0 +1,10 @@
+{
+ "command": "ff -o domain.pddl -f wrong-arity.pddl",
+ "cwd": "corpus/synthetic/malformed",
+ "exit_code": 1,
+ "outcome": "parse-error",
+ "plan": null,
+ "stdout": "\nff: parsing domain file\ndomain 'TINY' defined\n ... done.\nff: parsing problem file\nproblem 'WRONG-ARITY' defined\n ... done.\n\n\npredicate CLEAR is declared to have 1 (not 2) arguments. check input files\n\n",
+ "stderr": "",
+ "reason": "check input files"
+}

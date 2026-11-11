@@ -1,0 +1,31 @@
+{
+ "command": "ff -o domain.pddl -f instances/instance-7.pddl",
+ "cwd": "corpus/ipc/ipc-2000/blocks-strips-typed",
+ "exit_code": 0,
+ "outcome": "plan-found",
+ "plan": [
+  "UNSTACK F E",
+  "STACK F D",
+  "UNSTACK E B",
+  "PUT-DOWN E",
+  "UNSTACK F D",
+  "PUT-DOWN F",
+  "UNSTACK D A",
+  "PUT-DOWN D",
+  "PICK-UP F",
+  "STACK F D",
+  "UNSTACK A C",
+  "PUT-DOWN A",
+  "PICK-UP E",
+  "STACK E F",
+  "PICK-UP A",
+  "STACK A E",
+  "PICK-UP B",
+  "STACK B A",
+  "PICK-UP C",
+  "STACK C B"
+ ],
+ "stdout": "\nff: parsing domain file\ndomain 'BLOCKS' defined\n ... done.\nff: parsing problem file\nproblem 'BLOCKS-6-0' defined\n ... done.\n\n\n\nCueing down from goal distance:    2 into depth [1]\n                                   1            [1]\n                                   0            \n\nCueing down from goal distance:    2 into depth [1]\n                                   1            [1]\n                                   0            \n\nCueing down from goal distance:    5 into depth [1][2][3][4][5][6][7][8]\n                                   4            [1]\n                                   3            [1][2][3]\n                                   2            [1]\n                                   1            [1]\n                                   0            \n\nCueing down from goal distance:    2 into depth [1]\n                                   1            [1]\n                                   0            \n\nCueing down from goal distance:    2 into depth [1]\n                                   1            [1]\n                                   0            \n\nff: found legal plan as follows\n\nstep    0: UNSTACK F E\n        1: STACK F D\n        2: UNSTACK E B\n        3: PUT-DOWN E\n        4: UNSTACK F D\n        5: PUT-DOWN F\n        6: UNSTACK D A\n        7: PUT-DOWN D\n        8: PICK-UP F\n        9: STACK F D\n       10: UNSTACK A C\n       11: PUT-DOWN A\n       12: PICK-UP E\n       13: STACK E F\n       14: PICK-UP A\n       15: STACK A E\n       16: PICK-UP B\n       17: STACK B A\n       18: PICK-UP C\n       19: STACK C B\n     \n\ntime spent:    T.TT seconds instantiating 84 easy, 0 hard action templates\n               T.TT seconds reachability analysis, yielding 55 facts and 84 actions\n               T.TT seconds creating final representation with 55 relevant facts\n               T.TT seconds building connectivity graph\n               T.TT seconds searching, evaluating 101 states, to a max depth of 8\n               T.TT seconds total time\n\n",
+ "stderr": "",
+ "reason": "ff: found legal plan as follows"
+}

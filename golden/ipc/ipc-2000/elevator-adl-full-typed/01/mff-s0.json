@@ -1,0 +1,15 @@
+{
+ "command": "metric-ff -s 0 -o domain.pddl -f instances/instance-1.pddl",
+ "cwd": "corpus/ipc/ipc-2000/elevator-adl-full-typed",
+ "exit_code": 0,
+ "outcome": "plan-found",
+ "plan": [
+  "UP F0 F1",
+  "STOP F1",
+  "DOWN F1 F0",
+  "STOP F0"
+ ],
+ "stdout": "\nff: parsing domain file\ndomain 'MICONIC' defined\n ... done.\nff: parsing problem file\nproblem 'MIXED-F2-P1-U20-V5-G5-A60-N10-A20-B80-N50-F5-R0' defined\n ... done.\n\n\nwarning: quantified var ?P has unknown or empty type GOING_UP. simplifying.\n\n\nwarning: quantified var ?P has unknown or empty type GOING_DOWN. simplifying.\n\n\nwarning: quantified var ?P has unknown or empty type CONFLICT_A. simplifying.\n\n\nwarning: quantified var ?Q has unknown or empty type CONFLICT_B. simplifying.\n\n\nwarning: quantified var ?P has unknown or empty type CONFLICT_B. simplifying.\n\n\nwarning: quantified var ?Q has unknown or empty type CONFLICT_A. simplifying.\n\n\nwarning: quantified var ?P has unknown or empty type NEVER_ALONE. simplifying.\n\n\nwarning: quantified var ?Q has unknown or empty type ATTENDANT. simplifying.\n\n\nwarning: quantified var ?P has unknown or empty type GOING_NONSTOP. simplifying.\n\n\nwarning: quantified var ?P has unknown or empty type VIP. simplifying.\n\n\nwarning: quantified var ?P has unknown or empty type VIP. simplifying.\n\n\ntranslating negated cond for predicate SERVED\nno metric specified.\n\ntask contains conditional effects. turning off state domination.\n\n\n\nff: search configuration is Enforced Hill-Climbing, if that fails then best-first search.\nMetric is plan length.\nNO COST MINIMIZATION (and no cost-minimizing relaxed plans).\n\nCueing down from goal distance:    3 into depth [1][2]\n                                   2            [1]\n                                   1            [1]\n                                   0            \n\nff: found legal plan as follows\nstep    0: UP F0 F1\n        1: STOP F1\n        2: DOWN F1 F0\n        3: STOP F0\n\ntime spent:    T.TT seconds instantiating 4 easy, 0 hard action templates\n               T.TT seconds reachability analysis, yielding 5 facts and 4 actions\n               T.TT seconds creating final representation with 5 relevant facts, 0 relevant fluents\n               T.TT seconds computing LNF\n               T.TT seconds building connectivity graph\n               T.TT seconds searching, evaluating 5 states, to a max depth of 2\n               T.TT seconds total time\n\n",
+ "stderr": "",
+ "reason": "ff: found legal plan as follows"
+}

@@ -1,0 +1,31 @@
+{
+ "command": "metric-ff -s 3 -o domain.pddl -f instances/instance-5.pddl",
+ "cwd": "corpus/ipc/ipc-2002/driverlog-numeric-hard-automatic",
+ "exit_code": 0,
+ "outcome": "plan-found",
+ "plan": [
+  "WALK DRIVER2 S0 P0-2",
+  "WALK DRIVER2 P0-2 S2",
+  "WALK DRIVER3 S0 P0-1",
+  "WALK DRIVER3 P0-1 S1",
+  "BOARD-TRUCK DRIVER3 TRUCK1 S1",
+  "BOARD-TRUCK DRIVER1 TRUCK2 S1",
+  "DRIVE-TRUCK TRUCK2 S1 S0 DRIVER1",
+  "LOAD-TRUCK PACKAGE1 TRUCK2 S0",
+  "LOAD-TRUCK PACKAGE2 TRUCK2 S0",
+  "DRIVE-TRUCK TRUCK2 S0 S2 DRIVER1",
+  "LOAD-TRUCK PACKAGE3 TRUCK2 S2",
+  "LOAD-TRUCK PACKAGE4 TRUCK2 S2",
+  "DRIVE-TRUCK TRUCK1 S1 S2 DRIVER3",
+  "DRIVE-TRUCK TRUCK2 S2 S0 DRIVER1",
+  "UNLOAD-TRUCK PACKAGE4 TRUCK2 S0",
+  "DRIVE-TRUCK TRUCK2 S0 S1 DRIVER1",
+  "UNLOAD-TRUCK PACKAGE1 TRUCK2 S1",
+  "UNLOAD-TRUCK PACKAGE2 TRUCK2 S1",
+  "UNLOAD-TRUCK PACKAGE3 TRUCK2 S1",
+  "DRIVE-TRUCK TRUCK2 S1 S2 DRIVER1"
+ ],
+ "stdout": "\nff: parsing domain file\ndomain 'DRIVERLOG' defined\n ... done.\nff: parsing problem file\nproblem 'DLOG-3-2-5' defined\n ... done.\n\n\nwarning: non-constant effect on metric. no optimization done.\n\nff: search configuration is weighted A* with weight 5. plan length\nCOST MINIMIZATION DONE (WITH cost-minimizing relaxed plans).\n\nadvancing to goal distance:   15\n                              14\n                              13\n                              12\n                              11\n                              10\n                               9\n                               8\n                               7\n                               6\n                               5\n                               4\n                               3\n                               2\n                               1\n                               0\n\nff: found legal plan as follows\nstep    0: WALK DRIVER2 S0 P0-2\n        1: WALK DRIVER2 P0-2 S2\n        2: WALK DRIVER3 S0 P0-1\n        3: WALK DRIVER3 P0-1 S1\n        4: BOARD-TRUCK DRIVER3 TRUCK1 S1\n        5: BOARD-TRUCK DRIVER1 TRUCK2 S1\n        6: DRIVE-TRUCK TRUCK2 S1 S0 DRIVER1\n        7: LOAD-TRUCK PACKAGE1 TRUCK2 S0\n        8: LOAD-TRUCK PACKAGE2 TRUCK2 S0\n        9: DRIVE-TRUCK TRUCK2 S0 S2 DRIVER1\n       10: LOAD-TRUCK PACKAGE3 TRUCK2 S2\n       11: LOAD-TRUCK PACKAGE4 TRUCK2 S2\n       12: DRIVE-TRUCK TRUCK1 S1 S2 DRIVER3\n       13: DRIVE-TRUCK TRUCK2 S2 S0 DRIVER1\n       14: UNLOAD-TRUCK PACKAGE4 TRUCK2 S0\n       15: DRIVE-TRUCK TRUCK2 S0 S1 DRIVER1\n       16: UNLOAD-TRUCK PACKAGE1 TRUCK2 S1\n       17: UNLOAD-TRUCK PACKAGE2 TRUCK2 S1\n       18: UNLOAD-TRUCK PACKAGE3 TRUCK2 S1\n       19: DRIVE-TRUCK TRUCK2 S1 S2 DRIVER1\n\ntime spent:    T.TT seconds instantiating 264 easy, 0 hard action templates\n               T.TT seconds reachability analysis, yielding 57 facts and 168 actions\n               T.TT seconds creating final representation with 57 relevant facts, 13 relevant fluents\n               T.TT seconds computing LNF\n               T.TT seconds building connectivity graph\n               T.TT seconds searching, evaluating 240 states, to a max depth of 0\n               T.TT seconds total time\n\n",
+ "stderr": "",
+ "reason": "ff: found legal plan as follows"
+}

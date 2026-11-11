@@ -1,0 +1,10 @@
+{
+ "command": "metric-ff -o domain.pddl -f instances/instance-18.pddl",
+ "cwd": "corpus/ipc/ipc-2002/settlers-numeric-automatic",
+ "exit_code": 1,
+ "outcome": "parse-error",
+ "plan": null,
+ "stdout": "\nff: parsing domain file\ndomain 'CIV' defined\n ... done.\nff: parsing problem file\nproblem 'SETTLERS' defined\n ... done.\n\n\n\nunknown optimization method . check input files\n\n",
+ "stderr": "",
+ "reason": "check input files"
+}

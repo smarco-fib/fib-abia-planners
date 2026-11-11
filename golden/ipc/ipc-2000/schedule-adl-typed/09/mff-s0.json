@@ -1,0 +1,18 @@
+{
+ "command": "metric-ff -s 0 -o domain.pddl -f instances/instance-9.pddl",
+ "cwd": "corpus/ipc/ipc-2000/schedule-adl-typed",
+ "exit_code": 0,
+ "outcome": "plan-found",
+ "plan": [
+  "DO-GRIND D0",
+  "DO-LATHE C0",
+  "DO-IMMERSION-PAINT B0 RED",
+  "DO-TIME-STEP",
+  "DO-LATHE B0",
+  "DO-TIME-STEP",
+  "DO-IMMERSION-PAINT B0 RED"
+ ],
+ "stdout": "\nff: parsing domain file\ndomain 'SCHEDULE' defined\n ... done.\nff: parsing problem file\nproblem 'SCHEDULE-4-2' defined\n ... done.\n\n\ntranslating negated cond for predicate SCHEDULED\ntranslating negated cond for predicate BUSY\ntranslating negated cond for predicate OBJSCHEDULED\ntranslating negated cond for predicate HAS-HOLE\nno metric specified.\n\ntask contains conditional effects. turning off state domination.\n\n\n\nff: search configuration is Enforced Hill-Climbing, if that fails then best-first search.\nMetric is plan length.\nNO COST MINIMIZATION (and no cost-minimizing relaxed plans).\n\nCueing down from goal distance:    4 into depth [1]\n                                   3            [1]\n                                   2            [1][2]\n                                   1            [1][2][3]\n                                   0            \n\nff: found legal plan as follows\nstep    0: DO-GRIND D0\n        1: DO-LATHE C0\n        2: DO-IMMERSION-PAINT B0 RED\n        3: DO-TIME-STEP\n        4: DO-LATHE B0\n        5: DO-TIME-STEP\n        6: DO-IMMERSION-PAINT B0 RED\n\ntime spent:    T.TT seconds instantiating 97 easy, 0 hard action templates\n               T.TT seconds reachability analysis, yielding 116 facts and 97 actions\n               T.TT seconds creating final representation with 116 relevant facts, 0 relevant fluents\n               T.TT seconds computing LNF\n               T.TT seconds building connectivity graph\n               T.TT seconds searching, evaluating 18 states, to a max depth of 3\n               T.TT seconds total time\n\n",
+ "stderr": "",
+ "reason": "ff: found legal plan as follows"
+}

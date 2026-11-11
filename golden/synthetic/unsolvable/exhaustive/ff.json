@@ -1,0 +1,10 @@
+{
+ "command": "ff -o exhaustive-domain.pddl -f exhaustive.pddl",
+ "cwd": "corpus/synthetic/unsolvable",
+ "exit_code": 0,
+ "outcome": "proven-unsolvable",
+ "plan": null,
+ "stdout": "\nff: parsing domain file\ndomain 'RING' defined\n ... done.\nff: parsing problem file\nproblem 'ONE-TOKEN-TWO-PLACES' defined\n ... done.\n\n\n\nCueing down from goal distance:    5 into depth [1]\n                                   4            [1]\n                                   3            [1][2][3]\n\nEnforced Hill-climbing failed !\nswitching to Best-first Search now.\n\nadvancing to distance :    5\n                           4\n                           3\n\nbest first search space empty! problem proven unsolvable.\n\n\n\ntime spent:    T.TT seconds instantiating 12 easy, 0 hard action templates\n               T.TT seconds reachability analysis, yielding 10 facts and 12 actions\n               T.TT seconds creating final representation with 10 relevant facts\n               T.TT seconds building connectivity graph\n               T.TT seconds searching, evaluating 29 states, to a max depth of 3\n               T.TT seconds total time\n\n",
+ "stderr": "",
+ "reason": "search space empty! problem proven unsolvable"
+}

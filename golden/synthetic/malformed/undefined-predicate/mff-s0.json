@@ -1,0 +1,10 @@
+{
+ "command": "metric-ff -s 0 -o domain.pddl -f undefined-predicate.pddl",
+ "cwd": "corpus/synthetic/malformed",
+ "exit_code": 1,
+ "outcome": "parse-error",
+ "plan": null,
+ "stdout": "\nff: parsing domain file\ndomain 'TINY' defined\n ... done.\nff: parsing problem file\nproblem 'UNDEFINED-PREDICATE' defined\n ... done.\n\n\nundeclared predicate ONTABLE used in domain definition\n\n",
+ "stderr": "",
+ "reason": "undeclared predicate ONTABLE used in domain definition"
+}

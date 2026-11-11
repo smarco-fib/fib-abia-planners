@@ -1,0 +1,33 @@
+{
+ "command": "metric-ff -s 0 -o domain.pddl -f instances/instance-7.pddl",
+ "cwd": "corpus/ipc/ipc-2002/satellite-strips-automatic",
+ "exit_code": 0,
+ "outcome": "plan-found",
+ "plan": [
+  "TURN_TO SATELLITE3 GROUNDSTATION0 GROUNDSTATION2",
+  "SWITCH_ON INSTRUMENT7 SATELLITE3",
+  "TURN_TO SATELLITE2 STAR1 STAR6",
+  "CALIBRATE SATELLITE3 INSTRUMENT7 GROUNDSTATION0",
+  "TURN_TO SATELLITE3 PHENOMENON5 GROUNDSTATION0",
+  "SWITCH_ON INSTRUMENT5 SATELLITE2",
+  "CALIBRATE SATELLITE2 INSTRUMENT5 STAR1",
+  "TURN_TO SATELLITE2 PLANET11 STAR1",
+  "TURN_TO SATELLITE1 STAR1 GROUNDSTATION0",
+  "TAKE_IMAGE SATELLITE3 PHENOMENON5 INSTRUMENT7 IMAGE0",
+  "TURN_TO SATELLITE3 STAR6 PHENOMENON5",
+  "TAKE_IMAGE SATELLITE3 STAR6 INSTRUMENT7 IMAGE1",
+  "TURN_TO SATELLITE3 STAR7 STAR6",
+  "TAKE_IMAGE SATELLITE3 STAR7 INSTRUMENT7 IMAGE0",
+  "TURN_TO SATELLITE3 PLANET8 STAR7",
+  "TAKE_IMAGE SATELLITE3 PLANET8 INSTRUMENT7 IMAGE0",
+  "TURN_TO SATELLITE3 PLANET9 PLANET8",
+  "TAKE_IMAGE SATELLITE3 PLANET9 INSTRUMENT7 IMAGE3",
+  "TURN_TO SATELLITE3 PLANET10 PLANET9",
+  "TAKE_IMAGE SATELLITE3 PLANET10 INSTRUMENT7 IMAGE0",
+  "TAKE_IMAGE SATELLITE2 PLANET11 INSTRUMENT5 IMAGE2",
+  "TURN_TO SATELLITE2 PHENOMENON5 PLANET11"
+ ],
+ "stdout": "\nff: parsing domain file\ndomain 'SATELLITE' defined\n ... done.\nff: parsing problem file\nproblem 'STRIPS-SAT-X-1' defined\n ... done.\n\n\ntranslating negated cond for predicate =\nno metric specified.\n\nff: search configuration is Enforced Hill-Climbing, if that fails then best-first search.\nMetric is plan length.\nNO COST MINIMIZATION (and no cost-minimizing relaxed plans).\n\nCueing down from goal distance:   22 into depth [1]\n                                  21            [1]\n                                  20            [1]\n                                  19            [1]\n                                  18            [1]\n                                  17            [1]\n                                  16            [1]\n                                  15            [1]\n                                  14            [1]\n                                  13            [1]\n                                  12            [1]\n                                  11            [1]\n                                  10            [1]\n                                   9            [1]\n                                   8            [1]\n                                   7            [1]\n                                   6            [1]\n                                   5            [1]\n                                   4            [1]\n                                   3            [1]\n                                   2            [1]\n                                   1            [1]\n                                   0            \n\nff: found legal plan as follows\nstep    0: TURN_TO SATELLITE3 GROUNDSTATION0 GROUNDSTATION2\n        1: SWITCH_ON INSTRUMENT7 SATELLITE3\n        2: TURN_TO SATELLITE2 STAR1 STAR6\n        3: CALIBRATE SATELLITE3 INSTRUMENT7 GROUNDSTATION0\n        4: TURN_TO SATELLITE3 PHENOMENON5 GROUNDSTATION0\n        5: SWITCH_ON INSTRUMENT5 SATELLITE2\n        6: CALIBRATE SATELLITE2 INSTRUMENT5 STAR1\n        7: TURN_TO SATELLITE2 PLANET11 STAR1\n        8: TURN_TO SATELLITE1 STAR1 GROUNDSTATION0\n        9: TAKE_IMAGE SATELLITE3 PHENOMENON5 INSTRUMENT7 IMAGE0\n       10: TURN_TO SATELLITE3 STAR6 PHENOMENON5\n       11: TAKE_IMAGE SATELLITE3 STAR6 INSTRUMENT7 IMAGE1\n       12: TURN_TO SATELLITE3 STAR7 STAR6\n       13: TAKE_IMAGE SATELLITE3 STAR7 INSTRUMENT7 IMAGE0\n       14: TURN_TO SATELLITE3 PLANET8 STAR7\n       15: TAKE_IMAGE SATELLITE3 PLANET8 INSTRUMENT7 IMAGE0\n       16: TURN_TO SATELLITE3 PLANET9 PLANET8\n       17: TAKE_IMAGE SATELLITE3 PLANET9 INSTRUMENT7 IMAGE3\n       18: TURN_TO SATELLITE3 PLANET10 PLANET9\n       19: TAKE_IMAGE SATELLITE3 PLANET10 INSTRUMENT7 IMAGE0\n       20: TAKE_IMAGE SATELLITE2 PLANET11 INSTRUMENT5 IMAGE2\n       21: TURN_TO SATELLITE2 PHENOMENON5 PLANET11\n\ntime spent:    T.TT seconds instantiating 756 easy, 0 hard action templates\n               T.TT seconds reachability analysis, yielding 116 facts and 756 actions\n               T.TT seconds creating final representation with 116 relevant facts, 0 relevant fluents\n               T.TT seconds computing LNF\n               T.TT seconds building connectivity graph\n               T.TT seconds searching, evaluating 78 states, to a max depth of 1\n               T.TT seconds total time\n\n",
+ "stderr": "",
+ "reason": "ff: found legal plan as follows"
+}
