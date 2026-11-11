@@ -705,6 +705,12 @@ int main( int argc, char *argv[] )
   /* add path info, complete file names will be stored in
    * ops_file and fct_file 
    */
+  /* abia-planners (PATCHES.md, UB-3): path + file name must fit ops_file/fct_file */
+  if ( strlen( gcmd_line.path ) + strlen( gcmd_line.ops_file_name ) >= MAX_LENGTH ||
+       strlen( gcmd_line.path ) + strlen( gcmd_line.fct_file_name ) >= MAX_LENGTH ) {
+    printf( "\nff: path and file name too long (at most %d characters)\n\n", MAX_LENGTH - 1 );
+    exit( 1 );
+  }
   sprintf(ops_file, "%s%s", gcmd_line.path, gcmd_line.ops_file_name);
   sprintf(fct_file, "%s%s", gcmd_line.path, gcmd_line.fct_file_name);
 
@@ -1143,6 +1149,24 @@ void ff_usage( void )
 
 
 
+/* abia-planners (PATCHES.md, UB-3): file arguments must fit the fixed-size
+ * buffers of gcmd_line; longer ones overflowed them.
+ */
+static Bool argument_fits( char *arg, int option )
+
+{
+
+  if ( strlen( arg ) >= MAX_LENGTH ) {
+    printf( "\nff: argument of option -%c is too long (at most %d characters)\n\n",
+	    option, MAX_LENGTH - 1 );
+    return FALSE;
+  }
+  return TRUE;
+
+}
+
+
+
 Bool process_command_line( int argc, char *argv[] )
 
 {
@@ -1169,12 +1193,21 @@ Bool process_command_line( int argc, char *argv[] )
       if ( --argc && ++argv ) {
 	switch ( option ) {
 	case 'p':
+	  if ( !argument_fits( *argv, option ) ) {
+	    return FALSE;
+	  }
 	  strncpy( gcmd_line.path, *argv, MAX_LENGTH );
 	  break;
 	case 'o':
+	  if ( !argument_fits( *argv, option ) ) {
+	    return FALSE;
+	  }
 	  strncpy( gcmd_line.ops_file_name, *argv, MAX_LENGTH );
 	  break;
 	case 'f':
+	  if ( !argument_fits( *argv, option ) ) {
+	    return FALSE;
+	  }
 	  strncpy( gcmd_line.fct_file_name, *argv, MAX_LENGTH );
 	  break;
 	case 'i':

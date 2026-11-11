@@ -1,0 +1,10 @@
+{
+ "command": "ff -o xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -f ok.pddl",
+ "cwd": "corpus/synthetic/malformed",
+ "exit_code": 1,
+ "outcome": "usage-error",
+ "plan": null,
+ "stdout": "\nff: argument of option -o is too long (at most 255 characters)\n\n\nusage of ff:\n\nOPTIONS   DESCRIPTIONS\n\n-p <str>    path for operator and fact file\n-o <str>    operator file name\n-f <str>    fact file name\n\n-i <num>    run-time information level( preset: 1 )\n      0     only times\n      1     problem name, planning process infos\n    101     parsed problem data\n    102     cleaned up ADL problem\n    103     collected string tables\n    104     encoded domain\n    105     predicates inertia info\n    106     splitted initial state\n    107     domain with Wff s normalized\n    108     domain with NOT conds translated\n    109     splitted domain\n    110     cleaned up easy domain\n    111     unaries encoded easy domain\n    112     effects multiplied easy domain\n    113     inertia removed easy domain\n    114     easy action templates\n    115     cleaned up hard domain representation\n    116     mixed hard domain representation\n    117     final hard domain representation\n    118     reachability analysis results\n    119     facts selected as relevant\n    120     final domain and problem representations\n    121     connectivity graph\n    122     fixpoint result on each evaluated state\n    123     1P extracted on each evaluated state\n    124     H set collected for each evaluated state\n    125     False sets of goals <GAM>\n    126     detected ordering constraints leq_h <GAM>\n    127     the Goal Agenda <GAM>\n\n-d <num>    switch on debugging\n\n",
+ "stderr": "",
+ "reason": "too long (at most 255 characters)"
+}

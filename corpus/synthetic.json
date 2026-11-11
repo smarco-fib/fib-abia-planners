@@ -254,9 +254,9 @@
   },
   {
    "id": "student-input/path-with-spaces-accents",
-   "dir": "student-input/carpeta con espacios ñ",
+   "dir": "student-input/carpeta con espacios \u00f1",
    "domain": "dominio con espacio.pddl",
-   "problem": "problema-niño.pddl",
+   "problem": "problema-ni\u00f1o.pddl",
    "configs": [
     "ff",
     "mff-s0",
@@ -266,8 +266,8 @@
   {
    "id": "student-input/cwd-with-spaces-accents",
    "dir": "student-input",
-   "domain": "carpeta con espacios ñ/dominio con espacio.pddl",
-   "problem": "carpeta con espacios ñ/problema-niño.pddl",
+   "domain": "carpeta con espacios \u00f1/dominio con espacio.pddl",
+   "problem": "carpeta con espacios \u00f1/problema-ni\u00f1o.pddl",
    "configs": [
     "ff",
     "mff-s0",
@@ -502,6 +502,68 @@
       "0",
       "-p",
       "../malformed/"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cli/long-argument",
+   "dir": "malformed",
+   "domain": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+   "problem": "ok.pddl",
+   "configs": [
+    "ff",
+    "mff-s0"
+   ]
+  },
+  {
+   "id": "cli/long-path",
+   "dir": "malformed",
+   "domain": "domain.pddl",
+   "problem": "ok.pddl",
+   "configs": [
+    {
+     "id": "ff-p250",
+     "planner": "ff",
+     "args": [
+      "-p",
+      "./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././"
+     ]
+    },
+    {
+     "id": "mff-p250",
+     "planner": "metric-ff",
+     "args": [
+      "-s",
+      "0",
+      "-p",
+      "./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cli/path-near-limit",
+   "dir": "malformed",
+   "domain": "domain.pddl",
+   "problem": "ok.pddl",
+   "configs": [
+    {
+     "id": "ff-p242",
+     "planner": "ff",
+     "args": [
+      "-p",
+      "./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././"
+     ]
+    },
+    {
+     "id": "mff-p242",
+     "planner": "metric-ff",
+     "args": [
+      "-s",
+      "0",
+      "-p",
+      "./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././"
      ]
     }
    ]
