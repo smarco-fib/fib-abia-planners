@@ -98,7 +98,11 @@ static char * serrmsg[] = {
 };
 
 
-/* void fcterr( int errno, char *par ); */
+/* abia-planners (PATCHES.md, P-PARSE-1): prototypes, so that no function
+ * is implicitly declared. yyerror/yylex are renamed by bison's -p prefix. */
+void fcterr( int err, char *par );
+int yyerror( char *msg );
+int yylex( void );
 
 
 static int sact_err;
@@ -218,7 +222,7 @@ OPEN_PAREN  BDOMAIN_TOK  NAME  CLOSE_PAREN
 { 
   if ( SAME != strcmp($3, gdomain_name) ) {
     fcterr( BADDOMAIN, NULL );
-    yyerror();
+    yyerror( NULL );
   }
 }
 ;
@@ -875,7 +879,7 @@ NAME  name_star
 /* 
  * call	bison -pfct -bscan-fct scan-fct.y
  */
-void fcterr( int errno, char *par ) {
+void fcterr( int err, char *par ) {
 
 /*   sact_err = errno; */
 

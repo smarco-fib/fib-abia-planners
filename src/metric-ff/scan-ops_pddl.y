@@ -91,7 +91,11 @@ static char *serrmsg[] = {
 };
 
 
-/* void opserr( int errno, char *par ); */
+/* abia-planners (PATCHES.md, P-PARSE-1): prototypes, so that no function
+ * is implicitly declared. yyerror/yylex are renamed by bison's -p prefix. */
+void opserr( int err, char *par );
+int yyerror( char *msg );
+int yylex( void );
 
 
 static int sact_err;
@@ -368,7 +372,7 @@ NAME
 { 
   if ( !supported( $4 ) ) {
     opserr( NOT_SUPPORTED, $4 );
-    yyerror();
+    yyerror( NULL );
   }
 }
 require_key_star  CLOSE_PAREN
@@ -383,7 +387,7 @@ NAME
 { 
   if ( !supported( $1 ) ) {
     opserr( NOT_SUPPORTED, $1 );
-    yyerror();
+    yyerror( NULL );
   }
 }
 require_key_star
@@ -994,7 +998,7 @@ VARIABLE  typed_list_variable        /* a list element (gets type from next one)
  * call	bison -pops -bscan-ops scan-ops.y
  */
 
-void opserr( int errno, char *par )
+void opserr( int err, char *par )
 
 {
 
