@@ -1,4 +1,4 @@
-(define (problem vector1) (:domain vector)
+(define (problem vector3) (:domain vector)
 (:objects
 	p1 p2 p3 a b c
 )

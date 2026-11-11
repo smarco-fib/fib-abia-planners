@@ -1,4 +1,4 @@
-(define (problem vector1) (:domain vectorTyped2)
+(define (problem vector10) (:domain vectorTyped2)
 (:objects
 	p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 - pos
 	a b c d e f g h i j - valor

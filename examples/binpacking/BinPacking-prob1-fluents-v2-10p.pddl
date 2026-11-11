@@ -1,4 +1,4 @@
-(define (problem BinPacking-20paq-6containers)
+(define (problem BinPacking-10paq-3containers)
    (:domain BinPackingFluents)
    (:objects p01 p02 p03 p04 p05 p06 p07 p08 p09 p10 - paquete
 	     c01 c02 c03 - contenedor	     

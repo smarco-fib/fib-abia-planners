@@ -1,4 +1,4 @@
-(define (problem blocksproblemslides) (:domain blocksworld)
+(define (problem blocksproblem4) (:domain blocksworld)
 (:objects
 	A B C D
 )

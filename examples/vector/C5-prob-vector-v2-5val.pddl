@@ -1,4 +1,4 @@
-(define (problem vector10) (:domain vectorV3)
+(define (problem vector5) (:domain vectorV3)
 (:objects
 	fantasma1 a b c d e fantasma2
 )
