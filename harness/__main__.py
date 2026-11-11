@@ -34,6 +34,10 @@ def _load_runs(args):
         runs += load_manifest(m)
     if args.filter:
         runs = [r for r in runs if any(f in r.run_id for f in args.filter)]
+    if getattr(args, "ids", None):
+        with open(args.ids, encoding="utf-8") as f:
+            want = {l.split()[0] for l in f if l.strip()}
+        runs = [r for r in runs if r.run_id in want]
     if getattr(args, "selftest_only", False):
         runs = [r for r in runs if r.selftest]
     return runs
@@ -165,6 +169,7 @@ def main(argv=None):
         sp = sub.add_parser(name)
         sp.add_argument("manifests", nargs="+")
         sp.add_argument("-k", "--filter", action="append", help="substring of run id")
+        sp.add_argument("--ids", help="file with exact run ids to include (one per line)")
         sp.add_argument("--selftest-only", action="store_true")
         if name != "list":
             sp.add_argument("--ff", required=True)
