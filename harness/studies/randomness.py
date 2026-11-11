@@ -11,7 +11,7 @@ For every run in the manifests:
     and RAND15=1 (15-bit values, models rand() with RAND_MAX=32767).
 Prints, per run id, the number of distinct normalised outputs.
 """
-import argparse, concurrent.futures as cf, json, os, sys
+import argparse, concurrent.futures as cf, hashlib, json, os, sys
 from ..cases import load_manifest
 from ..runner import run
 
@@ -62,7 +62,9 @@ def main():
     def record(rid, n, key, d):
         res.setdefault(rid, {}).setdefault(key, []).append(n)
         detail.setdefault(rid, {})[n] = dict(d, group=key)
+    seen = set()
     for (rid, n), rec in done.items():
+        seen.add((rid, rec["group"]))
         record(rid, n, rec["group"], {k: rec[k] for k in ("outcome", "timed_out", "plan_len", "wall_s")})
     jobs = [j for j in jobs if (j[0].run_id, j[1]) not in done]
     logf = open(a.log, "a") if a.log else None
@@ -70,12 +72,16 @@ def main():
         futs = {ex.submit(run, r.argv(bins), r.cwd, r.timeout, env): (r, n) for r, n, env in jobs}
         for f in cf.as_completed(futs):
             r, n = futs[f]; out = f.result()
-            key = json.dumps([out[k] for k in KEYS])
+            key = hashlib.sha256(json.dumps([out[k] for k in KEYS]).encode()).hexdigest()[:16]
             d = {"outcome": out["outcome"], "timed_out": out["timed_out"],
                  "plan_len": None if out["plan"] is None else len(out["plan"]),
                  "wall_s": round(out["wall_s"], 2)}
             if logf:
-                logf.write(json.dumps(dict(d, run_id=r.run_id, variant=n, group=key)) + "\n"); logf.flush()
+                rec = dict(d, run_id=r.run_id, variant=n, group=key)
+                if (r.run_id, key) not in seen:   # full output only for the first run of each distinct output
+                    rec["output"] = {k: out[k] for k in KEYS}
+                    seen.add((r.run_id, key))
+                logf.write(json.dumps(rec) + "\n"); logf.flush()
             record(r.run_id, n, key, d)
     summary = {}
     for rid in sorted(res):
