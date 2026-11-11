@@ -35,6 +35,7 @@ def main():
     ap.add_argument("-k", "--filter", action="append"); ap.add_argument("-j", type=int, default=min(4, os.cpu_count() or 1))
     ap.add_argument("--ids", help="file with exact run ids to include (one per line)")
     ap.add_argument("--json")
+    ap.add_argument("--log", help="append one JSON line per finished run; on restart, runs already in it are skipped")
     a = ap.parse_args()
     bins = {"ff": os.path.abspath(a.ff), "metric-ff": os.path.abspath(a.metric_ff)}
     shim = os.path.abspath(a.shim)
@@ -53,17 +54,29 @@ def main():
                        + [("rand15", {"RAND15": "1"})]
         for name, env in variants:
             jobs.append((r, name, dict(env, LD_PRELOAD=shim)))
-    res, detail = {}, {}
+    res, detail, done = {}, {}, {}
+    if a.log and os.path.exists(a.log):
+        for line in open(a.log):
+            if line.strip():
+                rec = json.loads(line); done[(rec["run_id"], rec["variant"])] = rec
+    def record(rid, n, key, d):
+        res.setdefault(rid, {}).setdefault(key, []).append(n)
+        detail.setdefault(rid, {})[n] = dict(d, group=key)
+    for (rid, n), rec in done.items():
+        record(rid, n, rec["group"], {k: rec[k] for k in ("outcome", "timed_out", "plan_len", "wall_s")})
+    jobs = [j for j in jobs if (j[0].run_id, j[1]) not in done]
+    logf = open(a.log, "a") if a.log else None
     with cf.ThreadPoolExecutor(a.j) as ex:
         futs = {ex.submit(run, r.argv(bins), r.cwd, r.timeout, env): (r, n) for r, n, env in jobs}
         for f in cf.as_completed(futs):
             r, n = futs[f]; out = f.result()
             key = json.dumps([out[k] for k in KEYS])
-            res.setdefault(r.run_id, {}).setdefault(key, []).append(n)
-            detail.setdefault(r.run_id, {})[n] = {
-                "outcome": out["outcome"], "timed_out": out["timed_out"],
-                "plan_len": None if out["plan"] is None else len(out["plan"]),
-                "wall_s": round(out["wall_s"], 2), "group": key}
+            d = {"outcome": out["outcome"], "timed_out": out["timed_out"],
+                 "plan_len": None if out["plan"] is None else len(out["plan"]),
+                 "wall_s": round(out["wall_s"], 2)}
+            if logf:
+                logf.write(json.dumps(dict(d, run_id=r.run_id, variant=n, group=key)) + "\n"); logf.flush()
+            record(r.run_id, n, key, d)
     summary = {}
     for rid in sorted(res):
         groups = res[rid]
