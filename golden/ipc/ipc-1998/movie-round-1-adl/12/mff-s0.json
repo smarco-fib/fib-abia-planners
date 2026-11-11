@@ -1,10 +1,18 @@
 {
  "command": "metric-ff -s 0 -o domain.pddl -f instances/instance-12.pddl",
  "cwd": "corpus/ipc/ipc-1998/movie-round-1-adl",
- "exit_code": -11,
- "outcome": "crash",
- "plan": null,
- "stdout": "",
+ "exit_code": 0,
+ "outcome": "plan-found",
+ "plan": [
+  "REWIND-MOVIE",
+  "RESET-COUNTER",
+  "GET-CHIPS C1",
+  "GET-DIP D1",
+  "GET-POP P1",
+  "GET-CHEESE Z1",
+  "GET-CRACKERS K1"
+ ],
+ "stdout": "\nff: parsing domain file\ndomain 'MOVIE-DOM' defined\n ... done.\nff: parsing problem file\nproblem 'MOVIE-X-12' defined\n ... done.\n\n\nno metric specified.\n\nff: search configuration is Enforced Hill-Climbing, if that fails then best-first search.\nMetric is plan length.\nNO COST MINIMIZATION (and no cost-minimizing relaxed plans).\n\nCueing down from goal distance:    7 into depth [1]\n                                   6            [1]\n                                   5            [1]\n                                   4            [1]\n                                   3            [1]\n                                   2            [1]\n                                   1            [1]\n                                   0            \n\nff: found legal plan as follows\nstep    0: REWIND-MOVIE\n        1: RESET-COUNTER\n        2: GET-CHIPS C1\n        3: GET-DIP D1\n        4: GET-POP P1\n        5: GET-CHEESE Z1\n        6: GET-CRACKERS K1\n\ntime spent:    T.TT seconds instantiating 82 easy, 0 hard action templates\n               T.TT seconds reachability analysis, yielding 7 facts and 82 actions\n               T.TT seconds creating final representation with 7 relevant facts, 0 relevant fluents\n               T.TT seconds computing LNF\n               T.TT seconds building connectivity graph\n               T.TT seconds searching, evaluating 8 states, to a max depth of 1\n               T.TT seconds total time\n\n",
  "stderr": "",
- "reason": "signal 11"
+ "reason": "ff: found legal plan as follows"
 }

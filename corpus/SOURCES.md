@@ -16,6 +16,11 @@ The corpus is test data only. It is **not** shipped in wheels or release archive
 - A configuration was dropped from a case when it timed out in that
   exploration, to keep CI time bounded. Crashing runs were **kept**:
   they are evidence of upstream defects (see the Checkpoint 1 report).
+- After the UB-1/UB-2 fixes (Checkpoint 1) 138 Metric-FF configurations that
+  used to crash or misparse the metric now search until the 120 s limit. They
+  were dropped by the same rule (1031 → 893 runs; 19 cases left without
+  configurations were removed). The list is the set of `timeout` rows in
+  `reports/data/ubfix-check.json`.
 - Files are byte-identical copies of the collection (rule 11 applies by analogy).
 
 Domains:

@@ -6,13 +6,13 @@
  },
  "runs": {
   "synthetic/cli/bad-search-config/mff-s9": {
-   "wall_s": 0.001,
+   "wall_s": 0.002,
    "maxrss_kib": 14848,
    "outcome": "usage-error",
    "plan_length": null
   },
   "synthetic/cli/ff-s-option/ff-s0": {
-   "wall_s": 0.002,
+   "wall_s": 0.003,
    "maxrss_kib": 14848,
    "outcome": "usage-error",
    "plan_length": null
@@ -30,68 +30,68 @@
    "plan_length": null
   },
   "synthetic/cli/negative-bound/mff-bneg": {
-   "wall_s": 0.002,
+   "wall_s": 0.001,
    "maxrss_kib": 14848,
    "outcome": "usage-error",
    "plan_length": null
   },
   "synthetic/cli/path-option/ff-p": {
    "wall_s": 0.001,
-   "maxrss_kib": 14976,
+   "maxrss_kib": 14848,
    "outcome": "plan-found",
    "plan_length": 1
   },
   "synthetic/cli/path-option/mff-p": {
    "wall_s": 0.001,
-   "maxrss_kib": 14976,
+   "maxrss_kib": 14848,
    "outcome": "plan-found",
    "plan_length": 1
   },
   "synthetic/cli/unknown-option-r/mff-r1": {
-   "wall_s": 0.002,
+   "wall_s": 0.001,
    "maxrss_kib": 14848,
    "outcome": "usage-error",
    "plan_length": null
   },
   "synthetic/malformed/missing-domain-file/ff": {
    "wall_s": 0.002,
-   "maxrss_kib": 14592,
+   "maxrss_kib": 14464,
    "outcome": "parse-error",
    "plan_length": null
   },
   "synthetic/malformed/missing-domain-file/mff": {
-   "wall_s": 0.002,
-   "maxrss_kib": 14720,
+   "wall_s": 0.001,
+   "maxrss_kib": 14464,
    "outcome": "parse-error",
    "plan_length": null
   },
   "synthetic/malformed/missing-domain-file/mff-s0": {
    "wall_s": 0.001,
-   "maxrss_kib": 14592,
+   "maxrss_kib": 14464,
    "outcome": "parse-error",
    "plan_length": null
   },
   "synthetic/malformed/missing-problem-file/ff": {
    "wall_s": 0.002,
-   "maxrss_kib": 14592,
+   "maxrss_kib": 14464,
    "outcome": "parse-error",
    "plan_length": null
   },
   "synthetic/malformed/missing-problem-file/mff": {
    "wall_s": 0.002,
-   "maxrss_kib": 14720,
+   "maxrss_kib": 14464,
    "outcome": "parse-error",
    "plan_length": null
   },
   "synthetic/malformed/missing-problem-file/mff-s0": {
    "wall_s": 0.002,
-   "maxrss_kib": 14592,
+   "maxrss_kib": 14464,
    "outcome": "parse-error",
    "plan_length": null
   },
   "synthetic/malformed/ok/ff": {
-   "wall_s": 0.001,
-   "maxrss_kib": 14464,
+   "wall_s": 0.003,
+   "maxrss_kib": 14336,
    "outcome": "plan-found",
    "plan_length": 1
   },
@@ -102,139 +102,139 @@
    "plan_length": null
   },
   "synthetic/malformed/ok/mff-s0": {
-   "wall_s": 0.002,
-   "maxrss_kib": 14464,
+   "wall_s": 0.003,
+   "maxrss_kib": 14336,
    "outcome": "plan-found",
    "plan_length": 1
   },
   "synthetic/malformed/syntax-error-domain/ff": {
    "wall_s": 0.002,
-   "maxrss_kib": 14592,
+   "maxrss_kib": 14464,
    "outcome": "parse-error",
    "plan_length": null
   },
   "synthetic/malformed/syntax-error-domain/mff": {
-   "wall_s": 0.002,
-   "maxrss_kib": 14592,
+   "wall_s": 0.004,
+   "maxrss_kib": 14464,
    "outcome": "parse-error",
    "plan_length": null
   },
   "synthetic/malformed/syntax-error-domain/mff-s0": {
-   "wall_s": 0.001,
-   "maxrss_kib": 14592,
+   "wall_s": 0.002,
+   "maxrss_kib": 14464,
    "outcome": "parse-error",
    "plan_length": null
   },
   "synthetic/malformed/syntax-error/ff": {
-   "wall_s": 0.003,
+   "wall_s": 0.002,
    "maxrss_kib": 14464,
    "outcome": "parse-error",
    "plan_length": null
   },
   "synthetic/malformed/syntax-error/mff": {
-   "wall_s": 0.001,
-   "maxrss_kib": 14592,
+   "wall_s": 0.004,
+   "maxrss_kib": 14464,
    "outcome": "parse-error",
    "plan_length": null
   },
   "synthetic/malformed/syntax-error/mff-s0": {
-   "wall_s": 0.003,
-   "maxrss_kib": 14592,
+   "wall_s": 0.002,
+   "maxrss_kib": 14464,
    "outcome": "parse-error",
    "plan_length": null
   },
   "synthetic/malformed/undefined-predicate/ff": {
-   "wall_s": 0.002,
-   "maxrss_kib": 14592,
+   "wall_s": 0.003,
+   "maxrss_kib": 14464,
    "outcome": "parse-error",
    "plan_length": null
   },
   "synthetic/malformed/undefined-predicate/mff": {
-   "wall_s": 0.003,
-   "maxrss_kib": 14592,
+   "wall_s": 0.002,
+   "maxrss_kib": 14464,
    "outcome": "parse-error",
    "plan_length": null
   },
   "synthetic/malformed/undefined-predicate/mff-s0": {
-   "wall_s": 0.001,
-   "maxrss_kib": 14592,
+   "wall_s": 0.003,
+   "maxrss_kib": 14464,
    "outcome": "parse-error",
    "plan_length": null
   },
   "synthetic/malformed/unknown-constant/ff": {
-   "wall_s": 0.001,
-   "maxrss_kib": 14592,
+   "wall_s": 0.003,
+   "maxrss_kib": 14464,
    "outcome": "parse-error",
    "plan_length": null
   },
   "synthetic/malformed/unknown-constant/mff": {
-   "wall_s": 0.002,
-   "maxrss_kib": 14592,
+   "wall_s": 0.003,
+   "maxrss_kib": 14464,
    "outcome": "parse-error",
    "plan_length": null
   },
   "synthetic/malformed/unknown-constant/mff-s0": {
-   "wall_s": 0.002,
-   "maxrss_kib": 14592,
+   "wall_s": 0.003,
+   "maxrss_kib": 14464,
    "outcome": "parse-error",
    "plan_length": null
   },
   "synthetic/malformed/unknown-type/ff": {
-   "wall_s": 0.001,
-   "maxrss_kib": 14592,
+   "wall_s": 0.002,
+   "maxrss_kib": 14464,
    "outcome": "parse-error",
    "plan_length": null
   },
   "synthetic/malformed/unknown-type/mff": {
-   "wall_s": 0.002,
-   "maxrss_kib": 14592,
+   "wall_s": 0.001,
+   "maxrss_kib": 14464,
    "outcome": "parse-error",
    "plan_length": null
   },
   "synthetic/malformed/unknown-type/mff-s0": {
-   "wall_s": 0.001,
-   "maxrss_kib": 14592,
+   "wall_s": 0.002,
+   "maxrss_kib": 14464,
    "outcome": "parse-error",
    "plan_length": null
   },
   "synthetic/malformed/wrong-arity/ff": {
-   "wall_s": 0.003,
-   "maxrss_kib": 14592,
+   "wall_s": 0.002,
+   "maxrss_kib": 14464,
    "outcome": "parse-error",
    "plan_length": null
   },
   "synthetic/malformed/wrong-arity/mff": {
-   "wall_s": 0.001,
-   "maxrss_kib": 14592,
+   "wall_s": 0.004,
+   "maxrss_kib": 14464,
    "outcome": "parse-error",
    "plan_length": null
   },
   "synthetic/malformed/wrong-arity/mff-s0": {
    "wall_s": 0.004,
-   "maxrss_kib": 14592,
+   "maxrss_kib": 14464,
    "outcome": "parse-error",
    "plan_length": null
   },
   "synthetic/malformed/wrong-domain-name/ff": {
-   "wall_s": 0.002,
-   "maxrss_kib": 14592,
+   "wall_s": 0.001,
+   "maxrss_kib": 14464,
    "outcome": "parse-error",
    "plan_length": null
   },
   "synthetic/malformed/wrong-domain-name/mff": {
-   "wall_s": 0.002,
-   "maxrss_kib": 14592,
+   "wall_s": 0.003,
+   "maxrss_kib": 14464,
    "outcome": "parse-error",
    "plan_length": null
   },
   "synthetic/malformed/wrong-domain-name/mff-s0": {
-   "wall_s": 0.001,
-   "maxrss_kib": 14592,
+   "wall_s": 0.002,
+   "maxrss_kib": 14464,
    "outcome": "parse-error",
    "plan_length": null
   },
   "synthetic/numeric/no-fuel/ff": {
-   "wall_s": 0.001,
+   "wall_s": 0.002,
    "maxrss_kib": 14848,
    "outcome": "parse-error",
    "plan_length": null
@@ -246,13 +246,13 @@
    "plan_length": null
   },
   "synthetic/numeric/no-fuel/mff-C": {
-   "wall_s": 0.002,
+   "wall_s": 0.004,
    "maxrss_kib": 14848,
    "outcome": "search-failed",
    "plan_length": null
   },
   "synthetic/numeric/no-fuel/mff-s0": {
-   "wall_s": 0.003,
+   "wall_s": 0.002,
    "maxrss_kib": 14848,
    "outcome": "proven-unsolvable",
    "plan_length": null
@@ -264,25 +264,25 @@
    "plan_length": null
   },
   "synthetic/numeric/no-fuel/mff-s2": {
-   "wall_s": 0.003,
+   "wall_s": 0.002,
    "maxrss_kib": 14848,
    "outcome": "proven-unsolvable",
    "plan_length": null
   },
   "synthetic/numeric/no-fuel/mff-s3": {
-   "wall_s": 0.002,
+   "wall_s": 0.003,
    "maxrss_kib": 14848,
    "outcome": "proven-unsolvable",
    "plan_length": null
   },
   "synthetic/numeric/no-fuel/mff-s4": {
-   "wall_s": 0.004,
+   "wall_s": 0.002,
    "maxrss_kib": 14848,
    "outcome": "search-failed",
    "plan_length": null
   },
   "synthetic/numeric/no-fuel/mff-w1": {
-   "wall_s": 0.002,
+   "wall_s": 0.003,
    "maxrss_kib": 14848,
    "outcome": "search-failed",
    "plan_length": null
@@ -294,25 +294,25 @@
    "plan_length": null
   },
   "synthetic/numeric/ties-tour/mff": {
-   "wall_s": 0.002,
-   "maxrss_kib": 14848,
-   "outcome": "plan-found",
-   "plan_length": 8
-  },
-  "synthetic/numeric/ties-tour/mff-C": {
-   "wall_s": 0.002,
-   "maxrss_kib": 14848,
-   "outcome": "plan-found",
-   "plan_length": 8
-  },
-  "synthetic/numeric/ties-tour/mff-s0": {
    "wall_s": 0.003,
    "maxrss_kib": 14848,
    "outcome": "plan-found",
    "plan_length": 8
   },
-  "synthetic/numeric/ties-tour/mff-s1": {
+  "synthetic/numeric/ties-tour/mff-C": {
    "wall_s": 0.004,
+   "maxrss_kib": 14848,
+   "outcome": "plan-found",
+   "plan_length": 8
+  },
+  "synthetic/numeric/ties-tour/mff-s0": {
+   "wall_s": 0.004,
+   "maxrss_kib": 14848,
+   "outcome": "plan-found",
+   "plan_length": 8
+  },
+  "synthetic/numeric/ties-tour/mff-s1": {
+   "wall_s": 0.005,
    "maxrss_kib": 14848,
    "outcome": "plan-found",
    "plan_length": 20
@@ -324,13 +324,13 @@
    "plan_length": 20
   },
   "synthetic/numeric/ties-tour/mff-s3": {
-   "wall_s": 0.003,
+   "wall_s": 0.002,
    "maxrss_kib": 14848,
    "outcome": "plan-found",
    "plan_length": 12
   },
   "synthetic/numeric/ties-tour/mff-s4": {
-   "wall_s": 0.002,
+   "wall_s": 0.003,
    "maxrss_kib": 14848,
    "outcome": "plan-found",
    "plan_length": 14
@@ -348,163 +348,163 @@
    "plan_length": 8
   },
   "synthetic/numeric/ties/ff": {
-   "wall_s": 0.003,
+   "wall_s": 0.001,
    "maxrss_kib": 14720,
    "outcome": "parse-error",
    "plan_length": null
   },
   "synthetic/numeric/ties/mff": {
-   "wall_s": 0.001,
+   "wall_s": 0.004,
    "maxrss_kib": 14720,
    "outcome": "plan-found",
    "plan_length": 4
   },
   "synthetic/numeric/ties/mff-C": {
-   "wall_s": 0.002,
+   "wall_s": 0.005,
    "maxrss_kib": 14848,
    "outcome": "plan-found",
    "plan_length": 4
   },
   "synthetic/numeric/ties/mff-b3": {
-   "wall_s": 0.002,
+   "wall_s": 0.006,
    "maxrss_kib": 14848,
    "outcome": "plan-found",
    "plan_length": 4
   },
   "synthetic/numeric/ties/mff-b4": {
-   "wall_s": 0.003,
+   "wall_s": 0.002,
    "maxrss_kib": 14848,
    "outcome": "plan-found",
    "plan_length": 4
   },
   "synthetic/numeric/ties/mff-s0": {
-   "wall_s": 0.004,
+   "wall_s": 0.003,
    "maxrss_kib": 14720,
    "outcome": "plan-found",
    "plan_length": 4
   },
   "synthetic/numeric/ties/mff-s1": {
    "wall_s": 0.003,
-   "maxrss_kib": 14848,
+   "maxrss_kib": 14720,
    "outcome": "plan-found",
    "plan_length": 4
   },
   "synthetic/numeric/ties/mff-s2": {
-   "wall_s": 0.001,
-   "maxrss_kib": 14848,
+   "wall_s": 0.004,
+   "maxrss_kib": 14720,
    "outcome": "plan-found",
    "plan_length": 4
   },
   "synthetic/numeric/ties/mff-s3": {
    "wall_s": 0.003,
-   "maxrss_kib": 14848,
+   "maxrss_kib": 14720,
    "outcome": "plan-found",
    "plan_length": 4
   },
   "synthetic/numeric/ties/mff-s4": {
-   "wall_s": 0.002,
-   "maxrss_kib": 14848,
+   "wall_s": 0.004,
+   "maxrss_kib": 14720,
    "outcome": "plan-found",
    "plan_length": 4
   },
   "synthetic/numeric/ties/mff-w1": {
-   "wall_s": 0.002,
-   "maxrss_kib": 14848,
+   "wall_s": 0.004,
+   "maxrss_kib": 14720,
    "outcome": "plan-found",
    "plan_length": 4
   },
   "synthetic/repeated-args/minimal/ff": {
    "wall_s": 0.002,
-   "maxrss_kib": 14720,
+   "maxrss_kib": 14464,
    "outcome": "plan-found",
    "plan_length": 1
   },
   "synthetic/repeated-args/minimal/mff": {
    "wall_s": 0.003,
-   "maxrss_kib": 14720,
+   "maxrss_kib": 14464,
    "outcome": "usage-error",
    "plan_length": null
   },
   "synthetic/repeated-args/minimal/mff-s0": {
    "wall_s": 0.002,
-   "maxrss_kib": 14720,
+   "maxrss_kib": 14464,
    "outcome": "plan-found",
    "plan_length": 1
   },
   "synthetic/student-input/bom-domain/ff": {
    "wall_s": 0.002,
-   "maxrss_kib": 14720,
+   "maxrss_kib": 14464,
    "outcome": "plan-found",
    "plan_length": 1
   },
   "synthetic/student-input/bom-domain/mff": {
-   "wall_s": 0.002,
-   "maxrss_kib": 14720,
+   "wall_s": 0.004,
+   "maxrss_kib": 14464,
    "outcome": "usage-error",
    "plan_length": null
   },
   "synthetic/student-input/bom-domain/mff-s0": {
    "wall_s": 0.003,
-   "maxrss_kib": 14720,
+   "maxrss_kib": 14464,
    "outcome": "plan-found",
    "plan_length": 1
   },
   "synthetic/student-input/bom-problem/ff": {
    "wall_s": 0.003,
-   "maxrss_kib": 14720,
+   "maxrss_kib": 14592,
    "outcome": "plan-found",
    "plan_length": 1
   },
   "synthetic/student-input/bom-problem/mff": {
-   "wall_s": 0.003,
-   "maxrss_kib": 14720,
+   "wall_s": 0.002,
+   "maxrss_kib": 14592,
    "outcome": "usage-error",
    "plan_length": null
   },
   "synthetic/student-input/bom-problem/mff-s0": {
-   "wall_s": 0.001,
-   "maxrss_kib": 14720,
+   "wall_s": 0.002,
+   "maxrss_kib": 14592,
    "outcome": "plan-found",
    "plan_length": 1
   },
   "synthetic/student-input/crlf-domain/ff": {
-   "wall_s": 0.002,
-   "maxrss_kib": 14720,
+   "wall_s": 0.004,
+   "maxrss_kib": 14592,
    "outcome": "plan-found",
    "plan_length": 1
   },
   "synthetic/student-input/crlf-domain/mff": {
-   "wall_s": 0.002,
-   "maxrss_kib": 14720,
+   "wall_s": 0.003,
+   "maxrss_kib": 14592,
    "outcome": "usage-error",
    "plan_length": null
   },
   "synthetic/student-input/crlf-domain/mff-s0": {
-   "wall_s": 0.002,
-   "maxrss_kib": 14720,
+   "wall_s": 0.004,
+   "maxrss_kib": 14592,
    "outcome": "plan-found",
    "plan_length": 1
   },
   "synthetic/student-input/crlf-problem/ff": {
    "wall_s": 0.003,
-   "maxrss_kib": 14720,
+   "maxrss_kib": 14592,
    "outcome": "plan-found",
    "plan_length": 1
   },
   "synthetic/student-input/crlf-problem/mff": {
-   "wall_s": 0.001,
+   "wall_s": 0.003,
    "maxrss_kib": 14720,
    "outcome": "usage-error",
    "plan_length": null
   },
   "synthetic/student-input/crlf-problem/mff-s0": {
    "wall_s": 0.003,
-   "maxrss_kib": 14720,
+   "maxrss_kib": 14592,
    "outcome": "plan-found",
    "plan_length": 1
   },
   "synthetic/student-input/cwd-with-spaces-accents/ff": {
-   "wall_s": 0.002,
+   "wall_s": 0.004,
    "maxrss_kib": 14720,
    "outcome": "plan-found",
    "plan_length": 1
@@ -516,37 +516,37 @@
    "plan_length": null
   },
   "synthetic/student-input/cwd-with-spaces-accents/mff-s0": {
-   "wall_s": 0.002,
+   "wall_s": 0.007,
    "maxrss_kib": 14720,
    "outcome": "plan-found",
    "plan_length": 1
   },
   "synthetic/student-input/mixed-case/ff": {
-   "wall_s": 0.001,
-   "maxrss_kib": 14720,
+   "wall_s": 0.003,
+   "maxrss_kib": 14592,
    "outcome": "plan-found",
    "plan_length": 1
   },
   "synthetic/student-input/mixed-case/mff": {
-   "wall_s": 0.002,
-   "maxrss_kib": 14720,
+   "wall_s": 0.004,
+   "maxrss_kib": 14592,
    "outcome": "usage-error",
    "plan_length": null
   },
   "synthetic/student-input/mixed-case/mff-s0": {
-   "wall_s": 0.004,
-   "maxrss_kib": 14720,
+   "wall_s": 0.001,
+   "maxrss_kib": 14592,
    "outcome": "plan-found",
    "plan_length": 1
   },
   "synthetic/student-input/no-extension/ff": {
    "wall_s": 0.002,
-   "maxrss_kib": 14720,
+   "maxrss_kib": 14592,
    "outcome": "plan-found",
    "plan_length": 1
   },
   "synthetic/student-input/no-extension/mff": {
-   "wall_s": 0.002,
+   "wall_s": 0.003,
    "maxrss_kib": 14720,
    "outcome": "usage-error",
    "plan_length": null
@@ -558,19 +558,19 @@
    "plan_length": 1
   },
   "synthetic/student-input/no-final-newline/ff": {
-   "wall_s": 0.002,
+   "wall_s": 0.003,
    "maxrss_kib": 14720,
    "outcome": "plan-found",
    "plan_length": 1
   },
   "synthetic/student-input/no-final-newline/mff": {
-   "wall_s": 0.002,
+   "wall_s": 0.003,
    "maxrss_kib": 14720,
    "outcome": "usage-error",
    "plan_length": null
   },
   "synthetic/student-input/no-final-newline/mff-s0": {
-   "wall_s": 0.003,
+   "wall_s": 0.002,
    "maxrss_kib": 14720,
    "outcome": "plan-found",
    "plan_length": 1
@@ -582,7 +582,7 @@
    "plan_length": 1
   },
   "synthetic/student-input/path-with-spaces-accents/mff": {
-   "wall_s": 0.001,
+   "wall_s": 0.004,
    "maxrss_kib": 14720,
    "outcome": "usage-error",
    "plan_length": null
@@ -594,104 +594,104 @@
    "plan_length": 1
   },
   "synthetic/student-input/utf8-comments/ff": {
-   "wall_s": 0.001,
-   "maxrss_kib": 14720,
+   "wall_s": 0.002,
+   "maxrss_kib": 14592,
    "outcome": "plan-found",
    "plan_length": 1
   },
   "synthetic/student-input/utf8-comments/mff": {
    "wall_s": 0.002,
-   "maxrss_kib": 14720,
+   "maxrss_kib": 14592,
    "outcome": "usage-error",
    "plan_length": null
   },
   "synthetic/student-input/utf8-comments/mff-s0": {
    "wall_s": 0.002,
-   "maxrss_kib": 14720,
+   "maxrss_kib": 14592,
    "outcome": "plan-found",
    "plan_length": 1
   },
   "synthetic/unsolvable/exhaustive-wastar/mff-s3": {
-   "wall_s": 10.052,
-   "maxrss_kib": 15744,
+   "wall_s": 10.054,
+   "maxrss_kib": 15872,
    "outcome": "timeout",
    "plan_length": null
   },
   "synthetic/unsolvable/exhaustive/ff": {
-   "wall_s": 0.002,
-   "maxrss_kib": 14464,
+   "wall_s": 0.003,
+   "maxrss_kib": 14336,
    "outcome": "proven-unsolvable",
    "plan_length": null
   },
   "synthetic/unsolvable/exhaustive/mff": {
-   "wall_s": 0.002,
-   "maxrss_kib": 14464,
+   "wall_s": 0.003,
+   "maxrss_kib": 14336,
    "outcome": "usage-error",
    "plan_length": null
   },
   "synthetic/unsolvable/exhaustive/mff-s0": {
-   "wall_s": 0.002,
-   "maxrss_kib": 14464,
+   "wall_s": 0.004,
+   "maxrss_kib": 14336,
    "outcome": "proven-unsolvable",
    "plan_length": null
   },
   "synthetic/unsolvable/exhaustive/mff-s1": {
-   "wall_s": 0.002,
-   "maxrss_kib": 14464,
+   "wall_s": 0.003,
+   "maxrss_kib": 14336,
    "outcome": "proven-unsolvable",
    "plan_length": null
   },
   "synthetic/unsolvable/exhaustive/mff-s2": {
-   "wall_s": 0.002,
-   "maxrss_kib": 14464,
+   "wall_s": 0.001,
+   "maxrss_kib": 14336,
    "outcome": "proven-unsolvable",
    "plan_length": null
   },
   "synthetic/unsolvable/exhaustive/mff-s4": {
-   "wall_s": 0.002,
-   "maxrss_kib": 14464,
+   "wall_s": 0.003,
+   "maxrss_kib": 14336,
    "outcome": "usage-error",
    "plan_length": null
   },
   "synthetic/unsolvable/goal-false/ff": {
    "wall_s": 0.003,
-   "maxrss_kib": 14208,
+   "maxrss_kib": 14080,
    "outcome": "proven-unsolvable",
    "plan_length": null
   },
   "synthetic/unsolvable/goal-false/mff": {
    "wall_s": 0.004,
-   "maxrss_kib": 14464,
+   "maxrss_kib": 14080,
    "outcome": "proven-unsolvable",
    "plan_length": null
   },
   "synthetic/unsolvable/goal-false/mff-s0": {
    "wall_s": 0.003,
-   "maxrss_kib": 14208,
+   "maxrss_kib": 14080,
    "outcome": "proven-unsolvable",
    "plan_length": null
   },
   "synthetic/unsolvable/goal-false/mff-s1": {
-   "wall_s": 0.003,
-   "maxrss_kib": 14464,
+   "wall_s": 0.002,
+   "maxrss_kib": 14080,
    "outcome": "proven-unsolvable",
    "plan_length": null
   },
   "synthetic/unsolvable/goal-false/mff-s2": {
-   "wall_s": 0.001,
-   "maxrss_kib": 14464,
+   "wall_s": 0.002,
+   "maxrss_kib": 14336,
    "outcome": "proven-unsolvable",
    "plan_length": null
   },
   "synthetic/unsolvable/goal-false/mff-s3": {
    "wall_s": 0.002,
-   "maxrss_kib": 14464,
+   "maxrss_kib": 14336,
    "outcome": "proven-unsolvable",
    "plan_length": null
   },
   "synthetic/unsolvable/goal-false/mff-s4": {
    "wall_s": 0.002,
-   "maxrss_kib": 14464,
+   "maxrss_kib": 14336,
    "outcome": "proven-unsolvable",
    "plan_length": null
   }

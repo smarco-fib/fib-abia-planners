@@ -2,9 +2,9 @@
  "command": "metric-ff -s 4 -o domain.pddl -f instances/instance-7.pddl",
  "cwd": "corpus/ipc/ipc-2002/satellite-numeric-hard-automatic",
  "exit_code": 1,
- "outcome": "parse-error",
+ "outcome": "usage-error",
  "plan": null,
- "stdout": "\nff: parsing domain file\ndomain 'SATELLITE' defined\n ... done.\nff: parsing problem file\nproblem 'STRIPS-SAT-X-1' defined\n ... done.\n\n\n\nunknown optimization method Pç÷G¯]. check input files\n\n",
+ "stdout": "\nff: parsing domain file\ndomain 'SATELLITE' defined\n ... done.\nff: parsing problem file\nproblem 'STRIPS-SAT-X-1' defined\n ... done.\n\n\ntranslating negated cond for predicate =\nwarning: change on metric in wrong direction. no optimization done.\nwarning: numeric precondition. turning cost-minimizing relaxed plans OFF.\n\nff: search configuration is A*epsilon with weight 5.\nError! Optimization criterion not established.\nA*epsilon not defined.\n\n",
  "stderr": "",
- "reason": "check input files"
+ "reason": "Optimization criterion not established"
 }

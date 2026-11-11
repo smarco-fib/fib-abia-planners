@@ -1,10 +1,10 @@
 {
  "command": "metric-ff -o domain.pddl -f instances/instance-16.pddl",
  "cwd": "corpus/ipc/ipc-2002/satellite-numeric-hard-automatic",
- "exit_code": -11,
- "outcome": "crash",
+ "exit_code": 1,
+ "outcome": "usage-error",
  "plan": null,
- "stdout": "",
+ "stdout": "\nff: parsing domain file\ndomain 'SATELLITE' defined\n ... done.\nff: parsing problem file\nproblem 'STRIPS-SAT-X-1' defined\n ... done.\n\n\ntranslating negated cond for predicate =\nwarning: change on metric in wrong direction. no optimization done.\nwarning: numeric precondition. turning cost-minimizing relaxed plans OFF.\n\nff: search configuration is Enforced Hill-Climbing, then A*epsilon with weight 5.\nError! Optimization criterion not established.\nA*epsilon not defined.\n\n",
  "stderr": "",
- "reason": "signal 11"
+ "reason": "Optimization criterion not established"
 }

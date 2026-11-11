@@ -1,10 +1,10 @@
 {
  "command": "metric-ff -o domain.pddl -f instances/instance-9.pddl",
  "cwd": "corpus/ipc/ipc-1998/movie-round-1-adl",
- "exit_code": -11,
- "outcome": "crash",
+ "exit_code": 1,
+ "outcome": "usage-error",
  "plan": null,
- "stdout": "",
+ "stdout": "\nff: parsing domain file\ndomain 'MOVIE-DOM' defined\n ... done.\nff: parsing problem file\nproblem 'MOVIE-X-9' defined\n ... done.\n\n\nno metric specified.\n\nff: search configuration is Enforced Hill-Climbing, then A*epsilon with weight 5.\nError! Optimization criterion not established.\nA*epsilon not defined.\n\n",
  "stderr": "",
- "reason": "signal 11"
+ "reason": "Optimization criterion not established"
 }

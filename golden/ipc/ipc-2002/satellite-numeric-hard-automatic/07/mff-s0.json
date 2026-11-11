@@ -1,10 +1,13 @@
 {
  "command": "metric-ff -s 0 -o domain.pddl -f instances/instance-7.pddl",
  "cwd": "corpus/ipc/ipc-2002/satellite-numeric-hard-automatic",
- "exit_code": 1,
- "outcome": "parse-error",
- "plan": null,
- "stdout": "\nff: parsing domain file\ndomain 'SATELLITE' defined\n ... done.\nff: parsing problem file\nproblem 'STRIPS-SAT-X-1' defined\n ... done.\n\n\n\nunknown optimization method PwW­X. check input files\n\n",
+ "exit_code": 0,
+ "outcome": "plan-found",
+ "plan": [
+  "TURN_TO SATELLITE1 STAR1 GROUNDSTATION0",
+  "TURN_TO SATELLITE2 PHENOMENON5 STAR6"
+ ],
+ "stdout": "\nff: parsing domain file\ndomain 'SATELLITE' defined\n ... done.\nff: parsing problem file\nproblem 'STRIPS-SAT-X-1' defined\n ... done.\n\n\ntranslating negated cond for predicate =\nwarning: change on metric in wrong direction. no optimization done.\n\nff: search configuration is Enforced Hill-Climbing, if that fails then best-first search.\nMetric is plan length.\nNO COST MINIMIZATION (and no cost-minimizing relaxed plans).\n\nCueing down from goal distance:    2 into depth [1]\n                                   1            [1]\n                                   0            \n\nff: found legal plan as follows\nstep    0: TURN_TO SATELLITE1 STAR1 GROUNDSTATION0\n        1: TURN_TO SATELLITE2 PHENOMENON5 STAR6\n\ntime spent:    T.TT seconds instantiating 756 easy, 0 hard action templates\n               T.TT seconds reachability analysis, yielding 116 facts and 671 actions\n               T.TT seconds creating final representation with 116 relevant facts, 11 relevant fluents\n               T.TT seconds computing LNF\n               T.TT seconds building connectivity graph\n               T.TT seconds searching, evaluating 3 states, to a max depth of 1\n               T.TT seconds total time\n\n",
  "stderr": "",
- "reason": "check input files"
+ "reason": "ff: found legal plan as follows"
 }

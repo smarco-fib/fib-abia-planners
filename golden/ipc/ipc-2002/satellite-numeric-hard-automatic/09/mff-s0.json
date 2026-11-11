@@ -1,10 +1,14 @@
 {
  "command": "metric-ff -s 0 -o domain.pddl -f instances/instance-9.pddl",
  "cwd": "corpus/ipc/ipc-2002/satellite-numeric-hard-automatic",
- "exit_code": 1,
- "outcome": "parse-error",
- "plan": null,
- "stdout": "\nff: parsing domain file\ndomain 'SATELLITE' defined\n ... done.\nff: parsing problem file\nproblem 'STRIPS-SAT-X-1' defined\n ... done.\n\n\n\nunknown optimization method P÷U0g]. check input files\n\n",
+ "exit_code": 0,
+ "outcome": "plan-found",
+ "plan": [
+  "TURN_TO SATELLITE0 PHENOMENON7 STAR0",
+  "TURN_TO SATELLITE3 STAR9 PLANET10",
+  "TURN_TO SATELLITE4 PLANET5 STAR9"
+ ],
+ "stdout": "\nff: parsing domain file\ndomain 'SATELLITE' defined\n ... done.\nff: parsing problem file\nproblem 'STRIPS-SAT-X-1' defined\n ... done.\n\n\ntranslating negated cond for predicate =\nwarning: change on metric in wrong direction. no optimization done.\n\nff: search configuration is Enforced Hill-Climbing, if that fails then best-first search.\nMetric is plan length.\nNO COST MINIMIZATION (and no cost-minimizing relaxed plans).\n\nCueing down from goal distance:    3 into depth [1]\n                                   2            [1]\n                                   1            [1]\n                                   0            \n\nff: found legal plan as follows\nstep    0: TURN_TO SATELLITE0 PHENOMENON7 STAR0\n        1: TURN_TO SATELLITE3 STAR9 PLANET10\n        2: TURN_TO SATELLITE4 PLANET5 STAR9\n\ntime spent:    T.TT seconds instantiating 1473 easy, 0 hard action templates\n               T.TT seconds reachability analysis, yielding 177 facts and 1343 actions\n               T.TT seconds creating final representation with 177 relevant facts, 13 relevant fluents\n               T.TT seconds computing LNF\n               T.TT seconds building connectivity graph\n               T.TT seconds searching, evaluating 4 states, to a max depth of 1\n               T.TT seconds total time\n\n",
  "stderr": "",
- "reason": "check input files"
+ "reason": "ff: found legal plan as follows"
 }

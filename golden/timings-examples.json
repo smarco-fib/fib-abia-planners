@@ -6,301 +6,301 @@
  },
  "runs": {
   "examples/ascensor/miconic01/ff": {
-   "wall_s": 0.006,
+   "wall_s": 0.003,
    "maxrss_kib": 14464,
    "outcome": "plan-found",
    "plan_length": 11
   },
   "examples/ascensor/miconic01/mff": {
-   "wall_s": 0.01,
-   "maxrss_kib": 14464,
+   "wall_s": 0.001,
+   "maxrss_kib": 14592,
    "outcome": "usage-error",
    "plan_length": null
   },
   "examples/ascensor/miconic01/mff-s0": {
-   "wall_s": 0.012,
+   "wall_s": 0.005,
    "maxrss_kib": 14464,
    "outcome": "plan-found",
    "plan_length": 11
   },
   "examples/ascensor/miconic02/ff": {
-   "wall_s": 0.005,
-   "maxrss_kib": 14464,
+   "wall_s": 0.002,
+   "maxrss_kib": 14720,
    "outcome": "plan-found",
    "plan_length": 16
   },
   "examples/ascensor/miconic02/mff": {
-   "wall_s": 0.007,
-   "maxrss_kib": 14464,
+   "wall_s": 0.003,
+   "maxrss_kib": 14720,
    "outcome": "usage-error",
    "plan_length": null
   },
   "examples/ascensor/miconic02/mff-s0": {
    "wall_s": 0.006,
-   "maxrss_kib": 14464,
+   "maxrss_kib": 14720,
    "outcome": "plan-found",
    "plan_length": 16
   },
   "examples/ascensor/miconic03/ff": {
-   "wall_s": 0.01,
-   "maxrss_kib": 14464,
+   "wall_s": 0.003,
+   "maxrss_kib": 14720,
    "outcome": "plan-found",
    "plan_length": 21
   },
   "examples/ascensor/miconic03/mff": {
-   "wall_s": 0.008,
-   "maxrss_kib": 14464,
+   "wall_s": 0.003,
+   "maxrss_kib": 14720,
    "outcome": "usage-error",
    "plan_length": null
   },
   "examples/ascensor/miconic03/mff-s0": {
    "wall_s": 0.005,
-   "maxrss_kib": 14464,
+   "maxrss_kib": 14720,
    "outcome": "plan-found",
    "plan_length": 21
   },
   "examples/ascensor/miconic04/ff": {
-   "wall_s": 0.013,
-   "maxrss_kib": 14464,
+   "wall_s": 0.004,
+   "maxrss_kib": 14720,
    "outcome": "plan-found",
    "plan_length": 34
   },
   "examples/ascensor/miconic04/mff": {
-   "wall_s": 0.009,
-   "maxrss_kib": 14592,
+   "wall_s": 0.004,
+   "maxrss_kib": 14720,
    "outcome": "usage-error",
    "plan_length": null
   },
   "examples/ascensor/miconic04/mff-s0": {
-   "wall_s": 0.012,
-   "maxrss_kib": 14464,
+   "wall_s": 0.005,
+   "maxrss_kib": 14720,
    "outcome": "plan-found",
    "plan_length": 34
   },
   "examples/ascensor/miconic05/ff": {
-   "wall_s": 0.03,
-   "maxrss_kib": 14592,
+   "wall_s": 0.009,
+   "maxrss_kib": 14720,
    "outcome": "plan-found",
    "plan_length": 46
   },
   "examples/ascensor/miconic05/mff": {
-   "wall_s": 0.021,
-   "maxrss_kib": 14592,
+   "wall_s": 0.008,
+   "maxrss_kib": 14720,
    "outcome": "usage-error",
    "plan_length": null
   },
   "examples/ascensor/miconic05/mff-s0": {
-   "wall_s": 0.043,
-   "maxrss_kib": 14592,
+   "wall_s": 0.022,
+   "maxrss_kib": 14720,
    "outcome": "plan-found",
    "plan_length": 47
   },
   "examples/hanoi/hanoi-3/ff": {
-   "wall_s": 0.01,
-   "maxrss_kib": 14080,
+   "wall_s": 0.004,
+   "maxrss_kib": 13824,
    "outcome": "plan-found",
    "plan_length": 7
   },
   "examples/hanoi/hanoi-3/mff": {
-   "wall_s": 0.005,
-   "maxrss_kib": 14080,
+   "wall_s": 0.003,
+   "maxrss_kib": 13824,
    "outcome": "usage-error",
    "plan_length": null
   },
   "examples/hanoi/hanoi-3/mff-s0": {
    "wall_s": 0.003,
-   "maxrss_kib": 14080,
+   "maxrss_kib": 13952,
    "outcome": "plan-found",
    "plan_length": 7
   },
   "examples/hanoi/hanoi-4/ff": {
-   "wall_s": 0.011,
-   "maxrss_kib": 14336,
+   "wall_s": 0.003,
+   "maxrss_kib": 13952,
    "outcome": "plan-found",
    "plan_length": 15
   },
   "examples/hanoi/hanoi-4/mff": {
-   "wall_s": 0.01,
-   "maxrss_kib": 14336,
+   "wall_s": 0.003,
+   "maxrss_kib": 14208,
    "outcome": "usage-error",
    "plan_length": null
   },
   "examples/hanoi/hanoi-4/mff-s0": {
-   "wall_s": 0.01,
-   "maxrss_kib": 14336,
+   "wall_s": 0.003,
+   "maxrss_kib": 14208,
    "outcome": "plan-found",
    "plan_length": 15
   },
   "examples/hanoi/hanoi-5/ff": {
-   "wall_s": 0.029,
+   "wall_s": 0.006,
    "maxrss_kib": 14336,
    "outcome": "plan-found",
    "plan_length": 31
   },
   "examples/hanoi/hanoi-5/mff": {
-   "wall_s": 0.021,
+   "wall_s": 0.004,
    "maxrss_kib": 14336,
    "outcome": "usage-error",
    "plan_length": null
   },
   "examples/hanoi/hanoi-5/mff-s0": {
-   "wall_s": 0.029,
+   "wall_s": 0.008,
    "maxrss_kib": 14336,
    "outcome": "plan-found",
    "plan_length": 31
   },
   "examples/hanoi/hanoi-6/ff": {
-   "wall_s": 0.021,
+   "wall_s": 0.011,
    "maxrss_kib": 14336,
    "outcome": "plan-found",
    "plan_length": 63
   },
   "examples/hanoi/hanoi-6/mff": {
-   "wall_s": 0.013,
+   "wall_s": 0.003,
    "maxrss_kib": 14336,
    "outcome": "usage-error",
    "plan_length": null
   },
   "examples/hanoi/hanoi-6/mff-s0": {
-   "wall_s": 0.017,
+   "wall_s": 0.009,
    "maxrss_kib": 14336,
    "outcome": "plan-found",
    "plan_length": 64
   },
   "examples/hanoi/hanoi-7/ff": {
-   "wall_s": 0.024,
+   "wall_s": 0.011,
    "maxrss_kib": 14336,
    "outcome": "plan-found",
    "plan_length": 127
   },
   "examples/hanoi/hanoi-7/mff": {
-   "wall_s": 0.012,
+   "wall_s": 0.004,
    "maxrss_kib": 14336,
    "outcome": "usage-error",
    "plan_length": null
   },
   "examples/hanoi/hanoi-7/mff-s0": {
-   "wall_s": 0.036,
+   "wall_s": 0.02,
    "maxrss_kib": 14336,
    "outcome": "plan-found",
    "plan_length": 127
   },
   "examples/hanoi/hanoi-8/ff": {
-   "wall_s": 0.071,
-   "maxrss_kib": 14336,
+   "wall_s": 0.036,
+   "maxrss_kib": 14464,
    "outcome": "plan-found",
    "plan_length": 255
   },
   "examples/hanoi/hanoi-8/mff": {
-   "wall_s": 0.016,
+   "wall_s": 0.005,
    "maxrss_kib": 14464,
    "outcome": "usage-error",
    "plan_length": null
   },
   "examples/hanoi/hanoi-8/mff-s0": {
-   "wall_s": 0.152,
-   "maxrss_kib": 14336,
+   "wall_s": 0.081,
+   "maxrss_kib": 14464,
    "outcome": "plan-found",
    "plan_length": 261
   },
   "examples/logistics/log-3-2/ff": {
-   "wall_s": 0.006,
+   "wall_s": 0.002,
    "maxrss_kib": 14720,
    "outcome": "plan-found",
    "plan_length": 18
   },
   "examples/logistics/log-3-2/mff": {
-   "wall_s": 0.005,
+   "wall_s": 0.002,
    "maxrss_kib": 14720,
    "outcome": "usage-error",
    "plan_length": null
   },
   "examples/logistics/log-3-2/mff-s0": {
-   "wall_s": 0.006,
+   "wall_s": 0.004,
    "maxrss_kib": 14720,
    "outcome": "plan-found",
    "plan_length": 18
   },
   "examples/n-puzzle/eight01/ff": {
-   "wall_s": 0.016,
+   "wall_s": 0.007,
    "maxrss_kib": 14720,
    "outcome": "plan-found",
    "plan_length": 63
   },
   "examples/n-puzzle/eight01/mff": {
-   "wall_s": 0.009,
+   "wall_s": 0.004,
    "maxrss_kib": 14720,
    "outcome": "usage-error",
    "plan_length": null
   },
   "examples/n-puzzle/eight01/mff-s0": {
-   "wall_s": 0.044,
+   "wall_s": 0.029,
    "maxrss_kib": 14720,
    "outcome": "plan-found",
    "plan_length": 57
   },
   "examples/rovers/pfile01/ff": {
-   "wall_s": 0.005,
+   "wall_s": 0.003,
    "maxrss_kib": 14720,
    "outcome": "plan-found",
    "plan_length": 10
   },
   "examples/rovers/pfile01/mff": {
-   "wall_s": 0.004,
+   "wall_s": 0.005,
    "maxrss_kib": 14720,
    "outcome": "usage-error",
    "plan_length": null
   },
   "examples/rovers/pfile01/mff-s0": {
-   "wall_s": 0.008,
+   "wall_s": 0.004,
    "maxrss_kib": 14720,
    "outcome": "plan-found",
    "plan_length": 10
   },
   "examples/rovers/pfile02/ff": {
-   "wall_s": 0.007,
+   "wall_s": 0.002,
    "maxrss_kib": 14720,
    "outcome": "plan-found",
    "plan_length": 8
   },
   "examples/rovers/pfile02/mff": {
-   "wall_s": 0.007,
+   "wall_s": 0.002,
    "maxrss_kib": 14720,
    "outcome": "usage-error",
    "plan_length": null
   },
   "examples/rovers/pfile02/mff-s0": {
-   "wall_s": 0.004,
+   "wall_s": 0.006,
    "maxrss_kib": 14720,
    "outcome": "plan-found",
    "plan_length": 8
   },
   "examples/rovers/pfile03/ff": {
-   "wall_s": 0.006,
+   "wall_s": 0.003,
    "maxrss_kib": 14720,
    "outcome": "plan-found",
    "plan_length": 13
   },
   "examples/rovers/pfile03/mff": {
-   "wall_s": 0.016,
+   "wall_s": 0.005,
    "maxrss_kib": 14720,
    "outcome": "usage-error",
    "plan_length": null
   },
   "examples/rovers/pfile03/mff-s0": {
-   "wall_s": 0.009,
+   "wall_s": 0.006,
    "maxrss_kib": 14720,
    "outcome": "plan-found",
    "plan_length": 11
   },
   "examples/rovers/pfile04/ff": {
-   "wall_s": 0.01,
+   "wall_s": 0.003,
    "maxrss_kib": 14720,
    "outcome": "plan-found",
    "plan_length": 8
   },
   "examples/rovers/pfile04/mff": {
-   "wall_s": 0.01,
+   "wall_s": 0.005,
    "maxrss_kib": 14720,
    "outcome": "usage-error",
    "plan_length": null
@@ -312,25 +312,25 @@
    "plan_length": 8
   },
   "examples/rovers/pfile05/ff": {
-   "wall_s": 0.007,
+   "wall_s": 0.004,
    "maxrss_kib": 14720,
    "outcome": "plan-found",
    "plan_length": 22
   },
   "examples/rovers/pfile05/mff": {
-   "wall_s": 0.008,
+   "wall_s": 0.004,
    "maxrss_kib": 14720,
    "outcome": "usage-error",
    "plan_length": null
   },
   "examples/rovers/pfile05/mff-s0": {
-   "wall_s": 0.007,
+   "wall_s": 0.004,
    "maxrss_kib": 14720,
    "outcome": "plan-found",
    "plan_length": 23
   },
   "examples/rovers/pfile06/ff": {
-   "wall_s": 0.007,
+   "wall_s": 0.005,
    "maxrss_kib": 14720,
    "outcome": "plan-found",
    "plan_length": 38
@@ -342,25 +342,25 @@
    "plan_length": null
   },
   "examples/rovers/pfile06/mff-s0": {
-   "wall_s": 0.017,
+   "wall_s": 0.009,
    "maxrss_kib": 14720,
    "outcome": "plan-found",
    "plan_length": 38
   },
   "examples/rovers/pfile07/ff": {
-   "wall_s": 0.009,
+   "wall_s": 0.003,
    "maxrss_kib": 14720,
    "outcome": "plan-found",
    "plan_length": 18
   },
   "examples/rovers/pfile07/mff": {
-   "wall_s": 0.006,
+   "wall_s": 0.003,
    "maxrss_kib": 14720,
    "outcome": "usage-error",
    "plan_length": null
   },
   "examples/rovers/pfile07/mff-s0": {
-   "wall_s": 0.005,
+   "wall_s": 0.006,
    "maxrss_kib": 14720,
    "outcome": "plan-found",
    "plan_length": 18
@@ -372,181 +372,181 @@
    "plan_length": 28
   },
   "examples/rovers/pfile08/mff": {
-   "wall_s": 0.005,
+   "wall_s": 0.004,
    "maxrss_kib": 14720,
    "outcome": "usage-error",
    "plan_length": null
   },
   "examples/rovers/pfile08/mff-s0": {
-   "wall_s": 0.011,
+   "wall_s": 0.008,
    "maxrss_kib": 14720,
    "outcome": "plan-found",
    "plan_length": 27
   },
   "examples/rovers/pfile09/ff": {
-   "wall_s": 0.008,
+   "wall_s": 0.007,
    "maxrss_kib": 14720,
    "outcome": "plan-found",
    "plan_length": 33
   },
   "examples/rovers/pfile09/mff": {
-   "wall_s": 0.008,
-   "maxrss_kib": 14720,
-   "outcome": "usage-error",
-   "plan_length": null
-  },
-  "examples/rovers/pfile09/mff-s0": {
-   "wall_s": 0.014,
-   "maxrss_kib": 14720,
-   "outcome": "plan-found",
-   "plan_length": 34
-  },
-  "examples/rovers/pfile10/ff": {
-   "wall_s": 0.009,
-   "maxrss_kib": 14720,
-   "outcome": "plan-found",
-   "plan_length": 37
-  },
-  "examples/rovers/pfile10/mff": {
-   "wall_s": 0.008,
-   "maxrss_kib": 14720,
-   "outcome": "usage-error",
-   "plan_length": null
-  },
-  "examples/rovers/pfile10/mff-s0": {
-   "wall_s": 0.021,
-   "maxrss_kib": 14720,
-   "outcome": "plan-found",
-   "plan_length": 38
-  },
-  "examples/rovers/pfile11/ff": {
-   "wall_s": 0.01,
-   "maxrss_kib": 14720,
-   "outcome": "plan-found",
-   "plan_length": 37
-  },
-  "examples/rovers/pfile11/mff": {
-   "wall_s": 0.009,
-   "maxrss_kib": 14720,
-   "outcome": "usage-error",
-   "plan_length": null
-  },
-  "examples/rovers/pfile11/mff-s0": {
-   "wall_s": 0.016,
-   "maxrss_kib": 14720,
-   "outcome": "plan-found",
-   "plan_length": 38
-  },
-  "examples/rovers/pfile12/ff": {
-   "wall_s": 0.007,
-   "maxrss_kib": 14720,
-   "outcome": "plan-found",
-   "plan_length": 19
-  },
-  "examples/rovers/pfile12/mff": {
    "wall_s": 0.005,
    "maxrss_kib": 14720,
    "outcome": "usage-error",
    "plan_length": null
   },
+  "examples/rovers/pfile09/mff-s0": {
+   "wall_s": 0.008,
+   "maxrss_kib": 14720,
+   "outcome": "plan-found",
+   "plan_length": 34
+  },
+  "examples/rovers/pfile10/ff": {
+   "wall_s": 0.008,
+   "maxrss_kib": 14720,
+   "outcome": "plan-found",
+   "plan_length": 37
+  },
+  "examples/rovers/pfile10/mff": {
+   "wall_s": 0.004,
+   "maxrss_kib": 14720,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "examples/rovers/pfile10/mff-s0": {
+   "wall_s": 0.014,
+   "maxrss_kib": 14720,
+   "outcome": "plan-found",
+   "plan_length": 38
+  },
+  "examples/rovers/pfile11/ff": {
+   "wall_s": 0.009,
+   "maxrss_kib": 14720,
+   "outcome": "plan-found",
+   "plan_length": 37
+  },
+  "examples/rovers/pfile11/mff": {
+   "wall_s": 0.005,
+   "maxrss_kib": 14720,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
+  "examples/rovers/pfile11/mff-s0": {
+   "wall_s": 0.014,
+   "maxrss_kib": 14720,
+   "outcome": "plan-found",
+   "plan_length": 38
+  },
+  "examples/rovers/pfile12/ff": {
+   "wall_s": 0.006,
+   "maxrss_kib": 14720,
+   "outcome": "plan-found",
+   "plan_length": 19
+  },
+  "examples/rovers/pfile12/mff": {
+   "wall_s": 0.004,
+   "maxrss_kib": 14720,
+   "outcome": "usage-error",
+   "plan_length": null
+  },
   "examples/rovers/pfile12/mff-s0": {
-   "wall_s": 0.016,
+   "wall_s": 0.006,
    "maxrss_kib": 14720,
    "outcome": "plan-found",
    "plan_length": 21
   },
   "examples/rovers/pfile13/ff": {
-   "wall_s": 0.017,
+   "wall_s": 0.012,
    "maxrss_kib": 14720,
    "outcome": "plan-found",
    "plan_length": 46
   },
   "examples/rovers/pfile13/mff": {
-   "wall_s": 0.01,
+   "wall_s": 0.012,
    "maxrss_kib": 14720,
    "outcome": "usage-error",
    "plan_length": null
   },
   "examples/rovers/pfile13/mff-s0": {
-   "wall_s": 0.063,
+   "wall_s": 0.044,
    "maxrss_kib": 14720,
    "outcome": "plan-found",
    "plan_length": 47
   },
   "examples/rovers/pfile14/ff": {
-   "wall_s": 0.009,
+   "wall_s": 0.006,
    "maxrss_kib": 14720,
    "outcome": "plan-found",
    "plan_length": 28
   },
   "examples/rovers/pfile14/mff": {
-   "wall_s": 0.009,
+   "wall_s": 0.006,
    "maxrss_kib": 14720,
    "outcome": "usage-error",
    "plan_length": null
   },
   "examples/rovers/pfile14/mff-s0": {
-   "wall_s": 0.025,
+   "wall_s": 0.01,
    "maxrss_kib": 14720,
    "outcome": "plan-found",
    "plan_length": 32
   },
   "examples/rovers/pfile15/ff": {
-   "wall_s": 0.016,
+   "wall_s": 0.01,
    "maxrss_kib": 14720,
    "outcome": "plan-found",
    "plan_length": 42
   },
   "examples/rovers/pfile15/mff": {
-   "wall_s": 0.009,
+   "wall_s": 0.012,
    "maxrss_kib": 14720,
    "outcome": "usage-error",
    "plan_length": null
   },
   "examples/rovers/pfile15/mff-s0": {
-   "wall_s": 0.029,
+   "wall_s": 0.024,
    "maxrss_kib": 14720,
    "outcome": "plan-found",
    "plan_length": 41
   },
   "examples/rovers/pfile16/ff": {
-   "wall_s": 0.02,
+   "wall_s": 0.018,
    "maxrss_kib": 14720,
    "outcome": "plan-found",
    "plan_length": 46
   },
   "examples/rovers/pfile16/mff": {
-   "wall_s": 0.009,
+   "wall_s": 0.006,
    "maxrss_kib": 14720,
    "outcome": "usage-error",
    "plan_length": null
   },
   "examples/rovers/pfile16/mff-s0": {
-   "wall_s": 0.041,
+   "wall_s": 0.039,
    "maxrss_kib": 14720,
    "outcome": "plan-found",
    "plan_length": 45
   },
   "examples/rovers/pfile17/ff": {
-   "wall_s": 0.017,
+   "wall_s": 0.015,
    "maxrss_kib": 14720,
    "outcome": "plan-found",
    "plan_length": 49
   },
   "examples/rovers/pfile17/mff": {
-   "wall_s": 0.01,
+   "wall_s": 0.009,
    "maxrss_kib": 14720,
    "outcome": "usage-error",
    "plan_length": null
   },
   "examples/rovers/pfile17/mff-s0": {
-   "wall_s": 0.064,
+   "wall_s": 0.051,
    "maxrss_kib": 14720,
    "outcome": "plan-found",
    "plan_length": 50
   },
   "examples/rovers/pfile18/ff": {
-   "wall_s": 0.026,
+   "wall_s": 0.023,
    "maxrss_kib": 14720,
    "outcome": "plan-found",
    "plan_length": 42
@@ -558,55 +558,55 @@
    "plan_length": null
   },
   "examples/rovers/pfile18/mff-s0": {
-   "wall_s": 0.093,
+   "wall_s": 0.07,
    "maxrss_kib": 14720,
    "outcome": "plan-found",
    "plan_length": 41
   },
   "examples/rovers/pfile19/ff": {
-   "wall_s": 0.119,
+   "wall_s": 0.092,
    "maxrss_kib": 14720,
    "outcome": "plan-found",
    "plan_length": 74
   },
   "examples/rovers/pfile19/mff": {
-   "wall_s": 0.021,
+   "wall_s": 0.018,
    "maxrss_kib": 18304,
    "outcome": "usage-error",
    "plan_length": null
   },
   "examples/rovers/pfile19/mff-s0": {
-   "wall_s": 0.464,
-   "maxrss_kib": 20864,
+   "wall_s": 0.417,
+   "maxrss_kib": 20736,
    "outcome": "plan-found",
    "plan_length": 72
   },
   "examples/rovers/pfile20/ff": {
-   "wall_s": 0.291,
+   "wall_s": 0.231,
    "maxrss_kib": 14720,
    "outcome": "plan-found",
    "plan_length": 96
   },
   "examples/rovers/pfile20/mff": {
-   "wall_s": 0.03,
-   "maxrss_kib": 24812,
+   "wall_s": 0.023,
+   "maxrss_kib": 24800,
    "outcome": "usage-error",
    "plan_length": null
   },
   "examples/rovers/pfile20/mff-s0": {
-   "wall_s": 0.712,
-   "maxrss_kib": 28012,
+   "wall_s": 0.51,
+   "maxrss_kib": 28008,
    "outcome": "plan-found",
    "plan_length": 94
   },
   "examples/tsp/tsp-10/ff": {
-   "wall_s": 0.005,
+   "wall_s": 0.003,
    "maxrss_kib": 14720,
    "outcome": "plan-found",
    "plan_length": 10
   },
   "examples/tsp/tsp-10/mff": {
-   "wall_s": 0.003,
+   "wall_s": 0.002,
    "maxrss_kib": 14720,
    "outcome": "usage-error",
    "plan_length": null

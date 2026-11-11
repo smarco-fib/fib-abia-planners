@@ -1,10 +1,10 @@
 {
  "command": "metric-ff -s 0 -o domain.pddl -f instances/instance-19.pddl",
  "cwd": "corpus/ipc/ipc-2002/satellite-numeric-hard-automatic",
- "exit_code": -11,
- "outcome": "crash",
- "plan": null,
- "stdout": "",
+ "exit_code": 0,
+ "outcome": "plan-found",
+ "plan": [],
+ "stdout": "\nff: parsing domain file\ndomain 'SATELLITE' defined\n ... done.\nff: parsing problem file\nproblem 'STRIPS-SAT-X-1' defined\n ... done.\n\n\ntranslating negated cond for predicate =\nwarning: change on metric in wrong direction. no optimization done.\n\nff: search configuration is Enforced Hill-Climbing, if that fails then best-first search.\nMetric is plan length.\nNO COST MINIMIZATION (and no cost-minimizing relaxed plans).\n\nff: found legal plan as follows\nstep \n\ntime spent:    T.TT seconds instantiating 6905 easy, 0 hard action templates\n               T.TT seconds reachability analysis, yielding 385 facts and 6775 actions\n               T.TT seconds creating final representation with 385 relevant facts, 13 relevant fluents\n               T.TT seconds computing LNF\n               T.TT seconds building connectivity graph\n               T.TT seconds searching, evaluating 1 states, to a max depth of 0\n               T.TT seconds total time\n\n",
  "stderr": "",
- "reason": "signal 11"
+ "reason": "ff: found legal plan as follows"
 }
