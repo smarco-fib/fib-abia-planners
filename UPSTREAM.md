@@ -21,6 +21,20 @@ Files without a licence header: FF `*.l`, `*.y`, `makefile`, `README`; Metric-FF
 - FF-v2.3 `makefile` contains a 2016 change by rpg (`-ansi` → `-std=gnu99`).
 - The extracted trees were committed verbatim in `src/ff/` and `src/metric-ff/` (commit "Import pristine upstream"). File modes as in the tarballs.
 
+## Generated parsers
+
+The flex/bison output is committed so that a normal build needs only CMake and a
+C compiler: `src/{ff,metric-ff}/scan-fct_pddl.tab.c`, `scan-ops_pddl.tab.c`,
+`lex.fct_pddl.c`, `lex.ops_pddl.c`. Regenerate with `tools/regen-parsers.sh`
+(maintainers only).
+
+| Tool | Version | Options |
+|---|---|---|
+| GNU Bison | 3.8.2 | `-pfct_pddl -bscan-fct_pddl`, `-pops_pddl -bscan-ops_pddl` (as upstream makefiles) |
+| flex | 2.6.4 | `-Pfct_pddl`, `-Pops_pddl` (as upstream) plus `--nounistd --never-interactive` (PATCHES.md, P-GEN-1) |
+
+Both grammars report one shift/reduce conflict each, as upstream.
+
 ## Per-file SHA-256 (pristine)
 
 Checksums of the pristine import (commit `a9e3d7c`). Files changed since then

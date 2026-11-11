@@ -3,3 +3,6 @@ examples/** -text
 corpus/** -text
 golden/** -text
 upstream/** -text
+# flex/bison output, regenerated with tools/regen-parsers.sh
+src/*/scan-*.tab.c linguist-generated
+src/*/lex.*.c linguist-generated
