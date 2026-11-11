@@ -34,6 +34,6 @@
                        (Carga ?c) (Avion ?av) (Aeropuerto ?aerop)
                   )
     :effect (and (En ?c ?aerop)
-                 (not (En ?c ?av)))
+                 (not (Dentro ?c ?av)))
             )
   )

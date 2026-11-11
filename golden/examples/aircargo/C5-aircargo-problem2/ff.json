@@ -6,12 +6,12 @@
  "plan": [
   "CARGA C1 A1 SFO",
   "VOLAR A1 SFO JFK",
-  "DESCARGA C1 A1 JFK",
   "CARGA C2 A1 JFK",
+  "DESCARGA C1 A1 JFK",
   "VOLAR A1 JFK SFO",
   "DESCARGA C2 A1 SFO"
  ],
- "stdout": "\nff: parsing domain file\ndomain 'AIRCARGO' defined\n ... done.\nff: parsing problem file\nproblem 'AIRCARGO2CG1AV2AE' defined\n ... done.\n\n\n\nCueing down from goal distance:    5 into depth [1]\n                                   4            [1][2]\n                                   3            [1]\n                                   2            [1]\n                                   1            [1]\n                                   0            \n\nff: found legal plan as follows\n\nstep    0: CARGA C1 A1 SFO\n        1: VOLAR A1 SFO JFK\n        2: DESCARGA C1 A1 JFK\n        3: CARGA C2 A1 JFK\n        4: VOLAR A1 JFK SFO\n        5: DESCARGA C2 A1 SFO\n     \n\ntime spent:    T.TT seconds instantiating 12 easy, 0 hard action templates\n               T.TT seconds reachability analysis, yielding 8 facts and 12 actions\n               T.TT seconds creating final representation with 8 relevant facts\n               T.TT seconds building connectivity graph\n               T.TT seconds searching, evaluating 7 states, to a max depth of 2\n               T.TT seconds total time\n\n",
+ "stdout": "\nff: parsing domain file\ndomain 'AIRCARGO' defined\n ... done.\nff: parsing problem file\nproblem 'AIRCARGO2CG1AV2AE' defined\n ... done.\n\n\n\nCueing down from goal distance:    5 into depth [1]\n                                   4            [1][2]\n                                   3            [1]\n                                   2            [1]\n                                   1            [1]\n                                   0            \n\nff: found legal plan as follows\n\nstep    0: CARGA C1 A1 SFO\n        1: VOLAR A1 SFO JFK\n        2: CARGA C2 A1 JFK\n        3: DESCARGA C1 A1 JFK\n        4: VOLAR A1 JFK SFO\n        5: DESCARGA C2 A1 SFO\n     \n\ntime spent:    T.TT seconds instantiating 12 easy, 0 hard action templates\n               T.TT seconds reachability analysis, yielding 8 facts and 12 actions\n               T.TT seconds creating final representation with 8 relevant facts\n               T.TT seconds building connectivity graph\n               T.TT seconds searching, evaluating 8 states, to a max depth of 2\n               T.TT seconds total time\n\n",
  "stderr": "",
  "reason": "ff: found legal plan as follows"
 }
