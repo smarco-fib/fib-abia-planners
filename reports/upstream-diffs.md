@@ -2,7 +2,7 @@
 
 Status: analysis only. Nothing in this report has been applied to `src/`.
 Baseline: pristine upstream trees in `src/ff/` (FF 2.3) and `src/metric-ff/`
-(Metric-FF 2.1), commit `36a8841`. All `file:line` references without a fork
+(Metric-FF 2.1), commit `a9e3d7c`. All `file:line` references without a fork
 prefix point into `src/`.
 
 ## Method and limits

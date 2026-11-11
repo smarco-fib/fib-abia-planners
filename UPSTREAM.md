@@ -23,9 +23,9 @@ Files without a licence header: FF `*.l`, `*.y`, `makefile`, `README`; Metric-FF
 
 ## Per-file SHA-256 (pristine)
 
-Checksums of the pristine import (commit `36a8841`). Files changed since then
+Checksums of the pristine import (commit `a9e3d7c`). Files changed since then
 are listed in `PATCHES.md`; currently `metric-ff/scan-fct_pddl.y` (UB-1) and
-`metric-ff/parse.c` (UB-2). Verify with `git diff 36a8841 -- src/`.
+`metric-ff/parse.c` (UB-2). Verify with `git diff a9e3d7c -- src/`.
 
 ```
 d0f794292d80588d7211b8a3f71479ff3b80642cd84b941717fbd591f0e0628b  ff/ff.h

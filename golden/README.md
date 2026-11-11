@@ -1,7 +1,7 @@
 # Golden reference
 
 Normalised outputs of the upstream sources **plus the two approved UB fixes**
-(`src/ff` pristine; `src/metric-ff` pristine + UB-1 `7dc96b6` + UB-2 `7607944`,
+(`src/ff` pristine; `src/metric-ff` pristine + UB-1 `43003cf` + UB-2 `5c01bf3`,
 see `PATCHES.md`), built with their own makefiles:
 
 | Item | Value |
@@ -24,7 +24,7 @@ compared). A run whose golden outcome is `timeout` is compared on `outcome`
 only: its partial stdout is recorded for information but depends on machine
 speed. Only `synthetic/unsolvable/exhaustive-wastar/mff-s3` is in this class.
 
-**History:** the first golden (commit `bca513e`) was recorded from the
+**History:** the first golden (commit `acadca4`) was recorded from the
 pristine sources. Pristine Metric-FF has undefined behaviour in the parser for
 problems with a `:metric` (UB-1) and for some initial states (UB-2); 280 runs
 crashed or misparsed. After the maintainer approved the fixes the golden was

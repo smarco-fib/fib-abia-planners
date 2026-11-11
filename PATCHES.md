@@ -1,7 +1,7 @@
 # Deviations from upstream
 
 Every change to `src/ff` or `src/metric-ff` relative to the pristine import
-(commit `36a8841`) is listed here: file, reason, and evidence that output is
+(commit `a9e3d7c`) is listed here: file, reason, and evidence that output is
 unchanged (golden check command and result).
 
 ## Applied
@@ -11,8 +11,8 @@ commit. The golden reference was re-recorded as "pristine + UB-1 + UB-2".
 
 | ID | Commit | File | Problem | Fix |
 |---|---|---|---|---|
-| UB-1 | `7dc96b6` | `src/metric-ff/scan-fct_pddl.y:290` | `gparse_optimization = $3;` keeps a pointer into bison's value stack (union member `char string[MAX_LENGTH]`). After `yyparse` returns the pointer dangles; on large problems the stack was heap-allocated and freed → heap-use-after-free (ASan, read in `inst_pre.c:526` `strcmp`) → SIGSEGV, or "unknown optimization method . check input files", or a wrong metric. Affects every problem with a `:metric`; small ones work by luck. | Copy the token: `gparse_optimization = new_Token( strlen($3)+1 ); strcpy( gparse_optimization, $3 );` |
-| UB-2 | `7607944` | `src/metric-ff/parse.c:1039` | `make_conjunction_of_atoms`: after removing a trailing `NOT` literal `i` becomes NULL and `i->connective` is read → SIGSEGV (e.g. IPC-1998 movie). FF 2.3's version of the function does not have the bug. | Guard: `if ( i && i->connective != NOT )` (no other change of logic) |
+| UB-1 | `43003cf` | `src/metric-ff/scan-fct_pddl.y:290` | `gparse_optimization = $3;` keeps a pointer into bison's value stack (union member `char string[MAX_LENGTH]`). After `yyparse` returns the pointer dangles; on large problems the stack was heap-allocated and freed → heap-use-after-free (ASan, read in `inst_pre.c:526` `strcmp`) → SIGSEGV, or "unknown optimization method . check input files", or a wrong metric. Affects every problem with a `:metric`; small ones work by luck. | Copy the token: `gparse_optimization = new_Token( strlen($3)+1 ); strcpy( gparse_optimization, $3 );` |
+| UB-2 | `5c01bf3` | `src/metric-ff/parse.c:1039` | `make_conjunction_of_atoms`: after removing a trailing `NOT` literal `i` becomes NULL and `i->connective` is read → SIGSEGV (e.g. IPC-1998 movie). FF 2.3's version of the function does not have the bug. | Guard: `if ( i && i->connective != NOT )` (no other change of logic) |
 
 ### Evidence (2026-11-11)
 
