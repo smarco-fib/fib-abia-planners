@@ -32,7 +32,7 @@
 
   (:action return-against
     :parameters (?x ?y)
-    :precondition (and (in ?x) (not-visited ?y) (not-complete)
+    :precondition (and (in ?x) (starting ?y) (not-complete)
 		       (connected ?y ?x))
     :effect (and (not (in ?x)) (in ?y) (not (not-complete)) (complete)))
  )

@@ -4,18 +4,18 @@
  "exit_code": 0,
  "outcome": "plan-found",
  "plan": [
-  "GO-ALONG C1 C3",
+  "GO-AGAINST C1 C10",
+  "GO-AGAINST C10 C5",
+  "GO-AGAINST C5 C7",
+  "GO-AGAINST C7 C3",
   "GO-ALONG C3 C6",
-  "GO-ALONG C6 C2",
-  "GO-ALONG C2 C4",
-  "GO-ALONG C4 C9",
-  "GO-ALONG C9 C8",
-  "GO-ALONG C8 C7",
-  "GO-ALONG C7 C5",
-  "GO-ALONG C5 C10",
-  "RETURN-ALONG C10 C1"
+  "GO-AGAINST C6 C8",
+  "GO-AGAINST C8 C9",
+  "GO-AGAINST C9 C4",
+  "GO-AGAINST C4 C2",
+  "RETURN-AGAINST C2 C1"
  ],
- "stdout": "\nff: parsing domain file\ndomain 'TSP-STRIPS' defined\n ... done.\nff: parsing problem file\nproblem 'TEN-CITIES' defined\n ... done.\n\n\n\nCueing down from goal distance:   10 into depth [1]\n                                   9            [1]\n                                   8            [1]\n                                   7            [1]\n                                   6            [1]\n                                   5            [1]\n\nEnforced Hill-climbing failed !\nswitching to Best-first Search now.\n\nadvancing to distance :   10\n                           9\n                           8\n                           7\n                           6\n                           5\n                           4\n                           3\n                           2\n                           1\n                           0\n\nff: found legal plan as follows\n\nstep    0: GO-ALONG C1 C3\n        1: GO-ALONG C3 C6\n        2: GO-ALONG C6 C2\n        3: GO-ALONG C2 C4\n        4: GO-ALONG C4 C9\n        5: GO-ALONG C9 C8\n        6: GO-ALONG C8 C7\n        7: GO-ALONG C7 C5\n        8: GO-ALONG C5 C10\n        9: RETURN-ALONG C10 C1\n     \n\ntime spent:    T.TT seconds instantiating 56 easy, 0 hard action templates\n               T.TT seconds reachability analysis, yielding 31 facts and 50 actions\n               T.TT seconds creating final representation with 30 relevant facts\n               T.TT seconds building connectivity graph\n               T.TT seconds searching, evaluating 83 states, to a max depth of 1\n               T.TT seconds total time\n\n",
+ "stdout": "\nff: parsing domain file\ndomain 'TSP-STRIPS' defined\n ... done.\nff: parsing problem file\nproblem 'TEN-CITIES' defined\n ... done.\n\n\n\nCueing down from goal distance:   10 into depth [1]\n                                   9            [1]\n                                   8            [1]\n                                   7            [1]\n                                   6            [1]\n\nEnforced Hill-climbing failed !\nswitching to Best-first Search now.\n\nadvancing to distance :   10\n                           9\n                           8\n                           7\n                           6\n                           5\n                           4\n                           3\n                           2\n                           1\n                           0\n\nff: found legal plan as follows\n\nstep    0: GO-AGAINST C1 C10\n        1: GO-AGAINST C10 C5\n        2: GO-AGAINST C5 C7\n        3: GO-AGAINST C7 C3\n        4: GO-ALONG C3 C6\n        5: GO-AGAINST C6 C8\n        6: GO-AGAINST C8 C9\n        7: GO-AGAINST C9 C4\n        8: GO-AGAINST C4 C2\n        9: RETURN-AGAINST C2 C1\n     \n\ntime spent:    T.TT seconds instantiating 40 easy, 0 hard action templates\n               T.TT seconds reachability analysis, yielding 31 facts and 36 actions\n               T.TT seconds creating final representation with 30 relevant facts\n               T.TT seconds building connectivity graph\n               T.TT seconds searching, evaluating 45 states, to a max depth of 1\n               T.TT seconds total time\n\n",
  "stderr": "",
  "reason": "ff: found legal plan as follows"
 }
