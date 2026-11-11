@@ -363,7 +363,11 @@
       "dir": "blocks",
       "domain": "C5-blocks-domain4ops.pddl",
       "problem": "C5-blocks-problem3.pddl",
-      "selftest": false
+      "selftest": false,
+      "configs": [
+        "mff"
+      ],
+      "note": "Configs ff, mff-s0 removed: no plan within 10 min (FF stuck on EHC plateaus); see examples/blocks/README.md"
     },
     {
       "id": "blocks/domain4ops--C5-blocks-problem4",
@@ -377,7 +381,12 @@
       "dir": "blocks",
       "domain": "C5-blocks-domain4ops.pddl",
       "problem": "C5-blocks-problem5.pddl",
-      "selftest": false
+      "selftest": false,
+      "configs": [
+        "ff",
+        "mff"
+      ],
+      "note": "Configs mff-s0 removed: no plan within 10 min (FF stuck on EHC plateaus); see examples/blocks/README.md"
     },
     {
       "id": "blocks/domain4ops--C5-blocks-problemslides",
