@@ -287,7 +287,7 @@ OPEN_PAREN  METRIC_TOK  NAME ground_f_exp CLOSE_PAREN
     exit( 1 );
   }
 
-  gparse_optimization = $3;
+  gparse_optimization = new_Token( strlen($3)+1 ); strcpy( gparse_optimization, $3 );
   gparse_metric = $4;
 
 }
