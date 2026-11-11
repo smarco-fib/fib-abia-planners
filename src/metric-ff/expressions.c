@@ -457,9 +457,16 @@ void print_lnf_representation( void )
 
 Comparator lcomp;
 
-int lF[MAX_LNF_F];
+/* abia-planners (PATCHES.md, P-GLOB-1): upstream also defined 'int *lF' and
+ * 'int lnum_F' in relax.c; -fcommon merged each pair into one object.
+ * lnum_F stays shared (defined in relax.c). lF cannot be shared legally (array
+ * here, pointer there); it is file-local in both files. This is equivalent:
+ * every use of this array happens inside transform_to_LNF(), before relax.c
+ * first assigns its pointer in initialize_fixpoint().
+ */
+static int lF[MAX_LNF_F];
 float lC[MAX_LNF_F];
-int lnum_F;
+extern int lnum_F;
 
 float lc;
 

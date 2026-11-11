@@ -68,8 +68,11 @@
 
 
 /* fixpoint
+ *
+ * abia-planners: lF is file-local (see the note in expressions.c,
+ * PATCHES.md P-GLOB-1); lnum_F is shared with expressions.c.
  */
-int *lF;
+static int *lF;
 int lnum_F;
 int *lE;
 int lnum_E;

@@ -120,8 +120,11 @@ int gmax_search_depth = 0;
 
 
 /* used for pddl parsing, flex only allows global variables
+ *
+ * abia-planners: defined (and initialised to 0) in lex-fct_pddl.l; declared
+ * extern in ff.h. A second tentative definition here only linked because of
+ * -fcommon (PATCHES.md, P-GLOB-1).
  */
-int gbracket_count;
 char *gproblem_name;
 
 /* The current input line number

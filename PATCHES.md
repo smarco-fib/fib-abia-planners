@@ -54,3 +54,14 @@ approved the change. After the commits:
   files (86 now plan-found, 56 now Metric-FF's own usage error) and no other.
 - `python3 -m harness check` with the new reference: 1110 runs, 0 mismatching
   fields.
+
+## Phase 1: portability (Linux x86-64)
+
+Evidence for every entry: the regression check of CLAUDE.md rule 3 on the full
+corpus (`examples/manifest.json corpus/synthetic.json corpus/ipc.json`,
+1275 runs), comparing against `golden/` with the binaries named in the entry.
+"Identical" means 0 mismatching fields.
+
+| ID | Files | Problem | Change | Evidence |
+|---|---|---|---|---|
+| P-GLOB-1 | FF `main.c`, `search.c`; Metric-FF `main.c`, `expressions.c`, `relax.c` | Tentative definitions of the same global in two files (`gbracket_count`, FF `lcurrent_goals`, Metric-FF `lnum_F` and `lF`) only link with `-fcommon`, which merges each pair into one object. GCC ≥ 10 and Clang ≥ 11 default to `-fno-common`. Metric-FF's `lF` is even declared with two types (`int lF[25]` in `expressions.c`, `int *lF` in `relax.c`), so the merged object was used as both. | `gbracket_count`, `lcurrent_goals`, `lnum_F`: one definition, `extern` elsewhere (keeps the sharing exactly). `lF`: `static` in each file; equivalent because every use of the array is inside `transform_to_LNF()` and `relax.c` assigns its pointer in `initialize_fixpoint()` before reading it, during search. | gcc-12 `-fno-common`: identical (1275 runs) |

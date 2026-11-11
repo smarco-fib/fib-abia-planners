@@ -106,8 +106,12 @@
 
 
 /* in agenda driven algorithm, the current set of goals is this
+ *
+ * abia-planners: the same object as lcurrent_goals in relax.c. Upstream had a
+ * tentative definition in both files, which -fcommon merged into one
+ * variable; extern keeps that sharing without -fcommon (PATCHES.md, P-GLOB-1).
  */
-State lcurrent_goals;
+extern State lcurrent_goals;
 
 
 
