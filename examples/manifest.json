@@ -630,6 +630,13 @@
       "domain": "ShareBath-domain.pddl",
       "problem": "ShareBath-problem.pddl",
       "selftest": false
+    },
+    {
+      "id": "blocks/ejercicio-strips/solucion-problem2",
+      "dir": "blocks/ejercicio-strips",
+      "domain": "solucion-domain4ops.pddl",
+      "problem": "solucion-problem2.pddl",
+      "selftest": false
     }
   ]
 }
