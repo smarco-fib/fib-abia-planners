@@ -1,0 +1,61 @@
+(define (problem smart-bus-1) (:domain smart-bus)
+    (:objects
+        esteban daniel lorena raul estela martina pau cristina luis jesus maria noelia beatriz jordi susana ruth - movtotal
+        sebas xavier alba kilian fabiola - movreducida
+        p2701 p2703 p2714 p2710 p2707 p2705 p2706 p2711 p2704 p2712 p2708 p2713 - parada
+        a01 a02 a03 a04 a05 a06 a07 a08 a11 a12 a13 a14 - asiento
+        a09 a10 - reducida
+        sbus027 - bus)
+        
+    (:init
+        (en-parada sbus027 p2701)
+        (en esteban p2701)
+        (en daniel p2714)
+        (en lorena p2703)
+        (en raul p2701)
+        (en estela p2706)
+        (en martina p2701)
+        (en pau p2704)
+        (en cristina p2707)
+        (en luis p2711)
+        (en jesus p2703)
+        (en maria p2713)
+        (en sebas p2712)
+        (en noelia p2707)
+        (en xavier p2703)
+        (en alba p2703)
+        (en beatriz p2703)
+        (en jordi p2706)
+        (en kilian p2713)
+        (en fabiola p2706)
+        (en susana p2714)
+        (en ruth p2706)
+        (destino esteban p2703)
+        (destino daniel p2710)
+        (destino lorena p2707)
+        (destino raul p2705)
+        (destino estela p2711)
+        (destino martina p2711)
+        (destino pau p2710)
+        (destino cristina p2712)
+        (destino luis p2705)
+        (destino jesus p2708)
+        (destino maria p2708)
+        (destino sebas p2710)
+        (destino noelia p2705)
+        (destino xavier p2705)
+        (destino alba p2707)
+        (destino beatriz p2708)
+        (destino jordi p2705)
+        (destino kilian p2708)
+        (destino fabiola p2710)
+        (destino susana p2710)
+        (destino ruth p2710)
+        )
+        
+    (:goal
+        (forall (?x - persona ?p - parada)
+            (imply
+                (destino ?x ?p)
+                (transportada ?x)
+            ))))

@@ -1,0 +1,31 @@
+{
+ "command": "ff -o C5-blocks-domain4ops.pddl -f C5-blocks-problem1.pddl",
+ "cwd": "examples/blocks",
+ "exit_code": 0,
+ "outcome": "plan-found",
+ "plan": [
+  "UNSTACK F E",
+  "STACK F D",
+  "UNSTACK E B",
+  "PUTDOWN E",
+  "UNSTACK F D",
+  "PUTDOWN F",
+  "UNSTACK D A",
+  "PUTDOWN D",
+  "PICKUP F",
+  "STACK F D",
+  "UNSTACK A C",
+  "PUTDOWN A",
+  "PICKUP E",
+  "STACK E F",
+  "PICKUP A",
+  "STACK A E",
+  "PICKUP B",
+  "STACK B A",
+  "PICKUP C",
+  "STACK C B"
+ ],
+ "stdout": "\nff: parsing domain file\ndomain 'BLOCKSWORLD' defined\n ... done.\nff: parsing problem file\nproblem 'BLOCKSPROBLEM1' defined\n ... done.\n\n\n\nCueing down from goal distance:    2 into depth [1]\n                                   1            [1]\n                                   0            \n\nCueing down from goal distance:    2 into depth [1]\n                                   1            [1]\n                                   0            \n\nCueing down from goal distance:    5 into depth [1][2][3][4][5][6][7][8]\n                                   4            [1]\n                                   3            [1][2][3]\n                                   2            [1]\n                                   1            [1]\n                                   0            \n\nCueing down from goal distance:    2 into depth [1]\n                                   1            [1]\n                                   0            \n\nCueing down from goal distance:    2 into depth [1]\n                                   1            [1]\n                                   0            \n\nff: found legal plan as follows\n\nstep    0: UNSTACK F E\n        1: STACK F D\n        2: UNSTACK E B\n        3: PUTDOWN E\n        4: UNSTACK F D\n        5: PUTDOWN F\n        6: UNSTACK D A\n        7: PUTDOWN D\n        8: PICKUP F\n        9: STACK F D\n       10: UNSTACK A C\n       11: PUTDOWN A\n       12: PICKUP E\n       13: STACK E F\n       14: PICKUP A\n       15: STACK A E\n       16: PICKUP B\n       17: STACK B A\n       18: PICKUP C\n       19: STACK C B\n     \n\ntime spent:    T.TT seconds instantiating 84 easy, 0 hard action templates\n               T.TT seconds reachability analysis, yielding 55 facts and 84 actions\n               T.TT seconds creating final representation with 55 relevant facts\n               T.TT seconds building connectivity graph\n               T.TT seconds searching, evaluating 101 states, to a max depth of 8\n               T.TT seconds total time\n\n",
+ "stderr": "",
+ "reason": "ff: found legal plan as follows"
+}

@@ -1,0 +1,78 @@
+(define (problem assig1)
+    (:domain assig)
+    (:objects 
+        A IA TC LI IDI EDA PRO1 PRO2 - assignatura
+    )
+
+    (:init
+        ;; Constant stuff:
+        
+        (menor Q1 Q2)
+        (menor Q1 Q3)
+        (menor Q1 Q4)
+        (menor Q1 Q5)
+        (menor Q1 Q6)
+        (menor Q1 Q7)
+        (menor Q1 Q8)
+        (menor Q1 Q9)
+        (menor Q2 Q3)
+        (menor Q2 Q4)
+        (menor Q2 Q5)
+        (menor Q2 Q6)
+        (menor Q2 Q7)
+        (menor Q2 Q8)
+        (menor Q2 Q9)
+        (menor Q3 Q4)
+        (menor Q3 Q5)
+        (menor Q3 Q6)
+        (menor Q3 Q7)
+        (menor Q3 Q8)
+        (menor Q3 Q9)
+        (menor Q4 Q5)
+        (menor Q4 Q6)
+        (menor Q4 Q7)
+        (menor Q4 Q8)
+        (menor Q4 Q9)
+        (menor Q5 Q6)
+        (menor Q5 Q7)
+        (menor Q5 Q8)
+        (menor Q5 Q9)
+        (menor Q6 Q7)
+        (menor Q6 Q8)
+        (menor Q6 Q9)
+        (menor Q7 Q8)
+        (menor Q7 Q9)
+        (menor Q8 Q9)
+
+        ;; Problem dependent stuff:
+        
+        (prerequisit EDA A)
+        (prerequisit PRO2 EDA)
+        (precorequisit PRO1 PRO2)
+        
+        (= (credits-assig PRO1) 7.5)
+        (= (credits-assig PRO2) 7.5)
+        (= (credits-assig EDA) 6)
+        (= (credits-assig IDI) 6)
+        (= (credits-assig IA) 6)
+        (= (credits-assig A) 6)
+        (= (credits-assig TC) 6)
+        (= (credits-assig LI) 6)
+        
+        (= (total-credits) 235)
+        
+        (= (credits-quatri Q1) 0)
+        (= (credits-quatri Q2) 0)
+        (= (credits-quatri Q3) 0)
+        (= (credits-quatri Q4) 0)
+        (= (credits-quatri Q5) 0)
+        (= (credits-quatri Q6) 0)
+        (= (credits-quatri Q7) 0)
+        (= (credits-quatri Q8) 0)
+        (= (credits-quatri Q9) 0)
+    )
+
+    (:goal
+        (assignat A Q3)
+    )
+)

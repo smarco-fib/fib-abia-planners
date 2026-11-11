@@ -1,0 +1,10 @@
+{
+ "command": "metric-ff -s 0 -o assigs-metric-domain.pddl -f assigs-metric-prova-1.pddl",
+ "cwd": "examples/asignaturas",
+ "exit_code": 0,
+ "outcome": "proven-unsolvable",
+ "plan": null,
+ "stdout": "\nff: parsing domain file\ndomain 'ASSIG' defined\n ... done.\nff: parsing problem file\nproblem 'ASSIG1' defined\n ... done.\n\n\ntranslating negated cond for predicate PRECOREQUISIT\ntranslating negated cond for predicate PREREQUISIT\ntranslating negated cond for predicate ASSIGNAT\nno metric specified.\n\nff: search configuration is Enforced Hill-Climbing, if that fails then best-first search.\nMetric is plan length.\nNO COST MINIMIZATION (and no cost-minimizing relaxed plans).\n\nEnforced Hill-climbing failed !\nswitching to Best-first Search now.\n\n\nbest first search space empty! problem proven unsolvable.\n\n\n\ntime spent:    T.TT seconds instantiating 0 easy, 162 hard action templates\n               T.TT seconds reachability analysis, yielding 141 facts and 154 actions\n               T.TT seconds creating final representation with 138 relevant facts, 20 relevant fluents\n               T.TT seconds computing LNF\n               T.TT seconds building connectivity graph\n               T.TT seconds searching, evaluating 2 states, to a max depth of 0\n               T.TT seconds total time\n\n",
+ "stderr": "",
+ "reason": "search space empty! problem proven unsolvable"
+}

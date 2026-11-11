@@ -1,0 +1,19 @@
+{
+ "command": "metric-ff -s 0 -o C5-vector-v2.pddl -f C5-prob-vector-v2-5val.pddl",
+ "cwd": "examples/vector",
+ "exit_code": 0,
+ "outcome": "plan-found",
+ "plan": [
+  "SWAP A B C D",
+  "SWAP C B D E",
+  "SWAP D B E FANTASMA2",
+  "SWAP A C D E",
+  "SWAP D C E B",
+  "SWAP FANTASMA1 A D E",
+  "SWAP D A E C",
+  "SWAP FANTASMA1 D E A"
+ ],
+ "stdout": "\nff: parsing domain file\ndomain 'VECTORV3' defined\n ... done.\nff: parsing problem file\nproblem 'VECTOR10' defined\n ... done.\n\n\nno metric specified.\n\nff: search configuration is Enforced Hill-Climbing, if that fails then best-first search.\nMetric is plan length.\nNO COST MINIMIZATION (and no cost-minimizing relaxed plans).\n\nCueing down from goal distance:    6 into depth [1][2]\n                                   5            [1][2]\n                                   4            [1][2]\n                                   3            [1]\n                                   1            [1]\n                                   0            \n\nff: found legal plan as follows\nstep    0: SWAP A B C D\n        1: SWAP C B D E\n        2: SWAP D B E FANTASMA2\n        3: SWAP A C D E\n        4: SWAP D C E B\n        5: SWAP FANTASMA1 A D E\n        6: SWAP D A E C\n        7: SWAP FANTASMA1 D E A\n\ntime spent:    T.TT seconds instantiating 2401 easy, 0 hard action templates\n               T.TT seconds reachability analysis, yielding 35 facts and 900 actions\n               T.TT seconds creating final representation with 35 relevant facts, 0 relevant fluents\n               T.TT seconds computing LNF\n               T.TT seconds building connectivity graph\n               T.TT seconds searching, evaluating 25 states, to a max depth of 2\n               T.TT seconds total time\n\n",
+ "stderr": "",
+ "reason": "ff: found legal plan as follows"
+}

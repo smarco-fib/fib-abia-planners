@@ -1,0 +1,17 @@
+{
+ "command": "metric-ff -s 0 -o C5-aircargo-domain3ops-typed.pddl -f C5-aircargo-problem1-typed.pddl",
+ "cwd": "examples/aircargo",
+ "exit_code": 0,
+ "outcome": "plan-found",
+ "plan": [
+  "CARGA C1 A1 SFO",
+  "VOLAR A1 SFO JFK",
+  "CARGA C2 A1 JFK",
+  "DESCARGA C1 A1 JFK",
+  "VOLAR A1 JFK SFO",
+  "DESCARGA C2 A1 SFO"
+ ],
+ "stdout": "\nff: parsing domain file\ndomain 'AIRCARGOTYPED' defined\n ... done.\nff: parsing problem file\nproblem 'AIRCARGO2CG2AV2AE' defined\n ... done.\n\n\nno metric specified.\n\nff: search configuration is Enforced Hill-Climbing, if that fails then best-first search.\nMetric is plan length.\nNO COST MINIMIZATION (and no cost-minimizing relaxed plans).\n\nCueing down from goal distance:    6 into depth [1]\n                                   5            [1]\n                                   4            [1]\n                                   3            [1]\n                                   2            [1]\n                                   1            [1]\n                                   0            \n\nff: found legal plan as follows\nstep    0: CARGA C1 A1 SFO\n        1: VOLAR A1 SFO JFK\n        2: CARGA C2 A1 JFK\n        3: DESCARGA C1 A1 JFK\n        4: VOLAR A1 JFK SFO\n        5: DESCARGA C2 A1 SFO\n\ntime spent:    T.TT seconds instantiating 24 easy, 0 hard action templates\n               T.TT seconds reachability analysis, yielding 12 facts and 24 actions\n               T.TT seconds creating final representation with 12 relevant facts, 0 relevant fluents\n               T.TT seconds computing LNF\n               T.TT seconds building connectivity graph\n               T.TT seconds searching, evaluating 8 states, to a max depth of 1\n               T.TT seconds total time\n\n",
+ "stderr": "",
+ "reason": "ff: found legal plan as follows"
+}

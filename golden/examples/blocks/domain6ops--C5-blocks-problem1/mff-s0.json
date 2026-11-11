@@ -1,0 +1,23 @@
+{
+ "command": "metric-ff -s 0 -o C5-blocks-domain6ops.pddl -f C5-blocks-problem1.pddl",
+ "cwd": "examples/blocks",
+ "exit_code": 0,
+ "outcome": "plan-found",
+ "plan": [
+  "UNSTACK F E",
+  "STACK F D",
+  "UNSTACK E B",
+  "PUTDOWN E",
+  "DESPEJAR F D",
+  "DESPEJAR D A",
+  "DESPEJAR A C",
+  "COLOCAR F D",
+  "COLOCAR E F",
+  "COLOCAR A E",
+  "COLOCAR B A",
+  "COLOCAR C B"
+ ],
+ "stdout": "\nff: parsing domain file\ndomain 'BLOCKSWORLD' defined\n ... done.\nff: parsing problem file\nproblem 'BLOCKSPROBLEM1' defined\n ... done.\n\n\nno metric specified.\n\nff: search configuration is Enforced Hill-Climbing, if that fails then best-first search.\nMetric is plan length.\nNO COST MINIMIZATION (and no cost-minimizing relaxed plans).\n\nCueing down from goal distance:   10 into depth [1]\n                                   8            [1][2]\n                                   7            [1][2][3]\n                                   6            [1]\n                                   5            [1]\n                                   4            [1]\n                                   3            [1]\n                                   2            [1]\n                                   1            [1]\n                                   0            \n\nff: found legal plan as follows\nstep    0: UNSTACK F E\n        1: STACK F D\n        2: UNSTACK E B\n        3: PUTDOWN E\n        4: DESPEJAR F D\n        5: DESPEJAR D A\n        6: DESPEJAR A C\n        7: COLOCAR F D\n        8: COLOCAR E F\n        9: COLOCAR A E\n       10: COLOCAR B A\n       11: COLOCAR C B\n\ntime spent:    T.TT seconds instantiating 156 easy, 0 hard action templates\n               T.TT seconds reachability analysis, yielding 55 facts and 156 actions\n               T.TT seconds creating final representation with 55 relevant facts, 0 relevant fluents\n               T.TT seconds computing LNF\n               T.TT seconds building connectivity graph\n               T.TT seconds searching, evaluating 37 states, to a max depth of 3\n               T.TT seconds total time\n\n",
+ "stderr": "",
+ "reason": "ff: found legal plan as follows"
+}

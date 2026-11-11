@@ -1,0 +1,10 @@
+{
+ "command": "metric-ff -o C5-vector-typed-v1.1.pddl -f C5-prob-vector-Typed-v1.1.pddl",
+ "cwd": "examples/vector",
+ "exit_code": 1,
+ "outcome": "usage-error",
+ "plan": null,
+ "stdout": "\nff: parsing domain file\ndomain 'VECTORTYPED' defined\n ... done.\nff: parsing problem file\nproblem 'VECTOR1' defined\n ... done.\n\n\nno metric specified.\n\nff: search configuration is Enforced Hill-Climbing, then A*epsilon with weight 5.\nError! Optimization criterion not established.\nA*epsilon not defined.\n\n",
+ "stderr": "",
+ "reason": "Optimization criterion not established"
+}

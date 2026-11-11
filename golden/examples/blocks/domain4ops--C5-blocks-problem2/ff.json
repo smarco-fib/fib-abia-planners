@@ -1,0 +1,17 @@
+{
+ "command": "ff -o C5-blocks-domain4ops.pddl -f C5-blocks-problem2.pddl",
+ "cwd": "examples/blocks",
+ "exit_code": 0,
+ "outcome": "plan-found",
+ "plan": [
+  "PICKUP C",
+  "STACK C D",
+  "PICKUP B",
+  "STACK B C",
+  "PICKUP A",
+  "STACK A B"
+ ],
+ "stdout": "\nff: parsing domain file\ndomain 'BLOCKSWORLD' defined\n ... done.\nff: parsing problem file\nproblem 'BLOCKSPROBLEM2' defined\n ... done.\n\n\n\nCueing down from goal distance:    2 into depth [1]\n                                   1            [1]\n                                   0            \n\nCueing down from goal distance:    2 into depth [1]\n                                   1            [1]\n                                   0            \n\nCueing down from goal distance:    2 into depth [1]\n                                   1            [1]\n                                   0            \n\nff: found legal plan as follows\n\nstep    0: PICKUP C\n        1: STACK C D\n        2: PICKUP B\n        3: STACK B C\n        4: PICKUP A\n        5: STACK A B\n     \n\ntime spent:    T.TT seconds instantiating 40 easy, 0 hard action templates\n               T.TT seconds reachability analysis, yielding 29 facts and 40 actions\n               T.TT seconds creating final representation with 29 relevant facts\n               T.TT seconds building connectivity graph\n               T.TT seconds searching, evaluating 9 states, to a max depth of 1\n               T.TT seconds total time\n\n",
+ "stderr": "",
+ "reason": "ff: found legal plan as follows"
+}

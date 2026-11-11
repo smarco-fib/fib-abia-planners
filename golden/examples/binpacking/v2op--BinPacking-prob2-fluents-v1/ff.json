@@ -1,0 +1,10 @@
+{
+ "command": "ff -o BinPacking-domain-fluents-v2op.pddl -f BinPacking-prob2-fluents-v1.pddl",
+ "cwd": "examples/binpacking",
+ "exit_code": 1,
+ "outcome": "parse-error",
+ "plan": null,
+ "stdout": "\nff: parsing domain file",
+ "stderr": "\nBinPacking-domain-fluents-v2op.pddl: syntax error in line 2, ':FLUENTS':\ndomain definition expected\n",
+ "reason": "syntax error in line 2"
+}

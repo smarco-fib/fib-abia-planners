@@ -1,0 +1,33 @@
+{
+ "command": "metric-ff -s 0 -o C5-vector-v1.pddl -f C5-prob-vector-v1-10val.pddl",
+ "cwd": "examples/vector",
+ "exit_code": 0,
+ "outcome": "plan-found",
+ "plan": [
+  "SWAP P1 P2 A B",
+  "SWAP P2 P3 A C",
+  "SWAP P3 P4 A D",
+  "SWAP P4 P5 A E",
+  "SWAP P7 P8 G H",
+  "SWAP P9 P10 I J",
+  "SWAP P5 P6 A F",
+  "SWAP P3 P4 D E",
+  "SWAP P6 P7 A H",
+  "SWAP P7 P8 A G",
+  "SWAP P8 P9 A J",
+  "SWAP P2 P3 C E",
+  "SWAP P3 P4 C D",
+  "SWAP P1 P2 B E",
+  "SWAP P2 P3 B D",
+  "SWAP P3 P4 B C",
+  "SWAP P4 P5 B F",
+  "SWAP P5 P6 B H",
+  "SWAP P3 P4 C F",
+  "SWAP P7 P8 G J",
+  "SWAP P4 P5 C H",
+  "SWAP P6 P7 B J"
+ ],
+ "stdout": "\nff: parsing domain file\ndomain 'VECTOR' defined\n ... done.\nff: parsing problem file\nproblem 'VECTOR10' defined\n ... done.\n\n\nno metric specified.\n\nff: search configuration is Enforced Hill-Climbing, if that fails then best-first search.\nMetric is plan length.\nNO COST MINIMIZATION (and no cost-minimizing relaxed plans).\n\nCueing down from goal distance:   49 into depth [1]\n                                  46            [1]\n                                  45            [1]\n                                  43            [1]\n                                  38            [1]\n                                  35            [1]\n                                  33            [1]\n                                  29            [1]\n                                  27            [1]\n                                  24            [1]\n                                  23            [1]\n                                  20            [1]\n                                  18            [1]\n                                  16            [1]\n                                  14            [1]\n                                  12            [1]\n                                  10            [1]\n                                   9            [1]\n                                   6            [1]\n                                   4            [1]\n                                   2            [1]\n                                   1            [1]\n                                   0            \n\nff: found legal plan as follows\nstep    0: SWAP P1 P2 A B\n        1: SWAP P2 P3 A C\n        2: SWAP P3 P4 A D\n        3: SWAP P4 P5 A E\n        4: SWAP P7 P8 G H\n        5: SWAP P9 P10 I J\n        6: SWAP P5 P6 A F\n        7: SWAP P3 P4 D E\n        8: SWAP P6 P7 A H\n        9: SWAP P7 P8 A G\n       10: SWAP P8 P9 A J\n       11: SWAP P2 P3 C E\n       12: SWAP P3 P4 C D\n       13: SWAP P1 P2 B E\n       14: SWAP P2 P3 B D\n       15: SWAP P3 P4 B C\n       16: SWAP P4 P5 B F\n       17: SWAP P5 P6 B H\n       18: SWAP P3 P4 C F\n       19: SWAP P7 P8 G J\n       20: SWAP P4 P5 C H\n       21: SWAP P6 P7 B J\n\ntime spent:    T.TT seconds instantiating 3600 easy, 0 hard action templates\n               T.TT seconds reachability analysis, yielding 100 facts and 900 actions\n               T.TT seconds creating final representation with 100 relevant facts, 0 relevant fluents\n               T.TT seconds computing LNF\n               T.TT seconds building connectivity graph\n               T.TT seconds searching, evaluating 27 states, to a max depth of 1\n               T.TT seconds total time\n\n",
+ "stderr": "",
+ "reason": "ff: found legal plan as follows"
+}

@@ -1,0 +1,19 @@
+{
+ "command": "metric-ff -s 0 -o C5-blocks-domain4ops.pddl -f C5-blocks-problem4.pddl",
+ "cwd": "examples/blocks",
+ "exit_code": 0,
+ "outcome": "plan-found",
+ "plan": [
+  "PICKUP C",
+  "STACK C D",
+  "PICKUP B",
+  "STACK B A",
+  "UNSTACK C D",
+  "STACK C B",
+  "PICKUP D",
+  "STACK D C"
+ ],
+ "stdout": "\nff: parsing domain file\ndomain 'BLOCKSWORLD' defined\n ... done.\nff: parsing problem file\nproblem 'BLOCKSPROBLEMSLIDES' defined\n ... done.\n\n\nno metric specified.\n\nff: search configuration is Enforced Hill-Climbing, if that fails then best-first search.\nMetric is plan length.\nNO COST MINIMIZATION (and no cost-minimizing relaxed plans).\n\nCueing down from goal distance:    6 into depth [1]\n                                   5            [1][2]\n                                   4            [1][2][3][4][5][6]\n                                   3            [1]\n                                   2            [1]\n                                   1            [1]\n                                   0            \n\nff: found legal plan as follows\nstep    0: PICKUP C\n        1: STACK C D\n        2: PICKUP B\n        3: STACK B A\n        4: UNSTACK C D\n        5: STACK C B\n        6: PICKUP D\n        7: STACK D C\n\ntime spent:    T.TT seconds instantiating 40 easy, 0 hard action templates\n               T.TT seconds reachability analysis, yielding 29 facts and 40 actions\n               T.TT seconds creating final representation with 29 relevant facts, 0 relevant fluents\n               T.TT seconds computing LNF\n               T.TT seconds building connectivity graph\n               T.TT seconds searching, evaluating 48 states, to a max depth of 6\n               T.TT seconds total time\n\n",
+ "stderr": "",
+ "reason": "ff: found legal plan as follows"
+}

@@ -1,0 +1,15 @@
+{
+ "command": "metric-ff -s 0 -o assigs-metric-domain.pddl -f assigs-metric-prova-2.pddl",
+ "cwd": "examples/asignaturas",
+ "exit_code": 0,
+ "outcome": "plan-found",
+ "plan": [
+  "ASSIGNA PRO1 Q1",
+  "ASSIGNA PRO2 Q1",
+  "ASSIGNA EDA Q2",
+  "ASSIGNA A Q3"
+ ],
+ "stdout": "\nff: parsing domain file\ndomain 'ASSIG' defined\n ... done.\nff: parsing problem file\nproblem 'ASSIG1' defined\n ... done.\n\n\ntranslating negated cond for predicate PRECOREQUISIT\ntranslating negated cond for predicate PREREQUISIT\ntranslating negated cond for predicate ASSIGNAT\nno metric specified.\n\nff: search configuration is Enforced Hill-Climbing, if that fails then best-first search.\nMetric is plan length.\nNO COST MINIMIZATION (and no cost-minimizing relaxed plans).\n\nCueing down from goal distance:    4 into depth [1]\n                                   3            [1]\n                                   2            [1]\n                                   1            [1]\n                                   0            \n\nff: found legal plan as follows\nstep    0: ASSIGNA PRO1 Q1\n        1: ASSIGNA PRO2 Q1\n        2: ASSIGNA EDA Q2\n        3: ASSIGNA A Q3\n\ntime spent:    T.TT seconds instantiating 0 easy, 162 hard action templates\n               T.TT seconds reachability analysis, yielding 141 facts and 154 actions\n               T.TT seconds creating final representation with 138 relevant facts, 20 relevant fluents\n               T.TT seconds computing LNF\n               T.TT seconds building connectivity graph\n               T.TT seconds searching, evaluating 5 states, to a max depth of 1\n               T.TT seconds total time\n\n",
+ "stderr": "",
+ "reason": "ff: found legal plan as follows"
+}

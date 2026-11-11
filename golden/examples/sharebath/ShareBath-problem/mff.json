@@ -1,0 +1,10 @@
+{
+ "command": "metric-ff -o ShareBath-domain.pddl -f ShareBath-problem.pddl",
+ "cwd": "examples/sharebath",
+ "exit_code": 1,
+ "outcome": "parse-error",
+ "plan": null,
+ "stdout": "\nff: parsing domain file\ndomain 'SHAREBATH' defined\n ... done.\nff: parsing problem file",
+ "stderr": "\nShareBath-problem.pddl: syntax error in line 1, '7':\n'define' expected\n",
+ "reason": "syntax error in line 1"
+}

@@ -1,250 +1,635 @@
 {
- "suite": "examples",
- "root": ".",
- "timeout": 600,
- "default_configs": [
-  "ff",
-  "mff-s0",
-  "mff"
- ],
- "cases": [
-  {
-   "id": "hanoi/hanoi-3",
-   "dir": "hanoi",
-   "domain": "hanoi.pddl",
-   "problem": "hanoi-3.pddl",
-   "selftest": false
-  },
-  {
-   "id": "hanoi/hanoi-4",
-   "dir": "hanoi",
-   "domain": "hanoi.pddl",
-   "problem": "hanoi-4.pddl",
-   "selftest": false
-  },
-  {
-   "id": "hanoi/hanoi-5",
-   "dir": "hanoi",
-   "domain": "hanoi.pddl",
-   "problem": "hanoi-5.pddl",
-   "selftest": false
-  },
-  {
-   "id": "hanoi/hanoi-6",
-   "dir": "hanoi",
-   "domain": "hanoi.pddl",
-   "problem": "hanoi-6.pddl",
-   "selftest": false
-  },
-  {
-   "id": "hanoi/hanoi-7",
-   "dir": "hanoi",
-   "domain": "hanoi.pddl",
-   "problem": "hanoi-7.pddl",
-   "selftest": false
-  },
-  {
-   "id": "hanoi/hanoi-8",
-   "dir": "hanoi",
-   "domain": "hanoi.pddl",
-   "problem": "hanoi-8.pddl",
-   "selftest": false
-  },
-  {
-   "id": "ascensor/miconic01",
-   "dir": "ascensor",
-   "domain": "miconic.pddl",
-   "problem": "miconic01.pddl",
-   "selftest": false
-  },
-  {
-   "id": "ascensor/miconic02",
-   "dir": "ascensor",
-   "domain": "miconic.pddl",
-   "problem": "miconic02.pddl",
-   "selftest": false
-  },
-  {
-   "id": "ascensor/miconic03",
-   "dir": "ascensor",
-   "domain": "miconic.pddl",
-   "problem": "miconic03.pddl",
-   "selftest": false
-  },
-  {
-   "id": "ascensor/miconic04",
-   "dir": "ascensor",
-   "domain": "miconic.pddl",
-   "problem": "miconic04.pddl",
-   "selftest": false
-  },
-  {
-   "id": "ascensor/miconic05",
-   "dir": "ascensor",
-   "domain": "miconic.pddl",
-   "problem": "miconic05.pddl",
-   "selftest": false
-  },
-  {
-   "id": "logistics/log-3-2",
-   "dir": "logistics",
-   "domain": "logistics.pddl",
-   "problem": "log-3-2.pddl",
-   "selftest": false
-  },
-  {
-   "id": "n-puzzle/eight01",
-   "dir": "n-puzzle",
-   "domain": "slidetile.pddl",
-   "problem": "eight01.pddl",
-   "selftest": false
-  },
-  {
-   "id": "rovers/pfile01",
-   "dir": "rovers",
-   "domain": "domain.pddl",
-   "problem": "pfile01",
-   "selftest": false
-  },
-  {
-   "id": "rovers/pfile02",
-   "dir": "rovers",
-   "domain": "domain.pddl",
-   "problem": "pfile02",
-   "selftest": false
-  },
-  {
-   "id": "rovers/pfile03",
-   "dir": "rovers",
-   "domain": "domain.pddl",
-   "problem": "pfile03",
-   "selftest": false
-  },
-  {
-   "id": "rovers/pfile04",
-   "dir": "rovers",
-   "domain": "domain.pddl",
-   "problem": "pfile04",
-   "selftest": false
-  },
-  {
-   "id": "rovers/pfile05",
-   "dir": "rovers",
-   "domain": "domain.pddl",
-   "problem": "pfile05",
-   "selftest": false
-  },
-  {
-   "id": "rovers/pfile06",
-   "dir": "rovers",
-   "domain": "domain.pddl",
-   "problem": "pfile06",
-   "selftest": false
-  },
-  {
-   "id": "rovers/pfile07",
-   "dir": "rovers",
-   "domain": "domain.pddl",
-   "problem": "pfile07",
-   "selftest": false
-  },
-  {
-   "id": "rovers/pfile08",
-   "dir": "rovers",
-   "domain": "domain.pddl",
-   "problem": "pfile08",
-   "selftest": false
-  },
-  {
-   "id": "rovers/pfile09",
-   "dir": "rovers",
-   "domain": "domain.pddl",
-   "problem": "pfile09",
-   "selftest": false
-  },
-  {
-   "id": "rovers/pfile10",
-   "dir": "rovers",
-   "domain": "domain.pddl",
-   "problem": "pfile10",
-   "selftest": false
-  },
-  {
-   "id": "rovers/pfile11",
-   "dir": "rovers",
-   "domain": "domain.pddl",
-   "problem": "pfile11",
-   "selftest": false
-  },
-  {
-   "id": "rovers/pfile12",
-   "dir": "rovers",
-   "domain": "domain.pddl",
-   "problem": "pfile12",
-   "selftest": false
-  },
-  {
-   "id": "rovers/pfile13",
-   "dir": "rovers",
-   "domain": "domain.pddl",
-   "problem": "pfile13",
-   "selftest": false
-  },
-  {
-   "id": "rovers/pfile14",
-   "dir": "rovers",
-   "domain": "domain.pddl",
-   "problem": "pfile14",
-   "selftest": false
-  },
-  {
-   "id": "rovers/pfile15",
-   "dir": "rovers",
-   "domain": "domain.pddl",
-   "problem": "pfile15",
-   "selftest": false
-  },
-  {
-   "id": "rovers/pfile16",
-   "dir": "rovers",
-   "domain": "domain.pddl",
-   "problem": "pfile16",
-   "selftest": false
-  },
-  {
-   "id": "rovers/pfile17",
-   "dir": "rovers",
-   "domain": "domain.pddl",
-   "problem": "pfile17",
-   "selftest": false
-  },
-  {
-   "id": "rovers/pfile18",
-   "dir": "rovers",
-   "domain": "domain.pddl",
-   "problem": "pfile18",
-   "selftest": false
-  },
-  {
-   "id": "rovers/pfile19",
-   "dir": "rovers",
-   "domain": "domain.pddl",
-   "problem": "pfile19",
-   "selftest": false
-  },
-  {
-   "id": "rovers/pfile20",
-   "dir": "rovers",
-   "domain": "domain.pddl",
-   "problem": "pfile20",
-   "selftest": false
-  },
-  {
-   "id": "tsp/tsp-10",
-   "dir": "tsp",
-   "domain": "tsp.pddl",
-   "problem": "tsp-10.pddl",
-   "selftest": false
-  }
- ]
+  "suite": "examples",
+  "root": ".",
+  "timeout": 120,
+  "default_configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+  ],
+  "cases": [
+    {
+      "id": "hanoi/hanoi-3",
+      "dir": "hanoi",
+      "domain": "hanoi.pddl",
+      "problem": "hanoi-3.pddl",
+      "selftest": false
+    },
+    {
+      "id": "hanoi/hanoi-4",
+      "dir": "hanoi",
+      "domain": "hanoi.pddl",
+      "problem": "hanoi-4.pddl",
+      "selftest": false
+    },
+    {
+      "id": "hanoi/hanoi-5",
+      "dir": "hanoi",
+      "domain": "hanoi.pddl",
+      "problem": "hanoi-5.pddl",
+      "selftest": false
+    },
+    {
+      "id": "hanoi/hanoi-6",
+      "dir": "hanoi",
+      "domain": "hanoi.pddl",
+      "problem": "hanoi-6.pddl",
+      "selftest": false
+    },
+    {
+      "id": "hanoi/hanoi-7",
+      "dir": "hanoi",
+      "domain": "hanoi.pddl",
+      "problem": "hanoi-7.pddl",
+      "selftest": false
+    },
+    {
+      "id": "hanoi/hanoi-8",
+      "dir": "hanoi",
+      "domain": "hanoi.pddl",
+      "problem": "hanoi-8.pddl",
+      "selftest": false
+    },
+    {
+      "id": "ascensor/miconic01",
+      "dir": "ascensor",
+      "domain": "miconic.pddl",
+      "problem": "miconic01.pddl",
+      "selftest": false
+    },
+    {
+      "id": "ascensor/miconic02",
+      "dir": "ascensor",
+      "domain": "miconic.pddl",
+      "problem": "miconic02.pddl",
+      "selftest": false
+    },
+    {
+      "id": "ascensor/miconic03",
+      "dir": "ascensor",
+      "domain": "miconic.pddl",
+      "problem": "miconic03.pddl",
+      "selftest": false
+    },
+    {
+      "id": "ascensor/miconic04",
+      "dir": "ascensor",
+      "domain": "miconic.pddl",
+      "problem": "miconic04.pddl",
+      "selftest": false
+    },
+    {
+      "id": "ascensor/miconic05",
+      "dir": "ascensor",
+      "domain": "miconic.pddl",
+      "problem": "miconic05.pddl",
+      "selftest": false
+    },
+    {
+      "id": "logistics/log-3-2",
+      "dir": "logistics",
+      "domain": "logistics.pddl",
+      "problem": "log-3-2.pddl",
+      "selftest": false
+    },
+    {
+      "id": "n-puzzle/eight01",
+      "dir": "n-puzzle",
+      "domain": "slidetile.pddl",
+      "problem": "eight01.pddl",
+      "selftest": false
+    },
+    {
+      "id": "rovers/pfile01",
+      "dir": "rovers",
+      "domain": "domain.pddl",
+      "problem": "pfile01",
+      "selftest": false
+    },
+    {
+      "id": "rovers/pfile02",
+      "dir": "rovers",
+      "domain": "domain.pddl",
+      "problem": "pfile02",
+      "selftest": false
+    },
+    {
+      "id": "rovers/pfile03",
+      "dir": "rovers",
+      "domain": "domain.pddl",
+      "problem": "pfile03",
+      "selftest": false
+    },
+    {
+      "id": "rovers/pfile04",
+      "dir": "rovers",
+      "domain": "domain.pddl",
+      "problem": "pfile04",
+      "selftest": false
+    },
+    {
+      "id": "rovers/pfile05",
+      "dir": "rovers",
+      "domain": "domain.pddl",
+      "problem": "pfile05",
+      "selftest": false
+    },
+    {
+      "id": "rovers/pfile06",
+      "dir": "rovers",
+      "domain": "domain.pddl",
+      "problem": "pfile06",
+      "selftest": false
+    },
+    {
+      "id": "rovers/pfile07",
+      "dir": "rovers",
+      "domain": "domain.pddl",
+      "problem": "pfile07",
+      "selftest": false
+    },
+    {
+      "id": "rovers/pfile08",
+      "dir": "rovers",
+      "domain": "domain.pddl",
+      "problem": "pfile08",
+      "selftest": false
+    },
+    {
+      "id": "rovers/pfile09",
+      "dir": "rovers",
+      "domain": "domain.pddl",
+      "problem": "pfile09",
+      "selftest": false
+    },
+    {
+      "id": "rovers/pfile10",
+      "dir": "rovers",
+      "domain": "domain.pddl",
+      "problem": "pfile10",
+      "selftest": false
+    },
+    {
+      "id": "rovers/pfile11",
+      "dir": "rovers",
+      "domain": "domain.pddl",
+      "problem": "pfile11",
+      "selftest": false
+    },
+    {
+      "id": "rovers/pfile12",
+      "dir": "rovers",
+      "domain": "domain.pddl",
+      "problem": "pfile12",
+      "selftest": false
+    },
+    {
+      "id": "rovers/pfile13",
+      "dir": "rovers",
+      "domain": "domain.pddl",
+      "problem": "pfile13",
+      "selftest": false
+    },
+    {
+      "id": "rovers/pfile14",
+      "dir": "rovers",
+      "domain": "domain.pddl",
+      "problem": "pfile14",
+      "selftest": false
+    },
+    {
+      "id": "rovers/pfile15",
+      "dir": "rovers",
+      "domain": "domain.pddl",
+      "problem": "pfile15",
+      "selftest": false
+    },
+    {
+      "id": "rovers/pfile16",
+      "dir": "rovers",
+      "domain": "domain.pddl",
+      "problem": "pfile16",
+      "selftest": false
+    },
+    {
+      "id": "rovers/pfile17",
+      "dir": "rovers",
+      "domain": "domain.pddl",
+      "problem": "pfile17",
+      "selftest": false
+    },
+    {
+      "id": "rovers/pfile18",
+      "dir": "rovers",
+      "domain": "domain.pddl",
+      "problem": "pfile18",
+      "selftest": false
+    },
+    {
+      "id": "rovers/pfile19",
+      "dir": "rovers",
+      "domain": "domain.pddl",
+      "problem": "pfile19",
+      "selftest": false
+    },
+    {
+      "id": "rovers/pfile20",
+      "dir": "rovers",
+      "domain": "domain.pddl",
+      "problem": "pfile20",
+      "selftest": false
+    },
+    {
+      "id": "tsp/tsp-10",
+      "dir": "tsp",
+      "domain": "tsp.pddl",
+      "problem": "tsp-10.pddl",
+      "selftest": false
+    },
+    {
+      "id": "aircargo/C5-aircargo-problem1",
+      "dir": "aircargo",
+      "domain": "C5-aircargo-domain3ops.pddl",
+      "problem": "C5-aircargo-problem1.pddl",
+      "selftest": false
+    },
+    {
+      "id": "aircargo/C5-aircargo-problem2",
+      "dir": "aircargo",
+      "domain": "C5-aircargo-domain3ops.pddl",
+      "problem": "C5-aircargo-problem2.pddl",
+      "selftest": false
+    },
+    {
+      "id": "aircargo/C5-aircargo-problem3",
+      "dir": "aircargo",
+      "domain": "C5-aircargo-domain3ops.pddl",
+      "problem": "C5-aircargo-problem3.pddl",
+      "selftest": false
+    },
+    {
+      "id": "aircargo/C5-aircargo-problem4",
+      "dir": "aircargo",
+      "domain": "C5-aircargo-domain3ops.pddl",
+      "problem": "C5-aircargo-problem4.pddl",
+      "selftest": false
+    },
+    {
+      "id": "aircargo/C5-aircargo-problem1-typed",
+      "dir": "aircargo",
+      "domain": "C5-aircargo-domain3ops-typed.pddl",
+      "problem": "C5-aircargo-problem1-typed.pddl",
+      "selftest": false
+    },
+    {
+      "id": "aircargo/C5-aircargo-problem3-typed",
+      "dir": "aircargo",
+      "domain": "C5-aircargo-domain3ops-typed.pddl",
+      "problem": "C5-aircargo-problem3-typed.pddl",
+      "selftest": false
+    },
+    {
+      "id": "blocks/domain2ops--C5-blocks-problem1",
+      "dir": "blocks",
+      "domain": "C5-blocks-domain2ops.pddl",
+      "problem": "C5-blocks-problem1.pddl",
+      "selftest": false
+    },
+    {
+      "id": "blocks/domain2ops--C5-blocks-problem2",
+      "dir": "blocks",
+      "domain": "C5-blocks-domain2ops.pddl",
+      "problem": "C5-blocks-problem2.pddl",
+      "selftest": false
+    },
+    {
+      "id": "blocks/domain2ops--C5-blocks-problem2b",
+      "dir": "blocks",
+      "domain": "C5-blocks-domain2ops.pddl",
+      "problem": "C5-blocks-problem2b.pddl",
+      "selftest": false
+    },
+    {
+      "id": "blocks/domain2ops--C5-blocks-problem3",
+      "dir": "blocks",
+      "domain": "C5-blocks-domain2ops.pddl",
+      "problem": "C5-blocks-problem3.pddl",
+      "selftest": false
+    },
+    {
+      "id": "blocks/domain2ops--C5-blocks-problem4",
+      "dir": "blocks",
+      "domain": "C5-blocks-domain2ops.pddl",
+      "problem": "C5-blocks-problem4.pddl",
+      "selftest": false
+    },
+    {
+      "id": "blocks/domain2ops--C5-blocks-problem5",
+      "dir": "blocks",
+      "domain": "C5-blocks-domain2ops.pddl",
+      "problem": "C5-blocks-problem5.pddl",
+      "selftest": false
+    },
+    {
+      "id": "blocks/domain2ops--C5-blocks-problemslides",
+      "dir": "blocks",
+      "domain": "C5-blocks-domain2ops.pddl",
+      "problem": "C5-blocks-problemslides.pddl",
+      "selftest": false
+    },
+    {
+      "id": "blocks/domain4ops--C5-blocks-problem1",
+      "dir": "blocks",
+      "domain": "C5-blocks-domain4ops.pddl",
+      "problem": "C5-blocks-problem1.pddl",
+      "selftest": false
+    },
+    {
+      "id": "blocks/domain4ops--C5-blocks-problem2",
+      "dir": "blocks",
+      "domain": "C5-blocks-domain4ops.pddl",
+      "problem": "C5-blocks-problem2.pddl",
+      "selftest": false
+    },
+    {
+      "id": "blocks/domain4ops--C5-blocks-problem2b",
+      "dir": "blocks",
+      "domain": "C5-blocks-domain4ops.pddl",
+      "problem": "C5-blocks-problem2b.pddl",
+      "selftest": false
+    },
+    {
+      "id": "blocks/domain4ops--C5-blocks-problem3",
+      "dir": "blocks",
+      "domain": "C5-blocks-domain4ops.pddl",
+      "problem": "C5-blocks-problem3.pddl",
+      "selftest": false
+    },
+    {
+      "id": "blocks/domain4ops--C5-blocks-problem4",
+      "dir": "blocks",
+      "domain": "C5-blocks-domain4ops.pddl",
+      "problem": "C5-blocks-problem4.pddl",
+      "selftest": false
+    },
+    {
+      "id": "blocks/domain4ops--C5-blocks-problem5",
+      "dir": "blocks",
+      "domain": "C5-blocks-domain4ops.pddl",
+      "problem": "C5-blocks-problem5.pddl",
+      "selftest": false
+    },
+    {
+      "id": "blocks/domain4ops--C5-blocks-problemslides",
+      "dir": "blocks",
+      "domain": "C5-blocks-domain4ops.pddl",
+      "problem": "C5-blocks-problemslides.pddl",
+      "selftest": false
+    },
+    {
+      "id": "blocks/domain6ops--C5-blocks-problem1",
+      "dir": "blocks",
+      "domain": "C5-blocks-domain6ops.pddl",
+      "problem": "C5-blocks-problem1.pddl",
+      "selftest": false
+    },
+    {
+      "id": "blocks/domain6ops--C5-blocks-problem2",
+      "dir": "blocks",
+      "domain": "C5-blocks-domain6ops.pddl",
+      "problem": "C5-blocks-problem2.pddl",
+      "selftest": false
+    },
+    {
+      "id": "blocks/domain6ops--C5-blocks-problem2b",
+      "dir": "blocks",
+      "domain": "C5-blocks-domain6ops.pddl",
+      "problem": "C5-blocks-problem2b.pddl",
+      "selftest": false
+    },
+    {
+      "id": "blocks/domain6ops--C5-blocks-problem3",
+      "dir": "blocks",
+      "domain": "C5-blocks-domain6ops.pddl",
+      "problem": "C5-blocks-problem3.pddl",
+      "selftest": false
+    },
+    {
+      "id": "blocks/domain6ops--C5-blocks-problem4",
+      "dir": "blocks",
+      "domain": "C5-blocks-domain6ops.pddl",
+      "problem": "C5-blocks-problem4.pddl",
+      "selftest": false
+    },
+    {
+      "id": "blocks/domain6ops--C5-blocks-problem5",
+      "dir": "blocks",
+      "domain": "C5-blocks-domain6ops.pddl",
+      "problem": "C5-blocks-problem5.pddl",
+      "selftest": false
+    },
+    {
+      "id": "blocks/domain6ops--C5-blocks-problemslides",
+      "dir": "blocks",
+      "domain": "C5-blocks-domain6ops.pddl",
+      "problem": "C5-blocks-problemslides.pddl",
+      "selftest": false
+    },
+    {
+      "id": "vector/C5-prob-vector-v1",
+      "dir": "vector",
+      "domain": "C5-vector-v1.pddl",
+      "problem": "C5-prob-vector-v1.pddl",
+      "selftest": false
+    },
+    {
+      "id": "vector/C5-prob-vector-v1-10val",
+      "dir": "vector",
+      "domain": "C5-vector-v1.pddl",
+      "problem": "C5-prob-vector-v1-10val.pddl",
+      "selftest": false
+    },
+    {
+      "id": "vector/C5-prob-vector-Typed-v1.1",
+      "dir": "vector",
+      "domain": "C5-vector-typed-v1.1.pddl",
+      "problem": "C5-prob-vector-Typed-v1.1.pddl",
+      "selftest": false
+    },
+    {
+      "id": "vector/C5-prob-vector-Typed-v1.1-10val",
+      "dir": "vector",
+      "domain": "C5-vector-typed-v1.1.pddl",
+      "problem": "C5-prob-vector-Typed-v1.1-10val.pddl",
+      "selftest": false
+    },
+    {
+      "id": "vector/C5-prob-vector-Typed-v1.2",
+      "dir": "vector",
+      "domain": "C5-vector-typed-v1.2.pddl",
+      "problem": "C5-prob-vector-Typed-v1.2.pddl",
+      "selftest": false
+    },
+    {
+      "id": "vector/C5-prob-vector-Typed-v1.2-10val",
+      "dir": "vector",
+      "domain": "C5-vector-typed-v1.2.pddl",
+      "problem": "C5-prob-vector-Typed-v1.2-10val.pddl",
+      "selftest": false
+    },
+    {
+      "id": "vector/C5-prob-vector-v2",
+      "dir": "vector",
+      "domain": "C5-vector-v2.pddl",
+      "problem": "C5-prob-vector-v2.pddl",
+      "selftest": false
+    },
+    {
+      "id": "vector/C5-prob-vector-v2-5val",
+      "dir": "vector",
+      "domain": "C5-vector-v2.pddl",
+      "problem": "C5-prob-vector-v2-5val.pddl",
+      "selftest": false
+    },
+    {
+      "id": "vector/C5-prob-vector-v2-10val",
+      "dir": "vector",
+      "domain": "C5-vector-v2.pddl",
+      "problem": "C5-prob-vector-v2-10val.pddl",
+      "selftest": false
+    },
+    {
+      "id": "smartbus/SmartBus-prob1",
+      "dir": "smartbus",
+      "domain": "SmartBus-domain.pddl",
+      "problem": "SmartBus-prob1.pddl",
+      "selftest": false
+    },
+    {
+      "id": "smartbus/SmartBus-prob1v2",
+      "dir": "smartbus",
+      "domain": "SmartBus-domainv2.pddl",
+      "problem": "SmartBus-prob1v2.pddl",
+      "selftest": false
+    },
+    {
+      "id": "smartbus/SmartBus-prob1-fluents-v0",
+      "dir": "smartbus",
+      "domain": "SmartBus-domain-fluents-v0.pddl",
+      "problem": "SmartBus-prob1-fluents-v0.pddl",
+      "selftest": false
+    },
+    {
+      "id": "smartbus/SmartBus-prob1-fluents-v1",
+      "dir": "smartbus",
+      "domain": "SmartBus-domain-fluents-v1.pddl",
+      "problem": "SmartBus-prob1-fluents-v1.pddl",
+      "selftest": false
+    },
+    {
+      "id": "smartbus/SmartBus-prob1-fluents-v2",
+      "dir": "smartbus",
+      "domain": "SmartBus-domain-fluents-v2.pddl",
+      "problem": "SmartBus-prob1-fluents-v2.pddl",
+      "selftest": false
+    },
+    {
+      "id": "binpacking/v1--BinPacking-prob1-fluents-v1-20p",
+      "dir": "binpacking",
+      "domain": "BinPacking-domain-fluents-v1.pddl",
+      "problem": "BinPacking-prob1-fluents-v1-20p.pddl",
+      "selftest": false
+    },
+    {
+      "id": "binpacking/v1--BinPacking-prob1-fluents-v2-10p",
+      "dir": "binpacking",
+      "domain": "BinPacking-domain-fluents-v1.pddl",
+      "problem": "BinPacking-prob1-fluents-v2-10p.pddl",
+      "selftest": false
+    },
+    {
+      "id": "binpacking/v1--BinPacking-prob2-fluents-v1",
+      "dir": "binpacking",
+      "domain": "BinPacking-domain-fluents-v1.pddl",
+      "problem": "BinPacking-prob2-fluents-v1.pddl",
+      "selftest": false
+    },
+    {
+      "id": "binpacking/v1--BinPacking-prob3-fluents-v1",
+      "dir": "binpacking",
+      "domain": "BinPacking-domain-fluents-v1.pddl",
+      "problem": "BinPacking-prob3-fluents-v1.pddl",
+      "selftest": false
+    },
+    {
+      "id": "binpacking/v1--BinPacking-prob4-fluents-v1-16p",
+      "dir": "binpacking",
+      "domain": "BinPacking-domain-fluents-v1.pddl",
+      "problem": "BinPacking-prob4-fluents-v1-16p.pddl",
+      "selftest": false
+    },
+    {
+      "id": "binpacking/v2op--BinPacking-prob1-fluents-v1-20p",
+      "dir": "binpacking",
+      "domain": "BinPacking-domain-fluents-v2op.pddl",
+      "problem": "BinPacking-prob1-fluents-v1-20p.pddl",
+      "selftest": false
+    },
+    {
+      "id": "binpacking/v2op--BinPacking-prob1-fluents-v2-10p",
+      "dir": "binpacking",
+      "domain": "BinPacking-domain-fluents-v2op.pddl",
+      "problem": "BinPacking-prob1-fluents-v2-10p.pddl",
+      "selftest": false
+    },
+    {
+      "id": "binpacking/v2op--BinPacking-prob2-fluents-v1",
+      "dir": "binpacking",
+      "domain": "BinPacking-domain-fluents-v2op.pddl",
+      "problem": "BinPacking-prob2-fluents-v1.pddl",
+      "selftest": false
+    },
+    {
+      "id": "binpacking/v2op--BinPacking-prob3-fluents-v1",
+      "dir": "binpacking",
+      "domain": "BinPacking-domain-fluents-v2op.pddl",
+      "problem": "BinPacking-prob3-fluents-v1.pddl",
+      "selftest": false
+    },
+    {
+      "id": "binpacking/v2op--BinPacking-prob4-fluents-v1-16p",
+      "dir": "binpacking",
+      "domain": "BinPacking-domain-fluents-v2op.pddl",
+      "problem": "BinPacking-prob4-fluents-v1-16p.pddl",
+      "selftest": false
+    },
+    {
+      "id": "asignaturas/assigs-metric-prova-1",
+      "dir": "asignaturas",
+      "domain": "assigs-metric-domain.pddl",
+      "problem": "assigs-metric-prova-1.pddl",
+      "selftest": false
+    },
+    {
+      "id": "asignaturas/assigs-metric-prova-2",
+      "dir": "asignaturas",
+      "domain": "assigs-metric-domain.pddl",
+      "problem": "assigs-metric-prova-2.pddl",
+      "selftest": false
+    },
+    {
+      "id": "asignaturas/assigs-metric-prova-3",
+      "dir": "asignaturas",
+      "domain": "assigs-metric-domain.pddl",
+      "problem": "assigs-metric-prova-3.pddl",
+      "selftest": false
+    },
+    {
+      "id": "sharebath/ShareBath-problem",
+      "dir": "sharebath",
+      "domain": "ShareBath-domain.pddl",
+      "problem": "ShareBath-problem.pddl",
+      "selftest": false
+    }
+  ]
 }

@@ -1,0 +1,10 @@
+{
+ "command": "ff -o assigs-metric-domain.pddl -f assigs-metric-prova-3.pddl",
+ "cwd": "examples/asignaturas",
+ "exit_code": 1,
+ "outcome": "parse-error",
+ "plan": null,
+ "stdout": "\nff: parsing domain file",
+ "stderr": "\nassigs-metric-domain.pddl: syntax error in line 2, ':FLUENTS':\ndomain definition expected\n",
+ "reason": "syntax error in line 2"
+}

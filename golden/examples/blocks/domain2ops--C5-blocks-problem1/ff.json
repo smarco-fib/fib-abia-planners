@@ -1,0 +1,22 @@
+{
+ "command": "ff -o C5-blocks-domain2ops.pddl -f C5-blocks-problem1.pddl",
+ "cwd": "examples/blocks",
+ "exit_code": 0,
+ "outcome": "plan-found",
+ "plan": [
+  "DESPEJAR F E",
+  "COLOCAR F D",
+  "DESPEJAR E B",
+  "DESPEJAR F D",
+  "DESPEJAR D A",
+  "DESPEJAR A C",
+  "COLOCAR F D",
+  "COLOCAR E F",
+  "COLOCAR A E",
+  "COLOCAR B A",
+  "COLOCAR C B"
+ ],
+ "stdout": "\nff: parsing domain file\ndomain 'BLOCKSWORLD' defined\n ... done.\nff: parsing problem file\nproblem 'BLOCKSPROBLEM1' defined\n ... done.\n\n\n\nCueing down from goal distance:    2 into depth [1]\n                                   1            [1]\n                                   0            \n\nCueing down from goal distance:    2 into depth [1]\n                                   1            [1]\n                                   0            \n\nCueing down from goal distance:    5 into depth [1][2][3]\n                                   4            [1]\n                                   3            [1]\n                                   2            [1]\n                                   1            [1]\n                                   0            \n\nCueing down from goal distance:    1 into depth [1]\n                                   0            \n\nCueing down from goal distance:    1 into depth [1]\n                                   0            \n\nff: found legal plan as follows\n\nstep    0: DESPEJAR F E\n        1: COLOCAR F D\n        2: DESPEJAR E B\n        3: DESPEJAR F D\n        4: DESPEJAR D A\n        5: DESPEJAR A C\n        6: COLOCAR F D\n        7: COLOCAR E F\n        8: COLOCAR A E\n        9: COLOCAR B A\n       10: COLOCAR C B\n     \n\ntime spent:    T.TT seconds instantiating 72 easy, 0 hard action templates\n               T.TT seconds reachability analysis, yielding 48 facts and 72 actions\n               T.TT seconds creating final representation with 48 relevant facts\n               T.TT seconds building connectivity graph\n               T.TT seconds searching, evaluating 21 states, to a max depth of 3\n               T.TT seconds total time\n\n",
+ "stderr": "",
+ "reason": "ff: found legal plan as follows"
+}

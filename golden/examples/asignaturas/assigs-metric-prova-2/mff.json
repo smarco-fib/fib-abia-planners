@@ -1,0 +1,10 @@
+{
+ "command": "metric-ff -o assigs-metric-domain.pddl -f assigs-metric-prova-2.pddl",
+ "cwd": "examples/asignaturas",
+ "exit_code": 1,
+ "outcome": "usage-error",
+ "plan": null,
+ "stdout": "\nff: parsing domain file\ndomain 'ASSIG' defined\n ... done.\nff: parsing problem file\nproblem 'ASSIG1' defined\n ... done.\n\n\ntranslating negated cond for predicate PRECOREQUISIT\ntranslating negated cond for predicate PREREQUISIT\ntranslating negated cond for predicate ASSIGNAT\nno metric specified.\nwarning: numeric precondition. turning cost-minimizing relaxed plans OFF.\n\nff: search configuration is Enforced Hill-Climbing, then A*epsilon with weight 5.\nError! Optimization criterion not established.\nA*epsilon not defined.\n\n",
+ "stderr": "",
+ "reason": "Optimization criterion not established"
+}

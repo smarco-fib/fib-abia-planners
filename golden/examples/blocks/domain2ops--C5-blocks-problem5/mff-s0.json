@@ -1,0 +1,33 @@
+{
+ "command": "metric-ff -s 0 -o C5-blocks-domain2ops.pddl -f C5-blocks-problem5.pddl",
+ "cwd": "examples/blocks",
+ "exit_code": 0,
+ "outcome": "plan-found",
+ "plan": [
+  "DESPEJAR H N",
+  "DESPEJAR L F",
+  "DESPEJAR A J",
+  "DESPEJAR J I",
+  "DESPEJAR G D",
+  "DESPEJAR D C",
+  "DESPEJAR F E",
+  "DESPEJAR I B",
+  "DESPEJAR E K",
+  "DESPEJAR B M",
+  "COLOCAR E M",
+  "COLOCAR C E",
+  "COLOCAR H C",
+  "COLOCAR J H",
+  "COLOCAR L J",
+  "COLOCAR N L",
+  "COLOCAR F D",
+  "COLOCAR K F",
+  "COLOCAR I K",
+  "COLOCAR B I",
+  "COLOCAR G B",
+  "COLOCAR A G"
+ ],
+ "stdout": "\nff: parsing domain file\ndomain 'BLOCKSWORLD' defined\n ... done.\nff: parsing problem file\nproblem 'BLOCKSPROBLEM5' defined\n ... done.\n\n\nno metric specified.\n\nff: search configuration is Enforced Hill-Climbing, if that fails then best-first search.\nMetric is plan length.\nNO COST MINIMIZATION (and no cost-minimizing relaxed plans).\n\nCueing down from goal distance:   22 into depth [1]\n                                  21            [1]\n                                  20            [1]\n                                  19            [1]\n                                  18            [1]\n                                  17            [1]\n                                  16            [1]\n                                  15            [1]\n                                  14            [1]\n                                  13            [1]\n                                  12            [1]\n                                  11            [1]\n                                  10            [1]\n                                   9            [1]\n                                   8            [1]\n                                   7            [1]\n                                   6            [1]\n                                   5            [1]\n                                   4            [1]\n                                   3            [1]\n                                   2            [1]\n                                   1            [1]\n                                   0            \n\nff: found legal plan as follows\nstep    0: DESPEJAR H N\n        1: DESPEJAR L F\n        2: DESPEJAR A J\n        3: DESPEJAR J I\n        4: DESPEJAR G D\n        5: DESPEJAR D C\n        6: DESPEJAR F E\n        7: DESPEJAR I B\n        8: DESPEJAR E K\n        9: DESPEJAR B M\n       10: COLOCAR E M\n       11: COLOCAR C E\n       12: COLOCAR H C\n       13: COLOCAR J H\n       14: COLOCAR L J\n       15: COLOCAR N L\n       16: COLOCAR F D\n       17: COLOCAR K F\n       18: COLOCAR I K\n       19: COLOCAR B I\n       20: COLOCAR G B\n       21: COLOCAR A G\n\ntime spent:    T.TT seconds instantiating 392 easy, 0 hard action templates\n               T.TT seconds reachability analysis, yielding 224 facts and 392 actions\n               T.TT seconds creating final representation with 224 relevant facts, 0 relevant fluents\n               T.TT seconds computing LNF\n               T.TT seconds building connectivity graph\n               T.TT seconds searching, evaluating 53 states, to a max depth of 1\n               T.TT seconds total time\n\n",
+ "stderr": "",
+ "reason": "ff: found legal plan as follows"
+}

@@ -1,0 +1,14 @@
+{
+ "command": "metric-ff -s 0 -o C5-blocks-domain2ops.pddl -f C5-blocks-problemslides.pddl",
+ "cwd": "examples/blocks",
+ "exit_code": 0,
+ "outcome": "plan-found",
+ "plan": [
+  "COLOCAR B A",
+  "COLOCAR C B",
+  "COLOCAR D C"
+ ],
+ "stdout": "\nff: parsing domain file\ndomain 'BLOCKSWORLD' defined\n ... done.\nff: parsing problem file\nproblem 'BLOCKSPROBLEMSLIDES' defined\n ... done.\n\n\nno metric specified.\n\nff: search configuration is Enforced Hill-Climbing, if that fails then best-first search.\nMetric is plan length.\nNO COST MINIMIZATION (and no cost-minimizing relaxed plans).\n\nCueing down from goal distance:    3 into depth [1]\n                                   2            [1]\n                                   1            [1]\n                                   0            \n\nff: found legal plan as follows\nstep    0: COLOCAR B A\n        1: COLOCAR C B\n        2: COLOCAR D C\n\ntime spent:    T.TT seconds instantiating 32 easy, 0 hard action templates\n               T.TT seconds reachability analysis, yielding 24 facts and 32 actions\n               T.TT seconds creating final representation with 24 relevant facts, 0 relevant fluents\n               T.TT seconds computing LNF\n               T.TT seconds building connectivity graph\n               T.TT seconds searching, evaluating 7 states, to a max depth of 1\n               T.TT seconds total time\n\n",
+ "stderr": "",
+ "reason": "ff: found legal plan as follows"
+}

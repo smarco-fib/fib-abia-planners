@@ -1,0 +1,10 @@
+{
+ "command": "metric-ff -o SmartBus-domainv2.pddl -f SmartBus-prob1v2.pddl",
+ "cwd": "examples/smartbus",
+ "exit_code": 1,
+ "outcome": "usage-error",
+ "plan": null,
+ "stdout": "\nff: parsing domain file\ndomain 'SMART-BUS' defined\n ... done.\nff: parsing problem file\nproblem 'SMART-BUS-1' defined\n ... done.\n\n\ntranslating negated cond for predicate TRANSPORTADA\ntranslating negated cond for predicate OCUPADO\ntranslating negated cond for predicate EN-BUS\nno metric specified.\n\nff: search configuration is Enforced Hill-Climbing, then A*epsilon with weight 5.\nError! Optimization criterion not established.\nA*epsilon not defined.\n\n",
+ "stderr": "",
+ "reason": "Optimization criterion not established"
+}

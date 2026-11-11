@@ -1,0 +1,32 @@
+{
+ "command": "metric-ff -s 0 -o BinPacking-domain-fluents-v2op.pddl -f BinPacking-prob3-fluents-v1.pddl",
+ "cwd": "examples/binpacking",
+ "exit_code": 0,
+ "outcome": "plan-found",
+ "plan": [
+  "COLOCAR_PAQUETE P20 C06",
+  "COLOCAR_PAQUETE P19 C06",
+  "COLOCAR_PAQUETE P18 C06",
+  "COLOCAR_PAQUETE P17 C06",
+  "COLOCAR_PAQUETE P16 C06",
+  "COLOCAR_PAQUETE P15 C06",
+  "COLOCAR_PAQUETE P14 C05",
+  "COLOCAR_PAQUETE P13 C05",
+  "COLOCAR_PAQUETE P12 C05",
+  "COLOCAR_PAQUETE P11 C05",
+  "COLOCAR_PAQUETE P10 C05",
+  "COLOCAR_PAQUETE P09 C05",
+  "COLOCAR_PAQUETE P08 C05",
+  "COLOCAR_PAQUETE P07 C04",
+  "COLOCAR_PAQUETE P06 C04",
+  "COLOCAR_PAQUETE P05 C03",
+  "COLOCAR_PAQUETE P04 C02",
+  "COLOCAR_PAQUETE P02 C02",
+  "COLOCAR_PAQUETE P03 C01",
+  "INTERCAMBIAR_PAQUETE P06 P03 C04 C01",
+  "COLOCAR_PAQUETE P01 C01"
+ ],
+ "stdout": "\nff: parsing domain file\ndomain 'BINPACKINGFLUENTS' defined\n ... done.\nff: parsing problem file\nproblem 'BINPACKING-20PAQ-6CONTAINERS' defined\n ... done.\n\n\ntranslating negated cond for predicate COLOCADO\n\ntask contains conditional effects. turning off state domination.\n\n\n\nff: search configuration is Enforced Hill-Climbing, if that fails then best-first search.\nMetric is plan length.\nNO COST MINIMIZATION (and no cost-minimizing relaxed plans).\n\nCueing down from goal distance:   20 into depth [1]\n                                  19            [1]\n                                  18            [1]\n                                  17            [1]\n                                  16            [1]\n                                  15            [1]\n                                  14            [1]\n                                  13            [1]\n                                  12            [1]\n                                  11            [1]\n                                  10            [1]\n                                   9            [1]\n                                   8            [1]\n                                   7            [1]\n                                   6            [1]\n                                   5            [1]\n                                   4            [1]\n                                   3            [1]\n                                   2            [1][2]\n                                   1            [1]\n                                   0            \n\nff: found legal plan as follows\nstep    0: COLOCAR_PAQUETE P20 C06\n        1: COLOCAR_PAQUETE P19 C06\n        2: COLOCAR_PAQUETE P18 C06\n        3: COLOCAR_PAQUETE P17 C06\n        4: COLOCAR_PAQUETE P16 C06\n        5: COLOCAR_PAQUETE P15 C06\n        6: COLOCAR_PAQUETE P14 C05\n        7: COLOCAR_PAQUETE P13 C05\n        8: COLOCAR_PAQUETE P12 C05\n        9: COLOCAR_PAQUETE P11 C05\n       10: COLOCAR_PAQUETE P10 C05\n       11: COLOCAR_PAQUETE P09 C05\n       12: COLOCAR_PAQUETE P08 C05\n       13: COLOCAR_PAQUETE P07 C04\n       14: COLOCAR_PAQUETE P06 C04\n       15: COLOCAR_PAQUETE P05 C03\n       16: COLOCAR_PAQUETE P04 C02\n       17: COLOCAR_PAQUETE P02 C02\n       18: COLOCAR_PAQUETE P03 C01\n       19: INTERCAMBIAR_PAQUETE P06 P03 C04 C01\n       20: COLOCAR_PAQUETE P01 C01\nplan cost: 20.000000\n\ntime spent:    T.TT seconds instantiating 14520 easy, 0 hard action templates\n               T.TT seconds reachability analysis, yielding 160 facts and 14520 actions\n               T.TT seconds creating final representation with 160 relevant facts, 13 relevant fluents\n               T.TT seconds computing LNF\n               T.TT seconds building connectivity graph\n               T.TT seconds searching, evaluating 24 states, to a max depth of 2\n               T.TT seconds total time\n\n",
+ "stderr": "",
+ "reason": "ff: found legal plan as follows"
+}
