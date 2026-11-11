@@ -1,0 +1,3622 @@
+{
+ "suite": "ipc",
+ "root": "ipc",
+ "timeout": 120,
+ "cases": [
+  {
+   "id": "ipc-1998/gripper-round-1-strips/01",
+   "dir": "ipc-1998/gripper-round-1-strips",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-1.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-1998/gripper-round-1-strips/02",
+   "dir": "ipc-1998/gripper-round-1-strips",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-2.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-1998/gripper-round-1-strips/03",
+   "dir": "ipc-1998/gripper-round-1-strips",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-3.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-1998/gripper-round-1-strips/04",
+   "dir": "ipc-1998/gripper-round-1-strips",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-4.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-1998/gripper-round-1-strips/05",
+   "dir": "ipc-1998/gripper-round-1-strips",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-5.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-1998/gripper-round-1-strips/06",
+   "dir": "ipc-1998/gripper-round-1-strips",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-6.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-1998/gripper-round-1-strips/07",
+   "dir": "ipc-1998/gripper-round-1-strips",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-7.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-1998/gripper-round-1-strips/08",
+   "dir": "ipc-1998/gripper-round-1-strips",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-8.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-1998/gripper-round-1-strips/09",
+   "dir": "ipc-1998/gripper-round-1-strips",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-9.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-1998/gripper-round-1-strips/10",
+   "dir": "ipc-1998/gripper-round-1-strips",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-10.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-1998/gripper-round-1-strips/11",
+   "dir": "ipc-1998/gripper-round-1-strips",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-11.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-1998/gripper-round-1-strips/12",
+   "dir": "ipc-1998/gripper-round-1-strips",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-12.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-1998/gripper-round-1-adl/01",
+   "dir": "ipc-1998/gripper-round-1-adl",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-1.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-1998/gripper-round-1-adl/02",
+   "dir": "ipc-1998/gripper-round-1-adl",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-2.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-1998/gripper-round-1-adl/03",
+   "dir": "ipc-1998/gripper-round-1-adl",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-3.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-1998/gripper-round-1-adl/04",
+   "dir": "ipc-1998/gripper-round-1-adl",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-4.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-1998/gripper-round-1-adl/05",
+   "dir": "ipc-1998/gripper-round-1-adl",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-5.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-1998/gripper-round-1-adl/06",
+   "dir": "ipc-1998/gripper-round-1-adl",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-6.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-1998/gripper-round-1-adl/07",
+   "dir": "ipc-1998/gripper-round-1-adl",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-7.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-1998/gripper-round-1-adl/08",
+   "dir": "ipc-1998/gripper-round-1-adl",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-8.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-1998/gripper-round-1-adl/09",
+   "dir": "ipc-1998/gripper-round-1-adl",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-9.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-1998/gripper-round-1-adl/10",
+   "dir": "ipc-1998/gripper-round-1-adl",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-10.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-1998/gripper-round-1-adl/11",
+   "dir": "ipc-1998/gripper-round-1-adl",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-11.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-1998/gripper-round-1-adl/12",
+   "dir": "ipc-1998/gripper-round-1-adl",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-12.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-1998/assembly-round-1-adl/01",
+   "dir": "ipc-1998/assembly-round-1-adl",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-1.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-1998/assembly-round-1-adl/02",
+   "dir": "ipc-1998/assembly-round-1-adl",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-2.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-1998/assembly-round-1-adl/03",
+   "dir": "ipc-1998/assembly-round-1-adl",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-3.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-1998/assembly-round-1-adl/04",
+   "dir": "ipc-1998/assembly-round-1-adl",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-4.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-1998/assembly-round-1-adl/05",
+   "dir": "ipc-1998/assembly-round-1-adl",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-5.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-1998/assembly-round-1-adl/06",
+   "dir": "ipc-1998/assembly-round-1-adl",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-6.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-1998/assembly-round-1-adl/07",
+   "dir": "ipc-1998/assembly-round-1-adl",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-7.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-1998/assembly-round-1-adl/08",
+   "dir": "ipc-1998/assembly-round-1-adl",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-8.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-1998/assembly-round-1-adl/09",
+   "dir": "ipc-1998/assembly-round-1-adl",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-9.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-1998/assembly-round-1-adl/10",
+   "dir": "ipc-1998/assembly-round-1-adl",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-10.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-1998/assembly-round-1-adl/11",
+   "dir": "ipc-1998/assembly-round-1-adl",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-11.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-1998/assembly-round-1-adl/12",
+   "dir": "ipc-1998/assembly-round-1-adl",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-12.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-1998/movie-round-1-adl/01",
+   "dir": "ipc-1998/movie-round-1-adl",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-1.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-1998/movie-round-1-adl/02",
+   "dir": "ipc-1998/movie-round-1-adl",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-2.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-1998/movie-round-1-adl/03",
+   "dir": "ipc-1998/movie-round-1-adl",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-3.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-1998/movie-round-1-adl/04",
+   "dir": "ipc-1998/movie-round-1-adl",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-4.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-1998/movie-round-1-adl/05",
+   "dir": "ipc-1998/movie-round-1-adl",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-5.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-1998/movie-round-1-adl/06",
+   "dir": "ipc-1998/movie-round-1-adl",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-6.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-1998/movie-round-1-adl/07",
+   "dir": "ipc-1998/movie-round-1-adl",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-7.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-1998/movie-round-1-adl/08",
+   "dir": "ipc-1998/movie-round-1-adl",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-8.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-1998/movie-round-1-adl/09",
+   "dir": "ipc-1998/movie-round-1-adl",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-9.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-1998/movie-round-1-adl/10",
+   "dir": "ipc-1998/movie-round-1-adl",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-10.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-1998/movie-round-1-adl/11",
+   "dir": "ipc-1998/movie-round-1-adl",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-11.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-1998/movie-round-1-adl/12",
+   "dir": "ipc-1998/movie-round-1-adl",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-12.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-1998/mystery-round-1-adl/01",
+   "dir": "ipc-1998/mystery-round-1-adl",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-1.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-1998/mystery-round-1-adl/02",
+   "dir": "ipc-1998/mystery-round-1-adl",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-2.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-1998/mystery-round-1-adl/03",
+   "dir": "ipc-1998/mystery-round-1-adl",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-3.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-1998/mystery-round-1-adl/04",
+   "dir": "ipc-1998/mystery-round-1-adl",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-4.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-1998/mystery-round-1-adl/05",
+   "dir": "ipc-1998/mystery-round-1-adl",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-5.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-1998/mystery-round-1-adl/06",
+   "dir": "ipc-1998/mystery-round-1-adl",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-6.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-1998/mystery-round-1-adl/07",
+   "dir": "ipc-1998/mystery-round-1-adl",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-7.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-1998/mystery-round-1-adl/08",
+   "dir": "ipc-1998/mystery-round-1-adl",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-8.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-1998/mystery-round-1-adl/09",
+   "dir": "ipc-1998/mystery-round-1-adl",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-9.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-1998/mystery-round-1-adl/10",
+   "dir": "ipc-1998/mystery-round-1-adl",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-10.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-1998/mystery-round-1-adl/11",
+   "dir": "ipc-1998/mystery-round-1-adl",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-11.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-1998/mystery-round-1-adl/12",
+   "dir": "ipc-1998/mystery-round-1-adl",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-12.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2000/blocks-strips-typed/01",
+   "dir": "ipc-2000/blocks-strips-typed",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-1.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2000/blocks-strips-typed/02",
+   "dir": "ipc-2000/blocks-strips-typed",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-2.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2000/blocks-strips-typed/03",
+   "dir": "ipc-2000/blocks-strips-typed",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-3.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2000/blocks-strips-typed/04",
+   "dir": "ipc-2000/blocks-strips-typed",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-4.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2000/blocks-strips-typed/05",
+   "dir": "ipc-2000/blocks-strips-typed",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-5.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2000/blocks-strips-typed/06",
+   "dir": "ipc-2000/blocks-strips-typed",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-6.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2000/blocks-strips-typed/07",
+   "dir": "ipc-2000/blocks-strips-typed",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-7.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2000/blocks-strips-typed/08",
+   "dir": "ipc-2000/blocks-strips-typed",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-8.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2000/blocks-strips-typed/09",
+   "dir": "ipc-2000/blocks-strips-typed",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-9.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2000/blocks-strips-typed/10",
+   "dir": "ipc-2000/blocks-strips-typed",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-10.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2000/blocks-strips-typed/11",
+   "dir": "ipc-2000/blocks-strips-typed",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-11.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2000/blocks-strips-typed/12",
+   "dir": "ipc-2000/blocks-strips-typed",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-12.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2000/elevator-adl-full-typed/01",
+   "dir": "ipc-2000/elevator-adl-full-typed",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-1.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2000/elevator-adl-full-typed/02",
+   "dir": "ipc-2000/elevator-adl-full-typed",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-2.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2000/elevator-adl-full-typed/03",
+   "dir": "ipc-2000/elevator-adl-full-typed",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-3.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2000/elevator-adl-full-typed/04",
+   "dir": "ipc-2000/elevator-adl-full-typed",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-4.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2000/elevator-adl-full-typed/05",
+   "dir": "ipc-2000/elevator-adl-full-typed",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-5.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2000/elevator-adl-full-typed/06",
+   "dir": "ipc-2000/elevator-adl-full-typed",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-6.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2000/elevator-adl-full-typed/07",
+   "dir": "ipc-2000/elevator-adl-full-typed",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-7.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2000/elevator-adl-full-typed/08",
+   "dir": "ipc-2000/elevator-adl-full-typed",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-8.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2000/elevator-adl-full-typed/09",
+   "dir": "ipc-2000/elevator-adl-full-typed",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-9.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2000/elevator-adl-full-typed/10",
+   "dir": "ipc-2000/elevator-adl-full-typed",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-10.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2000/elevator-adl-full-typed/11",
+   "dir": "ipc-2000/elevator-adl-full-typed",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-11.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2000/elevator-adl-full-typed/12",
+   "dir": "ipc-2000/elevator-adl-full-typed",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-12.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2000/elevator-adl-simple-typed/01",
+   "dir": "ipc-2000/elevator-adl-simple-typed",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-1.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2000/elevator-adl-simple-typed/02",
+   "dir": "ipc-2000/elevator-adl-simple-typed",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-2.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2000/elevator-adl-simple-typed/03",
+   "dir": "ipc-2000/elevator-adl-simple-typed",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-3.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2000/elevator-adl-simple-typed/04",
+   "dir": "ipc-2000/elevator-adl-simple-typed",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-4.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2000/elevator-adl-simple-typed/05",
+   "dir": "ipc-2000/elevator-adl-simple-typed",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-5.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2000/elevator-adl-simple-typed/06",
+   "dir": "ipc-2000/elevator-adl-simple-typed",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-6.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2000/elevator-adl-simple-typed/07",
+   "dir": "ipc-2000/elevator-adl-simple-typed",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-7.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2000/elevator-adl-simple-typed/08",
+   "dir": "ipc-2000/elevator-adl-simple-typed",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-8.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2000/elevator-adl-simple-typed/09",
+   "dir": "ipc-2000/elevator-adl-simple-typed",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-9.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2000/elevator-adl-simple-typed/10",
+   "dir": "ipc-2000/elevator-adl-simple-typed",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-10.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2000/elevator-adl-simple-typed/11",
+   "dir": "ipc-2000/elevator-adl-simple-typed",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-11.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2000/elevator-adl-simple-typed/12",
+   "dir": "ipc-2000/elevator-adl-simple-typed",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-12.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2000/schedule-adl-typed/01",
+   "dir": "ipc-2000/schedule-adl-typed",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-1.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2000/schedule-adl-typed/02",
+   "dir": "ipc-2000/schedule-adl-typed",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-2.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2000/schedule-adl-typed/03",
+   "dir": "ipc-2000/schedule-adl-typed",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-3.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2000/schedule-adl-typed/04",
+   "dir": "ipc-2000/schedule-adl-typed",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-4.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2000/schedule-adl-typed/05",
+   "dir": "ipc-2000/schedule-adl-typed",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-5.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2000/schedule-adl-typed/06",
+   "dir": "ipc-2000/schedule-adl-typed",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-6.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2000/schedule-adl-typed/07",
+   "dir": "ipc-2000/schedule-adl-typed",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-7.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2000/schedule-adl-typed/08",
+   "dir": "ipc-2000/schedule-adl-typed",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-8.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2000/schedule-adl-typed/09",
+   "dir": "ipc-2000/schedule-adl-typed",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-9.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2000/schedule-adl-typed/10",
+   "dir": "ipc-2000/schedule-adl-typed",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-10.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2000/schedule-adl-typed/11",
+   "dir": "ipc-2000/schedule-adl-typed",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-11.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2000/schedule-adl-typed/12",
+   "dir": "ipc-2000/schedule-adl-typed",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-12.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2000/logistics-strips-typed/01",
+   "dir": "ipc-2000/logistics-strips-typed",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-1.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2000/logistics-strips-typed/02",
+   "dir": "ipc-2000/logistics-strips-typed",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-2.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2000/logistics-strips-typed/03",
+   "dir": "ipc-2000/logistics-strips-typed",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-3.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2000/logistics-strips-typed/04",
+   "dir": "ipc-2000/logistics-strips-typed",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-4.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2000/logistics-strips-typed/05",
+   "dir": "ipc-2000/logistics-strips-typed",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-5.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2000/logistics-strips-typed/06",
+   "dir": "ipc-2000/logistics-strips-typed",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-6.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2000/logistics-strips-typed/07",
+   "dir": "ipc-2000/logistics-strips-typed",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-7.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2000/logistics-strips-typed/08",
+   "dir": "ipc-2000/logistics-strips-typed",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-8.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2000/logistics-strips-typed/09",
+   "dir": "ipc-2000/logistics-strips-typed",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-9.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2000/logistics-strips-typed/10",
+   "dir": "ipc-2000/logistics-strips-typed",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-10.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2000/logistics-strips-typed/11",
+   "dir": "ipc-2000/logistics-strips-typed",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-11.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2000/logistics-strips-typed/12",
+   "dir": "ipc-2000/logistics-strips-typed",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-12.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2000/freecell-strips-typed/01",
+   "dir": "ipc-2000/freecell-strips-typed",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-1.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2000/freecell-strips-typed/02",
+   "dir": "ipc-2000/freecell-strips-typed",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-2.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2000/freecell-strips-typed/03",
+   "dir": "ipc-2000/freecell-strips-typed",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-3.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2000/freecell-strips-typed/04",
+   "dir": "ipc-2000/freecell-strips-typed",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-4.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2000/freecell-strips-typed/05",
+   "dir": "ipc-2000/freecell-strips-typed",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-5.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2000/freecell-strips-typed/06",
+   "dir": "ipc-2000/freecell-strips-typed",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-6.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2000/freecell-strips-typed/07",
+   "dir": "ipc-2000/freecell-strips-typed",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-7.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2000/freecell-strips-typed/08",
+   "dir": "ipc-2000/freecell-strips-typed",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-8.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2000/freecell-strips-typed/09",
+   "dir": "ipc-2000/freecell-strips-typed",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-9.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2000/freecell-strips-typed/10",
+   "dir": "ipc-2000/freecell-strips-typed",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-10.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2000/freecell-strips-typed/11",
+   "dir": "ipc-2000/freecell-strips-typed",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-11.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2000/freecell-strips-typed/12",
+   "dir": "ipc-2000/freecell-strips-typed",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-12.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2002/depots-strips-automatic/01",
+   "dir": "ipc-2002/depots-strips-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-1.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2002/depots-strips-automatic/02",
+   "dir": "ipc-2002/depots-strips-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-2.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2002/depots-strips-automatic/03",
+   "dir": "ipc-2002/depots-strips-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-3.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2002/depots-strips-automatic/04",
+   "dir": "ipc-2002/depots-strips-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-4.pddl",
+   "configs": [
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2002/depots-strips-automatic/05",
+   "dir": "ipc-2002/depots-strips-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-5.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2002/depots-strips-automatic/06",
+   "dir": "ipc-2002/depots-strips-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-6.pddl",
+   "configs": [
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2002/depots-strips-automatic/07",
+   "dir": "ipc-2002/depots-strips-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-7.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2002/depots-strips-automatic/08",
+   "dir": "ipc-2002/depots-strips-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-8.pddl",
+   "configs": [
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2002/depots-strips-automatic/09",
+   "dir": "ipc-2002/depots-strips-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-9.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2002/depots-strips-automatic/10",
+   "dir": "ipc-2002/depots-strips-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-10.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2002/depots-strips-automatic/11",
+   "dir": "ipc-2002/depots-strips-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-11.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2002/depots-strips-automatic/12",
+   "dir": "ipc-2002/depots-strips-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-12.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2002/driverlog-strips-automatic/01",
+   "dir": "ipc-2002/driverlog-strips-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-1.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2002/driverlog-strips-automatic/02",
+   "dir": "ipc-2002/driverlog-strips-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-2.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2002/driverlog-strips-automatic/03",
+   "dir": "ipc-2002/driverlog-strips-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-3.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2002/driverlog-strips-automatic/04",
+   "dir": "ipc-2002/driverlog-strips-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-4.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2002/driverlog-strips-automatic/05",
+   "dir": "ipc-2002/driverlog-strips-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-5.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2002/driverlog-strips-automatic/06",
+   "dir": "ipc-2002/driverlog-strips-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-6.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2002/driverlog-strips-automatic/07",
+   "dir": "ipc-2002/driverlog-strips-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-7.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2002/driverlog-strips-automatic/08",
+   "dir": "ipc-2002/driverlog-strips-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-8.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2002/driverlog-strips-automatic/09",
+   "dir": "ipc-2002/driverlog-strips-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-9.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2002/driverlog-strips-automatic/10",
+   "dir": "ipc-2002/driverlog-strips-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-10.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2002/driverlog-strips-automatic/11",
+   "dir": "ipc-2002/driverlog-strips-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-11.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2002/driverlog-strips-automatic/12",
+   "dir": "ipc-2002/driverlog-strips-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-12.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2002/satellite-strips-automatic/01",
+   "dir": "ipc-2002/satellite-strips-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-1.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2002/satellite-strips-automatic/02",
+   "dir": "ipc-2002/satellite-strips-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-2.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2002/satellite-strips-automatic/03",
+   "dir": "ipc-2002/satellite-strips-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-3.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2002/satellite-strips-automatic/04",
+   "dir": "ipc-2002/satellite-strips-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-4.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2002/satellite-strips-automatic/05",
+   "dir": "ipc-2002/satellite-strips-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-5.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2002/satellite-strips-automatic/06",
+   "dir": "ipc-2002/satellite-strips-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-6.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2002/satellite-strips-automatic/07",
+   "dir": "ipc-2002/satellite-strips-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-7.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2002/satellite-strips-automatic/08",
+   "dir": "ipc-2002/satellite-strips-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-8.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2002/satellite-strips-automatic/09",
+   "dir": "ipc-2002/satellite-strips-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-9.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2002/satellite-strips-automatic/10",
+   "dir": "ipc-2002/satellite-strips-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-10.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2002/satellite-strips-automatic/11",
+   "dir": "ipc-2002/satellite-strips-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-11.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2002/satellite-strips-automatic/12",
+   "dir": "ipc-2002/satellite-strips-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-12.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2002/zenotravel-strips-automatic/01",
+   "dir": "ipc-2002/zenotravel-strips-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-1.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2002/zenotravel-strips-automatic/02",
+   "dir": "ipc-2002/zenotravel-strips-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-2.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2002/zenotravel-strips-automatic/03",
+   "dir": "ipc-2002/zenotravel-strips-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-3.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2002/zenotravel-strips-automatic/04",
+   "dir": "ipc-2002/zenotravel-strips-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-4.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2002/zenotravel-strips-automatic/05",
+   "dir": "ipc-2002/zenotravel-strips-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-5.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2002/zenotravel-strips-automatic/06",
+   "dir": "ipc-2002/zenotravel-strips-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-6.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2002/zenotravel-strips-automatic/07",
+   "dir": "ipc-2002/zenotravel-strips-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-7.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2002/zenotravel-strips-automatic/08",
+   "dir": "ipc-2002/zenotravel-strips-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-8.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2002/zenotravel-strips-automatic/09",
+   "dir": "ipc-2002/zenotravel-strips-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-9.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2002/zenotravel-strips-automatic/10",
+   "dir": "ipc-2002/zenotravel-strips-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-10.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2002/zenotravel-strips-automatic/11",
+   "dir": "ipc-2002/zenotravel-strips-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-11.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2002/zenotravel-strips-automatic/12",
+   "dir": "ipc-2002/zenotravel-strips-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-12.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2002/depots-numeric-automatic/01",
+   "dir": "ipc-2002/depots-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-1.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/depots-numeric-automatic/02",
+   "dir": "ipc-2002/depots-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-2.pddl",
+   "configs": [
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2002/depots-numeric-automatic/03",
+   "dir": "ipc-2002/depots-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-3.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/depots-numeric-automatic/04",
+   "dir": "ipc-2002/depots-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-4.pddl",
+   "configs": [
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2002/depots-numeric-automatic/05",
+   "dir": "ipc-2002/depots-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-5.pddl",
+   "configs": [
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2002/depots-numeric-automatic/07",
+   "dir": "ipc-2002/depots-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-7.pddl",
+   "configs": [
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2002/depots-numeric-automatic/08",
+   "dir": "ipc-2002/depots-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-8.pddl",
+   "configs": [
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2002/depots-numeric-automatic/10",
+   "dir": "ipc-2002/depots-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-10.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/depots-numeric-automatic/11",
+   "dir": "ipc-2002/depots-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-11.pddl",
+   "configs": [
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2002/depots-numeric-automatic/12",
+   "dir": "ipc-2002/depots-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-12.pddl",
+   "configs": [
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2002/depots-numeric-automatic/13",
+   "dir": "ipc-2002/depots-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-13.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/depots-numeric-automatic/14",
+   "dir": "ipc-2002/depots-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-14.pddl",
+   "configs": [
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2002/depots-numeric-automatic/16",
+   "dir": "ipc-2002/depots-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-16.pddl",
+   "configs": [
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2002/depots-numeric-automatic/17",
+   "dir": "ipc-2002/depots-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-17.pddl",
+   "configs": [
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2002/depots-numeric-automatic/18",
+   "dir": "ipc-2002/depots-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-18.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/depots-numeric-automatic/19",
+   "dir": "ipc-2002/depots-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-19.pddl",
+   "configs": [
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2002/driverlog-numeric-automatic/01",
+   "dir": "ipc-2002/driverlog-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-1.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/driverlog-numeric-automatic/02",
+   "dir": "ipc-2002/driverlog-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-2.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/driverlog-numeric-automatic/03",
+   "dir": "ipc-2002/driverlog-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-3.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/driverlog-numeric-automatic/04",
+   "dir": "ipc-2002/driverlog-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-4.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/driverlog-numeric-automatic/05",
+   "dir": "ipc-2002/driverlog-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-5.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/driverlog-numeric-automatic/06",
+   "dir": "ipc-2002/driverlog-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-6.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/driverlog-numeric-automatic/07",
+   "dir": "ipc-2002/driverlog-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-7.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/driverlog-numeric-automatic/08",
+   "dir": "ipc-2002/driverlog-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-8.pddl",
+   "configs": [
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2002/driverlog-numeric-automatic/09",
+   "dir": "ipc-2002/driverlog-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-9.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/driverlog-numeric-automatic/10",
+   "dir": "ipc-2002/driverlog-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-10.pddl",
+   "configs": [
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2002/driverlog-numeric-automatic/11",
+   "dir": "ipc-2002/driverlog-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-11.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/driverlog-numeric-automatic/12",
+   "dir": "ipc-2002/driverlog-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-12.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/driverlog-numeric-automatic/13",
+   "dir": "ipc-2002/driverlog-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-13.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/driverlog-numeric-automatic/14",
+   "dir": "ipc-2002/driverlog-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-14.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/driverlog-numeric-automatic/15",
+   "dir": "ipc-2002/driverlog-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-15.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/driverlog-numeric-automatic/16",
+   "dir": "ipc-2002/driverlog-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-16.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/driverlog-numeric-automatic/17",
+   "dir": "ipc-2002/driverlog-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-17.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/driverlog-numeric-automatic/18",
+   "dir": "ipc-2002/driverlog-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-18.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/driverlog-numeric-automatic/19",
+   "dir": "ipc-2002/driverlog-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-19.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/driverlog-numeric-automatic/20",
+   "dir": "ipc-2002/driverlog-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-20.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/rovers-numeric-automatic/01",
+   "dir": "ipc-2002/rovers-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-1.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/rovers-numeric-automatic/02",
+   "dir": "ipc-2002/rovers-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-2.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/rovers-numeric-automatic/03",
+   "dir": "ipc-2002/rovers-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-3.pddl",
+   "configs": [
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2002/rovers-numeric-automatic/04",
+   "dir": "ipc-2002/rovers-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-4.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/rovers-numeric-automatic/05",
+   "dir": "ipc-2002/rovers-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-5.pddl",
+   "configs": [
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2002/rovers-numeric-automatic/07",
+   "dir": "ipc-2002/rovers-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-7.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/rovers-numeric-automatic/08",
+   "dir": "ipc-2002/rovers-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-8.pddl",
+   "configs": [
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2002/rovers-numeric-automatic/10",
+   "dir": "ipc-2002/rovers-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-10.pddl",
+   "configs": [
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2002/rovers-numeric-automatic/11",
+   "dir": "ipc-2002/rovers-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-11.pddl",
+   "configs": [
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2002/rovers-numeric-automatic/12",
+   "dir": "ipc-2002/rovers-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-12.pddl",
+   "configs": [
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2002/rovers-numeric-automatic/13",
+   "dir": "ipc-2002/rovers-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-13.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/rovers-numeric-automatic/14",
+   "dir": "ipc-2002/rovers-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-14.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/rovers-numeric-automatic/15",
+   "dir": "ipc-2002/rovers-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-15.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/rovers-numeric-automatic/16",
+   "dir": "ipc-2002/rovers-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-16.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/rovers-numeric-automatic/17",
+   "dir": "ipc-2002/rovers-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-17.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/rovers-numeric-automatic/18",
+   "dir": "ipc-2002/rovers-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-18.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/rovers-numeric-automatic/19",
+   "dir": "ipc-2002/rovers-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-19.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/rovers-numeric-automatic/20",
+   "dir": "ipc-2002/rovers-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-20.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/satellite-numeric-automatic/03",
+   "dir": "ipc-2002/satellite-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-3.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/satellite-numeric-automatic/04",
+   "dir": "ipc-2002/satellite-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-4.pddl",
+   "configs": [
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2002/satellite-numeric-automatic/05",
+   "dir": "ipc-2002/satellite-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-5.pddl",
+   "configs": [
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2002/satellite-numeric-automatic/06",
+   "dir": "ipc-2002/satellite-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-6.pddl",
+   "configs": [
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2002/satellite-numeric-automatic/07",
+   "dir": "ipc-2002/satellite-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-7.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/satellite-numeric-automatic/08",
+   "dir": "ipc-2002/satellite-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-8.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/satellite-numeric-automatic/09",
+   "dir": "ipc-2002/satellite-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-9.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/satellite-numeric-automatic/10",
+   "dir": "ipc-2002/satellite-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-10.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/satellite-numeric-automatic/11",
+   "dir": "ipc-2002/satellite-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-11.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/satellite-numeric-automatic/12",
+   "dir": "ipc-2002/satellite-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-12.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/satellite-numeric-automatic/13",
+   "dir": "ipc-2002/satellite-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-13.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/satellite-numeric-automatic/14",
+   "dir": "ipc-2002/satellite-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-14.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/satellite-numeric-automatic/15",
+   "dir": "ipc-2002/satellite-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-15.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/satellite-numeric-automatic/16",
+   "dir": "ipc-2002/satellite-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-16.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/satellite-numeric-automatic/17",
+   "dir": "ipc-2002/satellite-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-17.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/satellite-numeric-automatic/18",
+   "dir": "ipc-2002/satellite-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-18.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/satellite-numeric-automatic/19",
+   "dir": "ipc-2002/satellite-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-19.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/satellite-numeric-automatic/20",
+   "dir": "ipc-2002/satellite-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-20.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/zenotravel-numeric-automatic/01",
+   "dir": "ipc-2002/zenotravel-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-1.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/zenotravel-numeric-automatic/02",
+   "dir": "ipc-2002/zenotravel-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-2.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/zenotravel-numeric-automatic/03",
+   "dir": "ipc-2002/zenotravel-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-3.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3"
+   ]
+  },
+  {
+   "id": "ipc-2002/zenotravel-numeric-automatic/04",
+   "dir": "ipc-2002/zenotravel-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-4.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/zenotravel-numeric-automatic/05",
+   "dir": "ipc-2002/zenotravel-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-5.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/zenotravel-numeric-automatic/06",
+   "dir": "ipc-2002/zenotravel-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-6.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/zenotravel-numeric-automatic/07",
+   "dir": "ipc-2002/zenotravel-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-7.pddl",
+   "configs": [
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2002/zenotravel-numeric-automatic/08",
+   "dir": "ipc-2002/zenotravel-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-8.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3"
+   ]
+  },
+  {
+   "id": "ipc-2002/zenotravel-numeric-automatic/09",
+   "dir": "ipc-2002/zenotravel-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-9.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/zenotravel-numeric-automatic/10",
+   "dir": "ipc-2002/zenotravel-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-10.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/zenotravel-numeric-automatic/11",
+   "dir": "ipc-2002/zenotravel-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-11.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/zenotravel-numeric-automatic/12",
+   "dir": "ipc-2002/zenotravel-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-12.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/zenotravel-numeric-automatic/13",
+   "dir": "ipc-2002/zenotravel-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-13.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/zenotravel-numeric-automatic/14",
+   "dir": "ipc-2002/zenotravel-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-14.pddl",
+   "configs": [
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2002/zenotravel-numeric-automatic/15",
+   "dir": "ipc-2002/zenotravel-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-15.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/zenotravel-numeric-automatic/16",
+   "dir": "ipc-2002/zenotravel-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-16.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/zenotravel-numeric-automatic/17",
+   "dir": "ipc-2002/zenotravel-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-17.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/zenotravel-numeric-automatic/18",
+   "dir": "ipc-2002/zenotravel-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-18.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/zenotravel-numeric-automatic/19",
+   "dir": "ipc-2002/zenotravel-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-19.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/zenotravel-numeric-automatic/20",
+   "dir": "ipc-2002/zenotravel-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-20.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/settlers-numeric-automatic/01",
+   "dir": "ipc-2002/settlers-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-1.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/settlers-numeric-automatic/02",
+   "dir": "ipc-2002/settlers-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-2.pddl",
+   "configs": [
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2002/settlers-numeric-automatic/03",
+   "dir": "ipc-2002/settlers-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-3.pddl",
+   "configs": [
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2002/settlers-numeric-automatic/05",
+   "dir": "ipc-2002/settlers-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-5.pddl",
+   "configs": [
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2002/settlers-numeric-automatic/06",
+   "dir": "ipc-2002/settlers-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-6.pddl",
+   "configs": [
+    "mff-s0",
+    "mff"
+   ]
+  },
+  {
+   "id": "ipc-2002/settlers-numeric-automatic/08",
+   "dir": "ipc-2002/settlers-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-8.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/settlers-numeric-automatic/09",
+   "dir": "ipc-2002/settlers-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-9.pddl",
+   "configs": [
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/settlers-numeric-automatic/17",
+   "dir": "ipc-2002/settlers-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-17.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/settlers-numeric-automatic/18",
+   "dir": "ipc-2002/settlers-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-18.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/settlers-numeric-automatic/19",
+   "dir": "ipc-2002/settlers-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-19.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/settlers-numeric-automatic/20",
+   "dir": "ipc-2002/settlers-numeric-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-20.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/driverlog-numeric-hard-automatic/01",
+   "dir": "ipc-2002/driverlog-numeric-hard-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-1.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/driverlog-numeric-hard-automatic/02",
+   "dir": "ipc-2002/driverlog-numeric-hard-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-2.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/driverlog-numeric-hard-automatic/03",
+   "dir": "ipc-2002/driverlog-numeric-hard-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-3.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/driverlog-numeric-hard-automatic/04",
+   "dir": "ipc-2002/driverlog-numeric-hard-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-4.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/driverlog-numeric-hard-automatic/05",
+   "dir": "ipc-2002/driverlog-numeric-hard-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-5.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/driverlog-numeric-hard-automatic/06",
+   "dir": "ipc-2002/driverlog-numeric-hard-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-6.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/driverlog-numeric-hard-automatic/07",
+   "dir": "ipc-2002/driverlog-numeric-hard-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-7.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/driverlog-numeric-hard-automatic/08",
+   "dir": "ipc-2002/driverlog-numeric-hard-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-8.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/driverlog-numeric-hard-automatic/09",
+   "dir": "ipc-2002/driverlog-numeric-hard-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-9.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/driverlog-numeric-hard-automatic/10",
+   "dir": "ipc-2002/driverlog-numeric-hard-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-10.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/driverlog-numeric-hard-automatic/11",
+   "dir": "ipc-2002/driverlog-numeric-hard-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-11.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/driverlog-numeric-hard-automatic/12",
+   "dir": "ipc-2002/driverlog-numeric-hard-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-12.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/driverlog-numeric-hard-automatic/13",
+   "dir": "ipc-2002/driverlog-numeric-hard-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-13.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/driverlog-numeric-hard-automatic/14",
+   "dir": "ipc-2002/driverlog-numeric-hard-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-14.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/driverlog-numeric-hard-automatic/15",
+   "dir": "ipc-2002/driverlog-numeric-hard-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-15.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/driverlog-numeric-hard-automatic/16",
+   "dir": "ipc-2002/driverlog-numeric-hard-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-16.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/driverlog-numeric-hard-automatic/17",
+   "dir": "ipc-2002/driverlog-numeric-hard-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-17.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/driverlog-numeric-hard-automatic/18",
+   "dir": "ipc-2002/driverlog-numeric-hard-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-18.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/driverlog-numeric-hard-automatic/19",
+   "dir": "ipc-2002/driverlog-numeric-hard-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-19.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/driverlog-numeric-hard-automatic/20",
+   "dir": "ipc-2002/driverlog-numeric-hard-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-20.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/satellite-numeric-hard-automatic/01",
+   "dir": "ipc-2002/satellite-numeric-hard-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-1.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/satellite-numeric-hard-automatic/02",
+   "dir": "ipc-2002/satellite-numeric-hard-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-2.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/satellite-numeric-hard-automatic/03",
+   "dir": "ipc-2002/satellite-numeric-hard-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-3.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/satellite-numeric-hard-automatic/04",
+   "dir": "ipc-2002/satellite-numeric-hard-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-4.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/satellite-numeric-hard-automatic/05",
+   "dir": "ipc-2002/satellite-numeric-hard-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-5.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/satellite-numeric-hard-automatic/06",
+   "dir": "ipc-2002/satellite-numeric-hard-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-6.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/satellite-numeric-hard-automatic/07",
+   "dir": "ipc-2002/satellite-numeric-hard-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-7.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/satellite-numeric-hard-automatic/08",
+   "dir": "ipc-2002/satellite-numeric-hard-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-8.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/satellite-numeric-hard-automatic/09",
+   "dir": "ipc-2002/satellite-numeric-hard-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-9.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/satellite-numeric-hard-automatic/10",
+   "dir": "ipc-2002/satellite-numeric-hard-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-10.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/satellite-numeric-hard-automatic/11",
+   "dir": "ipc-2002/satellite-numeric-hard-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-11.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/satellite-numeric-hard-automatic/12",
+   "dir": "ipc-2002/satellite-numeric-hard-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-12.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/satellite-numeric-hard-automatic/13",
+   "dir": "ipc-2002/satellite-numeric-hard-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-13.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/satellite-numeric-hard-automatic/14",
+   "dir": "ipc-2002/satellite-numeric-hard-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-14.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/satellite-numeric-hard-automatic/15",
+   "dir": "ipc-2002/satellite-numeric-hard-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-15.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/satellite-numeric-hard-automatic/16",
+   "dir": "ipc-2002/satellite-numeric-hard-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-16.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/satellite-numeric-hard-automatic/17",
+   "dir": "ipc-2002/satellite-numeric-hard-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-17.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/satellite-numeric-hard-automatic/18",
+   "dir": "ipc-2002/satellite-numeric-hard-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-18.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/satellite-numeric-hard-automatic/19",
+   "dir": "ipc-2002/satellite-numeric-hard-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-19.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  },
+  {
+   "id": "ipc-2002/satellite-numeric-hard-automatic/20",
+   "dir": "ipc-2002/satellite-numeric-hard-automatic",
+   "domain": "domain.pddl",
+   "problem": "instances/instance-20.pddl",
+   "configs": [
+    "mff-s0",
+    "mff",
+    "mff-s3",
+    "mff-s4"
+   ]
+  }
+ ]
+}
