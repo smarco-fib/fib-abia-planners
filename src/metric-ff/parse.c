@@ -1036,7 +1036,7 @@ Bool make_conjunction_of_atoms( PlNode **n )
     default:
       return FALSE;
     }
-    if ( i->connective != NOT ) {
+    if ( i && i->connective != NOT ) {
       p = i;
       i = i->next;
     }
