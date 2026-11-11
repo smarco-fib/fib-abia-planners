@@ -635,7 +635,8 @@ void load_fct_file( char *filename );
 
 
 
-struct tms lstart, lend;
+/* abia-planners: CPU time via src/compat (PATCHES.md, P-COMPAT-2) */
+struct compat_tms lstart, lend;
 
 
 
@@ -652,7 +653,7 @@ int main( int argc, char *argv[] )
    */
   char fct_file[MAX_LENGTH] = "";
   
-  struct tms start, end;
+  struct compat_tms start, end;
 
   Bool found_plan;
   int i;
@@ -662,7 +663,7 @@ int main( int argc, char *argv[] )
 
 
 
-  times ( &lstart );
+  compat_times( &lstart );
 
   /* command line treatment
    */
@@ -713,7 +714,7 @@ int main( int argc, char *argv[] )
 
   /* start parse & instantiation timing
    */
-  times( &start );
+  compat_times( &start );
   /* domain file (ops)
    */
   if ( gcmd_line.display_info >= 1 ) {
@@ -796,42 +797,42 @@ int main( int argc, char *argv[] )
   build_easy_action_templates();
   build_hard_action_templates();
 
-  times( &end );
+  compat_times( &end );
   TIME( gtempl_time );
 
-  times( &start );
+  compat_times( &start );
 
   /* perform reachability analysis in terms of relaxed 
    * fixpoint
    */
   perform_reachability_analysis();
 
-  times( &end );
+  compat_times( &end );
   TIME( greach_time );
 
-  times( &start );
+  compat_times( &start );
 
   /* collect the relevant facts and build final domain
    * and problem representations.
    */
   collect_relevant_facts_and_fluents();
 
-  times( &end );
+  compat_times( &end );
   TIME( grelev_time );
 
 
   /* now transform problem to additive normal form,
    * if possible
    */
-  times( &start );
+  compat_times( &start );
   if ( !transform_to_LNF() ) {
     printf("\n\nThis is not a linear task!\n\n");
     exit( 1 );
   }
-  times( &end );
+  compat_times( &end );
   TIME( gLNF_time );
   
-  times( &start );
+  compat_times( &start );
 
   /* now build globally accessable connectivity graph
    */
@@ -844,7 +845,7 @@ int main( int argc, char *argv[] )
    */
   determine_fl_relevance();
 
-  times( &end );
+  compat_times( &end );
   TIME( gconn_time );
 
   /***********************************************************
@@ -943,7 +944,7 @@ int main( int argc, char *argv[] )
   }
 
 
-  times( &start );
+  compat_times( &start );
 
 
 
@@ -1012,7 +1013,7 @@ int main( int argc, char *argv[] )
     exit( 1 );
   }
 
-  times( &end );
+  compat_times( &end );
   TIME( gsearch_time );
 
 

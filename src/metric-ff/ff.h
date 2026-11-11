@@ -48,8 +48,8 @@
 #include <string.h>
 #include <ctype.h>
 #include <sys/types.h>
-#include <sys/timeb.h>
-#include <sys/times.h>
+/* abia-planners: <sys/timeb.h> and <sys/times.h> (POSIX, absent on Windows)
+ * replaced by src/compat (PATCHES.md, P-COMPAT-2) */
 
 /* abia-planners: portability layer (src/compat; PATCHES.md, P-COMPAT-*) */
 #include "compat.h"

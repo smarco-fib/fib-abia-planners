@@ -1118,10 +1118,9 @@ void build_connectivity_graph( void )
   Bool *had_effects;
   ActionEffect *e, *e_, *e__;
 
-  struct timeb tp;
-
-  ftime( &tp );
-  compat_srandom( tp.millitm );   /* abia-planners: P-COMPAT-1 */
+  /* abia-planners: seed from the milliseconds of the wall clock, as upstream's
+   * ftime( &tp ); srandom( tp.millitm ); (P-COMPAT-1, P-COMPAT-2) */
+  compat_srandom( compat_clock_millis() );
 
   gnum_ft_conn = gnum_relevant_facts;
   gnum_op_conn = gnum_actions;
