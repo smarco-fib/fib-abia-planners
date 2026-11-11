@@ -1,7 +1,8 @@
 # Golden reference
 
-Normalised outputs of the **pristine** upstream sources (`src/ff`, `src/metric-ff`
-at commit `36a8841`), built with their own makefiles:
+Normalised outputs of the upstream sources **plus the two approved UB fixes**
+(`src/ff` pristine; `src/metric-ff` pristine + UB-1 `7dc96b6` + UB-2 `7607944`,
+see `PATCHES.md`), built with their own makefiles:
 
 | Item | Value |
 |---|---|
@@ -23,9 +24,9 @@ compared). A run whose golden outcome is `timeout` is compared on `outcome`
 only: its partial stdout is recorded for information but depends on machine
 speed. Only `synthetic/unsolvable/exhaustive-wastar/mff-s3` is in this class.
 
-**Caveat (Checkpoint 1):** pristine Metric-FF has undefined behaviour in the
-parser for every problem with a `:metric` (dangling pointer to the bison value
-stack, `scan-fct_pddl.y:290`) and a NULL dereference for some initial states
-(`parse.c:1039`). The golden outputs of affected runs are crashes or garbage
-diagnostics and depend on the toolchain. The maintainer decides how these are
-treated; until then they are recorded as observed.
+**History:** the first golden (commit `bca513e`) was recorded from the
+pristine sources. Pristine Metric-FF has undefined behaviour in the parser for
+problems with a `:metric` (UB-1) and for some initial states (UB-2); 280 runs
+crashed or misparsed. After the maintainer approved the fixes the golden was
+re-recorded: 142 files changed, 138 runs that now time out were removed from the
+corpus, all other files are unchanged.
