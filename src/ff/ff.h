@@ -73,6 +73,9 @@
 #include <sys/timeb.h>
 #include <sys/times.h>
 
+/* abia-planners: portability layer (src/compat; PATCHES.md, P-COMPAT-*) */
+#include "compat.h"
+
 
 
 

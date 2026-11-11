@@ -1121,7 +1121,7 @@ void build_connectivity_graph( void )
   struct timeb tp;
 
   ftime( &tp );
-  srandom( tp.millitm );
+  compat_srandom( tp.millitm );   /* abia-planners: P-COMPAT-1 */
 
   gnum_ft_conn = gnum_relevant_facts;
   gnum_op_conn = gnum_actions;
@@ -1138,7 +1138,7 @@ void build_connectivity_graph( void )
     gft_conn[i].num_A = 0;
     gft_conn[i].num_D = 0;
 
-    gft_conn[i].rand = random() % BIG_INT;
+    gft_conn[i].rand = compat_random() % BIG_INT;   /* abia-planners: P-COMPAT-1 */
   }
 
   for ( i = 0; i < gnum_op_conn; i++ ) {

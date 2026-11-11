@@ -1368,7 +1368,7 @@ BfsNode *Astar_epsilon_select_first( void )
 /*     } */
     if ( i->goal_distance == min_goal_distance ) {
 /* 	 i->g == min_cost ) { */
-      coin = random() % 2;
+      coin = compat_random() % 2;   /* abia-planners: P-COMPAT-1 */
       if ( coin == 1 ) {
 	min_goal_distance = i->goal_distance;
 	min_cost = i->g;
