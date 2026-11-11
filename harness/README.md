@@ -19,6 +19,12 @@ python3 -m harness repeat --ff FF --metric-ff MFF -n 20 examples/manifest.json
   default `-s 5`, `mff-s0` … `mff-s4`, plus ad-hoc per-case configs).
 - `studies/`: one-off investigations (randomness study, LD_PRELOAD shim).
 
+`check` is the **regression check** of CLAUDE.md rule 3 (byte-identical
+normalised output on the reference platform, Linux x86-64 glibc). The
+**validity check** used on every platform (same outcome class and exit code,
+plans accepted by the plan validator, no crash or timeout) is still to be
+written (Phase 1).
+
 Golden files: `golden/<suite>/<case-id>/<config>.json`. Compared fields:
 `exit_code`, `outcome`, `plan`, `stdout`, `stderr`; if the golden outcome is
 `timeout`, only `outcome` (the killed run's partial output depends on machine

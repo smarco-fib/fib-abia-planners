@@ -2,7 +2,8 @@
 
 Question: how much do FF 2.3 and Metric-FF 2.1 depend on the `random()`
 sequence of the C library? The answer decides how the portable `random()` in
-`src/compat/` must behave (rule 10) and how FF's clock-based seed is treated.
+`src/compat/` should behave (rule 10) and how FF's clock-based seed is treated.
+Updated after Checkpoint 1: cross-platform acceptance is validity, not identity (CLAUDE.md rule 3).
 
 ## 1. Where `random()` is used
 
@@ -142,15 +143,18 @@ Interpretation:
 
 ### Consequences
 
-- A build that uses the platform `rand()`/`random()` (Windows, macOS, musl)
-  would produce **different plans** for Metric-FF `-s 4` and, more rarely,
-  different search statistics for `-s 0`/`-s 5`. Golden equivalence across
-  platforms is only possible with one implementation of the glibc `random()`
-  algorithm (TYPE_3 additive feedback, default state from `srandom(1)`),
-  as rule 10 requires.
-- The implementation must reproduce the sequence **bit-exactly** from the
-  first call, including `srandom(0)` ≡ `srandom(1)`; reproducing only the low
-  bit (coin) is not enough because the hash values use the full 31 bits.
+- A build that uses a different `random()` sequence (Windows, macOS, musl)
+  produces **different plans** for Metric-FF `-s 4` and, more rarely,
+  different search statistics for `-s 0`/`-s 5`.
+- Since Checkpoint 1 such differences are **acceptable** when the run is
+  valid (CLAUDE.md rule 3: outcome class, valid plan, terminates). The study
+  remains relevant for two reasons: (1) a portable implementation that
+  reproduces the glibc sequence (TYPE_3 additive feedback, default state from
+  `srandom(1)`, `srandom(0)` ≡ `srandom(1)`, full 31-bit values) lets every
+  platform reuse the Linux golden outputs, which makes testing far cheaper
+  (rule 10); (2) with any other sequence, `-s 4` cases may change between
+  "plan found" and "timeout" (§4, depots-10), so time limits for those cases
+  need a margin.
 
 ## 5. FF 2.3 seed: recommendation
 
