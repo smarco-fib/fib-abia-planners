@@ -116,7 +116,10 @@ def cmd_check(args):
             continue
         with open(p, encoding="utf-8") as f:
             g = json.load(f)
-        bad = [k for k in COMPARED if g.get(k) != res[k]]
+        # A harness timeout kills the planner: its partial output depends on machine
+        # speed and is not a planner result, so only the outcome is compared.
+        keys = ("outcome",) if g.get("outcome") == "timeout" else COMPARED
+        bad = [k for k in keys if g.get(k) != res[k]]
         status = "OK  " if not bad else "FAIL"
         results.append({"run": r.run_id, "status": status.strip(), "mismatch": bad})
         print("%s %-60s %-18s %7.2fs" % (status, r.run_id, res["outcome"], res["wall_s"]), flush=True)

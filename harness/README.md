@@ -20,8 +20,9 @@ python3 -m harness repeat --ff FF --metric-ff MFF -n 20 examples/manifest.json
 - `studies/`: one-off investigations (randomness study, LD_PRELOAD shim).
 
 Golden files: `golden/<suite>/<case-id>/<config>.json`. Compared fields:
-`exit_code`, `outcome`, `plan`, `stdout`, `stderr`. `reason` and `command` are
-informational. Timings are written to a separate file with `--timings`.
+`exit_code`, `outcome`, `plan`, `stdout`, `stderr`; if the golden outcome is
+`timeout`, only `outcome` (the killed run's partial output depends on machine
+speed). `reason` and `command` are informational. Timings are written to a separate file with `--timings`.
 
 ## Observed upstream exit codes (pristine build, golden reference)
 
