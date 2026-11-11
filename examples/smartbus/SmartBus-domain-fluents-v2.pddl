@@ -8,7 +8,7 @@
    (dentro ?p - persona ?bus - SBus)
    (destino ?p - persona ?l - parada)
    (en ?p - persona ?l - parada)
-   (movilidadReducida ?p)
+   (movilidadReducida ?p - persona)
    (pendiente ?p - persona)
    (servido ?p - persona)
   )

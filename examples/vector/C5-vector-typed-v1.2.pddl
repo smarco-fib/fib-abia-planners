@@ -3,7 +3,7 @@
   (:types pos valor - object)
 
   (:predicates (val ?x - pos ?vx - valor)
-               (next ?x - pos ?y -pos)
+               (next ?x - pos ?y - pos)
                (target ?x - pos ?vx - valor)
 	)
 
