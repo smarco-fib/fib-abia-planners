@@ -1,0 +1,70 @@
+# abia-planners CI. Not yet run: written before the repository exists on GitHub.
+name: ci
+on: [push, pull_request, workflow_dispatch]
+
+jobs:
+  regression:
+    # Rule 3 regression check on the reference platform: course examples only
+    # (fast); the full corpus is run by the 'full-validation' workflow.
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+      - run: cmake -S . -B build -DCMAKE_BUILD_TYPE=Release && cmake --build build -j 4
+      - run: ctest --test-dir build --output-on-failure
+      - run: python3 -m harness check --ff build/ff --metric-ff build/metric-ff -j 4 examples/manifest.json corpus/synthetic.json
+
+  wheels:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-24.04, ubuntu-24.04-arm, macos-13, macos-14, windows-2022]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pypa/cibuildwheel@v2.22.0     # builds and runs 'abia-planners selftest --all'
+        with:
+          output-dir: wheelhouse
+      - uses: actions/upload-artifact@v4
+        with:
+          name: wheels-${{ matrix.os }}
+          path: wheelhouse/*.whl
+
+  sdist:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - run: pipx run build --sdist
+      - uses: actions/upload-artifact@v4
+        with:
+          name: sdist
+          path: dist/*.tar.gz
+
+  clean-install:
+    # No compiler involved: install the built wheel into a fresh venv, copy the
+    # examples into a path with a space and an accent, run the self-test.
+    needs: wheels
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-24.04, ubuntu-24.04-arm, macos-13, macos-14, windows-2022]
+        python: ["3.9", "3.13"]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: wheels-${{ matrix.os }}
+          path: wheelhouse
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - shell: bash
+        run: |
+          python -m venv "venv limpio"
+          if [ -d "venv limpio/Scripts" ]; then B="venv limpio/Scripts"; else B="venv limpio/bin"; fi
+          "$B/python" -m pip install --no-index --find-links wheelhouse abia-planners
+          "$B/abia-planners" info
+          "$B/abia-planners" examples "carpeta con espacio ñ"
+          cd "carpeta con espacio ñ/hanoi"
+          "../../$B/ff" -o hanoi.pddl -f hanoi-3.pddl
+          cd ../..
+          "$B/abia-planners" selftest --all

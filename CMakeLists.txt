@@ -16,6 +16,10 @@ endif()
 
 option(ABIA_WERROR "Treat compiler warnings as errors" OFF)
 option(ABIA_SANITIZE "Build with AddressSanitizer and UndefinedBehaviorSanitizer" OFF)
+option(ABIA_STATIC "Link the planners statically (Windows/MinGW, Linux musl)" OFF)
+if(ABIA_STATIC)
+  add_link_options(-static)
+endif()
 
 # ---------------------------------------------------------------------------
 # Flags shared by both planners (see PATCHES.md, P-BUILD-1)

@@ -32,3 +32,26 @@ wheel.py-api = "py3"
 wheel.packages = ["python/abia_planners"]
 wheel.license-files = ["LICENSE", "NOTICE"]
 sdist.exclude = ["build", "corpus", "golden/ipc", "golden/synthetic", "reports/data", "ejemplos-abia-planning", ".claude"]
+
+# Wheels are py3-none-<platform>: one build per platform is enough.
+[tool.cibuildwheel]
+build = "cp312-*"
+skip = ["*-win32", "*_i686", "pp*"]
+test-command = "abia-planners selftest --all"
+build-verbosity = 1
+
+[tool.cibuildwheel.linux]
+# manylinux (glibc) and musllinux wheels; musl binaries are fully static
+manylinux-x86_64-image = "manylinux_2_28"
+manylinux-aarch64-image = "manylinux_2_28"
+
+[[tool.cibuildwheel.overrides]]
+select = "*-musllinux*"
+environment = { CMAKE_ARGS = "-DABIA_STATIC=ON" }
+
+[tool.cibuildwheel.macos]
+environment = { MACOSX_DEPLOYMENT_TARGET = "11.0" }
+
+[tool.cibuildwheel.windows]
+# MinGW-w64 GCC (not MSVC), statically linked: no non-system DLLs
+environment = { CMAKE_GENERATOR = "MinGW Makefiles", CC = "gcc", CMAKE_ARGS = "-DABIA_STATIC=ON" }
