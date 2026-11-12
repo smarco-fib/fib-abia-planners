@@ -16,6 +16,8 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v4
+      - name: generated files are up to date (example READMEs, selftest expectations)
+        run: python3 tools/make-example-readmes.py --check && python3 tools/make-expected.py --check
       - run: cmake -S . -B build -DCMAKE_BUILD_TYPE=Release && cmake --build build -j 4
       - run: ctest --test-dir build --output-on-failure
       - run: python3 -m harness check --ff build/ff --metric-ff build/metric-ff -j 4 examples/manifest.json corpus/synthetic.json

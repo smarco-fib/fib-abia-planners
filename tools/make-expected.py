@@ -2,7 +2,8 @@
 
 The installed package uses it for `abia-planners selftest`: for every example run, the
 expected outcome, exit code and plan of the reference build. Rerun after re-recording
-the golden outputs of the examples.
+the golden outputs of the examples. With --check, only report (exit 1) if the file
+is out of date.
 """
 import json, os, sys
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -27,7 +28,13 @@ for r in load_manifest(os.path.join(ROOT, "examples", "manifest.json")):
         "plan": g["plan"],
     })
 dst = os.path.join(ROOT, "python", "abia_planners", "expected.json")
-with open(dst, "w", encoding="utf-8") as f:
-    json.dump(out, f, indent=0, ensure_ascii=False)
-    f.write("\n")
-print("wrote %s: %d runs" % (dst, len(out)))
+text = json.dumps(out, indent=0, ensure_ascii=False) + "\n"
+if "--check" in sys.argv[1:]:
+    with open(dst, encoding="utf-8") as f:
+        if f.read() != text:
+            sys.exit("out of date: %s\nRun: python3 tools/make-expected.py" % os.path.relpath(dst, ROOT))
+    print("up to date: %s (%d runs)" % (os.path.relpath(dst, ROOT), len(out)))
+else:
+    with open(dst, "w", encoding="utf-8", newline="\n") as f:
+        f.write(text)
+    print("wrote %s: %d runs" % (dst, len(out)))
