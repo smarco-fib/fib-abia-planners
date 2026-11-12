@@ -85,3 +85,14 @@ target_link_libraries(test_random PRIVATE abia_compat)
 set_target_properties(test_random PROPERTIES C_STANDARD 99 C_EXTENSIONS ON)
 add_test(NAME compat_random_matches_glibc COMMAND test_random)
 set_tests_properties(compat_random_matches_glibc PROPERTIES SKIP_RETURN_CODE 77)
+
+# ---------------------------------------------------------------------------
+# Python wheel (scikit-build-core): planners, examples and the outcome
+# classifier go inside the abia_planners package.
+if(SKBUILD)
+  install(TARGETS ff metric_ff RUNTIME DESTINATION abia_planners/bin)
+  install(DIRECTORY examples/ DESTINATION abia_planners/examples
+          PATTERN "manifest.json" EXCLUDE
+          PATTERN "SOURCES.md" EXCLUDE)
+  install(FILES harness/classify.py DESTINATION abia_planners RENAME _classify.py)
+endif()

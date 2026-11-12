@@ -1,0 +1,34 @@
+[build-system]
+requires = ["scikit-build-core>=0.8"]
+build-backend = "scikit_build_core.build"
+
+[project]
+name = "abia-planners"
+version = "0.1.0"
+description = "FF 2.3 y Metric-FF 2.1 (Jörg Hoffmann) con los ejemplos de planificación de la asignatura ABIA (UPC)"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "GPL-2.0-or-later" }
+authors = [{ name = "abia-planners contributors" }]
+keywords = ["planning", "pddl", "ff", "metric-ff", "ai"]
+classifiers = [
+  "License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)",
+  "Programming Language :: C",
+  "Programming Language :: Python :: 3",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+  "Intended Audience :: Education",
+  "Natural Language :: Spanish",
+]
+
+[project.scripts]
+ff = "abia_planners.launcher:ff"
+metric-ff = "abia_planners.launcher:metric_ff"
+abia-planners = "abia_planners.cli:main"
+
+[tool.scikit-build]
+minimum-version = "0.8"
+cmake.build-type = "Release"
+wheel.py-api = "py3"
+wheel.packages = ["python/abia_planners"]
+wheel.license-files = ["LICENSE", "NOTICE"]
+sdist.exclude = ["build", "corpus", "golden/ipc", "golden/synthetic", "reports/data", "ejemplos-abia-planning", ".claude"]

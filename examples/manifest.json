@@ -13,7 +13,7 @@
       "dir": "hanoi",
       "domain": "hanoi.pddl",
       "problem": "hanoi-3.pddl",
-      "selftest": false
+      "selftest": true
     },
     {
       "id": "hanoi/hanoi-4",
@@ -55,7 +55,7 @@
       "dir": "ascensor",
       "domain": "miconic.pddl",
       "problem": "miconic01.pddl",
-      "selftest": false
+      "selftest": true
     },
     {
       "id": "ascensor/miconic02",
@@ -90,21 +90,21 @@
       "dir": "logistics",
       "domain": "logistics.pddl",
       "problem": "log-3-2.pddl",
-      "selftest": false
+      "selftest": true
     },
     {
       "id": "n-puzzle/eight01",
       "dir": "n-puzzle",
       "domain": "slidetile.pddl",
       "problem": "eight01.pddl",
-      "selftest": false
+      "selftest": true
     },
     {
       "id": "rovers/pfile01",
       "dir": "rovers",
       "domain": "domain.pddl",
       "problem": "pfile01",
-      "selftest": false
+      "selftest": true
     },
     {
       "id": "rovers/pfile02",
@@ -244,7 +244,7 @@
       "dir": "tsp",
       "domain": "tsp.pddl",
       "problem": "tsp-10.pddl",
-      "selftest": false
+      "selftest": true
     },
     {
       "id": "aircargo/C5-aircargo-problem1",
@@ -279,7 +279,7 @@
       "dir": "aircargo",
       "domain": "C5-aircargo-domain3ops-typed.pddl",
       "problem": "C5-aircargo-problem1-typed.pddl",
-      "selftest": false
+      "selftest": true
     },
     {
       "id": "aircargo/C5-aircargo-problem3-typed",
@@ -393,7 +393,7 @@
       "dir": "blocks",
       "domain": "C5-blocks-domain4ops.pddl",
       "problem": "C5-blocks-problemslides.pddl",
-      "selftest": false
+      "selftest": true
     },
     {
       "id": "blocks/domain6ops--C5-blocks-problem1",
@@ -449,7 +449,7 @@
       "dir": "vector",
       "domain": "C5-vector-v1.pddl",
       "problem": "C5-prob-vector-v1.pddl",
-      "selftest": false
+      "selftest": true
     },
     {
       "id": "vector/C5-prob-vector-v1-10val",
@@ -533,7 +533,7 @@
       "dir": "smartbus",
       "domain": "SmartBus-domain-fluents-v1.pddl",
       "problem": "SmartBus-prob1-fluents-v1.pddl",
-      "selftest": false
+      "selftest": true
     },
     {
       "id": "smartbus/SmartBus-prob1-fluents-v2",
@@ -554,7 +554,7 @@
       "dir": "binpacking",
       "domain": "BinPacking-domain-fluents-v1.pddl",
       "problem": "BinPacking-prob1-fluents-v2-10p.pddl",
-      "selftest": false
+      "selftest": true
     },
     {
       "id": "binpacking/v1--BinPacking-prob2-fluents-v1",
@@ -624,7 +624,7 @@
       "dir": "asignaturas",
       "domain": "assigs-metric-domain.pddl",
       "problem": "assigs-metric-prova-2.pddl",
-      "selftest": false
+      "selftest": true
     },
     {
       "id": "asignaturas/assigs-metric-prova-3",
@@ -638,7 +638,7 @@
       "dir": "sharebath",
       "domain": "ShareBath-domain.pddl",
       "problem": "ShareBath-problem.pddl",
-      "selftest": false
+      "selftest": true
     },
     {
       "id": "blocks/ejercicio-strips/solucion-problem2",

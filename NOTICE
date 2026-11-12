@@ -1,0 +1,36 @@
+abia-planners
+=============
+
+A distribution of the planners FF 2.3 and Metric-FF 2.1 by Jörg Hoffmann, with
+the planning examples of the ABIA course (Universitat Politècnica de Catalunya).
+
+The whole distribution is licensed under the GNU General Public License,
+version 2 or (at your option) any later version. The full text is in LICENSE.
+
+Components
+----------
+
+* FF 2.3 and Metric-FF 2.1 (src/ff, src/metric-ff)
+  Copyright (C) 2001/2002 Albert Ludwigs University Freiburg, Institute of
+  Computer Science (Jörg Hoffmann). GPL version 2 or later. FF 2.3 also carries
+  the JAIR "AS IS" disclaimer in its source headers. Modifications made by this
+  project are listed in PATCHES.md; the pristine sources are in upstream/.
+
+* Portability layer, Python launcher, test harness and tools
+  (src/compat, python/abia_planners, harness, tools)
+  Copyright (C) 2026 abia-planners contributors. GPL version 2 or later.
+
+* Course examples (examples/)
+  ABIA course material (UPC). Includes domains from the International Planning
+  Competition (Logistics, Miconic, Rovers) and the Towers of Hanoi formalisation
+  by Héctor Geffner. Distributed for academic use; see examples/SOURCES.md.
+
+The plan validator VAL (BSD-3-Clause, University of Strathclyde, King's College
+London and Schlumberger Ltd) is used only in tests and is not distributed.
+
+Source code
+-----------
+
+The corresponding source code of every binary in this distribution is the
+source distribution (sdist) of the same version on PyPI, and the project
+repository.
