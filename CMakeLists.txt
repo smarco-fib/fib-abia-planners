@@ -82,13 +82,15 @@ abia_planner(metric_ff ${MFF} metric-ff 90 OFF
   ${MFF}/inst_final.c ${MFF}/relax.c ${MFF}/search.c)
 
 # ---------------------------------------------------------------------------
-# Tests
-enable_testing()
-add_executable(test_random tests/compat/test_random.c)
-target_link_libraries(test_random PRIVATE abia_compat)
-set_target_properties(test_random PROPERTIES C_STANDARD 99 C_EXTENSIONS ON)
-add_test(NAME compat_random_matches_glibc COMMAND test_random)
-set_tests_properties(compat_random_matches_glibc PROPERTIES SKIP_RETURN_CODE 77)
+# Tests (not built into the wheel)
+if(NOT SKBUILD)
+  enable_testing()
+  add_executable(test_random tests/compat/test_random.c)
+  target_link_libraries(test_random PRIVATE abia_compat)
+  set_target_properties(test_random PROPERTIES C_STANDARD 99 C_EXTENSIONS ON)
+  add_test(NAME compat_random_matches_glibc COMMAND test_random)
+  set_tests_properties(compat_random_matches_glibc PROPERTIES SKIP_RETURN_CODE 77)
+endif()
 
 # ---------------------------------------------------------------------------
 # Python wheel (scikit-build-core): planners, examples and the outcome

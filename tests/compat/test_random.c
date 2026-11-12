@@ -11,6 +11,16 @@
 #include <stdlib.h>
 #include "compat.h"
 
+#ifndef __GLIBC__
+
+int main( void )
+{
+  printf( "SKIP: reference sequence is glibc's; this C library is not glibc\n" );
+  return 77;
+}
+
+#else
+
 static int compare( const char *label, int n )
 {
   int i;
@@ -31,11 +41,6 @@ int main( void )
   size_t i;
   int fails = 0;
   char label[64];
-
-#ifndef __GLIBC__
-  printf( "SKIP: reference sequence is glibc's; this C library is not glibc\n" );
-  return 77;
-#endif
 
   /* unseeded: both generators start in their default state */
   fails += compare( "unseeded", 10000 );
@@ -67,3 +72,5 @@ int main( void )
           "(unseeded + 9 seeds x 10000 values, seeds 0..999 x 1000 values, re-seeding)\n" );
   return 0;
 }
+
+#endif /* __GLIBC__ */
