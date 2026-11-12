@@ -1,6 +1,13 @@
 # abia-planners CI.
 name: ci
-on: [push, pull_request, workflow_dispatch]
+# Commits that only touch documentation do not start CI (it costs macOS
+# minutes on a private repository); run it by hand with workflow_dispatch.
+on:
+  push:
+    paths-ignore: ['**.md', 'docs/**']
+  pull_request:
+    paths-ignore: ['**.md', 'docs/**']
+  workflow_dispatch:
 
 jobs:
   regression:
