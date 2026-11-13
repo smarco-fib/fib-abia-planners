@@ -39,7 +39,7 @@ abia\Scripts\Activate.ps1
 ```
 
 ```bash
-pip install abia-planners
+pip install fib-abia-planners
 ```
 
 Si PowerShell no deja activar el entorno ("la ejecución de scripts está deshabilitada"), usa en su
@@ -56,17 +56,17 @@ source abia/bin/activate
 ```
 
 ```bash
-pip install abia-planners
+pip install fib-abia-planners
 ```
 
 Con el entorno activado, el indicador de la terminal empieza por `(abia)`. Los comandos `ff`,
-`metric-ff` y `abia-planners` solo existen mientras el entorno está activado: en cada terminal
+`metric-ff` y `fib-abia-planners` solo existen mientras el entorno está activado: en cada terminal
 nueva, vuelve a ejecutar la orden de activación (desde la carpeta donde creaste `abia`).
 
 ### Comprobar la instalación
 
 ```bash
-abia-planners selftest
+fib-abia-planners selftest
 ```
 
 Prueba un problema de cada carpeta de ejemplos con `ff`, `metric-ff -s 0` y `metric-ff`, y debe
@@ -77,7 +77,7 @@ terminar con `TODO CORRECTO: 39 de 39 correctas.` (tarda unos segundos).
 Copia los ejemplos de la asignatura a una carpeta tuya:
 
 ```bash
-abia-planners examples mis-ejemplos
+fib-abia-planners examples mis-ejemplos
 ```
 
 Entra en una de las carpetas y lanza el planificador indicando el dominio (`-o`) y el problema
@@ -192,11 +192,11 @@ deben empezar por una letra: Metric-FF falla, por ejemplo, con `(problem 7person
 Con el entorno activado:
 
 ```bash
-pip install --upgrade abia-planners
+pip install --upgrade fib-abia-planners
 ```
 
 ```bash
-pip uninstall abia-planners
+pip uninstall fib-abia-planners
 ```
 
 Para borrarlo todo, basta con borrar la carpeta `abia` del entorno virtual (tus ejemplos y
@@ -207,11 +207,11 @@ ficheros `.pddl` están en otras carpetas y no se tocan).
 Ejecuta:
 
 ```bash
-abia-planners selftest --all
+fib-abia-planners selftest --all
 ```
 
 ```bash
-abia-planners info
+fib-abia-planners info
 ```
 
 y envía al profesorado la salida completa de los dos comandos, junto con los ficheros `.pddl`

@@ -52,7 +52,7 @@ _RULES = [
     ("usage-error", r"unknown search configuration"),
     ("usage-error", r"Unknown search configuration"),
     ("usage-error", r"invalid cost bound"),
-    # abia-planners UB-3: file argument or path + file name longer than MAX_LENGTH - 1
+    # fib-abia-planners UB-3: file argument or path + file name longer than MAX_LENGTH - 1
     ("usage-error", r"too long \(at most \d+ characters\)"),
     # Metric-FF -s 4 / -s 5 on a problem without a usable :metric
     ("usage-error", r"Optimization criterion not established"),

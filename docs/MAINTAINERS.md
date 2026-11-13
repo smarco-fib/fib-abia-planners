@@ -1,10 +1,10 @@
 # Maintainer guide
 
-How to build, test, extend and release abia-planners. Read `CLAUDE.md` first: its
+How to build, test, extend and release fib-abia-planners. Read `CLAUDE.md` first: its
 rules (frozen semantics, traceable upstream, acceptance = validity) apply to every
 change described here.
 
-Repository: `git@github.com:smarco-fib/abia-planners.git` (private), branch `main`.
+Repository: `git@github.com:smarco-fib/fib-abia-planners.git` (private), branch `main`.
 CI: `.github/workflows/ci.yml` (see [CI](#ci)).
 
 ## 1. Layout
@@ -15,7 +15,7 @@ CI: `.github/workflows/ci.yml` (see [CI](#ci)).
 | `src/ff/`, `src/metric-ff/` | Patched planner sources plus the committed flex/bison output |
 | `src/compat/` | Portability layer: glibc-compatible `random()`, CPU time, clock |
 | `CMakeLists.txt` | The single build for every platform |
-| `python/abia_planners/` | Launchers (`ff`, `metric-ff`), `abia-planners` CLI, `expected.json` |
+| `python/abia_planners/` | Launchers (`ff`, `metric-ff`), `fib-abia-planners` CLI, `expected.json` |
 | `examples/` | Course examples shipped to students; `manifest.json` lists every run |
 | `ejemplos-abia-planning/` | Course originals, unmodified, with SHA-256 (provenance only) |
 | `corpus/` | Extra test cases: `synthetic.json` (CLI and error paths), `ipc.json` (IPC domains) |
@@ -150,12 +150,12 @@ Unlikely (both planners are no longer developed), but if a new upstream release 
 
 ## 8. Diagnose a student's problem
 
-Ask for the full output of `abia-planners selftest --all` and `abia-planners info`,
+Ask for the full output of `fib-abia-planners selftest --all` and `fib-abia-planners info`,
 plus their `.pddl` files and the command they ran.
 
 | Symptom | Likely cause |
 |---|---|
-| `abia-planners: no se encuentra el ejecutable …` (exit 127) | Broken install or the antivirus removed the `.exe`: `pip install --force-reinstall abia-planners` |
+| `fib-abia-planners: no se encuentra el ejecutable …` (exit 127) | Broken install or the antivirus removed the `.exe`: `pip install --force-reinstall fib-abia-planners` |
 | `FALLO … obtenido timeout` on slow cases only | Slow or busy machine (limit 120 s per run): run again with nothing else open |
 | `FALLO … obtenido crash` | Platform defect: reproduce on that OS/architecture and report it (rule 3) |
 | `FALLO` on every case, `parse-error` | Examples folder of the package damaged: reinstall |
@@ -190,10 +190,10 @@ change `*.md` or `docs/` (run it by hand from *Actions → ci → Run workflow*)
 | Job | What it does |
 |---|---|
 | `regression` | Generated files up to date (`--check`); CMake build, ctest, regression check on examples and synthetic cases (Ubuntu 22.04, x86-64) |
-| `wheels` | cibuildwheel on 5 native runners (Linux x86-64/ARM64, macOS Intel/Apple Silicon, Windows x64); each wheel runs `abia-planners selftest --all` |
+| `wheels` | cibuildwheel on 5 native runners (Linux x86-64/ARM64, macOS Intel/Apple Silicon, Windows x64); each wheel runs `fib-abia-planners selftest --all` |
 | `sdist` | Source distribution |
 | `clean-install` | Each wheel in a fresh venv with Python 3.9 and 3.13, examples copied to a path with a space and "ñ", `selftest --all` |
 
 Read the results with `gh run list` and `gh run view <run-id>`; a failing job's log:
-`gh api --allow-escape-sequences repos/smarco-fib/abia-planners/actions/jobs/<job-id>/logs`.
+`gh api --allow-escape-sequences repos/smarco-fib/fib-abia-planners/actions/jobs/<job-id>/logs`.
 On a private repository macOS minutes count ×10 against the free quota.

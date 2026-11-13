@@ -1,4 +1,4 @@
-# abia-planners CI.
+# fib-abia-planners CI.
 name: ci
 # Commits that only touch documentation do not start CI (it costs macOS
 # minutes on a private repository); run it by hand with workflow_dispatch.
@@ -30,7 +30,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v4
-      - uses: pypa/cibuildwheel@v2.22.0     # builds and runs 'abia-planners selftest --all'
+      - uses: pypa/cibuildwheel@v2.22.0     # builds and runs 'fib-abia-planners selftest --all'
         with:
           output-dir: wheelhouse
       - uses: actions/upload-artifact@v4
@@ -70,10 +70,10 @@ jobs:
         run: |
           python -m venv "venv limpio"
           if [ -d "venv limpio/Scripts" ]; then B="venv limpio/Scripts"; else B="venv limpio/bin"; fi
-          "$B/python" -m pip install --no-index --find-links wheelhouse abia-planners
-          "$B/abia-planners" info
-          "$B/abia-planners" examples "carpeta con espacio ñ"
+          "$B/python" -m pip install --no-index --find-links wheelhouse fib-abia-planners
+          "$B/fib-abia-planners" info
+          "$B/fib-abia-planners" examples "carpeta con espacio ñ"
           cd "carpeta con espacio ñ/hanoi"
           "../../$B/ff" -o hanoi.pddl -f hanoi-3.pddl
           cd ../..
-          "$B/abia-planners" selftest --all
+          "$B/fib-abia-planners" selftest --all

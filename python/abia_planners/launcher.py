@@ -17,17 +17,17 @@ import sys
 from . import binary
 
 HINT = (
-    "\n[abia-planners] Si el error es \"Optimization criterion not established\": el problema\n"
-    "[abia-planners] no tiene una métrica que minimizar ((:metric minimize ...)), y las\n"
-    "[abia-planners] configuraciones -s 4 y -s 5 (la de por defecto) la necesitan.\n"
-    "[abia-planners] Para buscar un plan sin optimizar, usa -s 0:\n"
-    "[abia-planners]     metric-ff -s 0 %s\n"
+    "\n[fib-abia-planners] Si el error es \"Optimization criterion not established\": el problema\n"
+    "[fib-abia-planners] no tiene una métrica que minimizar ((:metric minimize ...)), y las\n"
+    "[fib-abia-planners] configuraciones -s 4 y -s 5 (la de por defecto) la necesitan.\n"
+    "[fib-abia-planners] Para buscar un plan sin optimizar, usa -s 0:\n"
+    "[fib-abia-planners]     metric-ff -s 0 %s\n"
 )
 
 
 def _missing(name):
-    sys.stderr.write("abia-planners: no se encuentra el ejecutable %s.\n"
-                     "Reinstala el paquete: pip install --force-reinstall abia-planners\n" % binary(name))
+    sys.stderr.write("fib-abia-planners: no se encuentra el ejecutable %s.\n"
+                     "Reinstala el paquete: pip install --force-reinstall fib-abia-planners\n" % binary(name))
     return 127
 
 

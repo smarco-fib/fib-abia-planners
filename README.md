@@ -1,4 +1,4 @@
-# abia-planners
+# fib-abia-planners
 
 Los planificadores **FF 2.3** y **Metric-FF 2.1** (Jörg Hoffmann) listos para usar en
 Windows, Linux y macOS, con los ejemplos de planificación de la asignatura ABIA (UPC).
@@ -7,13 +7,13 @@ No hace falta compilar nada.
 ## Instalación
 
 ```bash
-pip install abia-planners
+pip install fib-abia-planners
 ```
 
 Comprueba que funciona:
 
 ```bash
-abia-planners selftest
+fib-abia-planners selftest
 ```
 
 ## Uso
@@ -21,7 +21,7 @@ abia-planners selftest
 Copia los ejemplos a una carpeta tuya y prueba uno:
 
 ```bash
-abia-planners examples mis-ejemplos
+fib-abia-planners examples mis-ejemplos
 ```
 
 ```bash
@@ -41,11 +41,11 @@ Los dos programas aceptan exactamente las mismas opciones que los originales.
 ## Si algo falla
 
 ```bash
-abia-planners selftest --all
+fib-abia-planners selftest --all
 ```
 
 ```bash
-abia-planners info
+fib-abia-planners info
 ```
 
 y envía la salida completa al profesorado de la asignatura.

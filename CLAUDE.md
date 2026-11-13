@@ -1,7 +1,7 @@
 # CLAUDE.md — ABIA-Planners
 
 Project: tested distribution of FF 2.3 and Metric-FF 2.1 (Jörg Hoffmann)
-plus the ABIA course examples, installable with `pip install abia-planners` on
+plus the ABIA course examples, installable with `pip install fib-abia-planners` on
 Windows, Linux and macOS. This is a porting and packaging project, not a
 planner-improvement project.
 

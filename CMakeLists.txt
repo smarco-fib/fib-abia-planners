@@ -1,4 +1,4 @@
-# abia-planners: one cross-platform build for FF 2.3 and Metric-FF 2.1.
+# fib-abia-planners: one cross-platform build for FF 2.3 and Metric-FF 2.1.
 #
 #   cmake -S . -B build/cmake -DCMAKE_BUILD_TYPE=Release
 #   cmake --build build/cmake -j 4
@@ -35,7 +35,7 @@ if(CMAKE_C_COMPILER_ID MATCHES "GNU|Clang")
     add_link_options(-fsanitize=address,undefined)
   endif()
 else()
-  message(FATAL_ERROR "abia-planners is built with GCC or Clang (MinGW-w64 on Windows); "
+  message(FATAL_ERROR "fib-abia-planners is built with GCC or Clang (MinGW-w64 on Windows); "
                       "${CMAKE_C_COMPILER_ID} is not supported")
 endif()
 

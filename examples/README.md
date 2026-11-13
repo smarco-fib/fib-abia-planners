@@ -9,7 +9,7 @@ para copiar por cada problema.
 Copia los ejemplos a una carpeta tuya y entra en la del dominio que quieras:
 
 ```bash
-abia-planners examples mis-ejemplos
+fib-abia-planners examples mis-ejemplos
 ```
 
 ```bash

@@ -1,8 +1,8 @@
-"""Command ``abia-planners``: copy the course examples and run the self-test.
+"""Command ``fib-abia-planners``: copy the course examples and run the self-test.
 
-  abia-planners examples [CARPETA]     copia los ejemplos (por defecto ./abia-ejemplos)
-  abia-planners selftest [--all]       comprueba que los planificadores funcionan
-  abia-planners info                   versión, plataforma y rutas
+  fib-abia-planners examples [CARPETA] copia los ejemplos (por defecto ./abia-ejemplos)
+  fib-abia-planners selftest [--all]   comprueba que los planificadores funcionan
+  fib-abia-planners info               versión, plataforma y rutas
 """
 import argparse
 import json
@@ -24,7 +24,7 @@ def cmd_examples(args):
     dst = os.path.abspath(args.dir)
     if os.path.exists(dst) and (not os.path.isdir(dst) or os.listdir(dst)):
         print("No copio nada: '%s' ya existe y no está vacía.\n"
-              "Elige otra carpeta, por ejemplo:  abia-planners examples otra-carpeta" % dst)
+              "Elige otra carpeta, por ejemplo:  fib-abia-planners examples otra-carpeta" % dst)
         return 1
     shutil.copytree(EXAMPLES_DIR, dst, dirs_exist_ok=True,
                     ignore=shutil.ignore_patterns(*SKIP_FILES))
@@ -61,7 +61,7 @@ def cmd_selftest(args):
     with open(os.path.join(PACKAGE_DIR, "expected.json"), encoding="utf-8") as f:
         expected = json.load(f)
     cases = expected if args.all else [c for c in expected if c["selftest"]]
-    print("abia-planners %s — %s %s, Python %s" % (
+    print("fib-abia-planners %s — %s %s, Python %s" % (
         __version__, platform.system(), platform.machine(), platform.python_version()))
     print("ff:        %s" % binary("ff"))
     print("metric-ff: %s" % binary("metric-ff"))
@@ -88,7 +88,7 @@ def cmd_selftest(args):
 
 
 def cmd_info(args):
-    print("abia-planners %s" % __version__)
+    print("fib-abia-planners %s" % __version__)
     print("Plataforma: %s %s (%s)" % (platform.system(), platform.release(), platform.machine()))
     print("Python:     %s (%s)" % (platform.python_version(), sys.executable))
     print("ff:         %s" % binary("ff"))
@@ -98,7 +98,7 @@ def cmd_info(args):
 
 
 def main(argv=None):
-    ap = argparse.ArgumentParser(prog="abia-planners",
+    ap = argparse.ArgumentParser(prog="fib-abia-planners",
                                  description="FF 2.3 y Metric-FF 2.1 con los ejemplos de ABIA.")
     sub = ap.add_subparsers(dest="cmd")
     sp = sub.add_parser("examples", help="copia los ejemplos de la asignatura a una carpeta")

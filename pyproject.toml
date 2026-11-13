@@ -3,7 +3,7 @@ requires = ["scikit-build-core>=0.8"]
 build-backend = "scikit_build_core.build"
 
 [project]
-name = "abia-planners"
+name = "fib-abia-planners"
 version = "0.1.0"
 description = "FF 2.3 y Metric-FF 2.1 (Jörg Hoffmann) con los ejemplos de planificación de la asignatura ABIA (UPC)"
 readme = "README.md"
@@ -23,7 +23,7 @@ classifiers = [
 [project.scripts]
 ff = "abia_planners.launcher:ff"
 metric-ff = "abia_planners.launcher:metric_ff"
-abia-planners = "abia_planners.cli:main"
+fib-abia-planners = "abia_planners.cli:main"
 
 [tool.scikit-build]
 minimum-version = "0.8"
@@ -37,7 +37,7 @@ sdist.exclude = ["build", "corpus", "golden/ipc", "golden/synthetic", "reports/d
 [tool.cibuildwheel]
 build = "cp312-*"
 skip = ["*-win32", "*_i686", "pp*"]
-test-command = "abia-planners selftest --all"
+test-command = "fib-abia-planners selftest --all"
 build-verbosity = 1
 
 [tool.cibuildwheel.linux]

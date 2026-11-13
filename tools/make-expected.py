@@ -1,6 +1,6 @@
 """Generate python/abia_planners/expected.json from examples/manifest.json and golden/examples.
 
-The installed package uses it for `abia-planners selftest`: for every example run, the
+The installed package uses it for `fib-abia-planners selftest`: for every example run, the
 expected outcome, exit code and plan of the reference build. Rerun after re-recording
 the golden outputs of the examples. With --check, only report (exit 1) if the file
 is out of date.

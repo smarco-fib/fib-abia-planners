@@ -1,6 +1,6 @@
-"""abia-planners: FF 2.3 and Metric-FF 2.1 with the ABIA course examples.
+"""fib-abia-planners: FF 2.3 and Metric-FF 2.1 with the ABIA course examples.
 
-Console commands: ``ff``, ``metric-ff`` and ``abia-planners`` (``examples``, ``selftest``).
+Console commands: ``ff``, ``metric-ff`` and ``fib-abia-planners`` (``examples``, ``selftest``).
 """
 import os
 import sys
