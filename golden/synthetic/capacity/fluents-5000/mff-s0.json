@@ -1,0 +1,10 @@
+{
+ "command": "metric-ff -s 0 -o fluents-domain.pddl -f fluents-5000.pddl",
+ "cwd": "corpus/synthetic/capacity",
+ "exit_code": 1,
+ "outcome": "limit-exceeded",
+ "plan": null,
+ "stdout": "\nff: parsing domain file\ndomain 'CAPACITY-FLUENTS' defined\n ... done.\nff: parsing problem file\nproblem 'FLUENTS-5000' defined\n ... done.\n\n\ntoo many relevant fluents! increase MAX_RELEVANT_FLUENTS (currently 10000)\n\n",
+ "stderr": "",
+ "reason": "increase MAX_RELEVANT_FLUENTS"
+}

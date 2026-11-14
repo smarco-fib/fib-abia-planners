@@ -567,6 +567,116 @@
      ]
     }
    ]
+  },
+  {
+   "id": "capacity/objects-2001",
+   "dir": "capacity",
+   "domain": "objects-domain.pddl",
+   "problem": "objects-2001.pddl",
+   "configs": [
+    "ff",
+    "mff-s0"
+   ],
+   "note": "MAX_CONSTANTS/MAX_TYPE (upstream 2000, now 20000; PATCHES.md CAP-1): upstream limit-exceeded, now plan-found"
+  },
+  {
+   "id": "capacity/objects-20000",
+   "dir": "capacity",
+   "domain": "objects-domain.pddl",
+   "problem": "objects-20000.pddl",
+   "configs": [
+    "ff",
+    "mff-s0"
+   ],
+   "note": "At the new MAX_CONSTANTS (CAP-1); upstream: syntax error (parser stack)"
+  },
+  {
+   "id": "capacity/objects-20001",
+   "dir": "capacity",
+   "domain": "objects-domain.pddl",
+   "problem": "objects-20001.pddl",
+   "configs": [
+    "ff",
+    "mff-s0"
+   ],
+   "note": "Just above the new MAX_CONSTANTS (CAP-1): limit-exceeded"
+  },
+  {
+   "id": "capacity/init-10201",
+   "dir": "capacity",
+   "domain": "objects-domain.pddl",
+   "problem": "init-10201.pddl",
+   "configs": [
+    "ff",
+    "mff-s0"
+   ],
+   "note": "10201 facts in :init, above bison's default YYMAXDEPTH 10000 (now 1000000, CAP-1): upstream syntax error, now plan-found"
+  },
+  {
+   "id": "capacity/chain-501",
+   "dir": "capacity",
+   "domain": "chain-domain.pddl",
+   "problem": "chain-501.pddl",
+   "configs": [
+    "ff",
+    "mff-s0"
+   ],
+   "note": "Plan of 501 steps: above Metric-FF's upstream MAX_PLAN_LENGTH 500 (now 2000, CAP-1); FF's limit was already 2000"
+  },
+  {
+   "id": "capacity/chain-2000",
+   "dir": "capacity",
+   "domain": "chain-domain.pddl",
+   "problem": "chain-2000.pddl",
+   "configs": [
+    "ff",
+    "mff-s0"
+   ],
+   "note": "Plan of 2000 steps: the longest within MAX_PLAN_LENGTH 2000 (CAP-1)"
+  },
+  {
+   "id": "capacity/chain-2001",
+   "dir": "capacity",
+   "domain": "chain-domain.pddl",
+   "problem": "chain-2001.pddl",
+   "configs": [
+    "ff",
+    "mff-s0"
+   ],
+   "note": "Plan of 2001 steps: limit-exceeded (MAX_PLAN_LENGTH 2000, CAP-1)"
+  },
+  {
+   "id": "capacity/fluents-500",
+   "dir": "capacity",
+   "domain": "fluents-domain.pddl",
+   "problem": "fluents-500.pddl",
+   "configs": [
+    "mff-s0",
+    "mff"
+   ],
+   "note": "1001 relevant fluents (2N+1, see tools/make-capacity-cases.py): above Metric-FF's upstream MAX_RELEVANT_FLUENTS 1000 (now 10000, CAP-1)"
+  },
+  {
+   "id": "capacity/fluents-4999",
+   "dir": "capacity",
+   "domain": "fluents-domain.pddl",
+   "problem": "fluents-4999.pddl",
+   "configs": [
+    "mff-s0",
+    "mff"
+   ],
+   "note": "9999 relevant fluents: within MAX_RELEVANT_FLUENTS 10000 (CAP-1)"
+  },
+  {
+   "id": "capacity/fluents-5000",
+   "dir": "capacity",
+   "domain": "fluents-domain.pddl",
+   "problem": "fluents-5000.pddl",
+   "configs": [
+    "mff-s0",
+    "mff"
+   ],
+   "note": "10001 relevant fluents: limit-exceeded (MAX_RELEVANT_FLUENTS 10000, CAP-1)"
   }
  ]
 }

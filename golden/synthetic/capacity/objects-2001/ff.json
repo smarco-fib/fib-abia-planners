@@ -1,0 +1,12 @@
+{
+ "command": "ff -o objects-domain.pddl -f objects-2001.pddl",
+ "cwd": "corpus/synthetic/capacity",
+ "exit_code": 0,
+ "outcome": "plan-found",
+ "plan": [
+  "VISIT O1"
+ ],
+ "stdout": "\nff: parsing domain file\ndomain 'CAPACITY-OBJECTS' defined\n ... done.\nff: parsing problem file\nproblem 'OBJECTS-2001' defined\n ... done.\n\n\n\nCueing down from goal distance:    1 into depth [1]\n                                   0            \n\nff: found legal plan as follows\n\nstep    0: VISIT O1\n     \n\ntime spent:    T.TT seconds instantiating 2001 easy, 0 hard action templates\n               T.TT seconds reachability analysis, yielding 2001 facts and 2001 actions\n               T.TT seconds creating final representation with 2001 relevant facts\n               T.TT seconds building connectivity graph\n               T.TT seconds searching, evaluating 2 states, to a max depth of 1\n               T.TT seconds total time\n\n",
+ "stderr": "",
+ "reason": "ff: found legal plan as follows"
+}

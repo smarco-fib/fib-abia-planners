@@ -1,0 +1,10 @@
+{
+ "command": "metric-ff -s 0 -o objects-domain.pddl -f objects-20001.pddl",
+ "cwd": "corpus/synthetic/capacity",
+ "exit_code": 1,
+ "outcome": "limit-exceeded",
+ "plan": null,
+ "stdout": "\nff: parsing domain file\ndomain 'CAPACITY-OBJECTS' defined\n ... done.\nff: parsing problem file\nproblem 'OBJECTS-20001' defined\n ... done.\n\n\ntoo many constants! increase MAX_CONSTANTS (currently 20000)\n\n",
+ "stderr": "",
+ "reason": "increase MAX_CONSTANTS"
+}

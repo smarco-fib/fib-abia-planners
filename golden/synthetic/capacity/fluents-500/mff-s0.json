@@ -1,0 +1,12 @@
+{
+ "command": "metric-ff -s 0 -o fluents-domain.pddl -f fluents-500.pddl",
+ "cwd": "corpus/synthetic/capacity",
+ "exit_code": 0,
+ "outcome": "plan-found",
+ "plan": [
+  "RAISE O1"
+ ],
+ "stdout": "\nff: parsing domain file\ndomain 'CAPACITY-FLUENTS' defined\n ... done.\nff: parsing problem file\nproblem 'FLUENTS-500' defined\n ... done.\n\n\n\nff: search configuration is Enforced Hill-Climbing, if that fails then best-first search.\nMetric is plan length.\nNO COST MINIMIZATION (and no cost-minimizing relaxed plans).\n\nCueing down from goal distance:    1 into depth [1]\n                                   0            \n\nff: found legal plan as follows\nstep    0: RAISE O1\nplan cost: 1.000000\n\ntime spent:    T.TT seconds instantiating 500 easy, 0 hard action templates\n               T.TT seconds reachability analysis, yielding 0 facts and 500 actions\n               T.TT seconds creating final representation with 0 relevant facts, 1001 relevant fluents\n               T.TT seconds computing LNF\n               T.TT seconds building connectivity graph\n               T.TT seconds searching, evaluating 2 states, to a max depth of 1\n               T.TT seconds total time\n\n",
+ "stderr": "",
+ "reason": "ff: found legal plan as follows"
+}
