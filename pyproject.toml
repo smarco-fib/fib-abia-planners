@@ -31,7 +31,7 @@ cmake.build-type = "Release"
 wheel.py-api = "py3"
 wheel.packages = ["python/abia_planners"]
 wheel.license-files = ["LICENSE", "NOTICE"]
-sdist.exclude = ["build", "corpus", "golden/ipc", "golden/synthetic", "reports/data", "ejemplos-abia-planning", ".claude"]
+sdist.exclude = ["build", "corpus", "golden/ipc", "golden/synthetic", "reports/data", ".claude"]
 
 # Wheels are py3-none-<platform>: one build per platform is enough.
 [tool.cibuildwheel]

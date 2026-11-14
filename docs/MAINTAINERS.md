@@ -17,7 +17,6 @@ CI: `.github/workflows/ci.yml` (see [CI](#ci)).
 | `CMakeLists.txt` | The single build for every platform |
 | `python/abia_planners/` | Launchers (`ff`, `metric-ff`), `fib-abia-planners` CLI, `expected.json` |
 | `examples/` | Course examples shipped to students; `manifest.json` lists every run |
-| `ejemplos-abia-planning/` | Course originals, unmodified, with SHA-256 (provenance only) |
 | `corpus/` | Extra test cases: `synthetic.json` (CLI and error paths), `ipc.json` (IPC domains) |
 | `golden/` | Reference outputs, one JSON per run: `golden/<suite>/<case>/<config>.json` |
 | `harness/` | Test runner, normaliser, outcome classifier, studies (`harness/README.md`) |
@@ -85,9 +84,8 @@ generated files together.
 
 ## 5. Add or change a course example
 
-1. Copy the original, unmodified, into `ejemplos-abia-planning/` and add its SHA-256 to
-   the `.SHA256SUMS` file there (CLAUDE.md rule 11).
-2. Copy it into `examples/<folder>/` (new folder per domain). Problem names must start with
+1. Never add exams, student work or third-party binaries (CLAUDE.md rule 11).
+2. Put the files in `examples/<folder>/` (new folder per domain). Problem names must start with
    a letter (Metric-FF misreads `(problem 7x)`) and be unique.
 3. Add one entry per problem to `examples/manifest.json`:
    `{"id": "<folder>/<problem>", "dir": "<folder>", "domain": "...", "problem": "...", "selftest": false}`.

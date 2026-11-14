@@ -2,15 +2,14 @@
 
 Maintainer documentation (students read `README.md`).
 
-Originals are stored unmodified in `ejemplos-abia-planning/` with SHA-256
-checksums. The copies here
-are teaching material (CLAUDE.md rule 11): they may be corrected and commented.
-Every change is a separate commit and is listed in the folder's `README.md`
-("Cambios respecto al original").
+All examples come from the ABIA course material (UPC). `examples/` is the only
+copy kept in the repository; the files are teaching material (CLAUDE.md rule 11)
+and may be corrected and commented. Every change is a separate commit and is
+listed in the folder's `README.md` ("Cambios respecto al original").
 
 | Folder | Source | Origin of the domain |
 |---|---|---|
-| `hanoi/`, `n-puzzle/`, `tsp/`, `logistics/`, `ascensor/`, `rovers/` | course zips (`ejemplos-abia-planning/*.zip`, files dated 2008–2011) | Hanoi: Héctor Geffner's formalisation; Logistics: IPC-1998; Miconic: IPC-2000; Rovers: IPC-2002; 8-puzzle and TSP: classic teaching examples |
+| `hanoi/`, `n-puzzle/`, `tsp/`, `logistics/`, `ascensor/`, `rovers/` | ABIA course material (files dated 2008–2011) | Hanoi: Héctor Geffner's formalisation; Logistics: IPC-1998; Miconic: IPC-2000; Rovers: IPC-2002; 8-puzzle and TSP: classic teaching examples |
 | `aircargo/`, `blocks/`, `vector/` | ABIA course material (unit 5, `C5-*`) | Course examples |
 | `smartbus/`, `binpacking/`, `sharebath/`, `asignaturas/` | ABIA course material | Course examples; `asignaturas` is in Catalan |
 
