@@ -1,7 +1,7 @@
 # fib-abia-planners CI.
 name: ci
-# Commits that only touch documentation do not start CI (it costs macOS
-# minutes on a private repository); run it by hand with workflow_dispatch.
+# Commits that only touch documentation do not start CI; run it by hand
+# with workflow_dispatch.
 # Tag pushes do not start it either: release.yml calls it (workflow_call).
 on:
   push:

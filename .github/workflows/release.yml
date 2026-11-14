@@ -26,7 +26,7 @@ jobs:
       name: pypi
       url: https://pypi.org/project/fib-abia-planners/
     permissions:
-      contents: read       # checkout (private repository)
+      contents: read       # checkout
       id-token: write      # Trusted Publishing
     steps:
       - uses: actions/checkout@v4

@@ -20,6 +20,10 @@ classifiers = [
   "Natural Language :: Spanish",
 ]
 
+[project.urls]
+Repository = "https://github.com/smarco-fib/fib-abia-planners"
+Documentation = "https://github.com/smarco-fib/fib-abia-planners/blob/main/docs/GUIA_ALUMNOS.md"
+
 [project.scripts]
 ff = "abia_planners.launcher:ff"
 metric-ff = "abia_planners.launcher:metric_ff"

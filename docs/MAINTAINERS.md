@@ -4,7 +4,7 @@ How to build, test, extend and release fib-abia-planners. Read `CLAUDE.md` first
 rules (frozen semantics, traceable upstream, acceptance = validity) apply to every
 change described here.
 
-Repository: `git@github.com:smarco-fib/fib-abia-planners.git` (private), branch `main`.
+Repository: https://github.com/smarco-fib/fib-abia-planners (public), branch `main`.
 CI: `.github/workflows/ci.yml` (see [CI](#ci)).
 
 ## 1. Layout
@@ -194,4 +194,3 @@ change `*.md` or `docs/` (run it by hand from *Actions → ci → Run workflow*)
 
 Read the results with `gh run list` and `gh run view <run-id>`; a failing job's log:
 `gh api --allow-escape-sequences repos/smarco-fib/fib-abia-planners/actions/jobs/<job-id>/logs`.
-On a private repository macOS minutes count ×10 against the free quota.

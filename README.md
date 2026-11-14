@@ -14,8 +14,9 @@ python -m pip install --upgrade pip
 pip install fib-abia-planners
 ```
 
-Se recomienda instalarlo en un entorno virtual (`python -m venv`); la guía del alumnado de la asignatura explica
-cómo hacerlo en cada sistema.
+Se recomienda instalarlo en un entorno virtual (`python -m venv`): la
+[guía del alumnado](https://github.com/smarco-fib/fib-abia-planners/blob/main/docs/GUIA_ALUMNOS.md)
+explica cómo hacerlo en Windows, macOS y Linux.
 
 Comprueba que funciona:
 
