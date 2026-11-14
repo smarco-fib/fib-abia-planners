@@ -7,7 +7,7 @@
 # Produces OUTDIR/ff, OUTDIR/metric-ff and OUTDIR/random_shim.so (Linux/glibc only).
 # Uses at most 4 parallel make jobs.
 set -eu
-REF=5c01bf3   # metric-ff: guard NULL ... (UB-2); golden recorded from this source tree
+REF=13d2570   # metric-ff: guard NULL ... (UB-2); golden recorded from this source tree
 ROOT=$(cd "$(dirname "$0")/.." && pwd)
 OUT=${1:-$ROOT/build/reference}
 CC=${CC:-gcc-9}

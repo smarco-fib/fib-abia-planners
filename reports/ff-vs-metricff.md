@@ -9,7 +9,7 @@ the data shows is concluded.
 IPC corpus is left for the final validation). Plan validity is not checked here
 (VAL is not integrated yet); every plan below is one the planner reported as legal.
 
-**Method.** CMake build at commit e0f34c5 of `src/` (GCC 11.4, Linux x86-64,
+**Method.** CMake build at commit 75c86c4 of `src/` (GCC 11.4, Linux x86-64,
 Intel i7-1165G7), `python3 -m harness.studies.compare -j 2 --repeat 3` pinned to
 two physical cores. Each run was repeated 3 times: outcome and plan were the same in
 all 3 for every run; times are the median wall-clock time, memory the peak resident
