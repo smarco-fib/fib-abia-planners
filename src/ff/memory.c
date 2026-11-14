@@ -774,11 +774,16 @@ void free_PlNode( PlNode *node )
 
 {
   
-  if ( node ) {
+  PlNode *next;
+
+  /* abia-planners (PATCHES.md, CAP-2): loop over the next list instead of
+   * recursing, so that a long list (e.g. :init) cannot overflow the C stack. */
+  while ( node ) {
+    next = node->next;
     free_PlNode( node->sons );
-    free_PlNode( node->next );
     free_TokenList( node->atom );
     free( node );
+    node = next;
   }
 
 }
