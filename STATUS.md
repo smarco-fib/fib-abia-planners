@@ -27,3 +27,9 @@ Linux reference. Clean install (fresh venv, Python 3.9 and 3.13, examples
 copied to a path with a space and "ñ") passed everywhere. Still missing for
 "supported" (rule 7): the full corpus and VAL plan validation on each
 platform (final validation phase).
+
+Release 0.1.0 (2026-11-14): published to PyPI as `fib-abia-planners` by
+release.yml (tag v0.1.0): 7 wheels and the sdist, built and tested by the CI
+run inside that workflow. Installed from PyPI in a fresh venv on Linux x86-64:
+`selftest` 39/39. Platforms remain "unvalidated" until the final validation
+(full corpus and VAL on every platform).
