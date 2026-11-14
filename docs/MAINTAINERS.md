@@ -158,6 +158,7 @@ plus their `.pddl` files and the command they ran.
 | `FALLO … obtenido crash` | Platform defect: reproduce on that OS/architecture and report it (rule 3) |
 | `FALLO` on every case, `parse-error` | Examples folder of the package damaged: reinstall |
 | `OK … (plan distinto del de referencia …)` | Not a failure: a different but valid plan (rule 3). Worth noting the platform |
+| `too many …! increase MAX_…` or `increase YYMAXDEPTH` | The problem exceeds a capacity limit (`docs/GUIA_ALUMNOS.md` §7, `PATCHES.md` CAP-1). Raising a limit needs the maintainer's approval (CLAUDE.md rule 5) |
 | `selftest` passes but their own run fails | Their PDDL: see `docs/GUIA_ALUMNOS.md` §7 (FF with `:fluents`, Metric-FF without `:metric`, names starting with a digit) |
 
 `selftest` compares outcome and exit code with `python/abia_planners/expected.json`
@@ -165,20 +166,26 @@ plus their `.pddl` files and the command they ran.
 
 ## 9. Release
 
-Nothing has been published yet. Publishing to PyPI, creating tags and making the repository
-public need the maintainer's explicit approval (CLAUDE.md rule 9).
+Publishing to PyPI and creating tags need the maintainer's explicit approval
+(CLAUDE.md rule 9). A version on PyPI can never be replaced: to fix one, publish a new one.
 
 1. Set the new version in `pyproject.toml`, `python/abia_planners/__init__.py` and
    `CMakeLists.txt` (`project(... VERSION ...)`).
 2. Update `STATUS.md`. Commit and push; wait for a green CI run.
-3. Download the artifacts of that run (`wheels-*` and `sdist`):
+3. Tag the commit and push the tag:
 
    ```bash
-   gh run download <run-id> -D dist
+   git tag -a vX.Y.Z -m "fib-abia-planners X.Y.Z"
    ```
 
-4. Upload to TestPyPI first and install from there in a clean venv on at least one OS;
-   then upload the same files to PyPI with `twine upload`. Tag the commit `vX.Y.Z`.
+   ```bash
+   git push origin vX.Y.Z
+   ```
+
+   `.github/workflows/release.yml` runs the whole CI again and, only if every job passes,
+   uploads those 7 wheels and the sdist to PyPI with Trusted Publishing (no token stored
+   anywhere). It refuses a tag that differs from the version in `pyproject.toml`.
+4. Install from PyPI in a fresh venv and run `fib-abia-planners selftest`.
 
 ## CI
 

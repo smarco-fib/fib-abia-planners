@@ -166,6 +166,7 @@ Las más útiles:
 | `goal can be simplified to TRUE` | El estado inicial ya cumple el objetivo: el plan está vacío. |
 | `syntax error in line N` | Error en el fichero PDDL, en la línea N o poco antes. |
 | `Enforced Hill-climbing failed !` | No es un error: la primera estrategia se ha atascado y prueba otra. |
+| `too many ...! increase MAX_...` o `problem too large ... increase YYMAXDEPTH` | El problema es más grande de lo que admite el planificador (apartado 7, "Límites de tamaño"). No es un error del PDDL. |
 
 El plan encontrado **no tiene por qué ser el más corto** (salvo con `metric-ff` y `:metric`,
 que intenta minimizar el coste). En otro sistema operativo el plan puede variar un poco: cualquier
@@ -195,6 +196,26 @@ prueba con un problema más pequeño.
 
 **Errores extraños con nombres.** En PDDL los nombres (dominio, problema, objetos, acciones…)
 deben empezar por una letra: Metric-FF falla, por ejemplo, con `(problem 7personas)`.
+
+**Límites de tamaño.** Los planificadores tienen límites fijos. Si un problema los supera, se
+paran con un mensaje `too many ...! increase MAX_...` (o `increase YYMAXDEPTH`): reduce el
+problema (menos objetos, menos hechos) o divídelo. Este paquete amplía algunos límites del
+original; los resultados de los problemas que ya cabían no cambian.
+
+| Límite | FF | Metric-FF |
+|---|---|---|
+| Objetos (en total y de cada tipo) | 20.000 | 20.000 |
+| Elementos de una lista (p. ej. hechos en `:init` u objetos en `:objects`) | 1.000.000 | 1.000.000 |
+| Pasos del plan | 2.000 | 2.000 |
+| Fluentes numéricos que cambian (las comparaciones con `<` pueden contarlos doble) | — | 10.000 |
+| Tipos | 50 | 50 |
+| Predicados | 500 | 50 |
+| Funciones numéricas | — | 50 |
+| Argumentos de un predicado | 5 | 5 |
+| Parámetros de una acción | 15 | 15 |
+
+Con muchos miles de hechos, Metric-FF puede tardar bastante en el preproceso (minutos con
+cientos de miles de hechos) antes de empezar a buscar.
 
 ## 8. Actualizar y desinstalar
 

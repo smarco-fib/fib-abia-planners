@@ -39,7 +39,7 @@ speed). `reason` and `command` are informational. Timings are written to a separ
 | search-failed | — | **0** | `Astar epsilon search space empty! Bailing out.` (A*-epsilon gives up; no proof) |
 | parse-error | 1 | 1 | `syntax error in line N` (stderr), `undeclared predicate`, `check input files`, `can't find operator/fact file` (stderr) |
 | usage-error | 1 | 1 | `unknown option`, `unknown search configuration`, `invalid cost bound`, **`Optimization criterion not established. A*epsilon not defined.`** |
-| limit-exceeded | 1 | 1 | `increase MAX_…` |
+| limit-exceeded | 1 | 1 | `increase MAX_…`, `increase YYMAXDEPTH` (PATCHES.md CAP-1) |
 | timeout | — | — | harness timeout (e.g. Metric-FF `-s 3` on a finite unsolvable task without metric does not terminate) |
 | crash | signal | signal | e.g. SIGSEGV (see reports/upstream-bugs in the Checkpoint 1 report) |
 
