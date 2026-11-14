@@ -36,6 +36,7 @@ _RULES = [
     ("proven-unsolvable", r"goal accesses a fluent that will never have a defined value\. Problem unsolvable"),
     # --- capacity limits ----------------------------------------------------
     ("limit-exceeded", r"increase MAX_[A-Z_]+"),
+    ("limit-exceeded", r"increase YYMAXDEPTH"),         # CAP-1 (PATCHES.md)
     ("limit-exceeded", r"too many axioms!"),
     ("limit-exceeded", r"NO MEMORY in file"),
     # --- parser / input errors --------------------------------------------

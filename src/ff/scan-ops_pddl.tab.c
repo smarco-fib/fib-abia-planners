@@ -88,6 +88,12 @@
 #include "parse.h"
 
 
+/* abia-planners (PATCHES.md, CAP-1): parser stack limit raised from bison's
+ * default of 10000 (right-recursive lists such as :init use one entry per
+ * element); an overflow is reported by yyerror() as a capacity limit. */
+#define YYMAXDEPTH 1000000
+
+
 #ifndef SCAN_ERR
 #define SCAN_ERR
 #define DOMDEF_EXPECTED            0
@@ -180,7 +186,7 @@ int supported( char *str )
 }
 
 
-#line 184 "scan-ops_pddl.tab.c"
+#line 190 "scan-ops_pddl.tab.c"
 
 # ifndef YY_CAST
 #  ifdef __cplusplus
@@ -255,7 +261,7 @@ extern int ops_pddldebug;
 #if ! defined YYSTYPE && ! defined YYSTYPE_IS_DECLARED
 union YYSTYPE
 {
-#line 111 "scan-ops_pddl.y"
+#line 117 "scan-ops_pddl.y"
 
 
   char string[MAX_LENGTH];
@@ -266,7 +272,7 @@ union YYSTYPE
   TypedList *pTypedList;
 
 
-#line 270 "scan-ops_pddl.tab.c"
+#line 276 "scan-ops_pddl.tab.c"
 
 };
 typedef union YYSTYPE YYSTYPE;
@@ -742,14 +748,14 @@ static const yytype_int8 yytranslate[] =
 /* YYRLINE[YYN] -- Source line where rule number YYN was defined.  */
 static const yytype_int16 yyrline[] =
 {
-       0,   167,   167,   167,   178,   177,   191,   201,   203,   205,
-     207,   209,   211,   218,   217,   227,   230,   229,   259,   263,
-     258,   274,   278,   277,   291,   290,   304,   303,   319,   323,
-     318,   337,   341,   355,   358,   377,   376,   383,   382,   397,
-     410,   416,   422,   428,   438,   453,   473,   477,   490,   503,
-     509,   524,   543,   547,   559,   565,   574,   581,   594,   596,
-     607,   613,   623,   630,   642,   653,   655,   665,   676,   696,
-     698,   707,   718
+       0,   173,   173,   173,   184,   183,   197,   207,   209,   211,
+     213,   215,   217,   224,   223,   233,   236,   235,   265,   269,
+     264,   280,   284,   283,   297,   296,   310,   309,   325,   329,
+     324,   343,   347,   361,   364,   383,   382,   389,   388,   403,
+     416,   422,   428,   434,   444,   459,   479,   483,   496,   509,
+     515,   530,   549,   553,   565,   571,   580,   587,   600,   602,
+     613,   619,   629,   636,   648,   659,   661,   671,   682,   702,
+     704,   713,   724
 };
 #endif
 
@@ -1408,61 +1414,61 @@ yyreduce:
   switch (yyn)
     {
   case 2: /* $@1: %empty  */
-#line 167 "scan-ops_pddl.y"
+#line 173 "scan-ops_pddl.y"
 { 
   opserr( DOMDEF_EXPECTED, NULL ); 
 }
-#line 1416 "scan-ops_pddl.tab.c"
+#line 1422 "scan-ops_pddl.tab.c"
     break;
 
   case 4: /* $@2: %empty  */
-#line 178 "scan-ops_pddl.y"
+#line 184 "scan-ops_pddl.y"
 { 
 }
-#line 1423 "scan-ops_pddl.tab.c"
+#line 1429 "scan-ops_pddl.tab.c"
     break;
 
   case 5: /* domain_definition: OPEN_PAREN DEFINE_TOK domain_name $@2 optional_domain_defs  */
-#line 181 "scan-ops_pddl.y"
+#line 187 "scan-ops_pddl.y"
 {
   if ( gcmd_line.display_info >= 1 ) {
     printf("\ndomain '%s' defined\n", gdomain_name);
   }
 }
-#line 1433 "scan-ops_pddl.tab.c"
+#line 1439 "scan-ops_pddl.tab.c"
     break;
 
   case 6: /* domain_name: OPEN_PAREN DOMAIN_TOK NAME CLOSE_PAREN  */
-#line 192 "scan-ops_pddl.y"
+#line 198 "scan-ops_pddl.y"
 { 
   gdomain_name = new_Token( strlen((yyvsp[-1].string))+1 );
   strcpy( gdomain_name, (yyvsp[-1].string));
 }
-#line 1442 "scan-ops_pddl.tab.c"
+#line 1448 "scan-ops_pddl.tab.c"
     break;
 
   case 13: /* $@3: %empty  */
-#line 218 "scan-ops_pddl.y"
+#line 224 "scan-ops_pddl.y"
 {
 }
-#line 1449 "scan-ops_pddl.tab.c"
+#line 1455 "scan-ops_pddl.tab.c"
     break;
 
   case 14: /* predicates_def: OPEN_PAREN PREDICATES_TOK predicates_list $@3 CLOSE_PAREN  */
-#line 221 "scan-ops_pddl.y"
+#line 227 "scan-ops_pddl.y"
 { 
 }
-#line 1456 "scan-ops_pddl.tab.c"
-    break;
-
-  case 15: /* predicates_list: %empty  */
-#line 227 "scan-ops_pddl.y"
-{}
 #line 1462 "scan-ops_pddl.tab.c"
     break;
 
+  case 15: /* predicates_list: %empty  */
+#line 233 "scan-ops_pddl.y"
+{}
+#line 1468 "scan-ops_pddl.tab.c"
+    break;
+
   case 16: /* $@4: %empty  */
-#line 230 "scan-ops_pddl.y"
+#line 236 "scan-ops_pddl.y"
 {
 
   TypedListList *tll;
@@ -1485,106 +1491,106 @@ yyreduce:
   tll->args = (yyvsp[-1].pTypedList);
 
 }
-#line 1489 "scan-ops_pddl.tab.c"
+#line 1495 "scan-ops_pddl.tab.c"
     break;
 
   case 18: /* $@5: %empty  */
-#line 259 "scan-ops_pddl.y"
+#line 265 "scan-ops_pddl.y"
 { 
   opserr( REQUIREM_EXPECTED, NULL ); 
 }
-#line 1497 "scan-ops_pddl.tab.c"
+#line 1503 "scan-ops_pddl.tab.c"
     break;
 
   case 19: /* $@6: %empty  */
-#line 263 "scan-ops_pddl.y"
+#line 269 "scan-ops_pddl.y"
 { 
   if ( !supported( (yyvsp[0].string) ) ) {
     opserr( NOT_SUPPORTED, (yyvsp[0].string) );
     yyerror( NULL );
   }
 }
-#line 1508 "scan-ops_pddl.tab.c"
+#line 1514 "scan-ops_pddl.tab.c"
     break;
 
   case 22: /* $@7: %empty  */
-#line 278 "scan-ops_pddl.y"
+#line 284 "scan-ops_pddl.y"
 { 
   if ( !supported( (yyvsp[0].string) ) ) {
     opserr( NOT_SUPPORTED, (yyvsp[0].string) );
     yyerror( NULL );
   }
 }
-#line 1519 "scan-ops_pddl.tab.c"
+#line 1525 "scan-ops_pddl.tab.c"
     break;
 
   case 24: /* $@8: %empty  */
-#line 291 "scan-ops_pddl.y"
+#line 297 "scan-ops_pddl.y"
 { 
   opserr( TYPEDEF_EXPECTED, NULL ); 
 }
-#line 1527 "scan-ops_pddl.tab.c"
+#line 1533 "scan-ops_pddl.tab.c"
     break;
 
   case 25: /* types_def: OPEN_PAREN TYPES_TOK $@8 typed_list_name CLOSE_PAREN  */
-#line 295 "scan-ops_pddl.y"
+#line 301 "scan-ops_pddl.y"
 {
   gparse_types = (yyvsp[-1].pTypedList);
 }
-#line 1535 "scan-ops_pddl.tab.c"
+#line 1541 "scan-ops_pddl.tab.c"
     break;
 
   case 26: /* $@9: %empty  */
-#line 304 "scan-ops_pddl.y"
+#line 310 "scan-ops_pddl.y"
 { 
   opserr( CONSTLIST_EXPECTED, NULL ); 
 }
-#line 1543 "scan-ops_pddl.tab.c"
+#line 1549 "scan-ops_pddl.tab.c"
     break;
 
   case 27: /* constants_def: OPEN_PAREN CONSTANTS_TOK $@9 typed_list_name CLOSE_PAREN  */
-#line 308 "scan-ops_pddl.y"
+#line 314 "scan-ops_pddl.y"
 {
   gparse_constants = (yyvsp[-1].pTypedList);
 }
-#line 1551 "scan-ops_pddl.tab.c"
+#line 1557 "scan-ops_pddl.tab.c"
     break;
 
   case 28: /* $@10: %empty  */
-#line 319 "scan-ops_pddl.y"
+#line 325 "scan-ops_pddl.y"
 { 
   opserr( ACTION, NULL ); 
 }
-#line 1559 "scan-ops_pddl.tab.c"
+#line 1565 "scan-ops_pddl.tab.c"
     break;
 
   case 29: /* $@11: %empty  */
-#line 323 "scan-ops_pddl.y"
+#line 329 "scan-ops_pddl.y"
 { 
   scur_op = new_PlOperator( (yyvsp[0].string) );
 }
-#line 1567 "scan-ops_pddl.tab.c"
+#line 1573 "scan-ops_pddl.tab.c"
     break;
 
   case 30: /* action_def: OPEN_PAREN ACTION_TOK $@10 NAME $@11 param_def action_def_body CLOSE_PAREN  */
-#line 327 "scan-ops_pddl.y"
+#line 333 "scan-ops_pddl.y"
 {
   scur_op->next = gloaded_ops;
   gloaded_ops = scur_op; 
 }
-#line 1576 "scan-ops_pddl.tab.c"
+#line 1582 "scan-ops_pddl.tab.c"
     break;
 
   case 31: /* param_def: %empty  */
-#line 337 "scan-ops_pddl.y"
+#line 343 "scan-ops_pddl.y"
 { 
   scur_op->params = NULL; 
 }
-#line 1584 "scan-ops_pddl.tab.c"
+#line 1590 "scan-ops_pddl.tab.c"
     break;
 
   case 32: /* param_def: PARAMETERS_TOK OPEN_PAREN typed_list_variable CLOSE_PAREN  */
-#line 342 "scan-ops_pddl.y"
+#line 348 "scan-ops_pddl.y"
 {
   TypedList *tl;
   scur_op->parse_params = (yyvsp[-1].pTypedList);
@@ -1594,11 +1600,11 @@ yyreduce:
     scur_op->number_of_real_params++;
   }
 }
-#line 1598 "scan-ops_pddl.tab.c"
+#line 1604 "scan-ops_pddl.tab.c"
     break;
 
   case 34: /* action_def_body: VARS_TOK OPEN_PAREN typed_list_variable CLOSE_PAREN action_def_body  */
-#line 359 "scan-ops_pddl.y"
+#line 365 "scan-ops_pddl.y"
 {
   TypedList *tl = NULL;
 
@@ -1615,27 +1621,27 @@ yyreduce:
     scur_op->parse_params = (yyvsp[-2].pTypedList);
   }
 }
-#line 1619 "scan-ops_pddl.tab.c"
+#line 1625 "scan-ops_pddl.tab.c"
     break;
 
   case 35: /* $@12: %empty  */
-#line 377 "scan-ops_pddl.y"
+#line 383 "scan-ops_pddl.y"
 { 
   scur_op->preconds = (yyvsp[0].pPlNode); 
 }
-#line 1627 "scan-ops_pddl.tab.c"
+#line 1633 "scan-ops_pddl.tab.c"
     break;
 
   case 37: /* $@13: %empty  */
-#line 383 "scan-ops_pddl.y"
+#line 389 "scan-ops_pddl.y"
 { 
   scur_op->effects = (yyvsp[0].pPlNode); 
 }
-#line 1635 "scan-ops_pddl.tab.c"
+#line 1641 "scan-ops_pddl.tab.c"
     break;
 
   case 39: /* adl_goal_description: literal_term  */
-#line 398 "scan-ops_pddl.y"
+#line 404 "scan-ops_pddl.y"
 { 
   if ( sis_negated ) {
     (yyval.pPlNode) = new_PlNode(NOT);
@@ -1647,38 +1653,38 @@ yyreduce:
     (yyval.pPlNode)->atom = (yyvsp[0].pTokenList);
   }
 }
-#line 1651 "scan-ops_pddl.tab.c"
+#line 1657 "scan-ops_pddl.tab.c"
     break;
 
   case 40: /* adl_goal_description: OPEN_PAREN AND_TOK adl_goal_description_star CLOSE_PAREN  */
-#line 411 "scan-ops_pddl.y"
+#line 417 "scan-ops_pddl.y"
 { 
   (yyval.pPlNode) = new_PlNode(AND);
   (yyval.pPlNode)->sons = (yyvsp[-1].pPlNode);
 }
-#line 1660 "scan-ops_pddl.tab.c"
+#line 1666 "scan-ops_pddl.tab.c"
     break;
 
   case 41: /* adl_goal_description: OPEN_PAREN OR_TOK adl_goal_description_star CLOSE_PAREN  */
-#line 417 "scan-ops_pddl.y"
+#line 423 "scan-ops_pddl.y"
 { 
   (yyval.pPlNode) = new_PlNode(OR);
   (yyval.pPlNode)->sons = (yyvsp[-1].pPlNode);
 }
-#line 1669 "scan-ops_pddl.tab.c"
+#line 1675 "scan-ops_pddl.tab.c"
     break;
 
   case 42: /* adl_goal_description: OPEN_PAREN NOT_TOK adl_goal_description CLOSE_PAREN  */
-#line 423 "scan-ops_pddl.y"
+#line 429 "scan-ops_pddl.y"
 { 
   (yyval.pPlNode) = new_PlNode(NOT);
   (yyval.pPlNode)->sons = (yyvsp[-1].pPlNode);
 }
-#line 1678 "scan-ops_pddl.tab.c"
+#line 1684 "scan-ops_pddl.tab.c"
     break;
 
   case 43: /* adl_goal_description: OPEN_PAREN IMPLY_TOK adl_goal_description adl_goal_description CLOSE_PAREN  */
-#line 429 "scan-ops_pddl.y"
+#line 435 "scan-ops_pddl.y"
 { 
   PlNode *np = new_PlNode(NOT);
   np->sons = (yyvsp[-2].pPlNode);
@@ -1687,11 +1693,11 @@ yyreduce:
   (yyval.pPlNode) = new_PlNode(OR);
   (yyval.pPlNode)->sons = np;
 }
-#line 1691 "scan-ops_pddl.tab.c"
+#line 1697 "scan-ops_pddl.tab.c"
     break;
 
   case 44: /* adl_goal_description: OPEN_PAREN EXISTS_TOK OPEN_PAREN typed_list_variable CLOSE_PAREN adl_goal_description CLOSE_PAREN  */
-#line 441 "scan-ops_pddl.y"
+#line 447 "scan-ops_pddl.y"
 { 
 
   PlNode *pln;
@@ -1703,11 +1709,11 @@ yyreduce:
   pln->sons = (yyvsp[-1].pPlNode);
 
 }
-#line 1707 "scan-ops_pddl.tab.c"
+#line 1713 "scan-ops_pddl.tab.c"
     break;
 
   case 45: /* adl_goal_description: OPEN_PAREN FORALL_TOK OPEN_PAREN typed_list_variable CLOSE_PAREN adl_goal_description CLOSE_PAREN  */
-#line 456 "scan-ops_pddl.y"
+#line 462 "scan-ops_pddl.y"
 { 
 
   PlNode *pln;
@@ -1719,28 +1725,28 @@ yyreduce:
   pln->sons = (yyvsp[-1].pPlNode);
 
 }
-#line 1723 "scan-ops_pddl.tab.c"
+#line 1729 "scan-ops_pddl.tab.c"
     break;
 
   case 46: /* adl_goal_description_star: %empty  */
-#line 473 "scan-ops_pddl.y"
+#line 479 "scan-ops_pddl.y"
 {
   (yyval.pPlNode) = NULL;
 }
-#line 1731 "scan-ops_pddl.tab.c"
+#line 1737 "scan-ops_pddl.tab.c"
     break;
 
   case 47: /* adl_goal_description_star: adl_goal_description adl_goal_description_star  */
-#line 478 "scan-ops_pddl.y"
+#line 484 "scan-ops_pddl.y"
 {
   (yyvsp[-1].pPlNode)->next = (yyvsp[0].pPlNode);
   (yyval.pPlNode) = (yyvsp[-1].pPlNode);
 }
-#line 1740 "scan-ops_pddl.tab.c"
+#line 1746 "scan-ops_pddl.tab.c"
     break;
 
   case 48: /* adl_effect: literal_term  */
-#line 491 "scan-ops_pddl.y"
+#line 497 "scan-ops_pddl.y"
 { 
   if ( sis_negated ) {
     (yyval.pPlNode) = new_PlNode(NOT);
@@ -1752,20 +1758,20 @@ yyreduce:
     (yyval.pPlNode)->atom = (yyvsp[0].pTokenList);
   }
 }
-#line 1756 "scan-ops_pddl.tab.c"
+#line 1762 "scan-ops_pddl.tab.c"
     break;
 
   case 49: /* adl_effect: OPEN_PAREN AND_TOK adl_effect_star CLOSE_PAREN  */
-#line 504 "scan-ops_pddl.y"
+#line 510 "scan-ops_pddl.y"
 { 
   (yyval.pPlNode) = new_PlNode(AND);
   (yyval.pPlNode)->sons = (yyvsp[-1].pPlNode);
 }
-#line 1765 "scan-ops_pddl.tab.c"
+#line 1771 "scan-ops_pddl.tab.c"
     break;
 
   case 50: /* adl_effect: OPEN_PAREN FORALL_TOK OPEN_PAREN typed_list_variable CLOSE_PAREN adl_effect CLOSE_PAREN  */
-#line 512 "scan-ops_pddl.y"
+#line 518 "scan-ops_pddl.y"
 { 
 
   PlNode *pln;
@@ -1777,11 +1783,11 @@ yyreduce:
   pln->sons = (yyvsp[-1].pPlNode);
 
 }
-#line 1781 "scan-ops_pddl.tab.c"
+#line 1787 "scan-ops_pddl.tab.c"
     break;
 
   case 51: /* adl_effect: OPEN_PAREN WHEN_TOK adl_goal_description adl_effect CLOSE_PAREN  */
-#line 525 "scan-ops_pddl.y"
+#line 531 "scan-ops_pddl.y"
 {
   /* This will be conditional effects in FF representation, but here
    * a formula like (WHEN p q) will be saved as:
@@ -1795,136 +1801,136 @@ yyreduce:
   (yyvsp[-2].pPlNode)->next = (yyvsp[-1].pPlNode);
   (yyval.pPlNode)->sons = (yyvsp[-2].pPlNode);
 }
-#line 1799 "scan-ops_pddl.tab.c"
+#line 1805 "scan-ops_pddl.tab.c"
     break;
 
   case 52: /* adl_effect_star: %empty  */
-#line 543 "scan-ops_pddl.y"
+#line 549 "scan-ops_pddl.y"
 { 
   (yyval.pPlNode) = NULL; 
 }
-#line 1807 "scan-ops_pddl.tab.c"
+#line 1813 "scan-ops_pddl.tab.c"
     break;
 
   case 53: /* adl_effect_star: adl_effect adl_effect_star  */
-#line 548 "scan-ops_pddl.y"
+#line 554 "scan-ops_pddl.y"
 {
   (yyvsp[-1].pPlNode)->next = (yyvsp[0].pPlNode);
   (yyval.pPlNode) = (yyvsp[-1].pPlNode);
 }
-#line 1816 "scan-ops_pddl.tab.c"
+#line 1822 "scan-ops_pddl.tab.c"
     break;
 
   case 54: /* literal_term: OPEN_PAREN NOT_TOK atomic_formula_term CLOSE_PAREN  */
-#line 560 "scan-ops_pddl.y"
+#line 566 "scan-ops_pddl.y"
 { 
   (yyval.pTokenList) = (yyvsp[-1].pTokenList);
   sis_negated = TRUE;
 }
-#line 1825 "scan-ops_pddl.tab.c"
+#line 1831 "scan-ops_pddl.tab.c"
     break;
 
   case 55: /* literal_term: atomic_formula_term  */
-#line 566 "scan-ops_pddl.y"
+#line 572 "scan-ops_pddl.y"
 {
   (yyval.pTokenList) = (yyvsp[0].pTokenList);
 }
-#line 1833 "scan-ops_pddl.tab.c"
+#line 1839 "scan-ops_pddl.tab.c"
     break;
 
   case 56: /* atomic_formula_term: OPEN_PAREN predicate term_star CLOSE_PAREN  */
-#line 575 "scan-ops_pddl.y"
+#line 581 "scan-ops_pddl.y"
 { 
   (yyval.pTokenList) = new_TokenList();
   (yyval.pTokenList)->item = (yyvsp[-2].pstring);
   (yyval.pTokenList)->next = (yyvsp[-1].pTokenList);
 }
-#line 1843 "scan-ops_pddl.tab.c"
+#line 1849 "scan-ops_pddl.tab.c"
     break;
 
   case 57: /* atomic_formula_term: OPEN_PAREN EQ_TOK term_star CLOSE_PAREN  */
-#line 582 "scan-ops_pddl.y"
+#line 588 "scan-ops_pddl.y"
 {
   (yyval.pTokenList) = new_TokenList();
   (yyval.pTokenList)->item = new_Token( 5 );
   (yyval.pTokenList)->item = "=";
   (yyval.pTokenList)->next = (yyvsp[-1].pTokenList);
 }
-#line 1854 "scan-ops_pddl.tab.c"
-    break;
-
-  case 58: /* term_star: %empty  */
-#line 594 "scan-ops_pddl.y"
-{ (yyval.pTokenList) = NULL; }
 #line 1860 "scan-ops_pddl.tab.c"
     break;
 
+  case 58: /* term_star: %empty  */
+#line 600 "scan-ops_pddl.y"
+{ (yyval.pTokenList) = NULL; }
+#line 1866 "scan-ops_pddl.tab.c"
+    break;
+
   case 59: /* term_star: term term_star  */
-#line 597 "scan-ops_pddl.y"
+#line 603 "scan-ops_pddl.y"
 {
   (yyval.pTokenList) = new_TokenList();
   (yyval.pTokenList)->item = (yyvsp[-1].pstring);
   (yyval.pTokenList)->next = (yyvsp[0].pTokenList);
 }
-#line 1870 "scan-ops_pddl.tab.c"
+#line 1876 "scan-ops_pddl.tab.c"
     break;
 
   case 60: /* term: NAME  */
-#line 608 "scan-ops_pddl.y"
-{ 
-  (yyval.pstring) = new_Token( strlen((yyvsp[0].string))+1 );
-  strcpy( (yyval.pstring), (yyvsp[0].string) );
-}
-#line 1879 "scan-ops_pddl.tab.c"
-    break;
-
-  case 61: /* term: VARIABLE  */
 #line 614 "scan-ops_pddl.y"
 { 
   (yyval.pstring) = new_Token( strlen((yyvsp[0].string))+1 );
   strcpy( (yyval.pstring), (yyvsp[0].string) );
 }
-#line 1888 "scan-ops_pddl.tab.c"
+#line 1885 "scan-ops_pddl.tab.c"
+    break;
+
+  case 61: /* term: VARIABLE  */
+#line 620 "scan-ops_pddl.y"
+{ 
+  (yyval.pstring) = new_Token( strlen((yyvsp[0].string))+1 );
+  strcpy( (yyval.pstring), (yyvsp[0].string) );
+}
+#line 1894 "scan-ops_pddl.tab.c"
     break;
 
   case 62: /* name_plus: NAME  */
-#line 624 "scan-ops_pddl.y"
+#line 630 "scan-ops_pddl.y"
 {
   (yyval.pTokenList) = new_TokenList();
   (yyval.pTokenList)->item = new_Token( strlen((yyvsp[0].string))+1 );
   strcpy( (yyval.pTokenList)->item, (yyvsp[0].string) );
 }
-#line 1898 "scan-ops_pddl.tab.c"
+#line 1904 "scan-ops_pddl.tab.c"
     break;
 
   case 63: /* name_plus: NAME name_plus  */
-#line 631 "scan-ops_pddl.y"
+#line 637 "scan-ops_pddl.y"
 {
   (yyval.pTokenList) = new_TokenList();
   (yyval.pTokenList)->item = new_Token( strlen((yyvsp[-1].string))+1 );
   strcpy( (yyval.pTokenList)->item, (yyvsp[-1].string) );
   (yyval.pTokenList)->next = (yyvsp[0].pTokenList);
 }
-#line 1909 "scan-ops_pddl.tab.c"
+#line 1915 "scan-ops_pddl.tab.c"
     break;
 
   case 64: /* predicate: NAME  */
-#line 643 "scan-ops_pddl.y"
+#line 649 "scan-ops_pddl.y"
 { 
   (yyval.pstring) = new_Token( strlen((yyvsp[0].string))+1 );
   strcpy( (yyval.pstring), (yyvsp[0].string) );
 }
-#line 1918 "scan-ops_pddl.tab.c"
-    break;
-
-  case 65: /* typed_list_name: %empty  */
-#line 653 "scan-ops_pddl.y"
-{ (yyval.pTypedList) = NULL; }
 #line 1924 "scan-ops_pddl.tab.c"
     break;
 
+  case 65: /* typed_list_name: %empty  */
+#line 659 "scan-ops_pddl.y"
+{ (yyval.pTypedList) = NULL; }
+#line 1930 "scan-ops_pddl.tab.c"
+    break;
+
   case 66: /* typed_list_name: NAME EITHER_TOK name_plus CLOSE_PAREN typed_list_name  */
-#line 656 "scan-ops_pddl.y"
+#line 662 "scan-ops_pddl.y"
 { 
 
   (yyval.pTypedList) = new_TypedList();
@@ -1933,11 +1939,11 @@ yyreduce:
   (yyval.pTypedList)->type = (yyvsp[-2].pTokenList);
   (yyval.pTypedList)->next = (yyvsp[0].pTypedList);
 }
-#line 1937 "scan-ops_pddl.tab.c"
+#line 1943 "scan-ops_pddl.tab.c"
     break;
 
   case 67: /* typed_list_name: NAME TYPE typed_list_name  */
-#line 666 "scan-ops_pddl.y"
+#line 672 "scan-ops_pddl.y"
 {
   (yyval.pTypedList) = new_TypedList();
   (yyval.pTypedList)->name = new_Token( strlen((yyvsp[-2].string))+1 );
@@ -1947,11 +1953,11 @@ yyreduce:
   strcpy( (yyval.pTypedList)->type->item, (yyvsp[-1].string) );
   (yyval.pTypedList)->next = (yyvsp[0].pTypedList);
 }
-#line 1951 "scan-ops_pddl.tab.c"
+#line 1957 "scan-ops_pddl.tab.c"
     break;
 
   case 68: /* typed_list_name: NAME typed_list_name  */
-#line 677 "scan-ops_pddl.y"
+#line 683 "scan-ops_pddl.y"
 {
   (yyval.pTypedList) = new_TypedList();
   (yyval.pTypedList)->name = new_Token( strlen((yyvsp[-1].string))+1 );
@@ -1965,17 +1971,17 @@ yyreduce:
   }
   (yyval.pTypedList)->next = (yyvsp[0].pTypedList);
 }
-#line 1969 "scan-ops_pddl.tab.c"
-    break;
-
-  case 69: /* typed_list_variable: %empty  */
-#line 696 "scan-ops_pddl.y"
-{ (yyval.pTypedList) = NULL; }
 #line 1975 "scan-ops_pddl.tab.c"
     break;
 
+  case 69: /* typed_list_variable: %empty  */
+#line 702 "scan-ops_pddl.y"
+{ (yyval.pTypedList) = NULL; }
+#line 1981 "scan-ops_pddl.tab.c"
+    break;
+
   case 70: /* typed_list_variable: VARIABLE EITHER_TOK name_plus CLOSE_PAREN typed_list_variable  */
-#line 699 "scan-ops_pddl.y"
+#line 705 "scan-ops_pddl.y"
 { 
   (yyval.pTypedList) = new_TypedList();
   (yyval.pTypedList)->name = new_Token( strlen((yyvsp[-4].string))+1 );
@@ -1983,11 +1989,11 @@ yyreduce:
   (yyval.pTypedList)->type = (yyvsp[-2].pTokenList);
   (yyval.pTypedList)->next = (yyvsp[0].pTypedList);
 }
-#line 1987 "scan-ops_pddl.tab.c"
+#line 1993 "scan-ops_pddl.tab.c"
     break;
 
   case 71: /* typed_list_variable: VARIABLE TYPE typed_list_variable  */
-#line 708 "scan-ops_pddl.y"
+#line 714 "scan-ops_pddl.y"
 {
   (yyval.pTypedList) = new_TypedList();
   (yyval.pTypedList)->name = new_Token( strlen((yyvsp[-2].string))+1 );
@@ -1997,11 +2003,11 @@ yyreduce:
   strcpy( (yyval.pTypedList)->type->item, (yyvsp[-1].string) );
   (yyval.pTypedList)->next = (yyvsp[0].pTypedList);
 }
-#line 2001 "scan-ops_pddl.tab.c"
+#line 2007 "scan-ops_pddl.tab.c"
     break;
 
   case 72: /* typed_list_variable: VARIABLE typed_list_variable  */
-#line 719 "scan-ops_pddl.y"
+#line 725 "scan-ops_pddl.y"
 {
   (yyval.pTypedList) = new_TypedList();
   (yyval.pTypedList)->name = new_Token( strlen((yyvsp[-1].string))+1 );
@@ -2015,11 +2021,11 @@ yyreduce:
   }
   (yyval.pTypedList)->next = (yyvsp[0].pTypedList);
 }
-#line 2019 "scan-ops_pddl.tab.c"
+#line 2025 "scan-ops_pddl.tab.c"
     break;
 
 
-#line 2023 "scan-ops_pddl.tab.c"
+#line 2029 "scan-ops_pddl.tab.c"
 
       default: break;
     }
@@ -2212,7 +2218,7 @@ yyreturnlab:
   return yyresult;
 }
 
-#line 736 "scan-ops_pddl.y"
+#line 742 "scan-ops_pddl.y"
 
 #include "lex.ops_pddl.c"
 
@@ -2248,6 +2254,14 @@ void opserr( int err, char *par )
 int yyerror( char *msg )
 
 {
+  /* abia-planners (PATCHES.md, CAP-1): bison calls yyerror("memory exhausted")
+   * only when the stack would exceed YYMAXDEPTH; say so instead of "syntax error". */
+  if ( msg && strcmp( msg, "memory exhausted" ) == 0 ) {
+    fflush( stdout );
+    fprintf(stderr, "\n%s: problem too large in line %d: too many list elements or too deep nesting! increase YYMAXDEPTH (currently %d)\n\n",
+	    gact_filename, lineno, YYMAXDEPTH);
+    exit( 1 );
+  }
 
   fflush(stdout);
   fprintf(stderr, "\n%s: syntax error in line %d, '%s':\n", 

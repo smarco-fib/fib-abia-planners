@@ -34,6 +34,12 @@
 #include "parse.h"
 
 
+/* abia-planners (PATCHES.md, CAP-1): parser stack limit raised from bison's
+ * default of 10000 (right-recursive lists such as :init use one entry per
+ * element); an overflow is reported by yyerror() as a capacity limit. */
+#define YYMAXDEPTH 1000000
+
+
 #ifndef SCAN_ERR
 #define SCAN_ERR
 #define DEFINE_EXPECTED            0
@@ -900,6 +906,14 @@ void fcterr( int err, char *par ) {
 int yyerror( char *msg )
 
 {
+  /* abia-planners (PATCHES.md, CAP-1): bison calls yyerror("memory exhausted")
+   * only when the stack would exceed YYMAXDEPTH; say so instead of "syntax error". */
+  if ( msg && strcmp( msg, "memory exhausted" ) == 0 ) {
+    fflush( stdout );
+    fprintf(stderr, "\n%s: problem too large in line %d: too many list elements or too deep nesting! increase YYMAXDEPTH (currently %d)\n\n",
+	    gact_filename, lineno, YYMAXDEPTH);
+    exit( 1 );
+  }
   fflush( stdout );
   fprintf(stderr,"\n%s: syntax error in line %d, '%s':\n", 
 	  gact_filename, lineno, yytext );

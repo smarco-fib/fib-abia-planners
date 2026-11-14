@@ -206,7 +206,7 @@
 
 
 
-#define MAX_CONSTANTS 2000
+#define MAX_CONSTANTS 20000 /* abia-planners (PATCHES.md, CAP-1): upstream 2000 */
 #define MAX_PREDICATES 50
 #define MAX_FUNCTIONS 50
 #define MAX_TYPES 50
@@ -214,7 +214,7 @@
 #define MAX_VARS 15
 
 
-#define MAX_TYPE 2000
+#define MAX_TYPE 20000 /* abia-planners (PATCHES.md, CAP-1): upstream 2000 */
 
 
 #define MAX_OPERATORS 50000
@@ -232,8 +232,8 @@
 #define MAX_TYPE_INTERSECTIONS 10
 
 
-#define MAX_RELEVANT_FACTS 150000
-#define MAX_RELEVANT_FLUENTS 1000
+#define MAX_RELEVANT_FACTS 1000000 /* abia-planners (PATCHES.md, CAP-1): upstream 150000 */
+#define MAX_RELEVANT_FLUENTS 10000 /* abia-planners (PATCHES.md, CAP-1): upstream 1000 */
 
 
 
@@ -252,7 +252,7 @@
 #define MAX_STATE 800
 
 
-#define MAX_PLAN_LENGTH 500
+#define MAX_PLAN_LENGTH 2000 /* abia-planners (PATCHES.md, CAP-1): upstream 500 */
 
 
 

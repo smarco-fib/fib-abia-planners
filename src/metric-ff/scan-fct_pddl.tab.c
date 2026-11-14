@@ -88,6 +88,12 @@
 #include "parse.h"
 
 
+/* abia-planners (PATCHES.md, CAP-1): parser stack limit raised from bison's
+ * default of 10000 (right-recursive lists such as :init use one entry per
+ * element); an overflow is reported by yyerror() as a capacity limit. */
+#define YYMAXDEPTH 1000000
+
+
 #ifndef SCAN_ERR
 #define SCAN_ERR
 #define DEFINE_EXPECTED            0
@@ -164,7 +170,7 @@ static char *sact_err_par = NULL;
 static Bool sis_negated = FALSE;
 
 
-#line 168 "scan-fct_pddl.tab.c"
+#line 174 "scan-fct_pddl.tab.c"
 
 # ifndef YY_CAST
 #  ifdef __cplusplus
@@ -243,7 +249,7 @@ extern int fct_pddldebug;
 #if ! defined YYSTYPE && ! defined YYSTYPE_IS_DECLARED
 union YYSTYPE
 {
-#line 118 "scan-fct_pddl.y"
+#line 124 "scan-fct_pddl.y"
 
 
   char string[MAX_LENGTH];
@@ -255,7 +261,7 @@ union YYSTYPE
   TypedList* pTypedList;
 
 
-#line 259 "scan-fct_pddl.tab.c"
+#line 265 "scan-fct_pddl.tab.c"
 
 };
 typedef union YYSTYPE YYSTYPE;
@@ -726,14 +732,14 @@ static const yytype_int8 yytranslate[] =
 /* YYRLINE[YYN] -- Source line where rule number YYN was defined.  */
 static const yytype_int16 yyrline[] =
 {
-       0,   186,   186,   189,   196,   195,   211,   221,   232,   235,
-     237,   239,   241,   243,   249,   259,   258,   273,   272,   286,
-     311,   319,   327,   335,   343,   351,   364,   370,   376,   382,
-     392,   407,   430,   434,   453,   458,   468,   473,   490,   518,
-     526,   535,   541,   548,   555,   562,   573,   581,   590,   596,
-     603,   610,   617,   628,   634,   643,   650,   663,   667,   678,
-     684,   694,   701,   714,   716,   725,   736,   756,   758,   767,
-     778,   799,   824,   834,   844,   856,   858
+       0,   192,   192,   195,   202,   201,   217,   227,   238,   241,
+     243,   245,   247,   249,   255,   265,   264,   279,   278,   292,
+     317,   325,   333,   341,   349,   357,   370,   376,   382,   388,
+     398,   413,   436,   440,   459,   464,   474,   479,   496,   524,
+     532,   541,   547,   554,   561,   568,   579,   587,   596,   602,
+     609,   616,   623,   634,   640,   649,   656,   669,   673,   684,
+     690,   700,   707,   720,   722,   731,   742,   762,   764,   773,
+     784,   805,   830,   840,   850,   862,   864
 };
 #endif
 
@@ -1417,88 +1423,88 @@ yyreduce:
   switch (yyn)
     {
   case 4: /* $@1: %empty  */
-#line 196 "scan-fct_pddl.y"
+#line 202 "scan-fct_pddl.y"
 { 
   fcterr( PROBNAME_EXPECTED, NULL ); 
 }
-#line 1425 "scan-fct_pddl.tab.c"
+#line 1431 "scan-fct_pddl.tab.c"
     break;
 
   case 5: /* problem_definition: OPEN_PAREN DEFINE_TOK $@1 problem_name problem_defs CLOSE_PAREN  */
-#line 200 "scan-fct_pddl.y"
+#line 206 "scan-fct_pddl.y"
 {  
   gproblem_name = (yyvsp[-2].pstring);
   if ( gcmd_line.display_info >= 1 ) {
     printf("\nproblem '%s' defined\n", gproblem_name);
   }
 }
-#line 1436 "scan-fct_pddl.tab.c"
+#line 1442 "scan-fct_pddl.tab.c"
     break;
 
   case 6: /* problem_name: OPEN_PAREN PROBLEM_TOK NAME CLOSE_PAREN  */
-#line 212 "scan-fct_pddl.y"
+#line 218 "scan-fct_pddl.y"
 { 
   (yyval.pstring) = new_Token( strlen((yyvsp[-1].string))+1 );
   strcpy((yyval.pstring), (yyvsp[-1].string));
 }
-#line 1445 "scan-fct_pddl.tab.c"
+#line 1451 "scan-fct_pddl.tab.c"
     break;
 
   case 7: /* base_domain_name: OPEN_PAREN BDOMAIN_TOK NAME CLOSE_PAREN  */
-#line 222 "scan-fct_pddl.y"
+#line 228 "scan-fct_pddl.y"
 { 
   if ( SAME != strcmp((yyvsp[-1].string), gdomain_name) ) {
     fcterr( BADDOMAIN, NULL );
     yyerror( NULL );
   }
 }
-#line 1456 "scan-fct_pddl.tab.c"
+#line 1462 "scan-fct_pddl.tab.c"
     break;
 
   case 14: /* objects_def: OPEN_PAREN OBJECTS_TOK typed_list_name CLOSE_PAREN  */
-#line 250 "scan-fct_pddl.y"
+#line 256 "scan-fct_pddl.y"
 { 
   gparse_objects = (yyvsp[-1].pTypedList);
 }
-#line 1464 "scan-fct_pddl.tab.c"
+#line 1470 "scan-fct_pddl.tab.c"
     break;
 
   case 15: /* $@2: %empty  */
-#line 259 "scan-fct_pddl.y"
+#line 265 "scan-fct_pddl.y"
 {
   fcterr( INIFACTS, NULL ); 
 }
-#line 1472 "scan-fct_pddl.tab.c"
+#line 1478 "scan-fct_pddl.tab.c"
     break;
 
   case 16: /* init_def: OPEN_PAREN INIT_TOK $@2 init_el_plus CLOSE_PAREN  */
-#line 263 "scan-fct_pddl.y"
+#line 269 "scan-fct_pddl.y"
 {
   gorig_initial_facts = new_PlNode(AND);
   gorig_initial_facts->sons = (yyvsp[-1].pPlNode);
 }
-#line 1481 "scan-fct_pddl.tab.c"
+#line 1487 "scan-fct_pddl.tab.c"
     break;
 
   case 17: /* $@3: %empty  */
-#line 273 "scan-fct_pddl.y"
+#line 279 "scan-fct_pddl.y"
 { 
   fcterr( GOALDEF, NULL ); 
 }
-#line 1489 "scan-fct_pddl.tab.c"
+#line 1495 "scan-fct_pddl.tab.c"
     break;
 
   case 18: /* goal_def: OPEN_PAREN GOAL_TOK $@3 adl_goal_description CLOSE_PAREN  */
-#line 277 "scan-fct_pddl.y"
+#line 283 "scan-fct_pddl.y"
 {
   (yyvsp[-1].pPlNode)->next = gorig_goal_facts;
   gorig_goal_facts = (yyvsp[-1].pPlNode);
 }
-#line 1498 "scan-fct_pddl.tab.c"
+#line 1504 "scan-fct_pddl.tab.c"
     break;
 
   case 19: /* metric_def: OPEN_PAREN METRIC_TOK NAME ground_f_exp CLOSE_PAREN  */
-#line 287 "scan-fct_pddl.y"
+#line 293 "scan-fct_pddl.y"
 {
 
   if ( gparse_metric != NULL ) {
@@ -1510,66 +1516,66 @@ yyreduce:
   gparse_metric = (yyvsp[-1].pParseExpNode);
 
 }
-#line 1514 "scan-fct_pddl.tab.c"
+#line 1520 "scan-fct_pddl.tab.c"
     break;
 
   case 20: /* adl_goal_description: OPEN_PAREN LE_TOK f_exp f_exp CLOSE_PAREN  */
-#line 312 "scan-fct_pddl.y"
+#line 318 "scan-fct_pddl.y"
 {
   (yyval.pPlNode) = new_PlNode(COMP);
   (yyval.pPlNode)->comp = LE;
   (yyval.pPlNode)->lh = (yyvsp[-2].pParseExpNode);
   (yyval.pPlNode)->rh = (yyvsp[-1].pParseExpNode);
 }
-#line 1525 "scan-fct_pddl.tab.c"
+#line 1531 "scan-fct_pddl.tab.c"
     break;
 
   case 21: /* adl_goal_description: OPEN_PAREN LEQ_TOK f_exp f_exp CLOSE_PAREN  */
-#line 320 "scan-fct_pddl.y"
+#line 326 "scan-fct_pddl.y"
 {
   (yyval.pPlNode) = new_PlNode(COMP);
   (yyval.pPlNode)->comp = LEQ;
   (yyval.pPlNode)->lh = (yyvsp[-2].pParseExpNode);
   (yyval.pPlNode)->rh = (yyvsp[-1].pParseExpNode);
 }
-#line 1536 "scan-fct_pddl.tab.c"
+#line 1542 "scan-fct_pddl.tab.c"
     break;
 
   case 22: /* adl_goal_description: OPEN_PAREN EQ_TOK f_exp f_exp CLOSE_PAREN  */
-#line 328 "scan-fct_pddl.y"
+#line 334 "scan-fct_pddl.y"
 {
   (yyval.pPlNode) = new_PlNode(COMP);
   (yyval.pPlNode)->comp = EQ;
   (yyval.pPlNode)->lh = (yyvsp[-2].pParseExpNode);
   (yyval.pPlNode)->rh = (yyvsp[-1].pParseExpNode);
 }
-#line 1547 "scan-fct_pddl.tab.c"
+#line 1553 "scan-fct_pddl.tab.c"
     break;
 
   case 23: /* adl_goal_description: OPEN_PAREN GEQ_TOK f_exp f_exp CLOSE_PAREN  */
-#line 336 "scan-fct_pddl.y"
+#line 342 "scan-fct_pddl.y"
 {
   (yyval.pPlNode) = new_PlNode(COMP);
   (yyval.pPlNode)->comp = GEQ;
   (yyval.pPlNode)->lh = (yyvsp[-2].pParseExpNode);
   (yyval.pPlNode)->rh = (yyvsp[-1].pParseExpNode);
 }
-#line 1558 "scan-fct_pddl.tab.c"
+#line 1564 "scan-fct_pddl.tab.c"
     break;
 
   case 24: /* adl_goal_description: OPEN_PAREN GE_TOK f_exp f_exp CLOSE_PAREN  */
-#line 344 "scan-fct_pddl.y"
+#line 350 "scan-fct_pddl.y"
 {
   (yyval.pPlNode) = new_PlNode(COMP);
   (yyval.pPlNode)->comp = GE;
   (yyval.pPlNode)->lh = (yyvsp[-2].pParseExpNode);
   (yyval.pPlNode)->rh = (yyvsp[-1].pParseExpNode);
 }
-#line 1569 "scan-fct_pddl.tab.c"
+#line 1575 "scan-fct_pddl.tab.c"
     break;
 
   case 25: /* adl_goal_description: literal_term  */
-#line 352 "scan-fct_pddl.y"
+#line 358 "scan-fct_pddl.y"
 { 
   if ( sis_negated ) {
     (yyval.pPlNode) = new_PlNode(NOT);
@@ -1581,38 +1587,38 @@ yyreduce:
     (yyval.pPlNode)->atom = (yyvsp[0].pTokenList);
   }
 }
-#line 1585 "scan-fct_pddl.tab.c"
+#line 1591 "scan-fct_pddl.tab.c"
     break;
 
   case 26: /* adl_goal_description: OPEN_PAREN AND_TOK adl_goal_description_star CLOSE_PAREN  */
-#line 365 "scan-fct_pddl.y"
+#line 371 "scan-fct_pddl.y"
 { 
   (yyval.pPlNode) = new_PlNode(AND);
   (yyval.pPlNode)->sons = (yyvsp[-1].pPlNode);
 }
-#line 1594 "scan-fct_pddl.tab.c"
+#line 1600 "scan-fct_pddl.tab.c"
     break;
 
   case 27: /* adl_goal_description: OPEN_PAREN OR_TOK adl_goal_description_star CLOSE_PAREN  */
-#line 371 "scan-fct_pddl.y"
+#line 377 "scan-fct_pddl.y"
 { 
   (yyval.pPlNode) = new_PlNode(OR);
   (yyval.pPlNode)->sons = (yyvsp[-1].pPlNode);
 }
-#line 1603 "scan-fct_pddl.tab.c"
+#line 1609 "scan-fct_pddl.tab.c"
     break;
 
   case 28: /* adl_goal_description: OPEN_PAREN NOT_TOK adl_goal_description CLOSE_PAREN  */
-#line 377 "scan-fct_pddl.y"
+#line 383 "scan-fct_pddl.y"
 { 
   (yyval.pPlNode) = new_PlNode(NOT);
   (yyval.pPlNode)->sons = (yyvsp[-1].pPlNode);
 }
-#line 1612 "scan-fct_pddl.tab.c"
+#line 1618 "scan-fct_pddl.tab.c"
     break;
 
   case 29: /* adl_goal_description: OPEN_PAREN IMPLY_TOK adl_goal_description adl_goal_description CLOSE_PAREN  */
-#line 383 "scan-fct_pddl.y"
+#line 389 "scan-fct_pddl.y"
 { 
   PlNode *np = new_PlNode(NOT);
   np->sons = (yyvsp[-2].pPlNode);
@@ -1621,11 +1627,11 @@ yyreduce:
   (yyval.pPlNode) = new_PlNode(OR);
   (yyval.pPlNode)->sons = np;
 }
-#line 1625 "scan-fct_pddl.tab.c"
+#line 1631 "scan-fct_pddl.tab.c"
     break;
 
   case 30: /* adl_goal_description: OPEN_PAREN EXISTS_TOK OPEN_PAREN typed_list_variable CLOSE_PAREN adl_goal_description CLOSE_PAREN  */
-#line 395 "scan-fct_pddl.y"
+#line 401 "scan-fct_pddl.y"
 { 
 
   PlNode *pln;
@@ -1637,11 +1643,11 @@ yyreduce:
   pln->sons = (yyvsp[-1].pPlNode);
 
 }
-#line 1641 "scan-fct_pddl.tab.c"
+#line 1647 "scan-fct_pddl.tab.c"
     break;
 
   case 31: /* adl_goal_description: OPEN_PAREN FORALL_TOK OPEN_PAREN typed_list_variable CLOSE_PAREN adl_goal_description CLOSE_PAREN  */
-#line 410 "scan-fct_pddl.y"
+#line 416 "scan-fct_pddl.y"
 { 
 
   PlNode *pln;
@@ -1653,53 +1659,53 @@ yyreduce:
   pln->sons = (yyvsp[-1].pPlNode);
 
 }
-#line 1657 "scan-fct_pddl.tab.c"
+#line 1663 "scan-fct_pddl.tab.c"
     break;
 
   case 32: /* adl_goal_description_star: %empty  */
-#line 430 "scan-fct_pddl.y"
+#line 436 "scan-fct_pddl.y"
 {
   (yyval.pPlNode) = NULL;
 }
-#line 1665 "scan-fct_pddl.tab.c"
+#line 1671 "scan-fct_pddl.tab.c"
     break;
 
   case 33: /* adl_goal_description_star: adl_goal_description adl_goal_description_star  */
-#line 435 "scan-fct_pddl.y"
+#line 441 "scan-fct_pddl.y"
 {
   (yyvsp[-1].pPlNode)->next = (yyvsp[0].pPlNode);
   (yyval.pPlNode) = (yyvsp[-1].pPlNode);
 }
-#line 1674 "scan-fct_pddl.tab.c"
+#line 1680 "scan-fct_pddl.tab.c"
     break;
 
   case 34: /* init_el_plus: init_el  */
-#line 454 "scan-fct_pddl.y"
+#line 460 "scan-fct_pddl.y"
 {
   (yyval.pPlNode) = (yyvsp[0].pPlNode);
 }
-#line 1682 "scan-fct_pddl.tab.c"
+#line 1688 "scan-fct_pddl.tab.c"
     break;
 
   case 35: /* init_el_plus: init_el init_el_plus  */
-#line 459 "scan-fct_pddl.y"
+#line 465 "scan-fct_pddl.y"
 {
    (yyval.pPlNode) = (yyvsp[-1].pPlNode);
    (yyval.pPlNode)->next = (yyvsp[0].pPlNode);
 }
-#line 1691 "scan-fct_pddl.tab.c"
+#line 1697 "scan-fct_pddl.tab.c"
     break;
 
   case 36: /* init_el: literal_name  */
-#line 469 "scan-fct_pddl.y"
+#line 475 "scan-fct_pddl.y"
 {
   (yyval.pPlNode) = (yyvsp[0].pPlNode);
 }
-#line 1699 "scan-fct_pddl.tab.c"
+#line 1705 "scan-fct_pddl.tab.c"
     break;
 
   case 37: /* init_el: OPEN_PAREN EQ_TOK OPEN_PAREN NAME name_star CLOSE_PAREN NUM CLOSE_PAREN  */
-#line 474 "scan-fct_pddl.y"
+#line 480 "scan-fct_pddl.y"
 {
   (yyval.pPlNode) = new_PlNode( COMP );
   (yyval.pPlNode)->comp = EQ;
@@ -1715,11 +1721,11 @@ yyreduce:
   (yyval.pPlNode)->rh->atom->item = new_Token( strlen((yyvsp[-1].string))+1 );
   strcpy( (yyval.pPlNode)->rh->atom->item, (yyvsp[-1].string) );
 }
-#line 1719 "scan-fct_pddl.tab.c"
+#line 1725 "scan-fct_pddl.tab.c"
     break;
 
   case 38: /* init_el: OPEN_PAREN EQ_TOK NAME NUM CLOSE_PAREN  */
-#line 491 "scan-fct_pddl.y"
+#line 497 "scan-fct_pddl.y"
 {
   (yyval.pPlNode) = new_PlNode( COMP );
   (yyval.pPlNode)->comp = EQ;
@@ -1734,22 +1740,22 @@ yyreduce:
   (yyval.pPlNode)->rh->atom->item = new_Token( strlen((yyvsp[-1].string))+1 );
   strcpy( (yyval.pPlNode)->rh->atom->item, (yyvsp[-1].string) );
 }
-#line 1738 "scan-fct_pddl.tab.c"
+#line 1744 "scan-fct_pddl.tab.c"
     break;
 
   case 39: /* f_exp: NUM  */
-#line 519 "scan-fct_pddl.y"
+#line 525 "scan-fct_pddl.y"
 { 
   (yyval.pParseExpNode) = new_ParseExpNode( NUMBER );
   (yyval.pParseExpNode)->atom = new_TokenList();
   (yyval.pParseExpNode)->atom->item = new_Token( strlen((yyvsp[0].string))+1 );
   strcpy( (yyval.pParseExpNode)->atom->item, (yyvsp[0].string) );
 }
-#line 1749 "scan-fct_pddl.tab.c"
+#line 1755 "scan-fct_pddl.tab.c"
     break;
 
   case 40: /* f_exp: OPEN_PAREN NAME term_star CLOSE_PAREN  */
-#line 527 "scan-fct_pddl.y"
+#line 533 "scan-fct_pddl.y"
 {
   (yyval.pParseExpNode) = new_ParseExpNode( FHEAD );
   (yyval.pParseExpNode)->atom = new_TokenList();
@@ -1757,71 +1763,71 @@ yyreduce:
   strcpy( (yyval.pParseExpNode)->atom->item, (yyvsp[-2].string) );
   (yyval.pParseExpNode)->atom->next = (yyvsp[-1].pTokenList);
 }
-#line 1761 "scan-fct_pddl.tab.c"
+#line 1767 "scan-fct_pddl.tab.c"
     break;
 
   case 41: /* f_exp: OPEN_PAREN MINUS_TOK f_exp CLOSE_PAREN  */
-#line 536 "scan-fct_pddl.y"
+#line 542 "scan-fct_pddl.y"
 {
   (yyval.pParseExpNode) = new_ParseExpNode( MINUS );
   (yyval.pParseExpNode)->leftson = (yyvsp[-1].pParseExpNode);
 }
-#line 1770 "scan-fct_pddl.tab.c"
+#line 1776 "scan-fct_pddl.tab.c"
     break;
 
   case 42: /* f_exp: OPEN_PAREN AD_TOK f_exp f_exp CLOSE_PAREN  */
-#line 542 "scan-fct_pddl.y"
+#line 548 "scan-fct_pddl.y"
 {
   (yyval.pParseExpNode) = new_ParseExpNode( AD );
   (yyval.pParseExpNode)->leftson = (yyvsp[-2].pParseExpNode);
   (yyval.pParseExpNode)->rightson = (yyvsp[-1].pParseExpNode);
 }
-#line 1780 "scan-fct_pddl.tab.c"
+#line 1786 "scan-fct_pddl.tab.c"
     break;
 
   case 43: /* f_exp: OPEN_PAREN MINUS_TOK f_exp f_exp CLOSE_PAREN  */
-#line 549 "scan-fct_pddl.y"
+#line 555 "scan-fct_pddl.y"
 {
   (yyval.pParseExpNode) = new_ParseExpNode( SU );
   (yyval.pParseExpNode)->leftson = (yyvsp[-2].pParseExpNode);
   (yyval.pParseExpNode)->rightson = (yyvsp[-1].pParseExpNode);
 }
-#line 1790 "scan-fct_pddl.tab.c"
+#line 1796 "scan-fct_pddl.tab.c"
     break;
 
   case 44: /* f_exp: OPEN_PAREN MU_TOK f_exp f_exp CLOSE_PAREN  */
-#line 556 "scan-fct_pddl.y"
+#line 562 "scan-fct_pddl.y"
 {
   (yyval.pParseExpNode) = new_ParseExpNode( MU );
   (yyval.pParseExpNode)->leftson = (yyvsp[-2].pParseExpNode);
   (yyval.pParseExpNode)->rightson = (yyvsp[-1].pParseExpNode);
 }
-#line 1800 "scan-fct_pddl.tab.c"
+#line 1806 "scan-fct_pddl.tab.c"
     break;
 
   case 45: /* f_exp: OPEN_PAREN DI_TOK f_exp f_exp CLOSE_PAREN  */
-#line 563 "scan-fct_pddl.y"
+#line 569 "scan-fct_pddl.y"
 {
   (yyval.pParseExpNode) = new_ParseExpNode( DI );
   (yyval.pParseExpNode)->leftson = (yyvsp[-2].pParseExpNode);
   (yyval.pParseExpNode)->rightson = (yyvsp[-1].pParseExpNode);
 }
-#line 1810 "scan-fct_pddl.tab.c"
+#line 1816 "scan-fct_pddl.tab.c"
     break;
 
   case 46: /* ground_f_exp: NUM  */
-#line 574 "scan-fct_pddl.y"
+#line 580 "scan-fct_pddl.y"
 { 
   (yyval.pParseExpNode) = new_ParseExpNode( NUMBER );
   (yyval.pParseExpNode)->atom = new_TokenList();
   (yyval.pParseExpNode)->atom->item = new_Token( strlen((yyvsp[0].string))+1 );
   strcpy( (yyval.pParseExpNode)->atom->item, (yyvsp[0].string) );
 }
-#line 1821 "scan-fct_pddl.tab.c"
+#line 1827 "scan-fct_pddl.tab.c"
     break;
 
   case 47: /* ground_f_exp: OPEN_PAREN NAME name_star CLOSE_PAREN  */
-#line 582 "scan-fct_pddl.y"
+#line 588 "scan-fct_pddl.y"
 {
   (yyval.pParseExpNode) = new_ParseExpNode( FHEAD );
   (yyval.pParseExpNode)->atom = new_TokenList();
@@ -1829,161 +1835,161 @@ yyreduce:
   strcpy( (yyval.pParseExpNode)->atom->item, (yyvsp[-2].string) );
   (yyval.pParseExpNode)->atom->next = (yyvsp[-1].pTokenList);
 }
-#line 1833 "scan-fct_pddl.tab.c"
+#line 1839 "scan-fct_pddl.tab.c"
     break;
 
   case 48: /* ground_f_exp: OPEN_PAREN MINUS_TOK ground_f_exp CLOSE_PAREN  */
-#line 591 "scan-fct_pddl.y"
+#line 597 "scan-fct_pddl.y"
 {
   (yyval.pParseExpNode) = new_ParseExpNode( MINUS );
   (yyval.pParseExpNode)->leftson = (yyvsp[-1].pParseExpNode);
 }
-#line 1842 "scan-fct_pddl.tab.c"
+#line 1848 "scan-fct_pddl.tab.c"
     break;
 
   case 49: /* ground_f_exp: OPEN_PAREN AD_TOK ground_f_exp ground_f_exp CLOSE_PAREN  */
-#line 597 "scan-fct_pddl.y"
+#line 603 "scan-fct_pddl.y"
 {
   (yyval.pParseExpNode) = new_ParseExpNode( AD );
   (yyval.pParseExpNode)->leftson = (yyvsp[-2].pParseExpNode);
   (yyval.pParseExpNode)->rightson = (yyvsp[-1].pParseExpNode);
 }
-#line 1852 "scan-fct_pddl.tab.c"
+#line 1858 "scan-fct_pddl.tab.c"
     break;
 
   case 50: /* ground_f_exp: OPEN_PAREN MINUS_TOK ground_f_exp ground_f_exp CLOSE_PAREN  */
-#line 604 "scan-fct_pddl.y"
+#line 610 "scan-fct_pddl.y"
 {
   (yyval.pParseExpNode) = new_ParseExpNode( SU );
   (yyval.pParseExpNode)->leftson = (yyvsp[-2].pParseExpNode);
   (yyval.pParseExpNode)->rightson = (yyvsp[-1].pParseExpNode);
 }
-#line 1862 "scan-fct_pddl.tab.c"
+#line 1868 "scan-fct_pddl.tab.c"
     break;
 
   case 51: /* ground_f_exp: OPEN_PAREN MU_TOK ground_f_exp ground_f_exp CLOSE_PAREN  */
-#line 611 "scan-fct_pddl.y"
+#line 617 "scan-fct_pddl.y"
 {
   (yyval.pParseExpNode) = new_ParseExpNode( MU );
   (yyval.pParseExpNode)->leftson = (yyvsp[-2].pParseExpNode);
   (yyval.pParseExpNode)->rightson = (yyvsp[-1].pParseExpNode);
 }
-#line 1872 "scan-fct_pddl.tab.c"
+#line 1878 "scan-fct_pddl.tab.c"
     break;
 
   case 52: /* ground_f_exp: OPEN_PAREN DI_TOK ground_f_exp ground_f_exp CLOSE_PAREN  */
-#line 618 "scan-fct_pddl.y"
+#line 624 "scan-fct_pddl.y"
 {
   (yyval.pParseExpNode) = new_ParseExpNode( DI );
   (yyval.pParseExpNode)->leftson = (yyvsp[-2].pParseExpNode);
   (yyval.pParseExpNode)->rightson = (yyvsp[-1].pParseExpNode);
 }
-#line 1882 "scan-fct_pddl.tab.c"
+#line 1888 "scan-fct_pddl.tab.c"
     break;
 
   case 53: /* literal_term: OPEN_PAREN NOT_TOK atomic_formula_term CLOSE_PAREN  */
-#line 629 "scan-fct_pddl.y"
+#line 635 "scan-fct_pddl.y"
 { 
   (yyval.pTokenList) = (yyvsp[-1].pTokenList);
   sis_negated = TRUE;
 }
-#line 1891 "scan-fct_pddl.tab.c"
+#line 1897 "scan-fct_pddl.tab.c"
     break;
 
   case 54: /* literal_term: atomic_formula_term  */
-#line 635 "scan-fct_pddl.y"
+#line 641 "scan-fct_pddl.y"
 {
   (yyval.pTokenList) = (yyvsp[0].pTokenList);
 }
-#line 1899 "scan-fct_pddl.tab.c"
+#line 1905 "scan-fct_pddl.tab.c"
     break;
 
   case 55: /* atomic_formula_term: OPEN_PAREN predicate term_star CLOSE_PAREN  */
-#line 644 "scan-fct_pddl.y"
+#line 650 "scan-fct_pddl.y"
 { 
   (yyval.pTokenList) = new_TokenList();
   (yyval.pTokenList)->item = (yyvsp[-2].pstring);
   (yyval.pTokenList)->next = (yyvsp[-1].pTokenList);
 }
-#line 1909 "scan-fct_pddl.tab.c"
+#line 1915 "scan-fct_pddl.tab.c"
     break;
 
   case 56: /* atomic_formula_term: OPEN_PAREN EQ_TOK term_star CLOSE_PAREN  */
-#line 651 "scan-fct_pddl.y"
+#line 657 "scan-fct_pddl.y"
 {
   (yyval.pTokenList) = new_TokenList();
   (yyval.pTokenList)->item = new_Token( 5 );
   (yyval.pTokenList)->item = "=";
   (yyval.pTokenList)->next = (yyvsp[-1].pTokenList);
 }
-#line 1920 "scan-fct_pddl.tab.c"
+#line 1926 "scan-fct_pddl.tab.c"
     break;
 
   case 57: /* term_star: %empty  */
-#line 663 "scan-fct_pddl.y"
+#line 669 "scan-fct_pddl.y"
 {
   (yyval.pTokenList) = NULL;
 }
-#line 1928 "scan-fct_pddl.tab.c"
+#line 1934 "scan-fct_pddl.tab.c"
     break;
 
   case 58: /* term_star: term term_star  */
-#line 668 "scan-fct_pddl.y"
+#line 674 "scan-fct_pddl.y"
 {
   (yyval.pTokenList) = new_TokenList();
   (yyval.pTokenList)->item = (yyvsp[-1].pstring);
   (yyval.pTokenList)->next = (yyvsp[0].pTokenList);
 }
-#line 1938 "scan-fct_pddl.tab.c"
+#line 1944 "scan-fct_pddl.tab.c"
     break;
 
   case 59: /* term: NAME  */
-#line 679 "scan-fct_pddl.y"
-{ 
-  (yyval.pstring) = new_Token(strlen((yyvsp[0].string)) + 1);
-  strcpy((yyval.pstring), (yyvsp[0].string));
-}
-#line 1947 "scan-fct_pddl.tab.c"
-    break;
-
-  case 60: /* term: VARIABLE  */
 #line 685 "scan-fct_pddl.y"
 { 
   (yyval.pstring) = new_Token(strlen((yyvsp[0].string)) + 1);
   strcpy((yyval.pstring), (yyvsp[0].string));
 }
-#line 1956 "scan-fct_pddl.tab.c"
+#line 1953 "scan-fct_pddl.tab.c"
+    break;
+
+  case 60: /* term: VARIABLE  */
+#line 691 "scan-fct_pddl.y"
+{ 
+  (yyval.pstring) = new_Token(strlen((yyvsp[0].string)) + 1);
+  strcpy((yyval.pstring), (yyvsp[0].string));
+}
+#line 1962 "scan-fct_pddl.tab.c"
     break;
 
   case 61: /* name_plus: NAME  */
-#line 695 "scan-fct_pddl.y"
+#line 701 "scan-fct_pddl.y"
 {
   (yyval.pTokenList) = new_TokenList();
   (yyval.pTokenList)->item = new_Token(strlen((yyvsp[0].string)) + 1);
   strcpy((yyval.pTokenList)->item, (yyvsp[0].string));
 }
-#line 1966 "scan-fct_pddl.tab.c"
+#line 1972 "scan-fct_pddl.tab.c"
     break;
 
   case 62: /* name_plus: NAME name_plus  */
-#line 702 "scan-fct_pddl.y"
+#line 708 "scan-fct_pddl.y"
 {
   (yyval.pTokenList) = new_TokenList();
   (yyval.pTokenList)->item = new_Token(strlen((yyvsp[-1].string)) + 1);
   strcpy((yyval.pTokenList)->item, (yyvsp[-1].string));
   (yyval.pTokenList)->next = (yyvsp[0].pTokenList);
 }
-#line 1977 "scan-fct_pddl.tab.c"
-    break;
-
-  case 63: /* typed_list_name: %empty  */
-#line 714 "scan-fct_pddl.y"
-{ (yyval.pTypedList) = NULL; }
 #line 1983 "scan-fct_pddl.tab.c"
     break;
 
+  case 63: /* typed_list_name: %empty  */
+#line 720 "scan-fct_pddl.y"
+{ (yyval.pTypedList) = NULL; }
+#line 1989 "scan-fct_pddl.tab.c"
+    break;
+
   case 64: /* typed_list_name: NAME EITHER_TOK name_plus CLOSE_PAREN typed_list_name  */
-#line 717 "scan-fct_pddl.y"
+#line 723 "scan-fct_pddl.y"
 { 
   (yyval.pTypedList) = new_TypedList();
   (yyval.pTypedList)->name = new_Token( strlen((yyvsp[-4].string))+1 );
@@ -1991,11 +1997,11 @@ yyreduce:
   (yyval.pTypedList)->type = (yyvsp[-2].pTokenList);
   (yyval.pTypedList)->next = (yyvsp[0].pTypedList);
 }
-#line 1995 "scan-fct_pddl.tab.c"
+#line 2001 "scan-fct_pddl.tab.c"
     break;
 
   case 65: /* typed_list_name: NAME MINUS_TOK NAME typed_list_name  */
-#line 726 "scan-fct_pddl.y"
+#line 732 "scan-fct_pddl.y"
 {
   (yyval.pTypedList) = new_TypedList();
   (yyval.pTypedList)->name = new_Token( strlen((yyvsp[-3].string))+1 );
@@ -2005,11 +2011,11 @@ yyreduce:
   strcpy( (yyval.pTypedList)->type->item, (yyvsp[-1].string) );
   (yyval.pTypedList)->next = (yyvsp[0].pTypedList);
 }
-#line 2009 "scan-fct_pddl.tab.c"
+#line 2015 "scan-fct_pddl.tab.c"
     break;
 
   case 66: /* typed_list_name: NAME typed_list_name  */
-#line 737 "scan-fct_pddl.y"
+#line 743 "scan-fct_pddl.y"
 {
   (yyval.pTypedList) = new_TypedList();
   (yyval.pTypedList)->name = new_Token( strlen((yyvsp[-1].string))+1 );
@@ -2023,17 +2029,17 @@ yyreduce:
   }
   (yyval.pTypedList)->next = (yyvsp[0].pTypedList);
 }
-#line 2027 "scan-fct_pddl.tab.c"
-    break;
-
-  case 67: /* typed_list_variable: %empty  */
-#line 756 "scan-fct_pddl.y"
-{ (yyval.pTypedList) = NULL; }
 #line 2033 "scan-fct_pddl.tab.c"
     break;
 
+  case 67: /* typed_list_variable: %empty  */
+#line 762 "scan-fct_pddl.y"
+{ (yyval.pTypedList) = NULL; }
+#line 2039 "scan-fct_pddl.tab.c"
+    break;
+
   case 68: /* typed_list_variable: VARIABLE EITHER_TOK name_plus CLOSE_PAREN typed_list_variable  */
-#line 759 "scan-fct_pddl.y"
+#line 765 "scan-fct_pddl.y"
 { 
   (yyval.pTypedList) = new_TypedList();
   (yyval.pTypedList)->name = new_Token( strlen((yyvsp[-4].string))+1 );
@@ -2041,11 +2047,11 @@ yyreduce:
   (yyval.pTypedList)->type = (yyvsp[-2].pTokenList);
   (yyval.pTypedList)->next = (yyvsp[0].pTypedList);
 }
-#line 2045 "scan-fct_pddl.tab.c"
+#line 2051 "scan-fct_pddl.tab.c"
     break;
 
   case 69: /* typed_list_variable: VARIABLE MINUS_TOK NAME typed_list_variable  */
-#line 768 "scan-fct_pddl.y"
+#line 774 "scan-fct_pddl.y"
 {
   (yyval.pTypedList) = new_TypedList();
   (yyval.pTypedList)->name = new_Token( strlen((yyvsp[-3].string))+1 );
@@ -2055,11 +2061,11 @@ yyreduce:
   strcpy( (yyval.pTypedList)->type->item, (yyvsp[-1].string) );
   (yyval.pTypedList)->next = (yyvsp[0].pTypedList);
 }
-#line 2059 "scan-fct_pddl.tab.c"
+#line 2065 "scan-fct_pddl.tab.c"
     break;
 
   case 70: /* typed_list_variable: VARIABLE typed_list_variable  */
-#line 779 "scan-fct_pddl.y"
+#line 785 "scan-fct_pddl.y"
 {
   (yyval.pTypedList) = new_TypedList();
   (yyval.pTypedList)->name = new_Token( strlen((yyvsp[-1].string))+1 );
@@ -2073,20 +2079,20 @@ yyreduce:
   }
   (yyval.pTypedList)->next = (yyvsp[0].pTypedList);
 }
-#line 2077 "scan-fct_pddl.tab.c"
+#line 2083 "scan-fct_pddl.tab.c"
     break;
 
   case 71: /* predicate: NAME  */
-#line 800 "scan-fct_pddl.y"
+#line 806 "scan-fct_pddl.y"
 { 
   (yyval.pstring) = new_Token(strlen((yyvsp[0].string)) + 1);
   strcpy((yyval.pstring), (yyvsp[0].string));
 }
-#line 2086 "scan-fct_pddl.tab.c"
+#line 2092 "scan-fct_pddl.tab.c"
     break;
 
   case 72: /* literal_name: OPEN_PAREN NOT_TOK atomic_formula_name CLOSE_PAREN  */
-#line 825 "scan-fct_pddl.y"
+#line 831 "scan-fct_pddl.y"
 { 
   PlNode *tmp;
 
@@ -2095,47 +2101,47 @@ yyreduce:
   (yyval.pPlNode) = new_PlNode(NOT);
   (yyval.pPlNode)->sons = tmp;
 }
-#line 2099 "scan-fct_pddl.tab.c"
+#line 2105 "scan-fct_pddl.tab.c"
     break;
 
   case 73: /* literal_name: atomic_formula_name  */
-#line 835 "scan-fct_pddl.y"
+#line 841 "scan-fct_pddl.y"
 {
   (yyval.pPlNode) = new_PlNode(ATOM);
   (yyval.pPlNode)->atom = (yyvsp[0].pTokenList);
 }
-#line 2108 "scan-fct_pddl.tab.c"
+#line 2114 "scan-fct_pddl.tab.c"
     break;
 
   case 74: /* atomic_formula_name: OPEN_PAREN predicate name_star CLOSE_PAREN  */
-#line 845 "scan-fct_pddl.y"
+#line 851 "scan-fct_pddl.y"
 { 
   (yyval.pTokenList) = new_TokenList();
   (yyval.pTokenList)->item = (yyvsp[-2].pstring);
   (yyval.pTokenList)->next = (yyvsp[-1].pTokenList);
 }
-#line 2118 "scan-fct_pddl.tab.c"
-    break;
-
-  case 75: /* name_star: %empty  */
-#line 856 "scan-fct_pddl.y"
-{ (yyval.pTokenList) = NULL; }
 #line 2124 "scan-fct_pddl.tab.c"
     break;
 
+  case 75: /* name_star: %empty  */
+#line 862 "scan-fct_pddl.y"
+{ (yyval.pTokenList) = NULL; }
+#line 2130 "scan-fct_pddl.tab.c"
+    break;
+
   case 76: /* name_star: NAME name_star  */
-#line 859 "scan-fct_pddl.y"
+#line 865 "scan-fct_pddl.y"
 {
   (yyval.pTokenList) = new_TokenList();
   (yyval.pTokenList)->item = new_Token(strlen((yyvsp[-1].string)) + 1);
   strcpy((yyval.pTokenList)->item, (yyvsp[-1].string));
   (yyval.pTokenList)->next = (yyvsp[0].pTokenList);
 }
-#line 2135 "scan-fct_pddl.tab.c"
+#line 2141 "scan-fct_pddl.tab.c"
     break;
 
 
-#line 2139 "scan-fct_pddl.tab.c"
+#line 2145 "scan-fct_pddl.tab.c"
 
       default: break;
     }
@@ -2328,7 +2334,7 @@ yyreturnlab:
   return yyresult;
 }
 
-#line 868 "scan-fct_pddl.y"
+#line 874 "scan-fct_pddl.y"
 
 
 
@@ -2364,6 +2370,14 @@ void fcterr( int err, char *par ) {
 int yyerror( char *msg )
 
 {
+  /* abia-planners (PATCHES.md, CAP-1): bison calls yyerror("memory exhausted")
+   * only when the stack would exceed YYMAXDEPTH; say so instead of "syntax error". */
+  if ( msg && strcmp( msg, "memory exhausted" ) == 0 ) {
+    fflush( stdout );
+    fprintf(stderr, "\n%s: problem too large in line %d: too many list elements or too deep nesting! increase YYMAXDEPTH (currently %d)\n\n",
+	    gact_filename, lineno, YYMAXDEPTH);
+    exit( 1 );
+  }
   fflush( stdout );
   fprintf(stderr,"\n%s: syntax error in line %d, '%s':\n", 
 	  gact_filename, lineno, yytext );
