@@ -39,6 +39,10 @@ abia\Scripts\Activate.ps1
 ```
 
 ```bash
+python -m pip install --upgrade pip
+```
+
+```bash
 pip install fib-abia-planners
 ```
 
@@ -56,10 +60,15 @@ source abia/bin/activate
 ```
 
 ```bash
+python -m pip install --upgrade pip
+```
+
+```bash
 pip install fib-abia-planners
 ```
 
-Con el entorno activado, el indicador de la terminal empieza por `(abia)`. Los comandos `ff`,
+La primera orden actualiza `pip`: un `pip` antiguo no reconoce el paquete preparado para tu sistema e
+intenta compilarlo, y falla. Con el entorno activado, el indicador de la terminal empieza por `(abia)`. Los comandos `ff`,
 `metric-ff` y `fib-abia-planners` solo existen mientras el entorno está activado: en cada terminal
 nueva, vuelve a ejecutar la orden de activación (desde la carpeta donde creaste `abia`).
 

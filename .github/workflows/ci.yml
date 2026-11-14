@@ -2,12 +2,15 @@
 name: ci
 # Commits that only touch documentation do not start CI (it costs macOS
 # minutes on a private repository); run it by hand with workflow_dispatch.
+# Tag pushes do not start it either: release.yml calls it (workflow_call).
 on:
   push:
+    branches: ['**']
     paths-ignore: ['**.md', 'docs/**']
   pull_request:
     paths-ignore: ['**.md', 'docs/**']
   workflow_dispatch:
+  workflow_call:
 
 jobs:
   regression:

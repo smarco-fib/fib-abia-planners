@@ -7,8 +7,15 @@ No hace falta compilar nada.
 ## Instalación
 
 ```bash
+python -m pip install --upgrade pip
+```
+
+```bash
 pip install fib-abia-planners
 ```
+
+Se recomienda instalarlo en un entorno virtual (`python -m venv`); la guía del alumnado de la asignatura explica
+cómo hacerlo en cada sistema.
 
 Comprueba que funciona:
 

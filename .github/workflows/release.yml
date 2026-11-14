@@ -1,0 +1,50 @@
+# Publish a release to PyPI when a tag vX.Y.Z is pushed.
+#
+# Runs the whole CI (ci.yml: regression, 5 native wheel builds with
+# `fib-abia-planners selftest --all`, sdist, clean install) and, only if every
+# job passes, uploads exactly those wheels and that sdist to PyPI with Trusted
+# Publishing (no tokens or passwords stored in GitHub).
+#
+# One-time setup on pypi.org (Account settings -> Publishing -> Add a new
+# pending publisher): project fib-abia-planners, owner smarco-fib, repository
+# fib-abia-planners, workflow release.yml, environment pypi.
+#
+# A version on PyPI can never be replaced: to fix a release, publish a new one.
+name: release
+on:
+  push:
+    tags: ['v*']
+
+jobs:
+  ci:
+    uses: ./.github/workflows/ci.yml
+
+  publish:
+    needs: ci
+    runs-on: ubuntu-24.04
+    environment:
+      name: pypi
+      url: https://pypi.org/project/fib-abia-planners/
+    permissions:
+      id-token: write      # Trusted Publishing
+    steps:
+      - uses: actions/checkout@v4
+      - name: tag matches the version in pyproject.toml
+        run: |
+          v=$(python3 -c "import tomllib; print(tomllib.load(open('pyproject.toml','rb'))['project']['version'])")
+          test "v$v" = "$GITHUB_REF_NAME" || { echo "tag $GITHUB_REF_NAME != pyproject version $v"; exit 1; }
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: wheels-*
+          path: dist
+          merge-multiple: true
+      - uses: actions/download-artifact@v4
+        with:
+          name: sdist
+          path: dist
+      - name: check the distributions
+        run: |
+          ls -l dist
+          test "$(ls dist/*.whl | wc -l)" -eq 7 && test "$(ls dist/*.tar.gz | wc -l)" -eq 1
+          pipx run twine check --strict dist/*
+      - uses: pypa/gh-action-pypi-publish@release/v1
