@@ -52,7 +52,7 @@ Binaries: `build/cmake/ff` and `build/cmake/metric-ff`. Options:
 The ctest `compat_random_matches_glibc` compares `src/compat` with glibc's `random()`;
 on other C libraries it reports "skipped".
 
-The *reference build* (upstream makefiles, frozen sources of commit 13d2570, gcc-9)
+The *reference build* (upstream makefiles, frozen sources of commit d389fd8, gcc-9)
 that produced the golden outputs is rebuilt with `tools/build-reference.sh`.
 
 ## 3. Test

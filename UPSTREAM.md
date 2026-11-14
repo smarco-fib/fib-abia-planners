@@ -37,9 +37,9 @@ Both grammars report one shift/reduce conflict each, as upstream.
 
 ## Per-file SHA-256 (pristine)
 
-Checksums of the pristine import (commit `3115680`). Files changed since then
+Checksums of the pristine import (commit `678eb18`). Files changed since then
 are listed in `PATCHES.md`; currently `metric-ff/scan-fct_pddl.y` (UB-1) and
-`metric-ff/parse.c` (UB-2). Verify with `git diff 3115680 -- src/`.
+`metric-ff/parse.c` (UB-2). Verify with `git diff 678eb18 -- src/`.
 
 ```
 d0f794292d80588d7211b8a3f71479ff3b80642cd84b941717fbd591f0e0628b  ff/ff.h
