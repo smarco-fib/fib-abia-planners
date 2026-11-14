@@ -4,7 +4,7 @@ The corpus is test data only. It is **not** shipped in wheels or release archive
 
 | Path | Origin | Revision | Licence |
 |---|---|---|---|
-| `ipc/ipc-1998/…`, `ipc/ipc-2000/…`, `ipc/ipc-2002/…` | International Planning Competition benchmarks, as collected in https://github.com/potassco/pddl-instances | `cf19edf7c53d1540ddbb396c642595e0926ee552` (2017-11-28) | **No licence file in the collection.** IPC benchmarks are widely redistributed for research, but no explicit permission is recorded. **To be confirmed by the maintainer before the repository is made public.** |
+| `ipc/ipc-1998/…`, `ipc/ipc-2000/…`, `ipc/ipc-2002/…` | International Planning Competition benchmarks, as collected in https://github.com/potassco/pddl-instances | `cf19edf7c53d1540ddbb396c642595e0926ee552` (2017-11-28) | **No licence file in the collection.** IPC benchmarks are widely redistributed for research, but no explicit permission is recorded. The maintainer decided (2026-11-14) to keep them in the repository as they are, without adding a licence. |
 | `synthetic/` | Written for this project | — | GPL-2.0-or-later (same as the project) |
 | `private/` | Graded course material (e.g. SmartBusFluents). Git-ignored; never public. | — | Course material, UPC |
 
