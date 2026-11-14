@@ -5,7 +5,7 @@ Console commands: ``ff``, ``metric-ff`` and ``fib-abia-planners`` (``examples``,
 import os
 import sys
 
-__version__ = "0.1.0"
+__version__ = "0.2.0"
 
 PACKAGE_DIR = os.path.dirname(os.path.abspath(__file__))
 BIN_DIR = os.path.join(PACKAGE_DIR, "bin")

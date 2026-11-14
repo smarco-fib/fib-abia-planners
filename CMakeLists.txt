@@ -8,7 +8,7 @@
 # (regenerate with tools/regen-parsers.sh; versions in UPSTREAM.md).
 
 cmake_minimum_required(VERSION 3.16)
-project(abia_planners VERSION 0.1.0 LANGUAGES C)
+project(abia_planners VERSION 0.2.0 LANGUAGES C)
 
 if(NOT CMAKE_BUILD_TYPE AND NOT CMAKE_CONFIGURATION_TYPES)
   set(CMAKE_BUILD_TYPE Release CACHE STRING "Build type" FORCE)

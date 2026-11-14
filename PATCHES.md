@@ -105,3 +105,5 @@ Evidence for CAP-1 and CAP-2 (2026-11-15, CMake build, GCC, Linux x86-64):
   Metric-FF's preprocessing is slow on huge static `:init` sections (upstream behaviour,
   not changed): 200 000 facts about 19 s, 500 000 about 150 s.
 - A 50 000-conjunct goal and 50 000 `:init` facts with a 1 MB stack: plan-found, no crash.
+- ASan + UBSan (clang-14, `harness.studies.sanitize --no-aslr`) on the full corpus plus the
+  new cases: 1301 runs, 0 findings, every outcome equal to the golden.

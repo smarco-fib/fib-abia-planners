@@ -33,3 +33,7 @@ release.yml (tag v0.1.0, run 43616935427, linked in the table): 7 wheels and the
 run inside that workflow. Installed from PyPI in a fresh venv on Linux x86-64:
 `selftest` 39/39. Platforms remain "unvalidated" until the final validation
 (full corpus and VAL on every platform).
+
+Version 0.2.0 (2026-11-15, not yet released): capacity limits raised (PATCHES.md
+CAP-1, CAP-2). Locally on Linux x86-64: full corpus byte-identical to the golden
+(1281 runs), 20 new capacity runs recorded, ASan+UBSan 0 findings (1301 runs).

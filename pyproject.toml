@@ -4,7 +4,7 @@ build-backend = "scikit_build_core.build"
 
 [project]
 name = "fib-abia-planners"
-version = "0.1.0"
+version = "0.2.0"
 description = "FF 2.3 y Metric-FF 2.1 (Jörg Hoffmann) con los ejemplos de planificación de la asignatura ABIA (UPC)"
 readme = "README.md"
 requires-python = ">=3.9"
