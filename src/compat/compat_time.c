@@ -1,7 +1,7 @@
 /*********************************************************************
  * abia-planners portability layer: wall-clock milliseconds and CPU time.
  *
- * Copyright (C) 2026 abia-planners contributors
+ * Copyright (C) 2026 Santiago Marco-Sola
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License

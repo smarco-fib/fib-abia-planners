@@ -4,7 +4,7 @@
  * C libraries the reference sequence differs and the test is skipped
  * (exit code 77, the CTest/automake "skipped" convention).
  *
- * Copyright (C) 2026 abia-planners contributors. GPL-2.0-or-later.
+ * Copyright (C) 2026 Santiago Marco-Sola. GPL-2.0-or-later.
  */
 #define _DEFAULT_SOURCE
 #include <stdio.h>

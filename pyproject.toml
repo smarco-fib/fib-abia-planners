@@ -9,7 +9,7 @@ description = "FF 2.3 y Metric-FF 2.1 (Jörg Hoffmann) con los ejemplos de plani
 readme = "README.md"
 requires-python = ">=3.9"
 license = { text = "GPL-2.0-or-later" }
-authors = [{ name = "abia-planners contributors" }]
+authors = [{ name = "Santiago Marco-Sola", email = "santiago.marco@upc.edu" }]
 keywords = ["planning", "pddl", "ff", "metric-ff", "ai"]
 classifiers = [
   "License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)",

@@ -18,7 +18,7 @@ Components
 
 * Portability layer, Python launcher, test harness and tools
   (src/compat, python/abia_planners, harness, tools)
-  Copyright (C) 2026 abia-planners contributors. GPL version 2 or later.
+  Copyright (C) 2026 Santiago Marco-Sola. GPL version 2 or later.
 
 * Course examples (examples/)
   ABIA course material (UPC). Includes domains from the International Planning
