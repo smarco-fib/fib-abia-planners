@@ -37,6 +37,7 @@ _RULES = [
     # --- capacity limits ----------------------------------------------------
     ("limit-exceeded", r"increase MAX_[A-Z_]+"),
     ("limit-exceeded", r"increase YYMAXDEPTH"),         # CAP-1 (PATCHES.md)
+    ("limit-exceeded", r"its instantiation table would need \d+ entries"),  # CAP-3
     ("limit-exceeded", r"too many axioms!"),
     ("limit-exceeded", r"NO MEMORY in file"),
     # --- parser / input errors --------------------------------------------

@@ -38,6 +38,7 @@
 
 
 char *new_Token( int len );
+void check_table_size( double entries, int entry_size, char *kind, char *name, int arity );
 TokenList *new_TokenList( void );
 FactList *new_FactList( void );
 TypedList *new_TypedList( void );

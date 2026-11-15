@@ -115,6 +115,7 @@ void perform_reachability_analysis( void )
 {
 
   int size, i, j, k, adr, num, pargtype;
+  double dsize;
   Bool fixpoint;
   Facts *f;
   NormOperator *no;
@@ -129,6 +130,12 @@ void perform_reachability_analysis( void )
   gnum_actions = 0;
 
   for ( i = 0; i < gnum_predicates; i++ ) {
+    /* abia-planners (PATCHES.md, CAP-3): check the table size before it is computed in int */
+    dsize = 1.0;
+    for ( j = 0; j < garity[i]; j++ ) {
+      dsize *= ( double ) gtype_size[gpredicates_args_type[i][j]];
+    }
+    check_table_size( dsize, ( int ) 4 * sizeof( int ), "predicate", gpredicates[i], garity[i] );
     size =  1;
     for ( j = 0; j < garity[i]; j++ ) {
       pargtype = gpredicates_args_type[i][j];
@@ -139,6 +146,9 @@ void perform_reachability_analysis( void )
     lneg[i] = ( int_pointer ) calloc( size, sizeof( int ) );
     luse[i] = ( int_pointer ) calloc( size, sizeof( int ) );
     lindex[i] = ( int_pointer ) calloc( size, sizeof( int ) );
+    if ( size > 0 ) {
+      CHECK_PTR( lpos[i] ); CHECK_PTR( lneg[i] ); CHECK_PTR( luse[i] ); CHECK_PTR( lindex[i] );
+    }
 
     for ( j = 0; j < size; j++ ) {
       lpos[i][j] = 0;

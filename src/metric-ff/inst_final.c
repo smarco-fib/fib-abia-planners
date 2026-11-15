@@ -100,6 +100,7 @@ void perform_reachability_analysis( void )
 {
 
   int size, i, j, k, adr, num, pargtype;
+  double dsize;
   Bool fixpoint;
   Facts *f;
   NormOperator *no;
@@ -114,6 +115,12 @@ void perform_reachability_analysis( void )
   gnum_actions = 0;
 
   for ( i = 0; i < gnum_predicates; i++ ) {
+    /* abia-planners (PATCHES.md, CAP-3): check the table size before it is computed in int */
+    dsize = 1.0;
+    for ( j = 0; j < garity[i]; j++ ) {
+      dsize *= ( double ) gtype_size[gpredicates_args_type[i][j]];
+    }
+    check_table_size( dsize, ( int ) 4 * sizeof( int ), "predicate", gpredicates[i], garity[i] );
     size =  1;
     for ( j = 0; j < garity[i]; j++ ) {
       pargtype = gpredicates_args_type[i][j];
@@ -124,6 +131,9 @@ void perform_reachability_analysis( void )
     lneg[i] = ( int_pointer ) calloc( size, sizeof( int ) );
     luse[i] = ( int_pointer ) calloc( size, sizeof( int ) );
     lindex[i] = ( int_pointer ) calloc( size, sizeof( int ) );
+    if ( size > 0 ) {
+      CHECK_PTR( lpos[i] ); CHECK_PTR( lneg[i] ); CHECK_PTR( luse[i] ); CHECK_PTR( lindex[i] );
+    }
 
     for ( j = 0; j < size; j++ ) {
       lpos[i][j] = 0;
@@ -510,6 +520,7 @@ void collect_relevant_facts_and_fluents( void )
   NormOperator *no;
   NormEffect *ne;
   int i, j, adr, size;
+  double dsize;
   PseudoAction *pa;
   PseudoActionEffect *pae;
   FluentValues *fvs;
@@ -587,12 +598,21 @@ void collect_relevant_facts_and_fluents( void )
    * first initialise fast access structures
    */
   for ( i = 0; i < gnum_functions; i++ ) {
+    /* abia-planners (PATCHES.md, CAP-3): check the table size before it is computed in int */
+    dsize = 1.0;
+    for ( j = 0; j < gf_arity[i]; j++ ) {
+      dsize *= ( double ) gnum_constants;
+    }
+    check_table_size( dsize, ( int ) 2 * sizeof( int ), "function", gfunctions[i], gf_arity[i] );
     size =  1;
     for ( j = 0; j < gf_arity[i]; j++ ) {
       size *= gnum_constants;
     }
     lf_def[i] = ( int_pointer ) calloc( size, sizeof( int ) );
     lf_index[i] = ( int_pointer ) calloc( size, sizeof( int ) );
+    if ( size > 0 ) {
+      CHECK_PTR( lf_def[i] ); CHECK_PTR( lf_index[i] );
+    }
     for ( j = 0; j < size; j++ ) {
       lf_def[i][j] = 0;
       lf_index[i][j] = -1;

@@ -56,6 +56,8 @@
 
 
 
+#include <limits.h>
+
 #include "ff.h"
 #include "memory.h"
 
@@ -1007,6 +1009,26 @@ void free_single_Action( Action *a )
     if ( a->effects ) free( a->effects );
 
     free( a );
+  }
+
+}
+
+
+
+/* abia-planners (PATCHES.md, CAP-3): the instantiation phase keeps dense tables
+ * with one entry per possible fact or fluent (the product of the sizes of the
+ * argument domains). Upstream computes that product in int: above INT_MAX it
+ * overflowed (undefined behaviour) and the program crashed. Stop with a clear
+ * message instead; below INT_MAX nothing changes. */
+void check_table_size( double entries, int entry_size, char *kind, char *name, int arity )
+
+{
+
+  if ( entries > ( double ) INT_MAX ) {
+    fflush( stdout );
+    printf("\ntoo many objects for %s %s of arity %d: its instantiation table would need %.0f entries (%.1f GB), more than %d! use fewer objects\n\n",
+	   kind, name, arity, entries, entries * entry_size / 1e9, INT_MAX);
+    exit( 1 );
   }
 
 }

@@ -1899,6 +1899,7 @@ Bool translate_one_negative_cond( WffNode *w )
 
   WffNode *i;
   int p, j, k, m;
+  double dsize;
   Effect *e;
   Literal *l, *tmp;
 
@@ -1946,11 +1947,18 @@ Bool translate_one_negative_cond( WffNode *w )
   }
   gis_added[gnum_predicates] = FALSE;
   gis_deleted[gnum_predicates] = FALSE;
+  /* abia-planners (PATCHES.md, CAP-3): check the table size before it is computed in int */
+  dsize = 1.0;
+  for ( j = 0; j < garity[gnum_predicates]; j++ ) {
+    dsize *= ( double ) gtype_size[gpredicates_args_type[gnum_predicates][j]];
+  }
+  check_table_size( dsize, ( int ) sizeof( Fact ), "predicate", gpredicates[gnum_predicates], garity[gnum_predicates] );
   m = 1;
   for ( j = 0; j < garity[gnum_predicates]; j++ ) {
     m *= gtype_size[gpredicates_args_type[gnum_predicates][j]];
   }
   ginitial_predicate[gnum_predicates] = ( Fact * ) calloc( m, sizeof( Fact ) );
+  if ( m > 0 ) CHECK_PTR( ginitial_predicate[gnum_predicates] );
   gnum_predicates++;
 
 

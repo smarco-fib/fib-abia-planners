@@ -73,6 +73,7 @@ void build_hard_action_templates( void )
 {
 
   int i, j, size, adr;
+  double dsize;
   MixedOperator *o;
 
   /* remove unused params; empty types are already recognised during
@@ -93,11 +94,18 @@ void build_hard_action_templates( void )
    * initial state. for fast finding out if fact is in ini or not.
    */
   for ( i = 0; i < gnum_predicates; i++ ) {
+    /* abia-planners (PATCHES.md, CAP-3): check the table size before it is computed in int */
+    dsize = 1.0;
+    for ( j = 0; j < garity[i]; j++ ) {
+      dsize *= ( double ) gnum_constants;
+    }
+    check_table_size( dsize, ( int ) sizeof( int ), "predicate", gpredicates[i], garity[i] );
     size = 1;
     for ( j = 0; j < garity[i]; j++ ) {
       size *= gnum_constants;
     }
     lini[i] = ( int_pointer ) calloc( size, sizeof( int ) );
+    if ( size > 0 ) CHECK_PTR( lini[i] );
     for ( j = 0; j < size; j++ ) {
       lini[i][j] = 0;
     }
