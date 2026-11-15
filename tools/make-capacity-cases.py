@@ -52,6 +52,50 @@ FLUENTS_DOMAIN = """\
 """
 
 
+# Dense instantiation tables (CAP-3): one entry per possible fact or fluent, i.e.
+# (number of objects of each argument type) multiplied over the arguments. Metric-FF
+# uses the total number of objects for every argument of its initial-state table and
+# of its fluent tables. With 1291 objects an arity-3 table has 1291^3 > 2^31 - 1 entries.
+DENSE_DOMAIN = """\
+(define (domain capacity-dense)
+  (:requirements :strips)
+  (:predicates (at ?x) (link ?x ?y ?z))
+  (:action go
+    :parameters (?x ?y ?z)
+    :precondition (and (at ?x) (link ?x ?y ?z))
+    :effect (and (at ?z) (not (at ?x)))))
+"""
+
+DENSE_NEGATED_DOMAIN = """\
+(define (domain capacity-dense-negated)
+  (:requirements :strips :negative-preconditions)
+  (:predicates (at ?x) (link ?x ?y ?z))
+  (:action go
+    :parameters (?x ?y ?z)
+    :precondition (and (at ?x) (not (link ?x ?y ?z)))
+    :effect (and (at ?z) (not (at ?x)))))
+"""
+
+DENSE_FLUENT_DOMAIN = """\
+(define (domain capacity-dense-fluent)
+  (:requirements :strips :fluents)
+  (:predicates (at ?x))
+  (:functions (cost ?x ?y ?z) (total-cost))
+  (:action go
+    :parameters (?x)
+    :precondition (at o1)
+    :effect (and (at ?x) (not (at o1)) (increase (total-cost) (cost o1 o2 ?x)))))
+"""
+
+
+def dense_problem(domain, n, metric=False):
+    return ("(define (problem %s-%d)\n  (:domain %s)\n  (:objects\n%s)\n"
+            "  (:init (at o1) %s)\n  (:goal (at o3))%s)\n"
+            % (domain, n, domain, objs(n),
+               "(= (total-cost) 0) (= (cost o1 o2 o3) 1)" if metric else "(link o1 o2 o3)",
+               "\n  (:metric minimize (total-cost))" if metric else ""))
+
+
 def objs(n, start=1):
     names = ["o%d" % i for i in range(start, start + n)]
     return "\n".join(" ".join(names[i:i + 20]) for i in range(0, len(names), 20))
@@ -101,6 +145,13 @@ FILES = {
     "fluents-500.pddl": fluents_problem(500),
     "fluents-4999.pddl": fluents_problem(4999),
     "fluents-5000.pddl": fluents_problem(5000),
+    # dense tables above 2^31 - 1 entries: limit-exceeded instead of a crash (CAP-3)
+    "dense-domain.pddl": DENSE_DOMAIN,
+    "dense-negated-domain.pddl": DENSE_NEGATED_DOMAIN,
+    "dense-fluent-domain.pddl": DENSE_FLUENT_DOMAIN,
+    "dense-1291.pddl": dense_problem("capacity-dense", 1291),
+    "dense-negated-1291.pddl": dense_problem("capacity-dense-negated", 1291),
+    "dense-fluent-1291.pddl": dense_problem("capacity-dense-fluent", 1291, metric=True),
 }
 
 

@@ -1,0 +1,10 @@
+{
+ "command": "ff -o dense-domain.pddl -f dense-1291.pddl",
+ "cwd": "corpus/synthetic/capacity",
+ "exit_code": 1,
+ "outcome": "limit-exceeded",
+ "plan": null,
+ "stdout": "\nff: parsing domain file\ndomain 'CAPACITY-DENSE' defined\n ... done.\nff: parsing problem file\nproblem 'CAPACITY-DENSE-1291' defined\n ... done.\n\n\ntoo many objects for predicate LINK of arity 3: its instantiation table would need 2151685171 entries (34.4 GB), more than 2147483647! use fewer objects\n\n",
+ "stderr": "",
+ "reason": "its instantiation table would need 2151685171 entries"
+}

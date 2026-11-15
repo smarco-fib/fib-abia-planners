@@ -1,0 +1,10 @@
+{
+ "command": "metric-ff -o dense-fluent-domain.pddl -f dense-fluent-1291.pddl",
+ "cwd": "corpus/synthetic/capacity",
+ "exit_code": 1,
+ "outcome": "limit-exceeded",
+ "plan": null,
+ "stdout": "\nff: parsing domain file\ndomain 'CAPACITY-DENSE-FLUENT' defined\n ... done.\nff: parsing problem file\nproblem 'CAPACITY-DENSE-FLUENT-1291' defined\n ... done.\n\n\ntoo many objects for function COST of arity 3: its instantiation table would need 2151685171 entries (17.2 GB), more than 2147483647! use fewer objects\n\n",
+ "stderr": "",
+ "reason": "its instantiation table would need 2151685171 entries"
+}

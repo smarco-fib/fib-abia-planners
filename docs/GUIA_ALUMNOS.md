@@ -166,7 +166,7 @@ Las más útiles:
 | `goal can be simplified to TRUE` | El estado inicial ya cumple el objetivo: el plan está vacío. |
 | `syntax error in line N` | Error en el fichero PDDL, en la línea N o poco antes. |
 | `Enforced Hill-climbing failed !` | No es un error: la primera estrategia se ha atascado y prueba otra. |
-| `too many ...! increase MAX_...` o `problem too large ... increase YYMAXDEPTH` | El problema es más grande de lo que admite el planificador (apartado 7, "Límites de tamaño"). No es un error del PDDL. |
+| `too many ...! increase MAX_...`, `problem too large ... increase YYMAXDEPTH` o `too many objects for predicate ...` | El problema es más grande de lo que admite el planificador (apartado 7, "Límites de tamaño"). No es un error del PDDL. |
 
 El plan encontrado **no tiene por qué ser el más corto** (salvo con `metric-ff` y `:metric`,
 que intenta minimizar el coste). En otro sistema operativo el plan puede variar un poco: cualquier
@@ -213,6 +213,15 @@ original; los resultados de los problemas que ya cabían no cambian.
 | Funciones numéricas | — | 50 |
 | Argumentos de un predicado | 5 | 5 |
 | Parámetros de una acción | 15 | 15 |
+
+Además, al instanciar el problema los planificadores reservan una tabla con una casilla por
+cada hecho posible de cada predicado. FF multiplica el número de objetos del tipo de cada
+argumento; Metric-FF, en algunas tablas, usa el número **total** de objetos para todos los
+argumentos. Por eso, en Metric-FF un predicado o función de 3 argumentos admite como mucho
+unos 1.290 objetos en el problema (1.290³ ≈ 2.100 millones de casillas), y con 2 argumentos y
+muchos miles de objetos la memoria crece deprisa (20.000 objetos: 1,6 GB por predicado). Si se
+supera, el planificador se para con `too many objects for predicate ... its instantiation table
+would need ...`: reduce el número de objetos o la aridad de ese predicado.
 
 Con muchos miles de hechos, Metric-FF puede tardar bastante en el preproceso (minutos con
 cientos de miles de hechos) antes de empezar a buscar.

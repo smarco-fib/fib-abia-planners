@@ -677,6 +677,41 @@
     "mff"
    ],
    "note": "10001 relevant fluents: limit-exceeded (MAX_RELEVANT_FLUENTS 10000, CAP-1)"
+  },
+  {
+   "id": "capacity/dense-1291",
+   "dir": "capacity",
+   "domain": "dense-domain.pddl",
+   "problem": "dense-1291.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ],
+   "note": "Arity-3 predicate with 1291 objects: dense table of 1291^3 > 2^31-1 entries. Upstream: int overflow (UB) then crash; now limit-exceeded (PATCHES.md CAP-3)"
+  },
+  {
+   "id": "capacity/dense-negated-1291",
+   "dir": "capacity",
+   "domain": "dense-negated-domain.pddl",
+   "problem": "dense-negated-1291.pddl",
+   "configs": [
+    "ff",
+    "mff-s0",
+    "mff"
+   ],
+   "note": "Same with a negative precondition: the NOT- predicate table overflows first (CAP-3)"
+  },
+  {
+   "id": "capacity/dense-fluent-1291",
+   "dir": "capacity",
+   "domain": "dense-fluent-domain.pddl",
+   "problem": "dense-fluent-1291.pddl",
+   "configs": [
+    "mff-s0",
+    "mff"
+   ],
+   "note": "Arity-3 function with 1291 objects: Metric-FF's fluent table overflows (CAP-3)"
   }
  ]
 }
