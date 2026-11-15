@@ -4,12 +4,12 @@ Legend: ✅ CI evidence (link) · ❌ fails (link) · ⏳ not yet run · unvalid
 
 | Platform | Built | Course examples | Valid on full corpus (rule 3) | Plans validated | Clean install | Real-hardware pilot | Notes |
 |---|---|---|---|---|---|---|---|
-| Linux x86-64 (glibc) | [✅](https://github.com/smarco-fib/fib-abia-planners/actions/runs/43616935427) | [✅](https://github.com/smarco-fib/fib-abia-planners/actions/runs/43616935427) 267/267 | local only | ⏳ | [✅](https://github.com/smarco-fib/fib-abia-planners/actions/runs/43616935427) | unvalidated | Phase 1 (2026-11-12, local, no CI): CMake build with GCC 12 and Clang 14 byte-identical to golden on the full corpus (1281 runs); ASan+UBSan 0 findings; examples deterministic over 5 runs each. Reference platform for the regression check (rule 3). |
-| Linux x86-64 (musl) | [✅](https://github.com/smarco-fib/fib-abia-planners/actions/runs/43616935427) | [✅](https://github.com/smarco-fib/fib-abia-planners/actions/runs/43616935427) 267/267 | ⏳ | ⏳ | ⏳ | unvalidated | static binaries |
-| Linux aarch64 | [✅](https://github.com/smarco-fib/fib-abia-planners/actions/runs/43616935427) | [✅](https://github.com/smarco-fib/fib-abia-planners/actions/runs/43616935427) 267/267 | ⏳ | ⏳ | [✅](https://github.com/smarco-fib/fib-abia-planners/actions/runs/43616935427) | unvalidated | glibc; the musl wheel also passes 267/267, without clean-install test |
-| macOS x86-64 | [✅](https://github.com/smarco-fib/fib-abia-planners/actions/runs/43616935427) | [✅](https://github.com/smarco-fib/fib-abia-planners/actions/runs/43616935427) 267/267 | ⏳ | ⏳ | [✅](https://github.com/smarco-fib/fib-abia-planners/actions/runs/43616935427) | unvalidated | runner macos-15-intel; deployment target 11.0; links only libSystem |
-| macOS arm64 | [✅](https://github.com/smarco-fib/fib-abia-planners/actions/runs/43616935427) | [✅](https://github.com/smarco-fib/fib-abia-planners/actions/runs/43616935427) 267/267 | ⏳ | ⏳ | [✅](https://github.com/smarco-fib/fib-abia-planners/actions/runs/43616935427) | unvalidated | runner macos-15; deployment target 11.0; links only libSystem |
-| Windows x64 | [✅](https://github.com/smarco-fib/fib-abia-planners/actions/runs/43616935427) | [✅](https://github.com/smarco-fib/fib-abia-planners/actions/runs/43616935427) 267/267 | ⏳ | ⏳ | [✅](https://github.com/smarco-fib/fib-abia-planners/actions/runs/43616935427) | unvalidated | MinGW-w64 GCC, static: imports only KERNEL32 and the Universal CRT (part of Windows 10+), no MinGW DLLs |
+| Linux x86-64 (glibc) | [✅](https://github.com/smarco-fib/fib-abia-planners/actions/runs/43693290983) | [✅](https://github.com/smarco-fib/fib-abia-planners/actions/runs/43693290983) 267/267 | local only | ⏳ | [✅](https://github.com/smarco-fib/fib-abia-planners/actions/runs/43693290983) | unvalidated | Phase 1 (2026-11-12, local, no CI): CMake build with GCC 12 and Clang 14 byte-identical to golden on the full corpus (1281 runs); ASan+UBSan 0 findings; examples deterministic over 5 runs each. Reference platform for the regression check (rule 3). |
+| Linux x86-64 (musl) | [✅](https://github.com/smarco-fib/fib-abia-planners/actions/runs/43693290983) | [✅](https://github.com/smarco-fib/fib-abia-planners/actions/runs/43693290983) 267/267 | ⏳ | ⏳ | ⏳ | unvalidated | static binaries |
+| Linux aarch64 | [✅](https://github.com/smarco-fib/fib-abia-planners/actions/runs/43693290983) | [✅](https://github.com/smarco-fib/fib-abia-planners/actions/runs/43693290983) 267/267 | ⏳ | ⏳ | [✅](https://github.com/smarco-fib/fib-abia-planners/actions/runs/43693290983) | unvalidated | glibc; the musl wheel also passes 267/267, without clean-install test |
+| macOS x86-64 | [✅](https://github.com/smarco-fib/fib-abia-planners/actions/runs/43693290983) | [✅](https://github.com/smarco-fib/fib-abia-planners/actions/runs/43693290983) 267/267 | ⏳ | ⏳ | [✅](https://github.com/smarco-fib/fib-abia-planners/actions/runs/43693290983) | unvalidated | runner macos-15-intel; deployment target 11.0; links only libSystem |
+| macOS arm64 | [✅](https://github.com/smarco-fib/fib-abia-planners/actions/runs/43693290983) | [✅](https://github.com/smarco-fib/fib-abia-planners/actions/runs/43693290983) 267/267 | ⏳ | ⏳ | [✅](https://github.com/smarco-fib/fib-abia-planners/actions/runs/43693290983) | unvalidated | runner macos-15; deployment target 11.0; links only libSystem |
+| Windows x64 | [✅](https://github.com/smarco-fib/fib-abia-planners/actions/runs/43693290983) | [✅](https://github.com/smarco-fib/fib-abia-planners/actions/runs/43693290983) 267/267 | ⏳ | ⏳ | [✅](https://github.com/smarco-fib/fib-abia-planners/actions/runs/43693290983) | unvalidated | MinGW-w64 GCC, static: imports only KERNEL32 and the Universal CRT (part of Windows 10+), no MinGW DLLs |
 | Windows arm64 | — | — | — | — | — | out of scope | excluded by the maintainer (Checkpoint 1) |
 
 Phase 0 (2026-11-10): no CI yet; no platform is supported.
@@ -34,9 +34,13 @@ run inside that workflow. Installed from PyPI in a fresh venv on Linux x86-64:
 `selftest` 39/39. Platforms remain "unvalidated" until the final validation
 (full corpus and VAL on every platform).
 
-Version 0.2.0 (2026-11-15, not yet released): capacity limits raised (PATCHES.md
+Release 0.2.0 (2026-11-15): capacity limits raised (PATCHES.md
 CAP-1, CAP-2). Locally on Linux x86-64: full corpus byte-identical to the golden
 (1281 runs), 20 new capacity runs recorded, ASan+UBSan 0 findings (1301 runs).
 CI of these commits green on all five platforms (run 43656103863). Then CAP-3
 (dense instantiation tables above 2^31-1 entries crashed): 8 more capacity runs,
 full corpus identical, ASan+UBSan 0 findings on examples and synthetic cases.
+Published to PyPI by release.yml (tag v0.2.0 on 0fcdd5d, run 43693290983, now
+linked in the table): 7 wheels and the sdist, with provenance attestations.
+Installed from PyPI in a fresh venv on Linux x86-64: `selftest --all` 267/267;
+the three dense cases stop with the CAP-3 message (exit 1).
