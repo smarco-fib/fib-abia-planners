@@ -108,3 +108,8 @@ Evidence for CAP-1, CAP-2 and CAP-3 (2026-11-15, CMake build, GCC, Linux x86-64)
 - A 50 000-conjunct goal and 50 000 `:init` facts with a 1 MB stack: plan-found, no crash.
 - ASan + UBSan (clang-14, `harness.studies.sanitize --no-aslr`) on the full corpus plus the
   new cases: 1301 runs, 0 findings, every outcome equal to the golden.
+- After CAP-3: regression check on the full corpus, 1309 runs, identical except the two
+  slowest course runs (binpacking v2op prob2, `mff` and `mff-s0`), which hit the 120 s limit
+  while other processes kept the machine at load ~13 (the reference and 0.1.0 binaries timed
+  out too); rerun without the limit, both identical. ASan + UBSan on examples and synthetic
+  cases (CAP-3 runs on every problem): 416 runs, 0 findings, every outcome equal to the golden.

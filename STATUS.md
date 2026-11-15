@@ -37,3 +37,6 @@ run inside that workflow. Installed from PyPI in a fresh venv on Linux x86-64:
 Version 0.2.0 (2026-11-15, not yet released): capacity limits raised (PATCHES.md
 CAP-1, CAP-2). Locally on Linux x86-64: full corpus byte-identical to the golden
 (1281 runs), 20 new capacity runs recorded, ASan+UBSan 0 findings (1301 runs).
+CI of these commits green on all five platforms (run 43656103863). Then CAP-3
+(dense instantiation tables above 2^31-1 entries crashed): 8 more capacity runs,
+full corpus identical, ASan+UBSan 0 findings on examples and synthetic cases.
